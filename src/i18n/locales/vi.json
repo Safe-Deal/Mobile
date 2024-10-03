@@ -1,0 +1,59 @@
+{
+	"analyze": {
+		"product-insights": "Thông tin chi tiết",
+		"ai-insights": "Đánh giá",
+		"images": "Hình ảnh",
+		"videos": "Video",
+		"no-ai-insights": "Thông tin chi tiết về đánh giá AI không có sẵn cho sản phẩm này.",
+		"no-images": "Chưa có ảnh khách hàng nào cho sản phẩm này.",
+		"Photos from Customers": "Hình ảnh từ Khách Hàng"
+	},
+	"search": {
+		"Search or type URL": "Tìm kiếm hoặc nhập URL"
+	},
+	"stores": {
+		"share-to-friends": "Hãy xem ứng dụng thú vị này mà tôi tìm thấy: Giao dịch an toàn - bảo vệ bạn khỏi các giao dịch xấu, lừa đảo và dịch vụ kém. Truy cập: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+		"AliExpress": "AliExpress",
+		"Amazon": "Amazon",
+		"eBay": "eBay",
+		"Add Link": "Thêm liên kết",
+		"Title like 'Temu':": "Tiêu đề như 'Temu':",
+		"Link like https://www.temu.com/": "Liên kết như https://www.temu.com/",
+		"Add": "Thêm vào",
+		"Cancel": "Hủy bỏ",
+		"Delete": "Xóa bỏ"
+	},
+	"history": {
+		"History": "Lịch sử"
+	},
+	"settingList": {
+		"profile": "Hồ sơ",
+		"Settings": "Cài đặt",
+		"Change Language": "Thay đổi ngôn ngữ",
+		"Help Center": "Trung tâm trợ giúp",
+		"english": "Tiếng Anh",
+		"French": "người Pháp"
+	},
+	"global": {
+		"An error has occurred": "Ối! Các thám tử thỏa thuận của chúng tôi đang ở trên đó! 🕵️‍♂️🛍️ Hãy kiên nhẫn nhé!",
+		"Close": "Đóng"
+	},
+	"menu": {
+		"About": "Về",
+		"Support": "Ủng hộ",
+		"Share": "Chia sẻ",
+		"aboutTitle": "Nói với bạn bè và gia đình của bạn về SafeDeal",
+		"Desktop App": "Ứng dụng dành cho máy tính để bàn",
+		"facebook": "Facebook",
+		"twitter": "Twitter",
+		"whatsapp": "WhatsApp",
+		"linkedin": "LinkedIn",
+		"telegram": "điện tín",
+		"reddit": "Reddit",
+		"email": "E-mail",
+		"suggestFeature": "Chúng tôi đánh giá cao phản hồi của bạn!",
+		"freeToUseTitle": "Tại sao lại được sử dụng miễn phí?",
+		"freeToUseDesc": "Sử dụng dịch vụ của chúng tôi là miễn phí cho bạn. Khi bạn mua hàng, cửa hàng sẽ trả cho chúng tôi một khoản phí nhỏ để hướng dẫn bạn sản phẩm tốt nhất.",
+		"dataPrivacyDesc": "Chúng tôi chỉ sử dụng dữ liệu có sẵn công khai, đảm bảo không có thương hiệu hoặc cửa hàng nào ảnh hưởng đến đề xuất của chúng tôi."
+	}
+}

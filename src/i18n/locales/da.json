@@ -1,0 +1,59 @@
+{
+	"analyze": {
+		"product-insights": "Indsigt",
+		"ai-insights": "Anmeldelser",
+		"images": "Billeder",
+		"videos": "Videoer",
+		"no-ai-insights": "AI-anmeldelsesindsigt er ikke tilgængelig for dette produkt.",
+		"no-images": "Der er endnu ingen kundebilleder tilgængelige for dette produkt.",
+		"Photos from Customers": "Billeder fra kunder"
+	},
+	"search": {
+		"Search or type URL": "Søg eller skriv URL"
+	},
+	"stores": {
+		"share-to-friends": "Tjek denne interessante app, jeg fandt: Safe Deal - beskyt dig selv mod dårlige tilbud, svindel og dårlig service. Besøg: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+		"AliExpress": "AliExpress",
+		"Amazon": "Amazon",
+		"eBay": "eBay",
+		"Add Link": "Tilføj link",
+		"Title like 'Temu':": "Titel som 'Temu':",
+		"Link like https://www.temu.com/": "Link som https://www.temu.com/",
+		"Add": "Tilføje",
+		"Cancel": "Afbestille",
+		"Delete": "Slet"
+	},
+	"history": {
+		"History": "Historie"
+	},
+	"settingList": {
+		"profile": "Profil",
+		"Settings": "Indstillinger",
+		"Change Language": "Skift sprog",
+		"Help Center": "Hjælpecenter",
+		"english": "engelsk",
+		"French": "Français"
+	},
+	"global": {
+		"An error has occurred": "Ups! Vores aftaledetektiver er på det! 🕵️‍♂️🛍️ Hold godt fast!",
+		"Close": "Tæt"
+	},
+	"menu": {
+		"About": "Om",
+		"Support": "Support",
+		"Share": "Del",
+		"aboutTitle": "Fortæl dine venner og familie om SafeDeal",
+		"Desktop App": "Desktop app",
+		"facebook": "Facebook",
+		"twitter": "Twitter",
+		"whatsapp": "WhatsApp",
+		"linkedin": "LinkedIn",
+		"telegram": "Telegram",
+		"reddit": "Reddit",
+		"email": "E-mail",
+		"suggestFeature": "Vi værdsætter din feedback!",
+		"freeToUseTitle": "Hvorfor er det gratis at bruge?",
+		"freeToUseDesc": "Det er gratis for dig at bruge vores service. Når du foretager et køb, betaler butikken os et mindre gebyr for at guide dig til det bedste produkt.",
+		"dataPrivacyDesc": "Vi bruger kun offentligt tilgængelige data og sikrer, at intet mærke eller butik påvirker vores anbefalinger."
+	}
+}

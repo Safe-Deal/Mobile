@@ -1,0 +1,54 @@
+# dependencies
+node_modules/
+
+# build directories
+android/
+ios/
+dist/
+web-build/
+build/
+
+# Expo
+.expo/
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.ipa
+*.apk
+*.aab
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# reports
+**/reports/*
+
+# logs
+*.log
+*.stackdump
+
+# system files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor directories
+.idea
+
+# TypeScript
+*.tsbuildinfo
+
+# Additional entries from .gitignore
+coverage/
+DerivedData/
+credentials/

@@ -1,0 +1,59 @@
+{
+	"analyze": {
+		"product-insights": "Analizler",
+		"ai-insights": "Yorumlar",
+		"images": "Görüntüler",
+		"videos": "Videolar",
+		"no-ai-insights": "Bu ürün için AI inceleme bilgileri mevcut değil.",
+		"no-images": "Bu ürün için henüz müşteri fotoğrafı mevcut değil.",
+		"Photos from Customers": "Müşterilerden Fotoğraflar"
+	},
+	"search": {
+		"Search or type URL": "URL'yi arayın veya yazın"
+	},
+	"stores": {
+		"share-to-friends": "Bulduğum şu ilginç uygulamaya bir göz atın: Güvenli Anlaşma - kendinizi kötü anlaşmalardan, dolandırıcılıklardan ve kötü hizmetlerden koruyun. Ziyaret edin: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+		"AliExpress": "AliExpress",
+		"Amazon": "Amazon",
+		"eBay": "eBay",
+		"Add Link": "Link ekle",
+		"Title like 'Temu':": "'Temu' gibi başlık:",
+		"Link like https://www.temu.com/": "https://www.temu.com/ gibi bağlantı",
+		"Add": "Eklemek",
+		"Cancel": "İptal etmek",
+		"Delete": "Silmek"
+	},
+	"history": {
+		"History": "Tarih"
+	},
+	"settingList": {
+		"profile": "Profil",
+		"Settings": "Ayarlar",
+		"Change Language": "Dili değiştir",
+		"Help Center": "Yardım Merkezi",
+		"english": "İngilizce",
+		"French": "Fransızca"
+	},
+	"global": {
+		"An error has occurred": "Hata! Anlaşma dedektiflerimiz iş başında! 🕵️‍♂️🛍️ Sıkı durun!",
+		"Close": "Kapalı"
+	},
+	"menu": {
+		"About": "Hakkında",
+		"Support": "Destek",
+		"Share": "Paylaşmak",
+		"aboutTitle": "Arkadaşlarınıza ve ailenize SafeDeal'den bahsedin",
+		"Desktop App": "Masaüstü uygulaması",
+		"facebook": "Facebook",
+		"twitter": "heyecan",
+		"whatsapp": "Naber",
+		"linkedin": "LinkedIn",
+		"telegram": "Telgraf",
+		"reddit": "Reddit",
+		"email": "E-posta",
+		"suggestFeature": "Görüşlerinize değer veriyoruz!",
+		"freeToUseTitle": "Kullanımı neden ücretsizdir?",
+		"freeToUseDesc": "Hizmetimizi kullanmak sizin için ücretsizdir. Bir satın alma işlemi yaptığınızda mağaza, sizi en iyi ürüne yönlendirmemiz için bize küçük bir ücret öder.",
+		"dataPrivacyDesc": "Hiçbir markanın veya mağazanın önerilerimizi etkilememesini sağlayacak şekilde yalnızca kamuya açık verileri kullanıyoruz."
+	}
+}

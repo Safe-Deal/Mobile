@@ -1,0 +1,59 @@
+{
+	"analyze": {
+		"product-insights": "Percepções",
+		"ai-insights": "Avaliações",
+		"images": "Imagens",
+		"videos": "Vídeos",
+		"no-ai-insights": "Os insights de revisão de IA não estão disponíveis para este produto.",
+		"no-images": "Ainda não há fotos de clientes disponíveis para este produto.",
+		"Photos from Customers": "Fotos de clientes"
+	},
+	"search": {
+		"Search or type URL": "Pesquise ou digite URL"
+	},
+	"stores": {
+		"share-to-friends": "Confira este aplicativo interessante que encontrei: Safe Deal - proteja-se de maus negócios, golpes e serviços ruins. Visite: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+		"AliExpress": "Ali Express",
+		"Amazon": "Amazonas",
+		"eBay": "eBay",
+		"Add Link": "Adicionar link",
+		"Title like 'Temu':": "Título como 'Temu':",
+		"Link like https://www.temu.com/": "Link como https://www.temu.com/",
+		"Add": "Adicionar",
+		"Cancel": "Cancelar",
+		"Delete": "Excluir"
+	},
+	"history": {
+		"History": "História"
+	},
+	"settingList": {
+		"profile": "Perfil",
+		"Settings": "Configurações",
+		"Change Language": "Mudar idioma",
+		"Help Center": "Centro de ajuda",
+		"english": "Inglês",
+		"French": "Francês"
+	},
+	"global": {
+		"An error has occurred": "Ops! Nossos detetives estão cuidando disso! 🕵️‍♂️🛍️ Aguente firme!",
+		"Close": "Fechar"
+	},
+	"menu": {
+		"About": "Sobre",
+		"Support": "Apoiar",
+		"Share": "Compartilhar",
+		"aboutTitle": "Conte aos seus amigos e familiares sobre o SafeDeal",
+		"Desktop App": "Aplicativo de desktop",
+		"facebook": "Facebook",
+		"twitter": "Twitter",
+		"whatsapp": "Whatsapp",
+		"linkedin": "LinkedIn",
+		"telegram": "Telegrama",
+		"reddit": "Reddit",
+		"email": "E-mail",
+		"suggestFeature": "Valorizamos seu feedback!",
+		"freeToUseTitle": "Por que o uso é gratuito?",
+		"freeToUseDesc": "Usar nosso serviço é gratuito para você. Quando você faz uma compra, a loja nos paga uma pequena taxa para orientá-lo sobre o melhor produto.",
+		"dataPrivacyDesc": "Utilizamos apenas dados disponíveis publicamente, garantindo que nenhuma marca ou loja influencie as nossas recomendações."
+	}
+}

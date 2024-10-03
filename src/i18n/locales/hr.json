@@ -1,0 +1,59 @@
+{
+	"analyze": {
+		"product-insights": "Uvidi",
+		"ai-insights": "Recenzije",
+		"images": "Slike",
+		"videos": "Video zapisi",
+		"no-ai-insights": "Uvidi AI recenzije nisu dostupni za ovaj proizvod.",
+		"no-images": "Za ovaj proizvod još nema dostupnih fotografija kupaca.",
+		"Photos from Customers": "Fotografije kupaca"
+	},
+	"search": {
+		"Search or type URL": "Pretražite ili upišite URL"
+	},
+	"stores": {
+		"share-to-friends": "Pogledajte ovu zanimljivu aplikaciju koju sam pronašao: Safe Deal - zaštitite se od loših ponuda, prijevara i loše usluge. Posjetite: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+		"AliExpress": "AliExpress",
+		"Amazon": "Amazon",
+		"eBay": "eBay",
+		"Add Link": "Dodaj vezu",
+		"Title like 'Temu':": "Naslov poput 'Temu':",
+		"Link like https://www.temu.com/": "Link poput https://www.temu.com/",
+		"Add": "Dodati",
+		"Cancel": "Otkazati",
+		"Delete": "Izbrisati"
+	},
+	"history": {
+		"History": "Povijest"
+	},
+	"settingList": {
+		"profile": "Profil",
+		"Settings": "postavke",
+		"Change Language": "Promijeni jezik",
+		"Help Center": "Centar za pomoć",
+		"english": "Engleski",
+		"French": "Français"
+	},
+	"global": {
+		"An error has occurred": "Ups! Naši detektivi su na tome! 🕵️‍♂️🛍️ Držite se!",
+		"Close": "Zatvoriti"
+	},
+	"menu": {
+		"About": "Oko",
+		"Support": "podrška",
+		"Share": "Udio",
+		"aboutTitle": "Recite svojim prijateljima i obitelji o SafeDealu",
+		"Desktop App": "Aplikacija za stolna računala",
+		"facebook": "Facebook",
+		"twitter": "Cvrkut",
+		"whatsapp": "Što ima",
+		"linkedin": "LinkedIn",
+		"telegram": "Telegram",
+		"reddit": "Reddit",
+		"email": "E-mail",
+		"suggestFeature": "Cijenimo vaše povratne informacije!",
+		"freeToUseTitle": "Zašto je besplatan za korištenje?",
+		"freeToUseDesc": "Korištenje naše usluge za vas je besplatno. Kada obavite kupnju, trgovina nam plaća malu naknadu kako bismo vas uputili do najboljeg proizvoda.",
+		"dataPrivacyDesc": "Koristimo samo javno dostupne podatke, osiguravajući da nijedan brend ili trgovina ne utječu na naše preporuke."
+	}
+}

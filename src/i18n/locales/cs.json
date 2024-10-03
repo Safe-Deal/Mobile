@@ -1,0 +1,59 @@
+{
+	"analyze": {
+		"product-insights": "Postřehy",
+		"ai-insights": "Recenze",
+		"images": "snímky",
+		"videos": "videa",
+		"no-ai-insights": "Statistiky recenzí AI nejsou pro tento produkt k dispozici.",
+		"no-images": "Pro tento produkt zatím nejsou k dispozici žádné fotografie zákazníků.",
+		"Photos from Customers": "Fotografie od zákazníků"
+	},
+	"search": {
+		"Search or type URL": "Vyhledejte nebo zadejte adresu URL"
+	},
+	"stores": {
+		"share-to-friends": "Podívejte se na tuto zajímavou aplikaci, kterou jsem našel: Safe Deal – chraňte se před špatnými nabídkami, podvody a špatnými službami. Navštivte: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+		"AliExpress": "AliExpress",
+		"Amazon": "Amazonka",
+		"eBay": "eBay",
+		"Add Link": "Přidat odkaz",
+		"Title like 'Temu':": "Název jako 'Temu':",
+		"Link like https://www.temu.com/": "Odkaz jako https://www.temu.com/",
+		"Add": "Přidat",
+		"Cancel": "zrušení",
+		"Delete": "Vymazat"
+	},
+	"history": {
+		"History": "Dějiny"
+	},
+	"settingList": {
+		"profile": "Profil",
+		"Settings": "Nastavení",
+		"Change Language": "Změnit jazyk",
+		"Help Center": "Centrum nápovědy",
+		"english": "Angličtina",
+		"French": "Français"
+	},
+	"global": {
+		"An error has occurred": "Jejda! Naši detektivové jsou na tom! 🕵️‍♂️🛍️ Vydržte!",
+		"Close": "Zavřít"
+	},
+	"menu": {
+		"About": "O",
+		"Support": "Podpěra, podpora",
+		"Share": "Podíl",
+		"aboutTitle": "Řekněte svým přátelům a rodině o SafeDeal",
+		"Desktop App": "Desktopová aplikace",
+		"facebook": "Facebook",
+		"twitter": "Cvrlikání",
+		"whatsapp": "WhatsApp",
+		"linkedin": "LinkedIn",
+		"telegram": "Telegram",
+		"reddit": "Reddit",
+		"email": "E-mailem",
+		"suggestFeature": "Vážíme si vaší zpětné vazby!",
+		"freeToUseTitle": "Proč je použití zdarma?",
+		"freeToUseDesc": "Používání naší služby je pro vás zdarma. Když provedete nákup, obchod nám zaplatí malý poplatek za to, že vás navede k nejlepšímu produktu.",
+		"dataPrivacyDesc": "Používáme pouze veřejně dostupná data, takže naše doporučení neovlivňuje žádná značka ani obchod."
+	}
+}

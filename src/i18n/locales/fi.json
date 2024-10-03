@@ -1,0 +1,59 @@
+{
+	"analyze": {
+		"product-insights": "Näkemyksiä",
+		"ai-insights": "Arvostelut",
+		"images": "Kuvat",
+		"videos": "Videot",
+		"no-ai-insights": "Tälle tuotteelle ei ole saatavilla tekoälyarviointitietoja.",
+		"no-images": "Tästä tuotteesta ei ole vielä saatavilla asiakaskuvia.",
+		"Photos from Customers": "Kuvia asiakkailta"
+	},
+	"search": {
+		"Search or type URL": "Hae tai kirjoita URL-osoite"
+	},
+	"stores": {
+		"share-to-friends": "Katso tämä mielenkiintoinen sovellus, jonka löysin: Safe Deal - suojaa itsesi huonoilta tarjouksilta, huijauksilta ja huonolta palvelulta. Käy osoitteessa https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+		"AliExpress": "AliExpress",
+		"Amazon": "Amazon",
+		"eBay": "eBay",
+		"Add Link": "Lisää linkki",
+		"Title like 'Temu':": "Otsikko kuten \"Temu\":",
+		"Link like https://www.temu.com/": "Linkki kuten https://www.temu.com/",
+		"Add": "Lisätä",
+		"Cancel": "Peruuttaa",
+		"Delete": "Poistaa"
+	},
+	"history": {
+		"History": "Historia"
+	},
+	"settingList": {
+		"profile": "Profiili",
+		"Settings": "asetukset",
+		"Change Language": "Vaihda kieltä",
+		"Help Center": "Ohjekeskus",
+		"english": "Englanti",
+		"French": "Français"
+	},
+	"global": {
+		"An error has occurred": "Oho! Kauppaetsivämme ovat mukana! 🕵️‍♂️🛍️ Pidä kiinni!",
+		"Close": "kiinni"
+	},
+	"menu": {
+		"About": "Noin",
+		"Support": "Tuki",
+		"Share": "Jaa",
+		"aboutTitle": "Kerro ystävillesi ja perheellesi SafeDealista",
+		"Desktop App": "Työpöytäsovellus",
+		"facebook": "Facebook",
+		"twitter": "Viserrys",
+		"whatsapp": "WhatsApp",
+		"linkedin": "LinkedIn",
+		"telegram": "Telegram",
+		"reddit": "Reddit",
+		"email": "Sähköposti",
+		"suggestFeature": "Arvostamme palautettasi!",
+		"freeToUseTitle": "Miksi käyttö on ilmaista?",
+		"freeToUseDesc": "Palvelumme käyttö on sinulle ilmaista. Kun teet ostoksen, kauppa maksaa meille pienen maksun, joka opastaa sinut parhaan tuotteen luo.",
+		"dataPrivacyDesc": "Käytämme vain julkisesti saatavilla olevia tietoja varmistaaksemme, että mikään tuotemerkki tai kauppa ei vaikuta suosituksiimme."
+	}
+}

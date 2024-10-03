@@ -1,0 +1,59 @@
+{
+	"analyze": {
+		"product-insights": "Inzichten",
+		"ai-insights": "Recensies",
+		"images": "Afbeeldingen",
+		"videos": "Videos",
+		"no-ai-insights": "AI-beoordelingsinzichten zijn niet beschikbaar voor dit product.",
+		"no-images": "Voor dit product zijn nog geen klantfoto's beschikbaar.",
+		"Photos from Customers": "Foto's van klanten"
+	},
+	"search": {
+		"Search or type URL": "Zoek of typ URL"
+	},
+	"stores": {
+		"share-to-friends": "Bekijk deze interessante app die ik heb gevonden: Safe Deal - bescherm uzelf tegen slechte deals, oplichting en slechte service. Bezoek: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+		"AliExpress": "AliExpress",
+		"Amazon": "Amazone",
+		"eBay": "eBay",
+		"Add Link": "Voeg een link toe",
+		"Title like 'Temu':": "Titel zoals 'Temu':",
+		"Link like https://www.temu.com/": "Link zoals https://www.temu.com/",
+		"Add": "Toevoegen",
+		"Cancel": "Annuleren",
+		"Delete": "Verwijderen"
+	},
+	"history": {
+		"History": "Geschiedenis"
+	},
+	"settingList": {
+		"profile": "Profiel",
+		"Settings": "Instellingen",
+		"Change Language": "Taal wijzigen",
+		"Help Center": "Helpcentrum",
+		"english": "Engels",
+		"French": "Frans"
+	},
+	"global": {
+		"An error has occurred": "Oeps! Onze dealdetectives zijn er mee bezig! 🕵️‍♂️🛍️ Houd vol!",
+		"Close": "Dichtbij"
+	},
+	"menu": {
+		"About": "Over",
+		"Support": "Steun",
+		"Share": "Deel",
+		"aboutTitle": "Vertel uw vrienden en familie over SafeDeal",
+		"Desktop App": "Desktop-app",
+		"facebook": "Facebook",
+		"twitter": "Twitteren",
+		"whatsapp": "WhatsAppen",
+		"linkedin": "LinkedIn",
+		"telegram": "Telegram",
+		"reddit": "Reddit",
+		"email": "E-mail",
+		"suggestFeature": "Wij waarderen uw feedback!",
+		"freeToUseTitle": "Waarom is het gebruik gratis?",
+		"freeToUseDesc": "Het gebruik van onze service is voor u gratis. Wanneer u een aankoop doet, betaalt de winkel ons een kleine vergoeding om u naar het beste product te begeleiden.",
+		"dataPrivacyDesc": "We gebruiken alleen openbaar beschikbare gegevens, zodat geen enkel merk of winkel onze aanbevelingen beïnvloedt."
+	}
+}
