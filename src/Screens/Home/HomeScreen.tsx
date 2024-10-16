@@ -62,9 +62,9 @@ const HomeScreen = ({ setUrl, setIsHomeActive, setActiveEventHTML }: HomeScreenP
 		setActiveEventHTML(null);
 
 		const urlMap: { [key: string]: string } = {
-			AliExpress: "https://www.aliexpress.com/item/1005006595351136.html?gatewayAdapt=4itemAdapt",
-			Amazon: "https://www.amazon.com/Breville-Barista-Pro-Automatic-Integrated/dp/B08133HX34",
-			eBay: "https://www.ebay.com/itm/274957711316",
+			AliExpress: "https://www.aliexpress.us/item/3256806683079972.html",
+			Amazon: "https://www.amazon.com/n/dp/B0B6JC1L15",
+			eBay: "https://www.ebay.com/itm/356127144832",
 			"": "",
 		};
 

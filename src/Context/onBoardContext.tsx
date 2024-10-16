@@ -29,12 +29,12 @@ export const OnboardProvider: FC<{ children: ReactNode }> = ({ children }) => {
 			const hideOnboardValue = await getObject("hideOnboard");
 			const showTooltipValue = await getObject("showTooltip");
 
-			if (hideOnboardValue !== null) {
-				setHideOnBoard(hideOnboardValue);
-			}
-			if (showTooltipValue !== null) {
-				setShowTooltip(showTooltipValue);
-			}
+			// if (hideOnboardValue !== null) {
+			// 	setHideOnBoard(hideOnboardValue);
+			// }
+			// if (showTooltipValue !== null) {
+			// 	setShowTooltip(showTooltipValue);
+			// }
 			setLoading(false);
 		};
 		getStorageValue();

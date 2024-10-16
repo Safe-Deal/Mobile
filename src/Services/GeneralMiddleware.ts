@@ -1,4 +1,4 @@
-import { debug } from "../Utils/Analytics";
+import { debug, handleError } from "../Utils/Analytics";
 import { API_KEY, API_URL } from "../Utils/Const";
 import { LANG } from "../i18n/i18n";
 
@@ -39,7 +39,7 @@ const fetchData = (url: string, options: OptionsProps) => {
 			return result;
 		})
 		.catch((error) => {
-			throw error;
+			handleError(error);
 		});
 };
 

@@ -236,7 +236,7 @@ const BrowserFooterContent = () => {
 							<TourGuideZone
 								tourKey="tour1"
 								zone={0}
-								text={"This is your home screen &From here, you can access all the primary features of the app."}
+								text={t("tourKeys:HomeScreen")}
 								borderRadius={16}
 								style={s.borwser_footer_tourguide_style}
 							>

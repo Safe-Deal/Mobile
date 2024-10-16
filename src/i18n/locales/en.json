@@ -69,7 +69,8 @@
 		"ImagesTab": "Product Images &View images of the product from various angles, including customer-uploaded photos.",
 		"VideosTab": "Product Videos &Watch video reviews and demonstrations of the product.",
 		"FinishTitle": "You're all set!",
-		"FinishDescription": "You now know the key features of Safe Deal. Start exploring and happy shopping!"
+		"FinishDescription": "You now know the key features of Safe Deal. Start exploring and happy shopping!",
+		"HomeScreen": "This is your home screen &From here, you can access all the primary features of the app."
 	},
 	"shareWalkthough": {
 		"step1Title": "Step 1",

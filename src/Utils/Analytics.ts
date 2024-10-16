@@ -1,5 +1,29 @@
 export const IS_DEBUG = __DEV__;
 
+export const handleError = (message: string | Error | unknown, ...params: any[]) => {
+	if (!IS_DEBUG) {
+		return;
+	}
+
+	if (message instanceof Error) {
+		console.error(`${message.message}`, message.stack);
+		return;
+	}
+
+	try {
+		let data = "";
+
+		if (params.length === 1) {
+			const param = params[0];
+			data = JSON.stringify(param, null, 2);
+		}
+		console.error(`${message}`, data);
+		return;
+	} catch (e) {
+		console.error(`handleError__ERR::${message}`, params);
+	}
+};
+
 export const debug = (message: string | Error | unknown, ...params: any[]) => {
 	if (!IS_DEBUG) {
 		return;

@@ -22,13 +22,13 @@ const Welcome = (): ReactElement => {
 
 			<Text style={styles.container__description}>
 				{t(
-					"Safe Deal: Streamline your decisions with AI insights that validate every purchase and seller, saving you time and boosting profitability for personal or business buys.",
+					"SafeDeal App adds an additional sharing option, allowing you to analyze reviews within other apps and on websites",
 				)}
 			</Text>
 
 			<TouchableOpacity
 				onPress={() => {
-					setActiveUrl("https://www.aliexpress.com/item/1005006595351136.html?gatewayAdapt=4itemAdapt");
+					setActiveUrl("https://www.amazon.com/n/dp/B0B6JC1L15");
 					toggleOnboard(true);
 					toggleShowTooltip(true);
 				}}
