@@ -1,11 +1,11 @@
 import React from "react";
-import { View } from "react-native";
+import { StyleProp, View, ViewStyle } from "react-native";
 import { Text } from "react-native-paper";
 import { nativeApplicationVersion } from "expo-application";
 import SafeDealLogoSvg from "../../../Components/Common/Images/SafeDealLogoSvg";
 import s from "./HomeBottom.styles";
 
-export const LogoAndVersion = () => {
+export const LogoAndVersion: React.FC<{ style?: StyleProp<ViewStyle> }> = () => {
 	const version = nativeApplicationVersion;
 	return (
 		<View style={s.homeBottom__container}>
