@@ -18,11 +18,11 @@ const Welcome = (): ReactElement => {
 
 	return (
 		<View style={styles.container}>
-			<Text style={styles.container__welcome__text}>{t("Thank you for downloading SafeDeal")}</Text>
+			<Text style={styles.container__welcome__text}>{t("Welcome to Wise Decisions in Seconds")}</Text>
 
 			<Text style={styles.container__description}>
 				{t(
-					"SafeDeal App adds an additional sharing option, allowing you to analyze reviews within other apps and on websites",
+					"Safe Deal: Streamline your decisions with AI insights that validate every purchase and seller, saving you time and boosting profitability for personal or business buys.",
 				)}
 			</Text>
 
