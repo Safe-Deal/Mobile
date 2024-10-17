@@ -9,7 +9,7 @@
     "Photos from Customers": "Fotos de clientes"
   },
   "search": {
-    "Search or type URL": "Buscar o escribir URL"
+    "Search or enter website": "Buscar o ingresar al sitio web"
   },
   "stores": {
     "share-to-friends": "Echa un vistazo a esta interesante aplicación que encontré:\nSafe Deal: protégete de las malas ofertas, las estafas y el mal servicio.\nVisita: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
@@ -31,8 +31,7 @@
     "Settings": "Ajustes",
     "Change Language": "Cambiar idioma",
     "Help Center": "Centro de ayuda",
-    "english": "Inglés",
-    "French": "Francés"
+    "AppLanguage": "Idioma de la aplicación"
   },
   "global": {
     "An error has occurred": "¡Ups! ¡Nuestros detectives de ofertas están en ello! 🕵️‍♂️🛍️ ¡Espera un momento!",

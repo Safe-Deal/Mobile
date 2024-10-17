@@ -9,7 +9,7 @@
     "Photos from Customers": "Foto dari Pelanggan"
   },
   "search": {
-    "Search or type URL": "Cari atau ketik URL"
+    "Search or enter website": "Cari atau masukkan situs web"
   },
   "stores": {
     "share-to-friends": "Coba aplikasi menarik yang saya temukan ini:\nSafe Deal - lindungi diri Anda dari penawaran yang buruk, penipuan, dan layanan yang buruk.\nKunjungi: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
@@ -31,8 +31,7 @@
     "Settings": "Pengaturan",
     "Change Language": "Ubah Bahasa",
     "Help Center": "Pusat Bantuan",
-    "english": "Bahasa inggris",
-    "French": "Perancis"
+    "AppLanguage": "Bahasa Aplikasi"
   },
   "global": {
     "An error has occurred": "Waduh! Detektif transaksi kami sedang menanganinya! 🕵️‍♂️🛍️ Tunggu sebentar!",

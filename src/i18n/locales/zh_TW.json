@@ -9,7 +9,7 @@
     "Photos from Customers": "客戶照片"
   },
   "search": {
-    "Search or type URL": "搜尋或輸入網址"
+    "Search or enter website": "搜尋或輸入網站"
   },
   "stores": {
     "share-to-friends": "看看我發現的這個有趣的應用程式：\n安全交易 - 保護自己免受不良交易、詐騙和不良服務的影響。\n請造訪：https://www.joinsafedeal.com/go?type=safe-deal-mobile",
@@ -31,8 +31,7 @@
     "Settings": "設定",
     "Change Language": "更改語言",
     "Help Center": "幫助中心",
-    "english": "英語",
-    "French": "法國人"
+    "AppLanguage": "應用程式語言"
   },
   "global": {
     "An error has occurred": "哎呀！我們的交易偵探正在處理它！ 🕵️‍♂️🛍️堅持住！",

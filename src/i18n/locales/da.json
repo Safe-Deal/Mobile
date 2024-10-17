@@ -9,7 +9,7 @@
     "Photos from Customers": "Billeder fra kunder"
   },
   "search": {
-    "Search or type URL": "Søg eller skriv URL"
+    "Search or enter website": "Søg eller indtast hjemmesiden"
   },
   "stores": {
     "share-to-friends": "Tjek denne interessante app, jeg fandt:\nSafe Deal - beskyt dig selv mod dårlige tilbud, svindel og dårlig service.\nBesøg: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
@@ -31,8 +31,7 @@
     "Settings": "Indstillinger",
     "Change Language": "Skift sprog",
     "Help Center": "Hjælpecenter",
-    "english": "engelsk",
-    "French": "Français"
+    "AppLanguage": "App sprog"
   },
   "global": {
     "An error has occurred": "Ups! Vores aftaledetektiver er på det! 🕵️‍♂️🛍️ Hold godt fast!",

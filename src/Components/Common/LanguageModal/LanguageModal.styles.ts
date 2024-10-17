@@ -1,4 +1,4 @@
-import Theme, { fontSize, height } from "@theme/Theme";
+import Theme, { fontSize, height, width } from "@theme/Theme";
 import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
@@ -14,26 +14,42 @@ const styles = StyleSheet.create({
 		fontSize: fontSize(24),
 		textAlign: "center",
 		color: Theme.americanGray,
+		marginBottom: height(2),
 	},
 	language_modal_sub_text: {
 		fontSize: fontSize(12),
 		fontWeight: "300",
+		color: Theme.americanGray,
 	},
 	language_modal_item_text: {
-		fontSize: fontSize(20),
+		fontSize: fontSize(18),
+		marginBottom: height(0.5),
 	},
 	language_modal_inner_container: {
-		padding: height(2),
+		padding: height(3),
 		borderRadius: 20,
 		backgroundColor: Theme.primaryBackgroundColor,
-		height: height(80),
+		maxHeight: height(80),
 		width: "100%",
 	},
 	language_modal_details: {
-		margin: 10,
+		marginBottom: height(2),
 	},
 	language_modal_selected_text: {
 		color: Theme.goGreen,
+	},
+	language_modal_close_button: {
+		backgroundColor: Theme.primary,
+		padding: height(1.5),
+		borderRadius: width(1),
+		alignSelf: "stretch",
+		marginTop: height(2),
+	},
+	language_modal_close_button_text: {
+		color: Theme.primaryBackgroundColor,
+		fontSize: fontSize(16),
+		fontWeight: "bold",
+		textAlign: "center",
 	},
 });
 

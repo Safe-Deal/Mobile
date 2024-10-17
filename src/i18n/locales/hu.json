@@ -9,7 +9,7 @@
     "Photos from Customers": "Fotók az ügyfelektől"
   },
   "search": {
-    "Search or type URL": "Keressen vagy írja be az URL-t"
+    "Search or enter website": "Keressen vagy írja be a webhelyet"
   },
   "stores": {
     "share-to-friends": "Nézd meg ezt az érdekes alkalmazást, amit találtam:\nBiztonságos üzlet – védje meg magát a rossz ajánlatoktól, csalásoktól és rossz szolgáltatástól.\nLátogassa meg: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
@@ -31,8 +31,7 @@
     "Settings": "Beállítások elemre",
     "Change Language": "Nyelv módosítása",
     "Help Center": "Súgó",
-    "english": "angol",
-    "French": "Français"
+    "AppLanguage": "Alkalmazás nyelve"
   },
   "global": {
     "An error has occurred": "Hoppá! Ügyletnyomozóink rajta vannak! 🕵️‍♂️🛍️ Kitartás!",
@@ -53,7 +52,7 @@
     "email": "Email",
     "suggestFeature": "Nagyra értékeljük visszajelzését!",
     "freeToUseTitle": "Miért ingyenes a használata?",
-    "freeToUseDesc": "Szolgáltatásunk használata Önnek ingyenes. Vásárláskor az üzlet csekély díjat fizet nekünk azért, hogy elkalauzoljuk Önt a legjobb termékhez.",
+    "freeToUseDesc": "Szolgáltatásunk használata az Ön számára ingyenes. Vásárláskor az üzlet csekély díjat fizet nekünk azért, hogy elkalauzoljuk Önt a legjobb termékhez.",
     "dataPrivacyDesc": "Kizárólag nyilvánosan elérhető adatokat használunk, biztosítva, hogy a márka vagy az üzlet ne befolyásolja ajánlásainkat."
   }
 }

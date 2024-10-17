@@ -9,7 +9,7 @@
     "Photos from Customers": "Fotos dels clients"
   },
   "search": {
-    "Search or type URL": "Cerca o escriviu l'URL"
+    "Search or enter website": "Cerca o entra al lloc web"
   },
   "stores": {
     "share-to-friends": "Fes una ullada a aquesta interessant aplicació que he trobat:\nOferta segura: protegiu-vos de males ofertes, estafes i un servei deficient.\nVisiteu: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
@@ -29,10 +29,9 @@
   "settingList": {
     "profile": "Perfil",
     "Settings": "Configuració",
-    "Change Language": "Canviar Idioma",
+    "Change Language": "Canvia l'idioma",
     "Help Center": "Centre d'ajuda",
-    "english": "Anglès",
-    "French": "Francès"
+    "AppLanguage": "Idioma de l'aplicació"
   },
   "global": {
     "An error has occurred": "Vaja! Els nostres detectius d'acord estan a punt! 🕵️‍♂️🛍️ Aguanta't!",

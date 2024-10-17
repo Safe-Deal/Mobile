@@ -4,12 +4,12 @@
     "ai-insights": "Anmeldelser",
     "images": "Bilder",
     "videos": "Videoer",
-    "no-ai-insights": "AI-gjennomgangsinnsikt er utilgjengelig for dette produktet.",
+    "no-ai-insights": "AI-anmeldelsesinnsikt er utilgjengelig for dette produktet.",
     "no-images": "Ingen kundebilder er tilgjengelige for dette produktet ennå.",
     "Photos from Customers": "Bilder fra kunder"
   },
   "search": {
-    "Search or type URL": "Søk eller skriv inn URL"
+    "Search or enter website": "Søk eller gå inn på nettsiden"
   },
   "stores": {
     "share-to-friends": "Sjekk ut denne interessante appen jeg fant:\nTrygg avtale – beskytt deg mot dårlige avtaler, svindel og dårlig service.\nBesøk: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
@@ -31,8 +31,7 @@
     "Settings": "Innstillinger",
     "Change Language": "Endre språk",
     "Help Center": "Hjelpesenter",
-    "english": "engelsk",
-    "French": "Français"
+    "AppLanguage": "App-språk"
   },
   "global": {
     "An error has occurred": "Oops! Våre avtaledetektiver er på det! 🕵️‍♂️🛍️ Hold godt fast!",

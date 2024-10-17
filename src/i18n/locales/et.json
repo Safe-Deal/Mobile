@@ -9,7 +9,7 @@
     "Photos from Customers": "Fotod klientidelt"
   },
   "search": {
-    "Search or type URL": "Otsige või sisestage URL"
+    "Search or enter website": "Otsige või sisestage veebisait"
   },
   "stores": {
     "share-to-friends": "Vaadake seda huvitavat rakendust, mille leidsin:\nTurvaline tehing – kaitske end halbade tehingute, pettuste ja kehva teeninduse eest.\nKülastage: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
@@ -31,8 +31,7 @@
     "Settings": "Seaded",
     "Change Language": "Muuda keelt",
     "Help Center": "Abikeskus",
-    "english": "inglise keel",
-    "French": "Français"
+    "AppLanguage": "Rakenduse keel"
   },
   "global": {
     "An error has occurred": "Oih! Meie tehingu detektiivid tegelevad sellega! 🕵️‍♂️🛍️ Pidage kinni!",

@@ -9,7 +9,7 @@
     "Photos from Customers": "Fotos de clientes"
   },
   "search": {
-    "Search or type URL": "Pesquisar ou digitar URL"
+    "Search or enter website": "Pesquisar ou entrar no site"
   },
   "stores": {
     "share-to-friends": "Confira este aplicativo interessante que encontrei:\nSafe Deal - proteja-se de negócios ruins, golpes e serviços ruins.\nVisite: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
@@ -31,8 +31,7 @@
     "Settings": "Configurações",
     "Change Language": "Alterar idioma",
     "Help Center": "Central de Ajuda",
-    "english": "Inglês",
-    "French": "Francês"
+    "AppLanguage": "Idioma do aplicativo"
   },
   "global": {
     "An error has occurred": "Opa! Nossos detetives de negócios estão nisso! 🕵️‍♂️🛍️ Aguente firme!",

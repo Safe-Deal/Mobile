@@ -9,7 +9,7 @@
     "Photos from Customers": "Mga larawan mula sa Mga Customer"
   },
   "search": {
-    "Search or type URL": "Maghanap o mag-type ng URL"
+    "Search or enter website": "Maghanap o magpasok ng website"
   },
   "stores": {
     "share-to-friends": "Tingnan ang kawili-wiling app na ito na nakita ko:\nSafe Deal - protektahan ang iyong sarili mula sa masasamang deal, scam, at hindi magandang serbisyo.\nBisitahin ang: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
@@ -31,8 +31,7 @@
     "Settings": "Mga setting",
     "Change Language": "Baguhin ang Wika",
     "Help Center": "Help Center",
-    "english": "Ingles",
-    "French": "Français"
+    "AppLanguage": "Wika ng App"
   },
   "global": {
     "An error has occurred": "Oops! Ang aming mga deal detective ay nasa ito! 🕵️‍♂️🛍️ Maghintay ka!",

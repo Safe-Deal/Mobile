@@ -9,7 +9,7 @@
     "Photos from Customers": "Φωτογραφίες από πελάτες"
   },
   "search": {
-    "Search or type URL": "Αναζητήστε ή πληκτρολογήστε URL"
+    "Search or enter website": "Αναζήτηση ή εισαγωγή στον ιστότοπο"
   },
   "stores": {
     "share-to-friends": "Ρίξτε μια ματιά σε αυτήν την ενδιαφέρουσα εφαρμογή που βρήκα:\nΑσφαλής συμφωνία - προστατεύστε τον εαυτό σας από κακές συμφωνίες, απάτες και κακή εξυπηρέτηση.\nΕπισκεφτείτε τη διεύθυνση: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
@@ -31,11 +31,10 @@
     "Settings": "Ρυθμίσεις",
     "Change Language": "Αλλαγή γλώσσας",
     "Help Center": "Κέντρο βοήθειας",
-    "english": "αγγλικός",
-    "French": "Français"
+    "AppLanguage": "Γλώσσα εφαρμογής"
   },
   "global": {
-    "An error has occurred": "Ωχ! Οι ντετέκτιβ της συμφωνίας μας είναι σε αυτό! 🕵️‍♂️🛍️ Υπομονή!",
+    "An error has occurred": "Ωχ! Οι ντετέκτιβ των συμφωνιών μας είναι σε αυτό! 🕵️‍♂️🛍️ Υπομονή!",
     "Close": "Κοντά"
   },
   "menu": {

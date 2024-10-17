@@ -9,7 +9,7 @@
     "Photos from Customers": "Müşterilerden Fotoğraflar"
   },
   "search": {
-    "Search or type URL": "URL'yi arayın veya yazın"
+    "Search or enter website": "Web sitesini arayın veya girin"
   },
   "stores": {
     "share-to-friends": "Bulduğum bu ilginç uygulamaya göz atın:\nGüvenli Anlaşma - kendinizi kötü anlaşmalardan, dolandırıcılıklardan ve kötü hizmetten koruyun.\nZiyaret edin: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
@@ -31,8 +31,7 @@
     "Settings": "Ayarlar",
     "Change Language": "Dili değiştir",
     "Help Center": "Yardım Merkezi",
-    "english": "İngilizce",
-    "French": "Fransızca"
+    "AppLanguage": "Uygulama Dili"
   },
   "global": {
     "An error has occurred": "Oops! Anlaşma dedektiflerimiz bununla ilgileniyor! 🕵️‍♂️🛍️ Sabredin!",

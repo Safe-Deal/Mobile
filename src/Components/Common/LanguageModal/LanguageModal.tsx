@@ -1,7 +1,7 @@
 import { useTranslation } from "@hooks/useTranslation";
 import { language } from "@shared/Constants";
 import React, { useEffect, useState } from "react";
-import { ScrollView, Text, View } from "react-native";
+import { ScrollView, Text, View, TouchableOpacity } from "react-native";
 import { getAppLanguage, setAppLanguage } from "../../../i18n/i18n";
 import CustomModal from "../CustomModal/CustomModal";
 import s from "./LanguageModal.styles";
@@ -49,6 +49,9 @@ const LanguageModal: React.FC<LanguageModalProps> = ({ modalVisible, onClose }) 
 						</View>
 					))}
 				</ScrollView>
+				<TouchableOpacity style={s.language_modal_close_button} onPress={onClose}>
+					<Text style={s.language_modal_close_button_text}>{t("Close")}</Text>
+				</TouchableOpacity>
 			</View>
 		</CustomModal>
 	);

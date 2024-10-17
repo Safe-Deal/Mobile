@@ -9,7 +9,7 @@
     "Photos from Customers": "Kuvia asiakkailta"
   },
   "search": {
-    "Search or type URL": "Hae tai kirjoita URL-osoite"
+    "Search or enter website": "Hae tai kirjoita verkkosivusto"
   },
   "stores": {
     "share-to-friends": "Katso tämä mielenkiintoinen sovellus, jonka löysin:\nTurvallinen sopimus – suojaa itsesi huonoilta tarjouksilta, huijauksilta ja huonolta palvelulta.\nKäy osoitteessa https://www.joinsafedeal.com/go?type=safe-deal-mobile",
@@ -31,8 +31,7 @@
     "Settings": "Asetukset",
     "Change Language": "Vaihda kieli",
     "Help Center": "Ohjekeskus",
-    "english": "englanti",
-    "French": "Français"
+    "AppLanguage": "Sovelluksen kieli"
   },
   "global": {
     "An error has occurred": "Oho! Kauppaetsivämme ovat mukana! 🕵️‍♂️🛍️ Pidä kiinni!",

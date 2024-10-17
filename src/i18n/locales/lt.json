@@ -9,7 +9,7 @@
     "Photos from Customers": "Nuotraukos iš klientų"
   },
   "search": {
-    "Search or type URL": "Ieškokite arba įveskite URL"
+    "Search or enter website": "Ieškokite arba įveskite svetainę"
   },
   "stores": {
     "share-to-friends": "Peržiūrėkite šią įdomią programą, kurią radau:\nSaugus sandoris – apsisaugokite nuo blogų pasiūlymų, aferų ir prasto aptarnavimo.\nApsilankykite: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
@@ -31,8 +31,7 @@
     "Settings": "Nustatymai",
     "Change Language": "Keisti kalbą",
     "Help Center": "Pagalbos centras",
-    "english": "anglų kalba",
-    "French": "Français"
+    "AppLanguage": "Programos kalba"
   },
   "global": {
     "An error has occurred": "Oi! Mūsų sandorio detektyvai yra tai! 🕵️‍♂️🛍️ Laikykitės!",
@@ -53,7 +52,7 @@
     "email": "El. paštas",
     "suggestFeature": "Vertiname jūsų atsiliepimus!",
     "freeToUseTitle": "Kodėl galima nemokamai naudotis?",
-    "freeToUseDesc": "Mūsų paslauga jums nemokama. Kai perkate, parduotuvė sumoka mums nedidelį mokestį, kad nukreiptume jus į geriausią produktą.",
+    "freeToUseDesc": "Mūsų paslauga jums nemokama. Kai perkate, parduotuvė sumoka mums nedidelį mokestį už tai, kad nukreiptume jus į geriausią produktą.",
     "dataPrivacyDesc": "Naudojame tik viešai prieinamus duomenis, užtikrindami, kad joks prekės ženklas ar parduotuvė nepadarytų įtakos mūsų rekomendacijoms."
   }
 }

@@ -9,7 +9,7 @@
     "Photos from Customers": "Fotografie od zákazníkov"
   },
   "search": {
-    "Search or type URL": "Vyhľadajte alebo zadajte adresu URL"
+    "Search or enter website": "Vyhľadajte alebo zadajte webovú stránku"
   },
   "stores": {
     "share-to-friends": "Pozrite si túto zaujímavú aplikáciu, ktorú som našiel:\nBezpečná dohoda – chráňte sa pred zlými ponukami, podvodmi a zlými službami.\nNavštívte: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
@@ -31,8 +31,7 @@
     "Settings": "Nastavenia",
     "Change Language": "Zmeniť jazyk",
     "Help Center": "Centrum pomoci",
-    "english": "angličtina",
-    "French": "Français"
+    "AppLanguage": "Jazyk aplikácie"
   },
   "global": {
     "An error has occurred": "Ojoj! Naši detektívi sa zaoberajú! 🕵️‍♂️🛍️ Držte sa!",

@@ -9,7 +9,7 @@
     "Photos from Customers": "Picha kutoka kwa Wateja"
   },
   "search": {
-    "Search or type URL": "Tafuta au charaza URL"
+    "Search or enter website": "Tafuta au ingiza tovuti"
   },
   "stores": {
     "share-to-friends": "Angalia programu hii ya kupendeza ambayo nimepata:\nMpango Salama - jilinde dhidi ya mikataba mibovu, ulaghai na huduma duni.\nTembelea: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
@@ -31,8 +31,7 @@
     "Settings": "Mipangilio",
     "Change Language": "Badilisha Lugha",
     "Help Center": "Kituo cha Usaidizi",
-    "english": "Kiingereza",
-    "French": "Kifaransa"
+    "AppLanguage": "Lugha ya Programu"
   },
   "global": {
     "An error has occurred": "Lo! Wapelelezi wetu wa mpango wako juu yake! 🕵️‍♂️🛍️ Subiri kidogo!",
@@ -54,6 +53,6 @@
     "suggestFeature": "Tunathamini maoni yako!",
     "freeToUseTitle": "Kwa nini ni bure kutumia?",
     "freeToUseDesc": "Kutumia huduma zetu ni bure kwako. Unapofanya ununuzi, duka hutulipa ada ndogo kwa kukuongoza kwenye bidhaa bora zaidi.",
-    "dataPrivacyDesc": "Tunatumia data inayopatikana hadharani pekee, kuhakikisha hakuna chapa au duka linaloathiri mapendekezo yetu."
+    "dataPrivacyDesc": "Tunatumia data inayopatikana kwa umma pekee, kuhakikisha hakuna chapa au duka linaloathiri mapendekezo yetu."
   }
 }

@@ -9,7 +9,7 @@
     "Photos from Customers": "Zdjęcia od klientów"
   },
   "search": {
-    "Search or type URL": "Wyszukaj lub wpisz adres URL"
+    "Search or enter website": "Wyszukaj lub wprowadź stronę internetową"
   },
   "stores": {
     "share-to-friends": "Sprawdź tę ciekawą aplikację, którą znalazłem:\nSafe Deal - chroń się przed złymi ofertami, oszustwami i słabą obsługą.\nOdwiedź: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
@@ -31,8 +31,7 @@
     "Settings": "Ustawienia",
     "Change Language": "Zmień język",
     "Help Center": "Centrum pomocy",
-    "english": "angielski",
-    "French": "francuski"
+    "AppLanguage": "Język aplikacji"
   },
   "global": {
     "An error has occurred": "Ups! Nasi detektywi ds. transakcji już się tym zajęli! 🕵️‍♂️🛍️ Czekajcie!",

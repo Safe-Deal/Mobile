@@ -9,7 +9,7 @@
     "Photos from Customers": "Fotografii de la Clienți"
   },
   "search": {
-    "Search or type URL": "Căutați sau introduceți adresa URL"
+    "Search or enter website": "Căutați sau intrați pe site"
   },
   "stores": {
     "share-to-friends": "Verificați această aplicație interesantă pe care am găsit-o:\nSafe Deal - protejează-te de oferte proaste, escrocherii și servicii slabe.\nVizitați: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
@@ -31,8 +31,7 @@
     "Settings": "Setări",
     "Change Language": "Schimbați limba",
     "Help Center": "Centrul de ajutor",
-    "english": "engleză",
-    "French": "Franceză"
+    "AppLanguage": "Limba aplicației"
   },
   "global": {
     "An error has occurred": "Hopa! Detectivii noștri de afaceri sunt pe ea! 🕵️‍♂️🛍️ Stai bine!",
@@ -54,6 +53,6 @@
     "suggestFeature": "Apreciem feedback-ul dvs.!",
     "freeToUseTitle": "De ce este liber de utilizat?",
     "freeToUseDesc": "Utilizarea serviciului nostru este gratuită pentru dvs. Când faceți o achiziție, magazinul ne plătește o mică taxă pentru a vă îndruma către cel mai bun produs.",
-    "dataPrivacyDesc": "Folosim doar date disponibile public, asigurându-ne că nicio marcă sau magazin nu influențează recomandările noastre."
+    "dataPrivacyDesc": "Folosim numai date disponibile public, asigurându-ne că nicio marcă sau magazin nu influențează recomandările noastre."
   }
 }

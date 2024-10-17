@@ -9,7 +9,7 @@
     "Photos from Customers": "Hình ảnh từ khách hàng"
   },
   "search": {
-    "Search or type URL": "Tìm kiếm hoặc nhập URL"
+    "Search or enter website": "Tìm kiếm hoặc nhập trang web"
   },
   "stores": {
     "share-to-friends": "Hãy xem ứng dụng thú vị này mà tôi tìm thấy:\nSafe Deal - bảo vệ bạn khỏi các giao dịch xấu, lừa đảo và dịch vụ kém.\nTruy cập: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
@@ -31,8 +31,7 @@
     "Settings": "Cài đặt",
     "Change Language": "Thay đổi ngôn ngữ",
     "Help Center": "Trung tâm trợ giúp",
-    "english": "Tiếng Anh",
-    "French": "Tiếng Pháp"
+    "AppLanguage": "Ngôn ngữ ứng dụng"
   },
   "global": {
     "An error has occurred": "Ồ! Các thám tử giao dịch của chúng tôi đang vào cuộc! 🕵️‍♂️🛍️ Hãy kiên nhẫn nhé!",

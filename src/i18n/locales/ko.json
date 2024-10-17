@@ -9,7 +9,7 @@
     "Photos from Customers": "고객의 사진"
   },
   "search": {
-    "Search or type URL": "URL을 검색하거나 입력하세요"
+    "Search or enter website": "웹사이트를 검색하거나 입력하세요"
   },
   "stores": {
     "share-to-friends": "내가 찾은 흥미로운 앱을 확인해 보세요:\nSafe Deal - 나쁜 거래, 사기, 열악한 서비스로부터 자신을 보호하세요.\n방문: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
@@ -31,8 +31,7 @@
     "Settings": "설정",
     "Change Language": "언어 변경",
     "Help Center": "도움말 센터",
-    "english": "영어",
-    "French": "프랑스어"
+    "AppLanguage": "앱 언어"
   },
   "global": {
     "An error has occurred": "앗! 우리 거래 탐정들이 찾아냈어요! 🕵️‍♂️🛍️ 잠깐만요!",

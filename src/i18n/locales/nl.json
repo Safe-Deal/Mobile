@@ -9,7 +9,7 @@
     "Photos from Customers": "Foto's van klanten"
   },
   "search": {
-    "Search or type URL": "Zoek of typ URL"
+    "Search or enter website": "Zoek of voer website in"
   },
   "stores": {
     "share-to-friends": "Bekijk deze interessante app die ik vond:\nSafe Deal - bescherm uzelf tegen slechte deals, oplichting en slechte service.\nBezoek: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
@@ -31,8 +31,7 @@
     "Settings": "Instellingen",
     "Change Language": "Taal wijzigen",
     "Help Center": "Helpcentrum",
-    "english": "Engels",
-    "French": "Frans"
+    "AppLanguage": "App-taal"
   },
   "global": {
     "An error has occurred": "Oeps! Onze dealdetectives zijn ermee bezig! 🕵️‍♂️🛍️ Nog even geduld!",

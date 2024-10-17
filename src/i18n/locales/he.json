@@ -9,7 +9,7 @@
     "Photos from Customers": "תמונות מלקוחות"
   },
   "search": {
-    "Search or type URL": "חפש או הקלד כתובת אתר"
+    "Search or enter website": "חפש או היכנס לאתר"
   },
   "stores": {
     "share-to-friends": "בדוק את האפליקציה המעניינת הזו שמצאתי:\nעסקה בטוחה - הגן על עצמך מפני עסקאות רעות, הונאות ושירות גרוע.\nבקר בכתובת: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
@@ -31,8 +31,7 @@
     "Settings": "הגדרות",
     "Change Language": "שנה שפה",
     "Help Center": "מרכז העזרה",
-    "english": "אנגלית",
-    "French": "Français"
+    "AppLanguage": "שפת האפליקציה"
   },
   "global": {
     "An error has occurred": "אופס! בלשי העסקה שלנו על זה! 🕵️‍♂️🛍️ תחזיקו חזק!",

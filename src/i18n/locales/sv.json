@@ -9,10 +9,10 @@
     "Photos from Customers": "Foton från kunder"
   },
   "search": {
-    "Search or type URL": "Sök eller skriv URL"
+    "Search or enter website": "Sök eller gå in på webbplatsen"
   },
   "stores": {
-    "share-to-friends": "Kolla in den här intressanta appen jag hittade:\nSäker affär – skydda dig från dåliga erbjudanden, bedrägerier och dålig service.\nBesök: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+    "share-to-friends": "Kolla in den här intressanta appen jag hittade:\nSäker affär – skydda dig mot dåliga erbjudanden, bedrägerier och dålig service.\nBesök: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
     "AliExpress": "AliExpress",
     "Amazon": "Amazon",
     "eBay": "eBay",
@@ -31,8 +31,7 @@
     "Settings": "Inställningar",
     "Change Language": "Byt språk",
     "Help Center": "Hjälpcenter",
-    "english": "engelska",
-    "French": "Français"
+    "AppLanguage": "Appens språk"
   },
   "global": {
     "An error has occurred": "hoppsan! Våra dealdetektiver är på gång! 🕵️‍♂️🛍️ Håll ut!",

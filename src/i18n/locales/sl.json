@@ -9,7 +9,7 @@
     "Photos from Customers": "Fotografije strank"
   },
   "search": {
-    "Search or type URL": "Iščite ali vnesite URL"
+    "Search or enter website": "Iščite ali vnesite spletno mesto"
   },
   "stores": {
     "share-to-friends": "Oglejte si to zanimivo aplikacijo, ki sem jo našel:\nVaren posel - zaščitite se pred slabimi posli, prevarami in slabimi storitvami.\nObiščite: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
@@ -31,8 +31,7 @@
     "Settings": "nastavitve",
     "Change Language": "Spremeni jezik",
     "Help Center": "Center za pomoč",
-    "english": "angleščina",
-    "French": "Français"
+    "AppLanguage": "Jezik aplikacije"
   },
   "global": {
     "An error has occurred": "Ups! Naši detektivi se ukvarjajo s tem! 🕵️‍♂️🛍️ Drži se!",

@@ -9,7 +9,7 @@
     "Photos from Customers": "Fotografije kupaca"
   },
   "search": {
-    "Search or type URL": "Pretražite ili upišite URL"
+    "Search or enter website": "Pretražite ili unesite web mjesto"
   },
   "stores": {
     "share-to-friends": "Pogledajte ovu zanimljivu aplikaciju koju sam pronašao:\nSigurna ponuda - zaštitite se od loših ponuda, prijevara i loše usluge.\nPosjetite: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
@@ -31,8 +31,7 @@
     "Settings": "postavke",
     "Change Language": "Promjena jezika",
     "Help Center": "Centar za pomoć",
-    "english": "engleski",
-    "French": "Français"
+    "AppLanguage": "Jezik aplikacije"
   },
   "global": {
     "An error has occurred": "Ups! Naši detektivi su na tome! 🕵️‍♂️🛍️ Držite se!",
