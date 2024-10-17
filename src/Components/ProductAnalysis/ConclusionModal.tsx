@@ -1,4 +1,3 @@
-import { t } from "i18next";
 import React, { useMemo, useRef } from "react";
 import { FlatList, Image, ScrollView, Text, View } from "react-native";
 import { Chip } from "react-native-paper";
@@ -9,6 +8,7 @@ import s from "./ConclusionModal.styles";
 import { Conclusion } from "./Modal/Conclusion";
 import DraggableModal from "./Modal/DraggableModal";
 import { ProductInsights } from "./ProductAnalysis";
+import { useTranslation } from "@hooks/useTranslation";
 
 interface ConclusionModalProps {
 	isModalVisible: boolean;
@@ -30,6 +30,7 @@ export const ConclusionModal = ({
 }: ConclusionModalProps) => {
 	const { allProductsState } = useSelector((state: any) => state.Products);
 	const summaryReviewSupportedSites: string[] = ["aliexpress", "amazon", "ebay"];
+	const { t } = useTranslation();
 
 	const itemData = useMemo(() => {
 		const analyzeTabs = [

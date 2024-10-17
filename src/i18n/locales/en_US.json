@@ -56,13 +56,21 @@
 		"dataPrivacyDesc": "We use publicly available data only, ensuring no brand or shop influences our recommendations."
 	},
 	"WelcomeTour": {
-		"Product": "Product Status: Shown with color indicators (red for not recommended, yellow for caution, green for recommended)",
-		"InsightsTab": "Product Insights &Get detailed insights about the product's performance, popularity, and price trends. Look for color-coded indicators (red/yellow/green) to quickly assess product quality and reliability.",
-		"ReviewsTab": "Customer Reviews &Read customer reviews and ratings to help you make an informed purchase decision.",
-		"ImagesTab": "Product Images &View images of the product from various angles, including customer-uploaded photos.",
-		"VideosTab": "Product Videos &Watch video reviews and demonstrations of the product.",
-		"FinishTitle": "You're all set!",
-		"FinishDescription": "You now know the key features of Safe Deal. Start exploring and happy shopping!",
-		"HomeScreen": "Home Screen: Access all main app features from here."
+		"TourProductStatus": "Product Status: Recommended,Caution, Not Recommended",
+		"TourInsightsTab": "Product Insights &Get detailed insights about the product's performance, popularity, and price trends. Look for color-coded indicators (red/yellow/green) to quickly assess product quality and reliability.",
+		"TourReviewsTab": "Customer Reviews &Read customer reviews and ratings to help you make an informed purchase decision.",
+		"TourImagesTab": "Product Images &View images of the product from various angles, including customer-uploaded photos.",
+		"TourVideosTab": "Product Videos &Watch video reviews and demonstrations of the product.",
+		"TourFinishTitle": "You're all set!",
+		"TourFinishDescription": "You now know the key features of Safe Deal. Start exploring and happy shopping!",
+		"TourHomeScreen": "Home Screen: Access all main app features from here.",
+		"TourShareStep1Title": "Share the App",
+		"TourShareStep1Description": "Share the app with your friends and family to help them avoid scams and bad deals.",
+		"TourShareStep2Title": "Share the App",
+		"TourShareStep2Description": "Share the app with your friends and family to help them avoid scams and bad deals.",
+		"TourShareStep3Title": "Share the App",
+		"TourShareStep3Description": "Share the app with your friends and family to help them avoid scams and bad deals.",
+		"TourShareStep4Title": "Share the App",
+		"TourShareStep4Description": "Share the app with your friends and family to help them avoid scams and bad deals."
 	}
 }

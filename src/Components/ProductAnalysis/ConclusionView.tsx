@@ -1,4 +1,3 @@
-import { t } from "i18next";
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { Alert, FlatList, ScrollView, Text, View } from "react-native";
 import { Chip } from "react-native-paper";
@@ -13,6 +12,7 @@ import s from "./ConclusionModal.styles";
 import { Conclusion } from "./Modal/Conclusion";
 import ShareWalkthrough from "./Modal/ShareWalkthrough";
 import { ProductInsights } from "./ProductAnalysis";
+import { useTranslation } from "@hooks/useTranslation";
 
 export const ConclusionView = (props) => {
 	const { allProductsState } = useSelector((state: any) => state.Products);
@@ -24,6 +24,7 @@ export const ConclusionView = (props) => {
 	const { showTooltip, toggleShowTooltip, toggleOnboard } = useOnboardContext();
 	const flatListRef = useRef<FlatList>(null);
 	const dispatch = useDispatch();
+	const { t } = useTranslation();
 
 	const itemData = useMemo(() => {
 		const analyzeTabs = [
@@ -31,7 +32,7 @@ export const ConclusionView = (props) => {
 				text: t("analyze:product-insights"),
 				icon: "shopping-search",
 				type: TabTypes.ANALYZE__PRODUCT_INSIGHTS,
-				tourKeyText: t("InsightsTab"),
+				tourKeyText: t("TourInsightsTab"),
 			},
 		];
 		if (summaryReviewSupportedSites.some((supportedUrl) => activeUrl.includes(supportedUrl))) {
@@ -39,20 +40,20 @@ export const ConclusionView = (props) => {
 				text: t("analyze:ai-insights"),
 				icon: "creation",
 				type: TabTypes.ANALYZE__AI_INSIGHTS,
-				tourKeyText: t("ReviewsTab"),
+				tourKeyText: t("TourReviewsTab"),
 			});
 			analyzeTabs.push({
 				text: t("analyze:images"),
 				icon: "image",
 				type: TabTypes.ANALYZE__IMAGES,
-				tourKeyText: t("ImagesTab"),
+				tourKeyText: t("TourImagesTab"),
 			});
 		}
 		analyzeTabs.push({
 			text: t("analyze:videos"),
 			icon: "video",
 			type: TabTypes.ANALYZE__VIDEOS,
-			tourKeyText: t("VideosTab"),
+			tourKeyText: t("TourVideosTab"),
 		});
 		return analyzeTabs;
 	}, [activeUrl]);
@@ -100,7 +101,7 @@ export const ConclusionView = (props) => {
 	const handleOnClose = () => {
 		setShowShareWalkthroughModal(false);
 
-		Alert.alert(t("FinishTitle"), t("FinishDescription"), [
+		Alert.alert(t("TourFinishTitle"), t("FinishDescription"), [
 			{
 				text: "OK",
 				onPress: () => {

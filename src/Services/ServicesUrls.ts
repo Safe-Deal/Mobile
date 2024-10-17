@@ -6,7 +6,7 @@ export const MOBILE_ENDPOINT_URL = `${API_URL}/mobile/`;
 export default {
 	BASE_URL: MOBILE_ENDPOINT_URL,
 	END_POINT: {
-		product: "product",
+		product: "TourProductStatus",
 		domain: "domain",
 	},
 	AFFILIATE_REMOTE_URL,

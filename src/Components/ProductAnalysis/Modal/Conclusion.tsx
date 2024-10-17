@@ -1,12 +1,11 @@
-import { t } from "i18next";
 import { View, Text } from "react-native";
 import { ConclusionTypes } from "../../../Shared/Constants";
-import { capitalizeFirstLetter } from "../../../Utils/SharedUtils";
 import ShieldSvg from "../../Common/Images/ShieldSvg";
 import ShieldSvgError from "../../Common/Images/ShieldSvgError";
 import ShieldSvgNoData from "../../Common/Images/ShieldSvgNoData";
 import ShieldSvgWarning from "../../Common/Images/ShieldSvgWarning";
 import s from "../ConclusionModal.styles";
+import { useTranslation } from "@hooks/useTranslation";
 
 interface IConclusion {
 	conclusion: ConclusionTypes;
@@ -15,6 +14,8 @@ interface IConclusion {
 }
 
 export const Conclusion = ({ conclusion, SHIELD_SIZE, style }: IConclusion): JSX.Element => {
+	const { t } = useTranslation();
+
 	if (!conclusion) {
 		return <></>;
 	}
@@ -31,9 +32,7 @@ export const Conclusion = ({ conclusion, SHIELD_SIZE, style }: IConclusion): JSX
 			) : (
 				<ShieldSvg width={SHIELD_SIZE} height={SHIELD_SIZE} />
 			)}
-			<Text style={s.conclusion__title__text}>
-				{capitalizeFirstLetter(conclusion)} {t("Product")}
-			</Text>
+			<Text style={s.conclusion__title__text}>{t("TourProductStatus")}</Text>
 		</View>
 	);
 };
