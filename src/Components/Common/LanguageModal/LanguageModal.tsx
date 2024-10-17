@@ -12,7 +12,7 @@ interface LanguageModalProps {
 }
 
 const LanguageModal: React.FC<LanguageModalProps> = ({ modalVisible, onClose }) => {
-	const { t } = useTranslation("languageModal");
+	const { t } = useTranslation();
 	const [selectedLanguage, setSelectedLanguage] = useState("");
 
 	useEffect(() => {
@@ -34,19 +34,23 @@ const LanguageModal: React.FC<LanguageModalProps> = ({ modalVisible, onClose }) 
 			<View style={s.language_modal_inner_container}>
 				<Text style={s.language_modal_title}>{t("AppLanguage")}</Text>
 				<ScrollView>
-					{language.map((item) => (
-						<View key={item.id} style={s.language_modal_details}>
+					{language.map((item, index) => (
+						<TouchableOpacity
+							key={item.id}
+							style={[
+								s.language_modal_details,
+								index % 2 === 0 ? s.language_modal_item_even : s.language_modal_item_odd,
+								selectedLanguage === item.link && s.language_modal_item_selected,
+							]}
+							onPress={() => handleLangChange(item.link)}
+						>
 							<Text
-								style={[
-									{ color: selectedLanguage === item.link ? s.language_modal_selected_text.color : "black" },
-									s.language_modal_item_text,
-								]}
-								onPress={() => handleLangChange(item.link)}
+								style={[s.language_modal_item_text, selectedLanguage === item.link && s.language_modal_selected_text]}
 							>
 								{t(item.title)}
 							</Text>
 							<Text style={s.language_modal_sub_text}>{item.nativeName}</Text>
-						</View>
+						</TouchableOpacity>
 					))}
 				</ScrollView>
 				<TouchableOpacity style={s.language_modal_close_button} onPress={onClose}>

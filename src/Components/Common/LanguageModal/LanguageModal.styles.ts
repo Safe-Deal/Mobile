@@ -33,10 +33,21 @@ const styles = StyleSheet.create({
 		width: "100%",
 	},
 	language_modal_details: {
-		marginBottom: height(2),
+		padding: height(1.5),
+		borderRadius: width(1),
+	},
+	language_modal_item_even: {
+		backgroundColor: "rgba(0, 0, 0, 0.02)", // Very light gray
+	},
+	language_modal_item_odd: {
+		backgroundColor: "rgba(0, 0, 0, 0)", // Transparent (same as background)
+	},
+	language_modal_item_selected: {
+		backgroundColor: Theme.primary + "10", // 10 is for 6% opacity
 	},
 	language_modal_selected_text: {
 		color: Theme.goGreen,
+		fontWeight: "bold",
 	},
 	language_modal_close_button: {
 		backgroundColor: Theme.primary,
