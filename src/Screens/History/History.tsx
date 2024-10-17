@@ -4,7 +4,7 @@ import { useTranslation } from "@hooks/useTranslation";
 import s from "./History.styles";
 
 const History = (): ReactElement => {
-	const { t } = useTranslation("history");
+	const { t } = useTranslation();
 
 	return (
 		<View style={s.container}>

@@ -48,7 +48,7 @@ const urlForDisplay = (url: string | undefined): string | undefined => {
 export const SearchBar = ({ value, onReload, onChangeText, onSubmitEditing }: URLInputProps) => {
 	const [isEditing, setIsEditing] = useState(false);
 	const [searchBoxText, setSearchBoxText] = useState(value);
-	const { t } = useTranslation("search");
+	const { t } = useTranslation();
 	const displayValue = isEditing ? searchBoxText : urlForDisplay(searchBoxText);
 
 	useEffect(() => {

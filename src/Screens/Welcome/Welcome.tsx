@@ -6,7 +6,7 @@ import { useOnboardContext } from "../../Context/onBoardContext";
 import styles from "./Welcome.styles";
 
 const Welcome = (): ReactElement => {
-	const { t } = useTranslation("welcome");
+	const { t } = useTranslation();
 	const { setActiveUrl } = useAppContext();
 
 	const { toggleOnboard, toggleShowTooltip } = useOnboardContext();
