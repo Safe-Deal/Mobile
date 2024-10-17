@@ -4,7 +4,7 @@ import { Menu } from "react-native-paper";
 import { useDispatch, useSelector } from "react-redux";
 import CustomModal from "../../Components/Common/CustomModal/CustomModal";
 import { addLink, deleteLink, updateModalVisibility } from "../../Redux/HomeLinks/HomeLinks";
-import { Images } from "../../Shared/Constants";
+import { DEFAULT_LINKS, Images } from "../../Shared/Constants";
 import s from "./HomeScreen.styles";
 import { useTranslation } from "@hooks/useTranslation";
 
@@ -61,12 +61,7 @@ const HomeScreen = ({ setUrl, setIsHomeActive, setActiveEventHTML }: HomeScreenP
 		setIsHomeActive(false);
 		setActiveEventHTML(null);
 
-		const urlMap: { [key: string]: string } = {
-			AliExpress: "https://www.aliexpress.us/item/3256806683079972.html",
-			Amazon: "https://www.amazon.com/n/dp/B0B6JC1L15",
-			eBay: "https://www.ebay.com/itm/356127144832",
-			"": "",
-		};
+		const urlMap: { [key: string]: string } = DEFAULT_LINKS;
 
 		setUrl(urlMap[link] || link);
 	};

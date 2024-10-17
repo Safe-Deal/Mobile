@@ -9,9 +9,7 @@ const basePath = "../../assets";
 
 const Images = {
 	amazonLogo: require(`${basePath}/amazon.png`),
-	// eslint-disable-next-line @typescript-eslint/no-var-requires
 	aliexpress: require(`${basePath}/aliexpress.png`),
-	// eslint-disable-next-line @typescript-eslint/no-var-requires
 	eBay: require(`${basePath}/ebay.png`),
 	profile: require(`${basePath}/profile.png`),
 	add: require(`${basePath}/add.png`),
@@ -21,6 +19,7 @@ const Images = {
 	surface: require(`${basePath}/surface.png`),
 	kebab: require(`${basePath}/kebab.png`),
 };
+
 const NAV_TYPE_CLICK = "click";
 
 const siteNames = Object.freeze({
@@ -85,6 +84,13 @@ enum TabTypes {
 const isWeb: boolean = Platform.OS === "web";
 const isIos: boolean = Platform.OS === "ios";
 const isAndroid: boolean = Platform.OS === "android";
+
+export const DEFAULT_LINKS = {
+	AliExpress: "https://www.aliexpress.us/item/3256806683079972.html",
+	Amazon: "https://www.amazon.com/n/dp/B0B6JC1L15",
+	eBay: "https://www.ebay.com/itm/356127144832",
+	"": "",
+};
 
 export {
 	BACKGROUND_FETCH_TASK,
