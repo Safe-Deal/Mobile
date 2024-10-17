@@ -22,6 +22,8 @@ import { Menu } from "../../Menu/Menu";
 import { SearchBar } from "../../Menu/Components/UrlTextbox";
 import s from "./BrowserFooter.styles";
 import { ConclusionIcon } from "./Components/ConclusionIcon";
+import { useTranslation } from "@hooks/useTranslation";
+import { debug } from "@utils/Analytics";
 
 const Tab = createBottomTabNavigator();
 const BOTTOM_ICONS_SIZE = height(4);
@@ -111,7 +113,7 @@ const BrowserFooterContent = () => {
 	const { start, canStart, eventEmitter, stop } = useTourGuideController("tour1");
 	const navigation = useNavigation();
 	const [isLanguageModalVisible, setIsLanguageModalVisible] = useState(false);
-
+	const { t } = useTranslation(["search", "menu", "stores"]);
 	useEffect(() => {
 		if (showTooltip && canStart && allProductsState?.product?.conclusion) {
 			start();
@@ -120,8 +122,12 @@ const BrowserFooterContent = () => {
 
 	useEffect(() => {
 		if (eventEmitter) {
-			const handleOnStart = () => console.log("start");
-			const handleOnStop = () => {};
+			const handleOnStart = () => {
+				debug("start");
+			};
+			const handleOnStop = () => {
+				debug("stop");
+			};
 			const handleOnStepChange = (event) => {
 				if (event?.order > 1) {
 					stop();

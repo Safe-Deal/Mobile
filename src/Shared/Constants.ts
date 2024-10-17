@@ -1,13 +1,17 @@
 import Constants from "expo-constants";
 import { Platform } from "react-native";
+import { LANGUAGES } from "../i18n/i18nResources";
 
 const BACKGROUND_FETCH_TASK = "fetch-html-background";
 const IS_IN_EXPO_GO = Constants.appOwnership === "expo";
 
 const basePath = "../../assets";
+
 const Images = {
 	amazonLogo: require(`${basePath}/amazon.png`),
+	// eslint-disable-next-line @typescript-eslint/no-var-requires
 	aliexpress: require(`${basePath}/aliexpress.png`),
+	// eslint-disable-next-line @typescript-eslint/no-var-requires
 	eBay: require(`${basePath}/ebay.png`),
 	profile: require(`${basePath}/profile.png`),
 	add: require(`${basePath}/add.png`),
@@ -44,20 +48,12 @@ const defaultLink = [
 	},
 ];
 
-const language = [
-	{
-		id: 1,
-		title: "english",
-		nativeName: "English",
-		link: "en",
-	},
-	{
-		id: 2,
-		title: "French",
-		nativeName: "French",
-		link: "fr",
-	},
-];
+const language = LANGUAGES.map((item, index) => ({
+	id: index,
+	title: item.name,
+	nativeName: item.name,
+	link: item.code,
+}));
 
 const actionList = [
 	{
