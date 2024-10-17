@@ -7,7 +7,7 @@ import cs from "./locales/cs.json";
 import da from "./locales/da.json";
 import de from "./locales/de.json";
 import el from "./locales/el.json";
-import en from "./locales/en.json";
+import en from "./locales/en_US.json";
 import en_AU from "./locales/en_AU.json";
 import en_GB from "./locales/en_GB.json";
 import en_US from "./locales/en_US.json";
