@@ -1,0 +1,59 @@
+{
+	"analyze": {
+		"product-insights": "Insights",
+		"ai-insights": "Reviews",
+		"images": "Images",
+		"videos": "Videos",
+		"no-ai-insights": "AI review insights are unavailable for this product.",
+		"no-images": "No customer photos are available for this product yet.",
+		"Photos from Customers": "Photos from Customers"
+	},
+	"search": {
+		"Search or type URL": "Search or type URL"
+	},
+	"stores": {
+		"share-to-friends": "Check out this interesting app I found:\nSafe Deal - protect yourself from bad deals, scams, and poor service.\nVisit: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+		"AliExpress": "AliExpress",
+		"Amazon": "Amazon",
+		"eBay": "eBay",
+		"Add Link": "Add Link",
+		"Title like 'Temu':": "Title like 'Temu':",
+		"Link like https://www.temu.com/": "Link like https://www.temu.com/",
+		"Add": "Add",
+		"Cancel": "Cancel",
+		"Delete": "Delete"
+	},
+	"history": {
+		"History": "History"
+	},
+	"settingList": {
+		"profile": "Profile",
+		"Settings": "Settings",
+		"Change Language": "Change Language",
+		"Help Center": "Help Center",
+		"english": "English",
+		"French": "Français"
+	},
+	"global": {
+		"An error has occurred": "Oops! Our deal detectives are on it! 🕵️‍♂️🛍️ Hang tight!",
+		"Close": "Close"
+	},
+	"menu": {
+		"About": "About",
+		"Support": "Support",
+		"Share": "Share",
+		"aboutTitle": "Tell your friends and family about SafeDeal",
+		"Desktop App": "Desktop App",
+		"facebook": "Facebook",
+		"twitter": "Twitter",
+		"whatsapp": "WhatsApp",
+		"linkedin": "LinkedIn",
+		"telegram": "Telegram",
+		"reddit": "Reddit",
+		"email": "Email",
+		"suggestFeature": "We value your feedback!",
+		"freeToUseTitle": "Why is free to use?",
+		"freeToUseDesc": "Using our service is free for you. When you make a purchase, the store pays us a small fee for guiding you to the best product.",
+		"dataPrivacyDesc": "We use publicly available data only, ensuring no brand or shop influences our recommendations."
+	}
+}

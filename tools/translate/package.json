@@ -5,7 +5,7 @@
 	"scripts": {
 		"translate": "clear && run-s do:init do:translate do:del:previous do:create-dirs do:copy do:cleanup",
 		"do:init": "cp ../../src/i18n/locales/en_US.json ./en_US.json",
-		"do:translate": "translate-json en_US hi,he,ru,ar,bn,zh_CN,pt,fr,es,am,bg,ca,cs,da,de,el,en_AU,en_GB,es_419,et,fa,fi,fil,gu,hr,hu,it,ja,kn,ko,lt,lv,ml,mr,ms,nl,no,pl,pt_BR,pt_PT,ro,sk,sl,sr,sv,sw,ta,te,th,tr,uk,vi,zh_TW,id AIzaSyDgAtTQgSF-smawbZBb1oI7gf1FgbYhGQY",
+		"do:translate": "translate-json en_US hi,he,ru,ar,bn,zh_CN,pt,fr,es,am,bg,ca,cs,da,de,el,en_AU,en_GB,es_419,et,fa,fi,fil,gu,hr,hu,it,ja,kn,ko,lt,lv,ml,mr,ms,nl,no,pl,pt_BR,pt_PT,ro,sk,sl,sr,sv,sw,ta,te,th,tr,uk,vi,zh_TW,id $GOOGLE_TRANSLATE_API_KEY",
 		"do:del:previous": "find ../../src/i18n/locales -type f -name '*.json' -delete",
 		"do:copy": "run-s do:copy:ar do:copy:bn do:copy:en_US do:copy:es do:copy:fr do:copy:he do:copy:hi do:copy:id do:copy:pt do:copy:ru do:copy:zh_CN do:copy:am do:copy:bg do:copy:ca do:copy:cs do:copy:da do:copy:de do:copy:el do:copy:en_AU do:copy:en_GB do:copy:es_419 do:copy:et do:copy:fa do:copy:fi do:copy:fil do:copy:gu do:copy:hr do:copy:hu do:copy:it do:copy:ja do:copy:kn do:copy:ko do:copy:lt do:copy:lv do:copy:ml do:copy:mr do:copy:ms do:copy:nl do:copy:no do:copy:pl do:copy:pt_BR do:copy:pt_PT do:copy:ro do:copy:sk do:copy:sl do:copy:sr do:copy:sv do:copy:sw do:copy:ta do:copy:te do:copy:th do:copy:tr do:copy:uk do:copy:vi do:copy:zh_TW",
 		"do:cleanup": "find . -maxdepth 1 -type f -name '*.json' ! -name 'package.json' -delete",
