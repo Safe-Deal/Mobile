@@ -3,7 +3,6 @@ import { useOnboardContext } from "@context/onBoardContext";
 import { BottomTabBar, createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { useNavigation } from "@react-navigation/native";
 import { ConclusionTypes, Images } from "@shared/Constants";
-import { t } from "i18next";
 import React, { useEffect, useState } from "react";
 import { Image, TouchableOpacity, View } from "react-native";
 import { useDispatch, useSelector } from "react-redux";
@@ -242,7 +241,7 @@ const BrowserFooterContent = () => {
 							<TourGuideZone
 								tourKey="tour1"
 								zone={0}
-								text={t("tourKeys:HomeScreen")}
+								text={t("HomeScreen")}
 								borderRadius={16}
 								style={s.borwser_footer_tourguide_style}
 							>
