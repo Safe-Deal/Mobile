@@ -1,81 +1,83 @@
 {
-	"analyze": {
-		"product-insights": "Mga Insight",
-		"ai-insights": "Mga pagsusuri",
-		"images": "Mga imahe",
-		"videos": "Mga video",
-		"no-ai-insights": "Hindi available ang mga insight sa pagsusuri ng AI para sa produktong ito.",
-		"no-images": "Wala pang available na larawan ng customer para sa produktong ito.",
-		"Photos from Customers": "Mga larawan mula sa Mga Customer"
-	},
-	"search": {
-		"Search or enter website": "Maghanap o magpasok ng website"
-	},
-	"stores": {
-		"share-to-friends": "Tingnan ang kawili-wiling app na ito na nakita ko:\nSafe Deal - protektahan ang iyong sarili mula sa masasamang deal, scam, at hindi magandang serbisyo.\nBisitahin ang: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
-		"AliExpress": "AliExpress",
-		"Amazon": "Amazon",
-		"eBay": "eBay",
-		"Add Link": "Magdagdag ng Link",
-		"Title like 'Temu':": "Pamagat tulad ng 'Temu':",
-		"Link like https://www.temu.com/": "Link tulad ng https://www.temu.com/",
-		"Add": "Idagdag",
-		"Cancel": "Kanselahin",
-		"Delete": "Tanggalin"
-	},
-	"history": {
-		"History": "Kasaysayan"
-	},
-	"settingList": {
-		"profile": "Profile",
-		"Settings": "Mga setting",
-		"Change Language": "Baguhin ang Wika",
-		"Help Center": "Help Center",
-		"AppLanguage": "Wika ng App"
-	},
-	"global": {
-		"An error has occurred": "Oops! Ang aming mga deal detective ay nasa ito! 🕵️‍♂️🛍️ Maghintay ka!",
-		"Close": "Isara",
-		"Got it": "Nakuha ko",
-		"OK": "OK"
-	},
-	"menu": {
-		"What is  Safe-Deal": "Ano ang Safe-Deal",
-		"Support": "Suporta",
-		"Share": "Ibahagi",
-		"aboutTitle": "Sabihin sa iyong mga kaibigan at pamilya ang tungkol sa SafeDeal",
-		"Desktop App": "Desktop App",
-		"facebook": "Facebook",
-		"twitter": "Twitter",
-		"whatsapp": "WhatsApp",
-		"linkedin": "LinkedIn",
-		"telegram": "Telegram",
-		"reddit": "Reddit",
-		"email": "Email",
-		"suggestFeature": "Pinahahalagahan namin ang iyong feedback!",
-		"freeToUseTitle": "Bakit libre gamitin?",
-		"freeToUseDesc": "Ang paggamit ng aming serbisyo ay libre para sa iyo. Kapag bumili ka, babayaran kami ng tindahan ng maliit na bayad para sa paggabay sa iyo sa pinakamahusay na produkto.",
-		"dataPrivacyDesc": "Gumagamit lang kami ng data na available sa publiko, tinitiyak na walang tatak o tindahan ang nakakaimpluwensya sa aming mga rekomendasyon."
-	},
-	"WelcomeTour": {
-		"TourNext": "Susunod",
-		"TourPrevious": "Nakaraang",
-		"TourHomeScreen": "Home Screen: I-access ang lahat ng pangunahing feature ng app mula rito.",
-		"TourProductStatus": "Katayuan ng Produkto: Inirerekomenda, Mag-ingat, Hindi Inirerekomenda",
-		"TourInsightsTab": "Mga Insight sa Produkto &Kumuha ng mga detalyadong insight tungkol sa performance, katanyagan, at mga trend ng presyo ng produkto. Maghanap ng mga color-coded indicator (pula/dilaw/berde) upang mabilis na masuri ang kalidad at pagiging maaasahan ng produkto.",
-		"TourReviewsTab": "Mga Review ng Customer &Basahin ang mga review at rating ng customer upang matulungan kang gumawa ng matalinong desisyon sa pagbili.",
-		"TourImagesTab": "Mga Larawan ng Produkto at Tingnan ang mga larawan ng produkto mula sa iba't ibang mga anggulo, kabilang ang mga larawang na-upload ng customer.",
-		"TourVideosTab": "Mga Video ng Produkto at Manood ng mga pagsusuri sa video at mga demonstrasyon ng produkto.",
-		"TourFinishTitle": "Handa ka na!",
-		"TourFinishDescription": "Alam mo na ngayon ang mga pangunahing feature ng Safe Deal. Simulan ang paggalugad at maligayang pamimili!",
-		"How to Analyze Any Product": "Paano Pag-aralan ang Anumang Produkto",
-		"TourShareStep1Title": "Hakbang 1",
-		"TourShareStep1Description": "Ibahagi mula sa Amazon, AliExpress, eBay app, o isang browser",
-		"TourShareStep2Title": "Hakbang 2",
-		"TourShareStep2Description": "Pumunta sa pahina ng produkto, Piliin ang Produkto",
-		"TourShareStep3Title": "Hakbang 3",
-		"TourShareStep3Description": "Sa page ng produkto, i-tap ang button na ibahagi",
-		"TourShareStep4Title": "Hakbang 4",
-		"TourShareStep4Description": "Piliin ang Ligtas na Deal mula sa listahan"
-	}
+  "analyze": {
+    "product-insights": "Mga Insight",
+    "ai-insights": "Mga pagsusuri",
+    "images": "Mga imahe",
+    "videos": "Mga video",
+    "no-ai-insights": "Hindi available ang mga insight sa pagsusuri ng AI para sa produktong ito.",
+    "no-images": "Wala pang available na larawan ng customer para sa produktong ito.",
+    "Photos from Customers": "Mga larawan mula sa Mga Customer"
+  },
+  "search": {
+    "Search or enter website": "Maghanap o magpasok ng website"
+  },
+  "stores": {
+    "share-to-friends": "Tingnan ang kawili-wiling app na ito na nakita ko:\nSafe Deal - protektahan ang iyong sarili mula sa masasamang deal, scam, at hindi magandang serbisyo.\nBisitahin ang: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+    "AliExpress": "AliExpress",
+    "Amazon": "Amazon",
+    "eBay": "eBay",
+    "Add Link": "Magdagdag ng Link",
+    "Title like 'Temu':": "Pamagat tulad ng 'Temu':",
+    "Link like https://www.temu.com/": "Link tulad ng https://www.temu.com/",
+    "Add": "Idagdag",
+    "Cancel": "Kanselahin",
+    "Delete": "Tanggalin"
+  },
+  "history": {
+    "History": "Kasaysayan"
+  },
+  "settingList": {
+    "profile": "Profile",
+    "Settings": "Mga setting",
+    "Change Language": "Baguhin ang Wika",
+    "Help Center": "Help Center",
+    "AppLanguage": "Wika ng App"
+  },
+  "global": {
+    "An error has occurred": "Oops! Ang aming mga deal detective ay nasa ito! 🕵️‍♂️🛍️ Maghintay ka!",
+    "Close": "Isara",
+    "Got it": "Nakuha ko",
+    "OK": "OK"
+  },
+  "menu": {
+    "What is  Safe-Deal": "Ano ang Safe-Deal",
+    "Support": "Suporta",
+    "Share": "Ibahagi",
+    "aboutTitle": "Sabihin sa iyong mga kaibigan at pamilya ang tungkol sa SafeDeal",
+    "Desktop App": "Desktop App",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn",
+    "telegram": "Telegram",
+    "reddit": "Reddit",
+    "email": "Email",
+    "How to use Safe-Deal": "Paano gamitin ang Safe-Deal",
+    "suggestFeature": "Pinahahalagahan namin ang iyong feedback!",
+    "freeToUseTitle": "Bakit libre gamitin?",
+    "freeToUseDesc": "Ang paggamit ng aming serbisyo ay libre para sa iyo. Kapag bumili ka, binabayaran kami ng tindahan ng maliit na bayad para sa paggabay sa iyo sa pinakamahusay na produkto.",
+    "dataPrivacyDesc": "Gumagamit lang kami ng data na available sa publiko, tinitiyak na walang tatak o tindahan ang nakakaimpluwensya sa aming mga rekomendasyon."
+  },
+  "WelcomeTour": {
+    "TourNext": "Susunod",
+    "TourPrevious": "Nakaraang",
+    "TourFinish": "Tapusin",
+    "TourHomeScreen": "Home Screen: I-access ang lahat ng pangunahing feature ng app mula rito.",
+    "TourProductStatus": "Katayuan ng Produkto: Inirerekomenda, Mag-ingat, Hindi Inirerekomenda",
+    "TourInsightsTab": "Product Insights &Kumuha ng mga detalyadong insight tungkol sa performance ng produkto, kasikatan, at mga trend ng presyo. Maghanap ng mga color-coded indicator (pula/dilaw/berde) upang mabilis na masuri ang kalidad at pagiging maaasahan ng produkto.",
+    "TourReviewsTab": "Mga Review ng Customer &Basahin ang mga review at rating ng customer upang matulungan kang gumawa ng matalinong desisyon sa pagbili.",
+    "TourImagesTab": "Mga Larawan ng Produkto at Tingnan ang mga larawan ng produkto mula sa iba't ibang mga anggulo, kabilang ang mga larawang na-upload ng customer.",
+    "TourVideosTab": "Mga Video ng Produkto at Manood ng mga pagsusuri sa video at mga demonstrasyon ng produkto.",
+    "TourFinishTitle": "Handa ka na!",
+    "TourFinishDescription": "Alam mo na ngayon ang mga pangunahing feature ng Safe Deal. Simulan ang paggalugad at maligayang pamimili!",
+    "How to Analyze Any Product": "Paano Pag-aralan ang Anumang Produkto",
+    "TourShareStep1Title": "Hakbang 1",
+    "TourShareStep1Description": "Ibahagi mula sa Amazon, AliExpress, eBay app, o isang browser",
+    "TourShareStep2Title": "Hakbang 2",
+    "TourShareStep2Description": "Pumunta sa pahina ng produkto, Piliin ang Produkto",
+    "TourShareStep3Title": "Hakbang 3",
+    "TourShareStep3Description": "Sa page ng produkto, i-tap ang button na ibahagi",
+    "TourShareStep4Title": "Hakbang 4",
+    "TourShareStep4Description": "Piliin ang Ligtas na Deal mula sa listahan"
+  }
 }

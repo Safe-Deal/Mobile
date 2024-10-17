@@ -1,81 +1,83 @@
 {
-	"analyze": {
-		"product-insights": "Thông tin chi tiết",
-		"ai-insights": "Đánh giá",
-		"images": "Hình ảnh",
-		"videos": "Video",
-		"no-ai-insights": "Không có thông tin chi tiết về đánh giá AI cho sản phẩm này.",
-		"no-images": "Hiện chưa có hình ảnh khách hàng nào có sẵn cho sản phẩm này.",
-		"Photos from Customers": "Hình ảnh từ khách hàng"
-	},
-	"search": {
-		"Search or enter website": "Tìm kiếm hoặc nhập trang web"
-	},
-	"stores": {
-		"share-to-friends": "Hãy xem ứng dụng thú vị này mà tôi tìm thấy:\nSafe Deal - bảo vệ bạn khỏi các giao dịch xấu, lừa đảo và dịch vụ kém.\nTruy cập: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
-		"AliExpress": "AliExpress",
-		"Amazon": "Amazon",
-		"eBay": "Ebay.com",
-		"Add Link": "Thêm liên kết",
-		"Title like 'Temu':": "Tiêu đề như 'Temu':",
-		"Link like https://www.temu.com/": "Liên kết như https://www.temu.com/",
-		"Add": "Thêm vào",
-		"Cancel": "Hủy bỏ",
-		"Delete": "Xóa bỏ"
-	},
-	"history": {
-		"History": "Lịch sử"
-	},
-	"settingList": {
-		"profile": "Hồ sơ",
-		"Settings": "Cài đặt",
-		"Change Language": "Thay đổi ngôn ngữ",
-		"Help Center": "Trung tâm trợ giúp",
-		"AppLanguage": "Ngôn ngữ ứng dụng"
-	},
-	"global": {
-		"An error has occurred": "Ồ! Các thám tử giao dịch của chúng tôi đang vào cuộc! 🕵️‍♂️🛍️ Hãy kiên nhẫn nhé!",
-		"Close": "Đóng",
-		"Got it": "Hiểu rồi",
-		"OK": "ĐƯỢC RỒI"
-	},
-	"menu": {
-		"What is  Safe-Deal": "Safe-Deal là gì",
-		"Support": "Ủng hộ",
-		"Share": "Chia sẻ",
-		"aboutTitle": "Hãy cho bạn bè và gia đình của bạn biết về SafeDeal",
-		"Desktop App": "Ứng dụng máy tính để bàn",
-		"facebook": "Facebook",
-		"twitter": "Twitter",
-		"whatsapp": "WhatsApp",
-		"linkedin": "Linkedin",
-		"telegram": "Điện tín",
-		"reddit": "Reddit",
-		"email": "E-mail",
-		"suggestFeature": "Chúng tôi đánh giá cao phản hồi của bạn!",
-		"freeToUseTitle": "Tại sao lại miễn phí khi sử dụng?",
-		"freeToUseDesc": "Sử dụng dịch vụ của chúng tôi là miễn phí cho bạn. Khi bạn mua hàng, cửa hàng sẽ trả cho chúng tôi một khoản phí nhỏ để hướng dẫn bạn đến với sản phẩm tốt nhất.",
-		"dataPrivacyDesc": "Chúng tôi chỉ sử dụng dữ liệu có sẵn công khai, đảm bảo không có thương hiệu hoặc cửa hàng nào ảnh hưởng đến các đề xuất của chúng tôi."
-	},
-	"WelcomeTour": {
-		"TourNext": "Kế tiếp",
-		"TourPrevious": "Trước",
-		"TourHomeScreen": "Màn hình chính: Truy cập tất cả các tính năng chính của ứng dụng từ đây.",
-		"TourProductStatus": "Trạng thái sản phẩm: Khuyến nghị, Thận trọng, Không khuyến nghị",
-		"TourInsightsTab": "Thông tin chi tiết về sản phẩm & Nhận thông tin chi tiết về hiệu suất, mức độ phổ biến và xu hướng giá của sản phẩm. Tìm kiếm các chỉ báo được mã hóa màu (đỏ/vàng/xanh lá cây) để nhanh chóng đánh giá chất lượng và độ tin cậy của sản phẩm.",
-		"TourReviewsTab": "Đánh giá của khách hàng & Đọc đánh giá và xếp hạng của khách hàng để giúp bạn đưa ra quyết định mua hàng sáng suốt.",
-		"TourImagesTab": "Hình ảnh sản phẩm & Xem hình ảnh sản phẩm từ nhiều góc độ khác nhau, bao gồm cả ảnh do khách hàng tải lên.",
-		"TourVideosTab": "Video sản phẩm & Xem video đánh giá và trình diễn sản phẩm.",
-		"TourFinishTitle": "Bạn đã hoàn tất!",
-		"TourFinishDescription": "Bây giờ bạn đã biết các tính năng chính của Safe Deal. Hãy bắt đầu khám phá và mua sắm vui vẻ!",
-		"How to Analyze Any Product": "Cách phân tích bất kỳ sản phẩm nào",
-		"TourShareStep1Title": "Bước 1",
-		"TourShareStep1Description": "Chia sẻ từ Amazon, AliExpress, ứng dụng eBay hoặc trình duyệt",
-		"TourShareStep2Title": "Bước 2",
-		"TourShareStep2Description": "Vào trang sản phẩm, Chọn sản phẩm",
-		"TourShareStep3Title": "Bước 3",
-		"TourShareStep3Description": "Trên trang sản phẩm, chạm vào nút chia sẻ",
-		"TourShareStep4Title": "Bước 4",
-		"TourShareStep4Description": "Chọn Giao dịch an toàn từ danh sách"
-	}
+  "analyze": {
+    "product-insights": "Thông tin chi tiết",
+    "ai-insights": "Đánh giá",
+    "images": "Hình ảnh",
+    "videos": "Video",
+    "no-ai-insights": "Không có thông tin chi tiết về đánh giá AI cho sản phẩm này.",
+    "no-images": "Hiện chưa có hình ảnh khách hàng nào có sẵn cho sản phẩm này.",
+    "Photos from Customers": "Hình ảnh từ khách hàng"
+  },
+  "search": {
+    "Search or enter website": "Tìm kiếm hoặc nhập trang web"
+  },
+  "stores": {
+    "share-to-friends": "Hãy xem ứng dụng thú vị này mà tôi tìm thấy:\nSafe Deal - bảo vệ bạn khỏi các giao dịch xấu, lừa đảo và dịch vụ kém.\nTruy cập: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+    "AliExpress": "AliExpress",
+    "Amazon": "Amazon",
+    "eBay": "Ebay.com",
+    "Add Link": "Thêm liên kết",
+    "Title like 'Temu':": "Tiêu đề như 'Temu':",
+    "Link like https://www.temu.com/": "Liên kết như https://www.temu.com/",
+    "Add": "Thêm vào",
+    "Cancel": "Hủy bỏ",
+    "Delete": "Xóa bỏ"
+  },
+  "history": {
+    "History": "Lịch sử"
+  },
+  "settingList": {
+    "profile": "Hồ sơ",
+    "Settings": "Cài đặt",
+    "Change Language": "Thay đổi ngôn ngữ",
+    "Help Center": "Trung tâm trợ giúp",
+    "AppLanguage": "Ngôn ngữ ứng dụng"
+  },
+  "global": {
+    "An error has occurred": "Ồ! Các thám tử giao dịch của chúng tôi đang vào cuộc! 🕵️‍♂️🛍️ Hãy kiên nhẫn nhé!",
+    "Close": "Đóng",
+    "Got it": "Hiểu rồi",
+    "OK": "ĐƯỢC RỒI"
+  },
+  "menu": {
+    "What is  Safe-Deal": "Safe-Deal là gì",
+    "Support": "Ủng hộ",
+    "Share": "Chia sẻ",
+    "aboutTitle": "Hãy cho bạn bè và gia đình của bạn biết về SafeDeal",
+    "Desktop App": "Ứng dụng máy tính để bàn",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "whatsapp": "WhatsApp",
+    "linkedin": "Linkedin",
+    "telegram": "Điện tín",
+    "reddit": "Reddit",
+    "email": "E-mail",
+    "How to use Safe-Deal": "Cách sử dụng Safe-Deal",
+    "suggestFeature": "Chúng tôi đánh giá cao phản hồi của bạn!",
+    "freeToUseTitle": "Tại sao lại miễn phí khi sử dụng?",
+    "freeToUseDesc": "Sử dụng dịch vụ của chúng tôi là miễn phí cho bạn. Khi bạn mua hàng, cửa hàng sẽ trả cho chúng tôi một khoản phí nhỏ để hướng dẫn bạn đến với sản phẩm tốt nhất.",
+    "dataPrivacyDesc": "Chúng tôi chỉ sử dụng dữ liệu có sẵn công khai, đảm bảo không có thương hiệu hoặc cửa hàng nào ảnh hưởng đến các đề xuất của chúng tôi."
+  },
+  "WelcomeTour": {
+    "TourNext": "Kế tiếp",
+    "TourPrevious": "Trước",
+    "TourFinish": "Hoàn thành",
+    "TourHomeScreen": "Màn hình chính: Truy cập tất cả các tính năng chính của ứng dụng từ đây.",
+    "TourProductStatus": "Trạng thái sản phẩm: Khuyến nghị, Thận trọng, Không khuyến nghị",
+    "TourInsightsTab": "Thông tin chi tiết về sản phẩm & Nhận thông tin chi tiết về hiệu suất, mức độ phổ biến và xu hướng giá của sản phẩm. Tìm kiếm các chỉ báo được mã hóa màu (đỏ/vàng/xanh lá cây) để nhanh chóng đánh giá chất lượng và độ tin cậy của sản phẩm.",
+    "TourReviewsTab": "Đánh giá của khách hàng & Đọc đánh giá và xếp hạng của khách hàng để giúp bạn đưa ra quyết định mua hàng sáng suốt.",
+    "TourImagesTab": "Hình ảnh sản phẩm & Xem hình ảnh sản phẩm từ nhiều góc độ khác nhau, bao gồm cả ảnh do khách hàng tải lên.",
+    "TourVideosTab": "Video sản phẩm & Xem video đánh giá và trình diễn sản phẩm.",
+    "TourFinishTitle": "Bạn đã hoàn tất!",
+    "TourFinishDescription": "Bây giờ bạn đã biết các tính năng chính của Safe Deal. Hãy bắt đầu khám phá và mua sắm vui vẻ!",
+    "How to Analyze Any Product": "Cách phân tích bất kỳ sản phẩm nào",
+    "TourShareStep1Title": "Bước 1",
+    "TourShareStep1Description": "Chia sẻ từ Amazon, AliExpress, ứng dụng eBay hoặc trình duyệt",
+    "TourShareStep2Title": "Bước 2",
+    "TourShareStep2Description": "Vào trang sản phẩm, Chọn sản phẩm",
+    "TourShareStep3Title": "Bước 3",
+    "TourShareStep3Description": "Trên trang sản phẩm, chạm vào nút chia sẻ",
+    "TourShareStep4Title": "Bước 4",
+    "TourShareStep4Description": "Chọn Giao dịch an toàn từ danh sách"
+  }
 }

@@ -1,81 +1,83 @@
 {
-	"analyze": {
-		"product-insights": "洞察",
-		"ai-insights": "レビュー",
-		"images": "画像",
-		"videos": "ビデオ",
-		"no-ai-insights": "この製品では AI レビュー インサイトは利用できません。",
-		"no-images": "この製品に関する顧客の写真はまだありません。",
-		"Photos from Customers": "お客様からの写真"
-	},
-	"search": {
-		"Search or enter website": "ウェブサイトを検索または入力"
-	},
-	"stores": {
-		"share-to-friends": "私が見つけたこの興味深いアプリをチェックしてください:\nSafe Deal - 悪い取引、詐欺、質の悪いサービスから自分を守ります。\nアクセス: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
-		"AliExpress": "AliExpress",
-		"Amazon": "アマゾン",
-		"eBay": "イーベイ",
-		"Add Link": "リンクを追加",
-		"Title like 'Temu':": "「Temu」のようなタイトル:",
-		"Link like https://www.temu.com/": "https://www.temu.com/のようなリンク",
-		"Add": "追加",
-		"Cancel": "キャンセル",
-		"Delete": "消去"
-	},
-	"history": {
-		"History": "歴史"
-	},
-	"settingList": {
-		"profile": "プロフィール",
-		"Settings": "設定",
-		"Change Language": "言語を変更",
-		"Help Center": "ヘルプセンター",
-		"AppLanguage": "アプリの言語"
-	},
-	"global": {
-		"An error has occurred": "おっと！当社のお買い得品調査員が対応中です！🕵️‍♂️🛍️ お待ちください！",
-		"Close": "近い",
-		"Got it": "わかった",
-		"OK": "わかりました"
-	},
-	"menu": {
-		"What is  Safe-Deal": "セーフディールとは",
-		"Support": "サポート",
-		"Share": "共有",
-		"aboutTitle": "友人や家族にSafeDealについて伝えましょう",
-		"Desktop App": "デスクトップアプリ",
-		"facebook": "フェイスブック",
-		"twitter": "ツイッター",
-		"whatsapp": "ワッツアップ",
-		"linkedin": "リンクトイン",
-		"telegram": "電報",
-		"reddit": "レディット",
-		"email": "メール",
-		"suggestFeature": "皆様のフィードバックをお待ちしております！",
-		"freeToUseTitle": "なぜ無料で使えるのですか?",
-		"freeToUseDesc": "当社のサービスは無料でご利用いただけます。ご購入の際には、最適な商品をご案内する対価として、店舗から当社に少額の手数料をお支払いいただきます。",
-		"dataPrivacyDesc": "当社は公開されているデータのみを使用し、ブランドやショップが当社の推奨事項に影響を与えないようにしています。"
-	},
-	"WelcomeTour": {
-		"TourNext": "次",
-		"TourPrevious": "前の",
-		"TourHomeScreen": "ホーム画面: ここからアプリのすべての主要機能にアクセスできます。",
-		"TourProductStatus": "製品ステータス: 推奨、注意、非推奨",
-		"TourInsightsTab": "製品の洞察 &製品のパフォーマンス、人気、価格動向に関する詳細な洞察を得られます。色分けされたインジケーター (赤/黄/緑) を確認して、製品の品質と信頼性をすばやく評価します。",
-		"TourReviewsTab": "顧客レビュー & 顧客レビューと評価を読んで、情報に基づいた購入決定を下すのに役立ちます。",
-		"TourImagesTab": "商品画像&お客様がアップロードした写真を含め、さまざまな角度から商品の画像を表示します。",
-		"TourVideosTab": "製品ビデオ &製品のビデオレビューとデモンストレーションをご覧ください。",
-		"TourFinishTitle": "準備完了です！",
-		"TourFinishDescription": "これで、Safe Deal の主な特徴がわかりました。探索を始めて、楽しいショッピングをお楽しみください!",
-		"How to Analyze Any Product": "あらゆる製品を分析する方法",
-		"TourShareStep1Title": "ステップ1",
-		"TourShareStep1Description": "Amazon、AliExpress、eBayアプリ、またはブラウザから共有",
-		"TourShareStep2Title": "ステップ2",
-		"TourShareStep2Description": "製品ページに移動し、製品を選択してください",
-		"TourShareStep3Title": "ステップ3",
-		"TourShareStep3Description": "商品ページで共有ボタンをタップします",
-		"TourShareStep4Title": "ステップ4",
-		"TourShareStep4Description": "リストから安全な取引を選択する"
-	}
+  "analyze": {
+    "product-insights": "洞察",
+    "ai-insights": "レビュー",
+    "images": "画像",
+    "videos": "ビデオ",
+    "no-ai-insights": "この製品では AI レビュー インサイトは利用できません。",
+    "no-images": "この製品に関する顧客の写真はまだありません。",
+    "Photos from Customers": "お客様からの写真"
+  },
+  "search": {
+    "Search or enter website": "ウェブサイトを検索または入力"
+  },
+  "stores": {
+    "share-to-friends": "私が見つけたこの興味深いアプリをチェックしてください:\nSafe Deal - 悪い取引、詐欺、質の悪いサービスから自分を守ります。\nアクセス: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+    "AliExpress": "AliExpress",
+    "Amazon": "アマゾン",
+    "eBay": "イーベイ",
+    "Add Link": "リンクを追加",
+    "Title like 'Temu':": "「Temu」のようなタイトル:",
+    "Link like https://www.temu.com/": "https://www.temu.com/のようなリンク",
+    "Add": "追加",
+    "Cancel": "キャンセル",
+    "Delete": "消去"
+  },
+  "history": {
+    "History": "歴史"
+  },
+  "settingList": {
+    "profile": "プロフィール",
+    "Settings": "設定",
+    "Change Language": "言語を変更",
+    "Help Center": "ヘルプセンター",
+    "AppLanguage": "アプリの言語"
+  },
+  "global": {
+    "An error has occurred": "おっと！当社のお買い得品調査員が対応中です！🕵️‍♂️🛍️ お待ちください！",
+    "Close": "近い",
+    "Got it": "わかった",
+    "OK": "わかりました"
+  },
+  "menu": {
+    "What is  Safe-Deal": "セーフディールとは",
+    "Support": "サポート",
+    "Share": "共有",
+    "aboutTitle": "友人や家族にSafeDealについて伝えましょう",
+    "Desktop App": "デスクトップアプリ",
+    "facebook": "フェイスブック",
+    "twitter": "ツイッター",
+    "whatsapp": "ワッツアップ",
+    "linkedin": "リンクトイン",
+    "telegram": "電報",
+    "reddit": "レディット",
+    "email": "メール",
+    "How to use Safe-Deal": "Safe-Dealの使い方",
+    "suggestFeature": "皆様のフィードバックをお待ちしております！",
+    "freeToUseTitle": "なぜ無料で使えるのですか?",
+    "freeToUseDesc": "当社のサービスは無料でご利用いただけます。ご購入の際には、最適な商品をご案内する対価として、店舗から当社に少額の手数料をお支払いいただきます。",
+    "dataPrivacyDesc": "当社は公開されているデータのみを使用し、ブランドやショップが当社の推奨事項に影響を与えないようにしています。"
+  },
+  "WelcomeTour": {
+    "TourNext": "次",
+    "TourPrevious": "前の",
+    "TourFinish": "仕上げる",
+    "TourHomeScreen": "ホーム画面: ここからアプリのすべての主要機能にアクセスできます。",
+    "TourProductStatus": "製品ステータス: 推奨、注意、非推奨",
+    "TourInsightsTab": "製品の洞察 &製品のパフォーマンス、人気、価格動向に関する詳細な洞察を得られます。色分けされたインジケーター (赤/黄/緑) を確認して、製品の品質と信頼性をすばやく評価します。",
+    "TourReviewsTab": "顧客レビュー & 顧客レビューと評価を読んで、情報に基づいた購入決定を下すのに役立ちます。",
+    "TourImagesTab": "商品画像&お客様がアップロードした写真を含め、さまざまな角度から商品の画像を表示します。",
+    "TourVideosTab": "製品ビデオ &製品のビデオレビューとデモンストレーションをご覧ください。",
+    "TourFinishTitle": "準備完了です！",
+    "TourFinishDescription": "これで、Safe Deal の主な特徴がわかりました。探索を始めて、楽しいショッピングをお楽しみください!",
+    "How to Analyze Any Product": "あらゆる製品を分析する方法",
+    "TourShareStep1Title": "ステップ1",
+    "TourShareStep1Description": "Amazon、AliExpress、eBayアプリ、またはブラウザから共有",
+    "TourShareStep2Title": "ステップ2",
+    "TourShareStep2Description": "製品ページに移動し、製品を選択してください",
+    "TourShareStep3Title": "ステップ3",
+    "TourShareStep3Description": "商品ページで共有ボタンをタップします",
+    "TourShareStep4Title": "ステップ4",
+    "TourShareStep4Description": "リストから安全な取引を選択する"
+  }
 }

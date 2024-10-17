@@ -1,81 +1,83 @@
 {
-	"analyze": {
-		"product-insights": "Vpogledi",
-		"ai-insights": "Ocene",
-		"images": "Slike",
-		"videos": "Videoposnetki",
-		"no-ai-insights": "Vpogledi v preglede AI niso na voljo za ta izdelek.",
-		"no-images": "Za ta izdelek še ni na voljo nobene fotografije strank.",
-		"Photos from Customers": "Fotografije strank"
-	},
-	"search": {
-		"Search or enter website": "Iščite ali vnesite spletno mesto"
-	},
-	"stores": {
-		"share-to-friends": "Oglejte si to zanimivo aplikacijo, ki sem jo našel:\nVaren posel - zaščitite se pred slabimi posli, prevarami in slabimi storitvami.\nObiščite: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
-		"AliExpress": "AliExpress",
-		"Amazon": "Amazon",
-		"eBay": "eBay",
-		"Add Link": "Dodaj povezavo",
-		"Title like 'Temu':": "Naslov kot 'Temu':",
-		"Link like https://www.temu.com/": "Povezava kot https://www.temu.com/",
-		"Add": "Dodaj",
-		"Cancel": "Prekliči",
-		"Delete": "Izbriši"
-	},
-	"history": {
-		"History": "Zgodovina"
-	},
-	"settingList": {
-		"profile": "Profil",
-		"Settings": "nastavitve",
-		"Change Language": "Spremeni jezik",
-		"Help Center": "Center za pomoč",
-		"AppLanguage": "Jezik aplikacije"
-	},
-	"global": {
-		"An error has occurred": "Ups! Naši detektivi se ukvarjajo s tem! 🕵️‍♂️🛍️ Drži se!",
-		"Close": "Zapri",
-		"Got it": "Razumem",
-		"OK": "OK"
-	},
-	"menu": {
-		"What is  Safe-Deal": "Kaj je Safe-Deal",
-		"Support": "Podpora",
-		"Share": "Delite",
-		"aboutTitle": "Povejte svojim prijateljem in družini o SafeDeal",
-		"Desktop App": "Namizna aplikacija",
-		"facebook": "Facebook",
-		"twitter": "Twitter",
-		"whatsapp": "WhatsApp",
-		"linkedin": "LinkedIn",
-		"telegram": "Telegram",
-		"reddit": "Reddit",
-		"email": "E-pošta",
-		"suggestFeature": "Cenimo vaše povratne informacije!",
-		"freeToUseTitle": "Zakaj je uporaba brezplačna?",
-		"freeToUseDesc": "Uporaba naše storitve je za vas brezplačna. Ko opravite nakup, nam trgovina plača majhno nadomestilo, da vas vodimo do najboljšega izdelka.",
-		"dataPrivacyDesc": "Uporabljamo samo javno dostopne podatke in zagotavljamo, da nobena blagovna znamka ali trgovina ne vpliva na naša priporočila."
-	},
-	"WelcomeTour": {
-		"TourNext": "Naprej",
-		"TourPrevious": "Prejšnja",
-		"TourHomeScreen": "Začetni zaslon: od tu dostopajte do vseh glavnih funkcij aplikacije.",
-		"TourProductStatus": "Status izdelka: Priporočeno, Pozor, Ni priporočljivo",
-		"TourInsightsTab": "Vpogled v izdelek &Pridobite podrobne vpoglede v delovanje, priljubljenost in cenovne trende izdelka. Poiščite barvno kodirane indikatorje (rdeča/rumena/zelena), da hitro ocenite kakovost in zanesljivost izdelka.",
-		"TourReviewsTab": "Ocene strank &Preberite ocene in ocene strank, da se boste lažje odločili za nakup.",
-		"TourImagesTab": "Slike izdelkov & Oglejte si slike izdelka iz različnih zornih kotov, vključno s fotografijami, ki jih naložijo stranke.",
-		"TourVideosTab": "Video posnetki izdelkov & Oglejte si video ocene in predstavitve izdelka.",
-		"TourFinishTitle": "Vse je pripravljeno!",
-		"TourFinishDescription": "Zdaj poznate ključne funkcije Safe Deal. Začnite raziskovati in srečno nakupovanje!",
-		"How to Analyze Any Product": "Kako analizirati kateri koli izdelek",
-		"TourShareStep1Title": "1. korak",
-		"TourShareStep1Description": "Delite iz Amazona, AliExpressa, aplikacije eBay ali brskalnika",
-		"TourShareStep2Title": "2. korak",
-		"TourShareStep2Description": "Pojdite na stran izdelka, izberite izdelek",
-		"TourShareStep3Title": "3. korak",
-		"TourShareStep3Description": "Na strani izdelka tapnite gumb za skupno rabo",
-		"TourShareStep4Title": "4. korak",
-		"TourShareStep4Description": "Na seznamu izberite Safe Deal"
-	}
+  "analyze": {
+    "product-insights": "Vpogledi",
+    "ai-insights": "Ocene",
+    "images": "Slike",
+    "videos": "Videoposnetki",
+    "no-ai-insights": "Vpogledi v preglede AI niso na voljo za ta izdelek.",
+    "no-images": "Za ta izdelek še ni na voljo nobena fotografija strank.",
+    "Photos from Customers": "Fotografije strank"
+  },
+  "search": {
+    "Search or enter website": "Iščite ali vnesite spletno mesto"
+  },
+  "stores": {
+    "share-to-friends": "Oglejte si to zanimivo aplikacijo, ki sem jo našel:\nVaren posel - zaščitite se pred slabimi posli, prevarami in slabimi storitvami.\nObiščite: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+    "AliExpress": "AliExpress",
+    "Amazon": "Amazon",
+    "eBay": "eBay",
+    "Add Link": "Dodaj povezavo",
+    "Title like 'Temu':": "Naslov kot 'Temu':",
+    "Link like https://www.temu.com/": "Povezava kot https://www.temu.com/",
+    "Add": "Dodaj",
+    "Cancel": "Prekliči",
+    "Delete": "Izbriši"
+  },
+  "history": {
+    "History": "Zgodovina"
+  },
+  "settingList": {
+    "profile": "Profil",
+    "Settings": "nastavitve",
+    "Change Language": "Spremeni jezik",
+    "Help Center": "Center za pomoč",
+    "AppLanguage": "Jezik aplikacije"
+  },
+  "global": {
+    "An error has occurred": "Ups! Naši detektivi se ukvarjajo s tem! 🕵️‍♂️🛍️ Drži se!",
+    "Close": "Zapri",
+    "Got it": "Razumem",
+    "OK": "OK"
+  },
+  "menu": {
+    "What is  Safe-Deal": "Kaj je Safe-Deal",
+    "Support": "Podpora",
+    "Share": "Delite",
+    "aboutTitle": "Povejte svojim prijateljem in družini o SafeDeal",
+    "Desktop App": "Namizna aplikacija",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn",
+    "telegram": "Telegram",
+    "reddit": "Reddit",
+    "email": "E-pošta",
+    "How to use Safe-Deal": "Kako uporabljati Safe-Deal",
+    "suggestFeature": "Cenimo vaše povratne informacije!",
+    "freeToUseTitle": "Zakaj je uporaba brezplačna?",
+    "freeToUseDesc": "Uporaba naše storitve je za vas brezplačna. Ko opravite nakup, nam trgovina plača majhno nadomestilo, da vas vodimo do najboljšega izdelka.",
+    "dataPrivacyDesc": "Uporabljamo samo javno dostopne podatke in zagotavljamo, da nobena blagovna znamka ali trgovina ne vpliva na naša priporočila."
+  },
+  "WelcomeTour": {
+    "TourNext": "Naprej",
+    "TourPrevious": "Prejšnja",
+    "TourFinish": "Končaj",
+    "TourHomeScreen": "Začetni zaslon: od tu dostopajte do vseh glavnih funkcij aplikacije.",
+    "TourProductStatus": "Status izdelka: Priporočeno, Pozor, Ni priporočljivo",
+    "TourInsightsTab": "Vpogled v izdelek &Pridobite podrobne vpoglede v delovanje, priljubljenost in cenovne trende izdelka. Poiščite barvno kodirane indikatorje (rdeča/rumena/zelena), da hitro ocenite kakovost in zanesljivost izdelka.",
+    "TourReviewsTab": "Ocene strank &Preberite ocene in ocene strank, da se boste lažje odločili za nakup.",
+    "TourImagesTab": "Slike izdelkov & Oglejte si slike izdelkov iz različnih zornih kotov, vključno s fotografijami, ki jih naložijo stranke.",
+    "TourVideosTab": "Video posnetki izdelkov & Oglejte si video ocene in predstavitve izdelka.",
+    "TourFinishTitle": "Vse je pripravljeno!",
+    "TourFinishDescription": "Zdaj poznate ključne funkcije Safe Deal. Začnite raziskovati in srečno nakupovanje!",
+    "How to Analyze Any Product": "Kako analizirati kateri koli izdelek",
+    "TourShareStep1Title": "1. korak",
+    "TourShareStep1Description": "Delite iz Amazona, AliExpressa, aplikacije eBay ali brskalnika",
+    "TourShareStep2Title": "2. korak",
+    "TourShareStep2Description": "Pojdite na stran izdelka, izberite izdelek",
+    "TourShareStep3Title": "3. korak",
+    "TourShareStep3Description": "Na strani izdelka tapnite gumb za skupno rabo",
+    "TourShareStep4Title": "4. korak",
+    "TourShareStep4Description": "Na seznamu izberite Safe Deal"
+  }
 }

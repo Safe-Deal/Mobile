@@ -1,81 +1,83 @@
 {
-	"analyze": {
-		"product-insights": "洞察",
-		"ai-insights": "评论",
-		"images": "图片",
-		"videos": "视频",
-		"no-ai-insights": "此产品不提供 AI 审核洞察。",
-		"no-images": "此产品尚未有顾客照片。",
-		"Photos from Customers": "客户照片"
-	},
-	"search": {
-		"Search or enter website": "搜索或输入网站"
-	},
-	"stores": {
-		"share-to-friends": "看看我发现的这个有趣的应用程序：\nSafe Deal - 保护自己免受不良交易、诈骗和糟糕服务的侵害。\n访问：https://www.joinsafedeal.com/go?type=safe-deal-mobile",
-		"AliExpress": "全球速卖通",
-		"Amazon": "亚马逊",
-		"eBay": "易趣",
-		"Add Link": "添加链接",
-		"Title like 'Temu':": "标题如“Temu”：",
-		"Link like https://www.temu.com/": "链接如 https://www.temu.com/",
-		"Add": "添加",
-		"Cancel": "取消",
-		"Delete": "删除"
-	},
-	"history": {
-		"History": "历史"
-	},
-	"settingList": {
-		"profile": "轮廓",
-		"Settings": "设置",
-		"Change Language": "更改语言",
-		"Help Center": "帮助中心",
-		"AppLanguage": "应用语言"
-	},
-	"global": {
-		"An error has occurred": "哎呀！我们的交易侦探正在处理此事！🕵️‍♂️🛍️ 坚持住！",
-		"Close": "关闭",
-		"Got it": "知道了",
-		"OK": "好的"
-	},
-	"menu": {
-		"What is  Safe-Deal": "什么是安全交易",
-		"Support": "支持",
-		"Share": "分享",
-		"aboutTitle": "告诉您的朋友和家人有关 SafeDeal 的信息",
-		"Desktop App": "桌面应用程序",
-		"facebook": "Facebook",
-		"twitter": "叽叽喳喳",
-		"whatsapp": "WhatsApp",
-		"linkedin": "LinkedIn",
-		"telegram": "电报",
-		"reddit": "Reddit",
-		"email": "电子邮件",
-		"suggestFeature": "我们重视您的反馈！",
-		"freeToUseTitle": "为什么可以免费使用？",
-		"freeToUseDesc": "使用我们的服务对您来说是免费的。当您购物时，商店会向我们支付一小笔费用，以指导您找到最好的产品。",
-		"dataPrivacyDesc": "我们只使用公开数据，确保没有品牌或商店影响我们的推荐。"
-	},
-	"WelcomeTour": {
-		"TourNext": "下一个",
-		"TourPrevious": "以前的",
-		"TourHomeScreen": "主屏幕：从这里访问所有主要应用程序功能。",
-		"TourProductStatus": "产品状态：推荐、谨慎、不推荐",
-		"TourInsightsTab": "产品洞察 &获取有关产品性能、受欢迎程度和价格趋势的详细洞察。查找颜色编码指示器（红色/黄色/绿色）以快速评估产品质量和可靠性。",
-		"TourReviewsTab": "客户评论和阅读客户评论和评级以帮助您做出明智的购买决定。",
-		"TourImagesTab": "产品图像 & 从各个角度查看产品图像，包括客户上传的照片。",
-		"TourVideosTab": "产品视频＆观看产品的视频评论和演示。",
-		"TourFinishTitle": "一切已就绪！",
-		"TourFinishDescription": "您现在了解了 Safe Deal 的主要功能。开始探索并快乐购物吧！",
-		"How to Analyze Any Product": "如何分析任何产品",
-		"TourShareStep1Title": "步骤 1",
-		"TourShareStep1Description": "从 Amazon、AliExpress、eBay 应用程序或浏览器共享",
-		"TourShareStep2Title": "第 2 步",
-		"TourShareStep2Description": "进入产品页面，选择产品",
-		"TourShareStep3Title": "步骤3",
-		"TourShareStep3Description": "在产品页面上，点击分享按钮",
-		"TourShareStep4Title": "步骤4",
-		"TourShareStep4Description": "从列表中选择“安全交易”"
-	}
+  "analyze": {
+    "product-insights": "洞察",
+    "ai-insights": "评论",
+    "images": "图片",
+    "videos": "视频",
+    "no-ai-insights": "此产品不提供 AI 审核洞察。",
+    "no-images": "此产品尚未有顾客照片。",
+    "Photos from Customers": "客户照片"
+  },
+  "search": {
+    "Search or enter website": "搜索或输入网站"
+  },
+  "stores": {
+    "share-to-friends": "看看我发现的这个有趣的应用程序：\nSafe Deal - 保护自己免受不良交易、诈骗和糟糕服务的侵害。\n访问：https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+    "AliExpress": "全球速卖通",
+    "Amazon": "亚马逊",
+    "eBay": "易趣",
+    "Add Link": "添加链接",
+    "Title like 'Temu':": "标题如“Temu”：",
+    "Link like https://www.temu.com/": "链接如 https://www.temu.com/",
+    "Add": "添加",
+    "Cancel": "取消",
+    "Delete": "删除"
+  },
+  "history": {
+    "History": "历史"
+  },
+  "settingList": {
+    "profile": "轮廓",
+    "Settings": "设置",
+    "Change Language": "更改语言",
+    "Help Center": "帮助中心",
+    "AppLanguage": "应用语言"
+  },
+  "global": {
+    "An error has occurred": "哎呀！我们的交易侦探正在处理此事！🕵️‍♂️🛍️ 坚持住！",
+    "Close": "关闭",
+    "Got it": "知道了",
+    "OK": "好的"
+  },
+  "menu": {
+    "What is  Safe-Deal": "什么是安全交易",
+    "Support": "支持",
+    "Share": "分享",
+    "aboutTitle": "告诉您的朋友和家人有关 SafeDeal 的信息",
+    "Desktop App": "桌面应用程序",
+    "facebook": "Facebook",
+    "twitter": "叽叽喳喳",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn",
+    "telegram": "电报",
+    "reddit": "Reddit",
+    "email": "电子邮件",
+    "How to use Safe-Deal": "如何使用 Safe-Deal",
+    "suggestFeature": "我们重视您的反馈！",
+    "freeToUseTitle": "为什么可以免费使用？",
+    "freeToUseDesc": "使用我们的服务对您来说是免费的。当您购物时，商店会向我们支付一小笔费用，以指导您找到最好的产品。",
+    "dataPrivacyDesc": "我们只使用公开数据，确保没有品牌或商店影响我们的推荐。"
+  },
+  "WelcomeTour": {
+    "TourNext": "下一个",
+    "TourPrevious": "以前的",
+    "TourFinish": "结束",
+    "TourHomeScreen": "主屏幕：从这里访问所有主要应用程序功能。",
+    "TourProductStatus": "产品状态：推荐、谨慎、不推荐",
+    "TourInsightsTab": "产品洞察 &获取有关产品性能、受欢迎程度和价格趋势的详细洞察。查找颜色编码指示器（红色/黄色/绿色）以快速评估产品质量和可靠性。",
+    "TourReviewsTab": "客户评论和阅读客户评论和评级以帮助您做出明智的购买决定。",
+    "TourImagesTab": "产品图像 & 从各个角度查看产品图像，包括客户上传的照片。",
+    "TourVideosTab": "产品视频＆观看产品的视频评论和演示。",
+    "TourFinishTitle": "一切已就绪！",
+    "TourFinishDescription": "您现在了解了 Safe Deal 的主要功能。开始探索并快乐购物吧！",
+    "How to Analyze Any Product": "如何分析任何产品",
+    "TourShareStep1Title": "步骤 1",
+    "TourShareStep1Description": "从 Amazon、AliExpress、eBay 应用程序或浏览器共享",
+    "TourShareStep2Title": "第 2 步",
+    "TourShareStep2Description": "进入产品页面，选择产品",
+    "TourShareStep3Title": "步骤3",
+    "TourShareStep3Description": "在产品页面上，点击分享按钮",
+    "TourShareStep4Title": "步骤4",
+    "TourShareStep4Description": "从列表中选择“安全交易”"
+  }
 }

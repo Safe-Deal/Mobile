@@ -1,81 +1,83 @@
 {
-	"analyze": {
-		"product-insights": "Insikter",
-		"ai-insights": "Recensioner",
-		"images": "Bilder",
-		"videos": "Videor",
-		"no-ai-insights": "AI-recensionsinsikter är inte tillgängliga för den här produkten.",
-		"no-images": "Inga kundbilder är tillgängliga för denna produkt ännu.",
-		"Photos from Customers": "Foton från kunder"
-	},
-	"search": {
-		"Search or enter website": "Sök eller gå in på webbplatsen"
-	},
-	"stores": {
-		"share-to-friends": "Kolla in den här intressanta appen jag hittade:\nSäker affär – skydda dig från dåliga erbjudanden, bedrägerier och dålig service.\nBesök: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
-		"AliExpress": "AliExpress",
-		"Amazon": "Amazon",
-		"eBay": "eBay",
-		"Add Link": "Lägg till länk",
-		"Title like 'Temu':": "Titel som \"Temu\":",
-		"Link like https://www.temu.com/": "Länk som https://www.temu.com/",
-		"Add": "Tillägga",
-		"Cancel": "Avboka",
-		"Delete": "Radera"
-	},
-	"history": {
-		"History": "Historia"
-	},
-	"settingList": {
-		"profile": "Profil",
-		"Settings": "Inställningar",
-		"Change Language": "Byt språk",
-		"Help Center": "Hjälpcenter",
-		"AppLanguage": "Appens språk"
-	},
-	"global": {
-		"An error has occurred": "hoppsan! Våra dealdetektiver är på gång! 🕵️‍♂️🛍️ Håll ut!",
-		"Close": "Nära",
-		"Got it": "Jag förstår",
-		"OK": "OK"
-	},
-	"menu": {
-		"What is  Safe-Deal": "Vad är Safe-Deal",
-		"Support": "Stöd",
-		"Share": "Dela",
-		"aboutTitle": "Berätta för dina vänner och familj om SafeDeal",
-		"Desktop App": "Desktop-app",
-		"facebook": "Facebook",
-		"twitter": "Kvittra",
-		"whatsapp": "WhatsApp",
-		"linkedin": "LinkedIn",
-		"telegram": "Telegram",
-		"reddit": "Reddit",
-		"email": "E-post",
-		"suggestFeature": "Vi värdesätter din feedback!",
-		"freeToUseTitle": "Varför är det gratis att använda?",
-		"freeToUseDesc": "Att använda vår tjänst är gratis för dig. När du gör ett köp betalar butiken oss en liten avgift för att guida dig till den bästa produkten.",
-		"dataPrivacyDesc": "Vi använder endast offentligt tillgänglig data och säkerställer att inget varumärke eller butik påverkar våra rekommendationer."
-	},
-	"WelcomeTour": {
-		"TourNext": "Nästa",
-		"TourPrevious": "Tidigare",
-		"TourHomeScreen": "Hemskärm: Få tillgång till alla huvudfunktioner i appen härifrån.",
-		"TourProductStatus": "Produktstatus: Rekommenderas, Varning, Rekommenderas inte",
-		"TourInsightsTab": "Produktinsikter &Få detaljerade insikter om produktens prestanda, popularitet och pristrender. Leta efter färgkodade indikatorer (röd/gul/grön) för att snabbt bedöma produktkvalitet och tillförlitlighet.",
-		"TourReviewsTab": "Kundrecensioner &Läs kundrecensioner och betyg för att hjälpa dig fatta ett välgrundat köpbeslut.",
-		"TourImagesTab": "Produktbilder &Visa bilder av produkten från olika vinklar, inklusive kunduppladdade foton.",
-		"TourVideosTab": "Produktvideor &Titta på videorecensioner och demonstrationer av produkten.",
-		"TourFinishTitle": "Du är redo!",
-		"TourFinishDescription": "Du känner nu till nyckelfunktionerna i Safe Deal. Börja utforska och glad shopping!",
-		"How to Analyze Any Product": "Hur man analyserar en produkt",
-		"TourShareStep1Title": "Steg 1",
-		"TourShareStep1Description": "Dela från Amazon, AliExpress, eBay-appen eller en webbläsare",
-		"TourShareStep2Title": "Steg 2",
-		"TourShareStep2Description": "Gå till produktsidan, välj produkt",
-		"TourShareStep3Title": "Steg 3",
-		"TourShareStep3Description": "På produktsidan trycker du på dela-knappen",
-		"TourShareStep4Title": "Steg 4",
-		"TourShareStep4Description": "Välj Säker affär från listan"
-	}
+  "analyze": {
+    "product-insights": "Insikter",
+    "ai-insights": "Recensioner",
+    "images": "Bilder",
+    "videos": "Videor",
+    "no-ai-insights": "AI-recensionsinsikter är inte tillgängliga för den här produkten.",
+    "no-images": "Inga kundbilder är tillgängliga för denna produkt ännu.",
+    "Photos from Customers": "Foton från kunder"
+  },
+  "search": {
+    "Search or enter website": "Sök eller gå in på webbplatsen"
+  },
+  "stores": {
+    "share-to-friends": "Kolla in den här intressanta appen jag hittade:\nSäker affär – skydda dig från dåliga erbjudanden, bedrägerier och dålig service.\nBesök: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+    "AliExpress": "AliExpress",
+    "Amazon": "Amazon",
+    "eBay": "eBay",
+    "Add Link": "Lägg till länk",
+    "Title like 'Temu':": "Titel som \"Temu\":",
+    "Link like https://www.temu.com/": "Länk som https://www.temu.com/",
+    "Add": "Tillägga",
+    "Cancel": "Avboka",
+    "Delete": "Radera"
+  },
+  "history": {
+    "History": "Historia"
+  },
+  "settingList": {
+    "profile": "Profil",
+    "Settings": "Inställningar",
+    "Change Language": "Byt språk",
+    "Help Center": "Hjälpcenter",
+    "AppLanguage": "Appens språk"
+  },
+  "global": {
+    "An error has occurred": "hoppsan! Våra dealdetektiver är på gång! 🕵️‍♂️🛍️ Håll ut!",
+    "Close": "Nära",
+    "Got it": "Jag förstår",
+    "OK": "OK"
+  },
+  "menu": {
+    "What is  Safe-Deal": "Vad är Safe-Deal",
+    "Support": "Stöd",
+    "Share": "Dela",
+    "aboutTitle": "Berätta för dina vänner och familj om SafeDeal",
+    "Desktop App": "Desktop-app",
+    "facebook": "Facebook",
+    "twitter": "Kvittra",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn",
+    "telegram": "Telegram",
+    "reddit": "Reddit",
+    "email": "E-post",
+    "How to use Safe-Deal": "Hur man använder Safe-Deal",
+    "suggestFeature": "Vi värdesätter din feedback!",
+    "freeToUseTitle": "Varför är det gratis att använda?",
+    "freeToUseDesc": "Att använda vår tjänst är gratis för dig. När du gör ett köp betalar butiken oss en liten avgift för att guida dig till den bästa produkten.",
+    "dataPrivacyDesc": "Vi använder endast offentligt tillgänglig data och säkerställer att inget varumärke eller butik påverkar våra rekommendationer."
+  },
+  "WelcomeTour": {
+    "TourNext": "Nästa",
+    "TourPrevious": "Tidigare",
+    "TourFinish": "Avsluta",
+    "TourHomeScreen": "Hemskärm: Få tillgång till alla huvudfunktioner i appen härifrån.",
+    "TourProductStatus": "Produktstatus: Rekommenderas, Varning, Rekommenderas inte",
+    "TourInsightsTab": "Produktinsikter &Få detaljerade insikter om produktens prestanda, popularitet och pristrender. Leta efter färgkodade indikatorer (röd/gul/grön) för att snabbt bedöma produktkvalitet och tillförlitlighet.",
+    "TourReviewsTab": "Kundrecensioner &Läs kundrecensioner och betyg för att hjälpa dig fatta ett välgrundat köpbeslut.",
+    "TourImagesTab": "Produktbilder &Visa bilder av produkten från olika vinklar, inklusive kunduppladdade foton.",
+    "TourVideosTab": "Produktvideor &Titta på videorecensioner och demonstrationer av produkten.",
+    "TourFinishTitle": "Du är redo!",
+    "TourFinishDescription": "Du känner nu till nyckelfunktionerna i Safe Deal. Börja utforska och njut av shopping!",
+    "How to Analyze Any Product": "Hur man analyserar en produkt",
+    "TourShareStep1Title": "Steg 1",
+    "TourShareStep1Description": "Dela från Amazon, AliExpress, eBay-appen eller en webbläsare",
+    "TourShareStep2Title": "Steg 2",
+    "TourShareStep2Description": "Gå till produktsidan, välj produkt",
+    "TourShareStep3Title": "Steg 3",
+    "TourShareStep3Description": "På produktsidan trycker du på dela-knappen",
+    "TourShareStep4Title": "Steg 4",
+    "TourShareStep4Description": "Välj Säker affär från listan"
+  }
 }

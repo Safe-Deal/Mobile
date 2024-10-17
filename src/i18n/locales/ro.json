@@ -1,81 +1,83 @@
 {
-	"analyze": {
-		"product-insights": "Perspective",
-		"ai-insights": "Recenzii",
-		"images": "Imagini",
-		"videos": "Videoclipuri",
-		"no-ai-insights": "Informațiile despre recenzii AI nu sunt disponibile pentru acest produs.",
-		"no-images": "Nu sunt disponibile încă fotografii ale clienților pentru acest produs.",
-		"Photos from Customers": "Fotografii de la Clienți"
-	},
-	"search": {
-		"Search or enter website": "Căutați sau intrați pe site"
-	},
-	"stores": {
-		"share-to-friends": "Verificați această aplicație interesantă pe care am găsit-o:\nSafe Deal - protejează-te de oferte proaste, escrocherii și servicii slabe.\nVizitați: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
-		"AliExpress": "AliExpress",
-		"Amazon": "Amazon",
-		"eBay": "eBay",
-		"Add Link": "Adăugați link",
-		"Title like 'Temu':": "Titlu ca „Temu”:",
-		"Link like https://www.temu.com/": "Link ca https://www.temu.com/",
-		"Add": "Adăuga",
-		"Cancel": "Anula",
-		"Delete": "Şterge"
-	},
-	"history": {
-		"History": "Istorie"
-	},
-	"settingList": {
-		"profile": "Profil",
-		"Settings": "Setări",
-		"Change Language": "Schimbați limba",
-		"Help Center": "Centrul de ajutor",
-		"AppLanguage": "Limba aplicației"
-	},
-	"global": {
-		"An error has occurred": "Hopa! Detectivii noștri de afaceri sunt pe ea! 🕵️‍♂️🛍️ Stai bine!",
-		"Close": "Aproape",
-		"Got it": "Am înţeles",
-		"OK": "Bine"
-	},
-	"menu": {
-		"What is  Safe-Deal": "Ce este Safe-Deal",
-		"Support": "Sprijin",
-		"Share": "Distribuie",
-		"aboutTitle": "Spune-le prietenilor și familiei despre SafeDeal",
-		"Desktop App": "Aplicația desktop",
-		"facebook": "Facebook",
-		"twitter": "Stare de nervozitate",
-		"whatsapp": "WhatsApp",
-		"linkedin": "LinkedIn",
-		"telegram": "Telegramă",
-		"reddit": "Reddit",
-		"email": "E-mail",
-		"suggestFeature": "Apreciem feedback-ul dvs.!",
-		"freeToUseTitle": "De ce este liber de utilizat?",
-		"freeToUseDesc": "Utilizarea serviciului nostru este gratuită pentru dvs. Când faceți o achiziție, magazinul ne plătește o mică taxă pentru a vă îndruma către cel mai bun produs.",
-		"dataPrivacyDesc": "Folosim numai date disponibile public, asigurându-ne că nicio marcă sau magazin nu influențează recomandările noastre."
-	},
-	"WelcomeTour": {
-		"TourNext": "Următorul",
-		"TourPrevious": "Anterior",
-		"TourHomeScreen": "Ecranul de pornire: Accesați toate funcțiile principale ale aplicației de aici.",
-		"TourProductStatus": "Stare produs: Recomandat, Atenție, Nerecomandat",
-		"TourInsightsTab": "Informații despre produs &Obțineți informații detaliate despre performanța produsului, popularitatea și tendințele prețurilor. Căutați indicatori cu coduri de culoare (roșu/galben/verde) pentru a evalua rapid calitatea și fiabilitatea produsului.",
-		"TourReviewsTab": "Recenziile clienților &Citiți recenziile și evaluările clienților pentru a vă ajuta să luați o decizie de cumpărare informată.",
-		"TourImagesTab": "Imagini ale produsului &Vizualizați imagini ale produsului din diverse unghiuri, inclusiv fotografii încărcate de client.",
-		"TourVideosTab": "Videoclipuri despre produse &Urmăriți recenzii video și demonstrații ale produsului.",
-		"TourFinishTitle": "Sunteți gata!",
-		"TourFinishDescription": "Acum cunoașteți caracteristicile cheie ale Safe Deal. Începeți să explorați și să faceți cumpărături fericite!",
-		"How to Analyze Any Product": "Cum să analizați orice produs",
-		"TourShareStep1Title": "Pasul 1",
-		"TourShareStep1Description": "Distribuiți din Amazon, AliExpress, aplicația eBay sau un browser",
-		"TourShareStep2Title": "Pasul 2",
-		"TourShareStep2Description": "Accesați pagina produsului, selectați produsul",
-		"TourShareStep3Title": "Pasul 3",
-		"TourShareStep3Description": "Pe pagina produsului, atingeți butonul de distribuire",
-		"TourShareStep4Title": "Pasul 4",
-		"TourShareStep4Description": "Selectați Ofertă sigură din listă"
-	}
+  "analyze": {
+    "product-insights": "Perspective",
+    "ai-insights": "Recenzii",
+    "images": "Imagini",
+    "videos": "Videoclipuri",
+    "no-ai-insights": "Informațiile despre recenzii AI nu sunt disponibile pentru acest produs.",
+    "no-images": "Nu sunt disponibile încă fotografii ale clienților pentru acest produs.",
+    "Photos from Customers": "Fotografii de la Clienți"
+  },
+  "search": {
+    "Search or enter website": "Căutați sau intrați pe site"
+  },
+  "stores": {
+    "share-to-friends": "Verificați această aplicație interesantă pe care am găsit-o:\nSafe Deal - protejează-te de oferte proaste, escrocherii și servicii slabe.\nVizitați: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+    "AliExpress": "AliExpress",
+    "Amazon": "Amazon",
+    "eBay": "eBay",
+    "Add Link": "Adăugați link",
+    "Title like 'Temu':": "Titlu ca „Temu”:",
+    "Link like https://www.temu.com/": "Link ca https://www.temu.com/",
+    "Add": "Adăuga",
+    "Cancel": "Anula",
+    "Delete": "Şterge"
+  },
+  "history": {
+    "History": "Istorie"
+  },
+  "settingList": {
+    "profile": "Profil",
+    "Settings": "Setări",
+    "Change Language": "Schimbați limba",
+    "Help Center": "Centrul de ajutor",
+    "AppLanguage": "Limba aplicației"
+  },
+  "global": {
+    "An error has occurred": "Hopa! Detectivii noștri de afaceri sunt pe ea! 🕵️‍♂️🛍️ Stai bine!",
+    "Close": "Aproape",
+    "Got it": "Am înţeles",
+    "OK": "Bine"
+  },
+  "menu": {
+    "What is  Safe-Deal": "Ce este Safe-Deal",
+    "Support": "Sprijin",
+    "Share": "Distribuie",
+    "aboutTitle": "Spune-le prietenilor și familiei despre SafeDeal",
+    "Desktop App": "Aplicația desktop",
+    "facebook": "Facebook",
+    "twitter": "Stare de nervozitate",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn",
+    "telegram": "Telegramă",
+    "reddit": "Reddit",
+    "email": "E-mail",
+    "How to use Safe-Deal": "Cum să utilizați Safe-Deal",
+    "suggestFeature": "Apreciem feedback-ul dvs.!",
+    "freeToUseTitle": "De ce este liber de utilizat?",
+    "freeToUseDesc": "Utilizarea serviciului nostru este gratuită pentru dvs. Când faceți o achiziție, magazinul ne plătește o mică taxă pentru a vă îndruma către cel mai bun produs.",
+    "dataPrivacyDesc": "Folosim doar date disponibile public, asigurându-ne că nicio marcă sau magazin nu influențează recomandările noastre."
+  },
+  "WelcomeTour": {
+    "TourNext": "Următorul",
+    "TourPrevious": "Anterior",
+    "TourFinish": "Termina",
+    "TourHomeScreen": "Ecranul de pornire: Accesați toate funcțiile principale ale aplicației de aici.",
+    "TourProductStatus": "Stare produs: Recomandat, Atenție, Nerecomandat",
+    "TourInsightsTab": "Informații despre produs &Obțineți informații detaliate despre performanța produsului, popularitatea și tendințele prețurilor. Căutați indicatori cu coduri de culoare (roșu/galben/verde) pentru a evalua rapid calitatea și fiabilitatea produsului.",
+    "TourReviewsTab": "Recenziile clienților &Citiți recenziile și evaluările clienților pentru a vă ajuta să luați o decizie de cumpărare informată.",
+    "TourImagesTab": "Imagini ale produsului &Vizualizați imagini ale produsului din diverse unghiuri, inclusiv fotografii încărcate de client.",
+    "TourVideosTab": "Videoclipuri despre produse &Urmăriți recenzii video și demonstrații ale produsului.",
+    "TourFinishTitle": "Sunteți gata!",
+    "TourFinishDescription": "Acum cunoașteți caracteristicile cheie ale Safe Deal. Începeți să explorați și să faceți cumpărături fericite!",
+    "How to Analyze Any Product": "Cum să analizați orice produs",
+    "TourShareStep1Title": "Pasul 1",
+    "TourShareStep1Description": "Distribuiți din Amazon, AliExpress, aplicația eBay sau un browser",
+    "TourShareStep2Title": "Pasul 2",
+    "TourShareStep2Description": "Accesați pagina produsului, selectați produsul",
+    "TourShareStep3Title": "Pasul 3",
+    "TourShareStep3Description": "Pe pagina produsului, atingeți butonul de distribuire",
+    "TourShareStep4Title": "Pasul 4",
+    "TourShareStep4Description": "Selectați Ofertă sigură din listă"
+  }
 }

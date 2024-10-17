@@ -1,81 +1,83 @@
 {
-	"analyze": {
-		"product-insights": "Wawasan",
-		"ai-insights": "Ulasan",
-		"images": "Gambar",
-		"videos": "Video",
-		"no-ai-insights": "Wawasan tinjauan AI tidak tersedia untuk produk ini.",
-		"no-images": "Belum ada foto pelanggan yang tersedia untuk produk ini.",
-		"Photos from Customers": "Foto dari Pelanggan"
-	},
-	"search": {
-		"Search or enter website": "Cari atau masukkan situs web"
-	},
-	"stores": {
-		"share-to-friends": "Coba aplikasi menarik yang saya temukan ini:\nSafe Deal - lindungi diri Anda dari penawaran yang buruk, penipuan, dan layanan yang buruk.\nKunjungi: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
-		"AliExpress": "AliExpress",
-		"Amazon": "Bahasa Indonesia: Amazon.com",
-		"eBay": "situs eBay",
-		"Add Link": "Tambahkan Tautan",
-		"Title like 'Temu':": "Judul seperti 'Temu':",
-		"Link like https://www.temu.com/": "Tautan seperti https://www.temu.com/",
-		"Add": "Menambahkan",
-		"Cancel": "Membatalkan",
-		"Delete": "Menghapus"
-	},
-	"history": {
-		"History": "Sejarah"
-	},
-	"settingList": {
-		"profile": "Profil",
-		"Settings": "Pengaturan",
-		"Change Language": "Ubah Bahasa",
-		"Help Center": "Pusat Bantuan",
-		"AppLanguage": "Bahasa Aplikasi"
-	},
-	"global": {
-		"An error has occurred": "Waduh! Detektif transaksi kami sedang menanganinya! 🕵️‍♂️🛍️ Tunggu sebentar!",
-		"Close": "Menutup",
-		"Got it": "Mengerti",
-		"OK": "OKE"
-	},
-	"menu": {
-		"What is  Safe-Deal": "Apa itu Safe-Deal",
-		"Support": "Mendukung",
-		"Share": "Membagikan",
-		"aboutTitle": "Beritahu teman dan keluarga Anda tentang SafeDeal",
-		"Desktop App": "Aplikasi Desktop",
-		"facebook": "Indonesia",
-		"twitter": "Twitter",
-		"whatsapp": "Ada apa",
-		"linkedin": "LinkedIn",
-		"telegram": "Telegram",
-		"reddit": "Bahasa Indonesia: Reddit",
-		"email": "E-mail",
-		"suggestFeature": "Kami menghargai masukan Anda!",
-		"freeToUseTitle": "Mengapa gratis untuk digunakan?",
-		"freeToUseDesc": "Anda dapat menggunakan layanan kami secara gratis. Saat Anda melakukan pembelian, toko akan membayar kami sedikit biaya untuk memandu Anda ke produk terbaik.",
-		"dataPrivacyDesc": "Kami hanya menggunakan data yang tersedia untuk publik, memastikan tidak ada merek atau toko yang memengaruhi rekomendasi kami."
-	},
-	"WelcomeTour": {
-		"TourNext": "Berikutnya",
-		"TourPrevious": "Sebelumnya",
-		"TourHomeScreen": "Layar Beranda: Akses semua fitur aplikasi utama dari sini.",
-		"TourProductStatus": "Status Produk: Direkomendasikan, Perhatian, Tidak Direkomendasikan",
-		"TourInsightsTab": "Wawasan Produk & Dapatkan wawasan terperinci tentang kinerja, popularitas, dan tren harga produk. Cari indikator berkode warna (merah/kuning/hijau) untuk menilai kualitas dan keandalan produk dengan cepat.",
-		"TourReviewsTab": "Ulasan Pelanggan &Baca ulasan dan peringkat pelanggan untuk membantu Anda membuat keputusan pembelian yang tepat.",
-		"TourImagesTab": "Gambar Produk &Lihat gambar produk dari berbagai sudut, termasuk foto yang diunggah pelanggan.",
-		"TourVideosTab": "Video Produk & Tonton ulasan video dan demonstrasi produk.",
-		"TourFinishTitle": "Anda sudah siap!",
-		"TourFinishDescription": "Kini Anda sudah mengetahui fitur-fitur utama Safe Deal. Mulailah menjelajah dan selamat berbelanja!",
-		"How to Analyze Any Product": "Cara Menganalisis Produk Apa Pun",
-		"TourShareStep1Title": "Langkah 1",
-		"TourShareStep1Description": "Bagikan dari Amazon, AliExpress, aplikasi eBay, atau browser",
-		"TourShareStep2Title": "Langkah 2",
-		"TourShareStep2Description": "Buka halaman produk, Pilih Produk",
-		"TourShareStep3Title": "Langkah 3",
-		"TourShareStep3Description": "Di halaman produk, ketuk tombol bagikan",
-		"TourShareStep4Title": "Langkah 4",
-		"TourShareStep4Description": "Pilih Safe Deal dari daftar"
-	}
+  "analyze": {
+    "product-insights": "Wawasan",
+    "ai-insights": "Ulasan",
+    "images": "Gambar",
+    "videos": "Video",
+    "no-ai-insights": "Wawasan tinjauan AI tidak tersedia untuk produk ini.",
+    "no-images": "Belum ada foto pelanggan yang tersedia untuk produk ini.",
+    "Photos from Customers": "Foto dari Pelanggan"
+  },
+  "search": {
+    "Search or enter website": "Cari atau masukkan situs web"
+  },
+  "stores": {
+    "share-to-friends": "Coba aplikasi menarik yang saya temukan ini:\nSafe Deal - lindungi diri Anda dari penawaran yang buruk, penipuan, dan layanan yang buruk.\nKunjungi: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+    "AliExpress": "AliExpress",
+    "Amazon": "Bahasa Indonesia: Amazon.com",
+    "eBay": "situs eBay",
+    "Add Link": "Tambahkan Tautan",
+    "Title like 'Temu':": "Judul seperti 'Temu':",
+    "Link like https://www.temu.com/": "Tautan seperti https://www.temu.com/",
+    "Add": "Menambahkan",
+    "Cancel": "Membatalkan",
+    "Delete": "Menghapus"
+  },
+  "history": {
+    "History": "Sejarah"
+  },
+  "settingList": {
+    "profile": "Profil",
+    "Settings": "Pengaturan",
+    "Change Language": "Ubah Bahasa",
+    "Help Center": "Pusat Bantuan",
+    "AppLanguage": "Bahasa Aplikasi"
+  },
+  "global": {
+    "An error has occurred": "Waduh! Detektif transaksi kami sedang menanganinya! 🕵️‍♂️🛍️ Tunggu sebentar!",
+    "Close": "Menutup",
+    "Got it": "Mengerti",
+    "OK": "OKE"
+  },
+  "menu": {
+    "What is  Safe-Deal": "Apa itu Safe-Deal",
+    "Support": "Mendukung",
+    "Share": "Membagikan",
+    "aboutTitle": "Beritahu teman dan keluarga Anda tentang SafeDeal",
+    "Desktop App": "Aplikasi Desktop",
+    "facebook": "Indonesia",
+    "twitter": "Twitter",
+    "whatsapp": "Ada apa",
+    "linkedin": "LinkedIn",
+    "telegram": "Telegram",
+    "reddit": "Bahasa Indonesia: Reddit",
+    "email": "E-mail",
+    "How to use Safe-Deal": "Cara menggunakan Safe-Deal",
+    "suggestFeature": "Kami menghargai masukan Anda!",
+    "freeToUseTitle": "Mengapa gratis untuk digunakan?",
+    "freeToUseDesc": "Anda dapat menggunakan layanan kami secara gratis. Saat Anda melakukan pembelian, toko akan membayar kami sedikit biaya untuk memandu Anda ke produk terbaik.",
+    "dataPrivacyDesc": "Kami hanya menggunakan data yang tersedia untuk publik, memastikan tidak ada merek atau toko yang memengaruhi rekomendasi kami."
+  },
+  "WelcomeTour": {
+    "TourNext": "Berikutnya",
+    "TourPrevious": "Sebelumnya",
+    "TourFinish": "Menyelesaikan",
+    "TourHomeScreen": "Layar Beranda: Akses semua fitur aplikasi utama dari sini.",
+    "TourProductStatus": "Status Produk: Direkomendasikan, Perhatian, Tidak Direkomendasikan",
+    "TourInsightsTab": "Wawasan Produk & Dapatkan wawasan terperinci tentang kinerja, popularitas, dan tren harga produk. Cari indikator berkode warna (merah/kuning/hijau) untuk menilai kualitas dan keandalan produk dengan cepat.",
+    "TourReviewsTab": "Ulasan Pelanggan &Baca ulasan dan peringkat pelanggan untuk membantu Anda membuat keputusan pembelian yang tepat.",
+    "TourImagesTab": "Gambar Produk &Lihat gambar produk dari berbagai sudut, termasuk foto yang diunggah pelanggan.",
+    "TourVideosTab": "Video Produk & Tonton ulasan video dan demonstrasi produk.",
+    "TourFinishTitle": "Anda sudah siap!",
+    "TourFinishDescription": "Kini Anda sudah mengetahui fitur-fitur utama Safe Deal. Mulailah menjelajah dan selamat berbelanja!",
+    "How to Analyze Any Product": "Cara Menganalisis Produk Apa Pun",
+    "TourShareStep1Title": "Langkah 1",
+    "TourShareStep1Description": "Bagikan dari Amazon, AliExpress, aplikasi eBay, atau browser",
+    "TourShareStep2Title": "Langkah 2",
+    "TourShareStep2Description": "Buka halaman produk, Pilih Produk",
+    "TourShareStep3Title": "Langkah 3",
+    "TourShareStep3Description": "Di halaman produk, ketuk tombol bagikan",
+    "TourShareStep4Title": "Langkah 4",
+    "TourShareStep4Description": "Pilih Safe Deal dari daftar"
+  }
 }
