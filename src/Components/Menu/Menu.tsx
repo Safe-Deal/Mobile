@@ -6,6 +6,7 @@ import { Icon } from "../Common/Icons/Icon";
 import { IconButton } from "../Common/Icons/IconButton";
 import s from "./Menu.styles";
 import { AboutModal } from "./Components/About";
+import { useOnboardContext } from "@context/onBoardContext";
 
 interface MenuProps {
 	onSharePress?: (value: string) => void;
@@ -19,6 +20,7 @@ export const Menu = ({ onSharePress, onLanguagePress, hasDecision = false }: Men
 	const { t } = useTranslation();
 	const [isMenuOpen, setMenuOpen] = useState(false);
 	const [isAboutModalVisible, setAboutModalVisible] = useState(false);
+	const { toggleOnboard } = useOnboardContext();
 
 	const openAboutModal = () => {
 		setAboutModalVisible(true);
@@ -54,6 +56,11 @@ export const Menu = ({ onSharePress, onLanguagePress, hasDecision = false }: Men
 		handleCloseMenu();
 	};
 
+	const handleHowToUse = () => {
+		toggleOnboard(false);
+		handleCloseMenu();
+	};
+
 	return (
 		<>
 			<MenuPaper
@@ -86,6 +93,11 @@ export const Menu = ({ onSharePress, onLanguagePress, hasDecision = false }: Men
 					title={t("Desktop App")}
 					left={() => <Icon name="monitor" style={s.top_toolbar__menu_icon} />}
 					onPress={handleDesktop}
+				/>
+				<List.Item
+					title={t("How to use Safe-Deal")}
+					left={() => <Icon name="help-circle" style={s.top_toolbar__menu_icon} />}
+					onPress={handleHowToUse}
 				/>
 				<List.Item
 					title={t("What is  Safe-Deal")}
