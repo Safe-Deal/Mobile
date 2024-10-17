@@ -87,7 +87,9 @@ export const MainWebView = forwardRef(({ URL }: MainWebViewProps, ref) => {
 	};
 
 	useEffect(() => {
-		setCurrentUrl(URL);
+		if (URL) {
+			setCurrentUrl(URL);
+		}
 	}, [URL]);
 
 	useEffect(() => {

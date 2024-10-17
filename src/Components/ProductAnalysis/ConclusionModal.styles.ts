@@ -49,6 +49,7 @@ const styles = StyleSheet.create({
 		flexDirection: "row",
 		paddingLeft: width(0.8),
 		paddingRight: width(0.8),
+		alignSelf: "center",
 	},
 	conclusion__top_tabs__menu__selected: {
 		alignSelf: "center",
@@ -70,7 +71,11 @@ const styles = StyleSheet.create({
 		color: "#EAECF0",
 		verticalAlign: "middle",
 	},
-	conclusion_chip_container: { justifyContent: "center", flexDirection: "row", alignItems: "center" },
+	conclusion_chip_container: {
+		justifyContent: "center",
+		flexDirection: "row",
+		alignItems: "center",
+	},
 });
 
 export default styles;

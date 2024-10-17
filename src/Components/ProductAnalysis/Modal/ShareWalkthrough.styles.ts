@@ -59,11 +59,11 @@ const styles = StyleSheet.create({
 		fontSize: fontSize(16),
 	},
 	share_walkthrough_title: {
-		fontSize: 24,
+		fontSize: fontSize(20),
 		fontWeight: "bold",
 		textAlign: "center",
-		marginBottom: 20,
-		color: "#333", // Adjust the color as needed
+		marginTop: height(5),
+		color: Theme.primary,
 	},
 });
 

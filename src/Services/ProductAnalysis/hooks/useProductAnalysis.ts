@@ -8,10 +8,11 @@ export const useProductAnalysis = () => {
 	const queryClient = useQueryClient();
 	const [mutationState, setMutationState] = useState<any>(null);
 	const dispatch = useDispatch();
-
 	const mutation = useMutation(fetchProductAnalysis, {
 		onSuccess: (data) => {
-			dispatch(setProductAnalysis(data));
+			if (data) {
+				dispatch(setProductAnalysis(data));
+			}
 		},
 		mutationKey: "fetchProductAnalysis",
 	});

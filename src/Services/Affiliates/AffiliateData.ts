@@ -72,7 +72,6 @@ export const fetchAffiliateData = async () => {
 			return data;
 		}
 	}
-
 	const response = await getByUrl(SHUTAF_URL);
 	const cacheEntry = JSON.stringify({ data: response, timestamp: new Date().getTime() });
 	setAffiliateData(AFFILIATE_DATA_KEY, cacheEntry);
