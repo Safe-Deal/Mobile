@@ -225,7 +225,7 @@ const BrowserFooterContent = () => {
 								zone={1}
 								text={t("TourProductStatus")}
 								borderRadius={4}
-								style={s.borwser_footer_tourguide_style}
+								style={s.browser_footer_tourguide_style}
 							>
 								<BrowserFooterAction />
 							</TourGuideZone>
@@ -243,7 +243,7 @@ const BrowserFooterContent = () => {
 								zone={0}
 								text={t("TourHomeScreen")}
 								borderRadius={16}
-								style={s.borwser_footer_tourguide_style}
+								style={s.browser_footer_tourguide_style}
 							>
 								<TouchableOpacity
 									onPress={() => {

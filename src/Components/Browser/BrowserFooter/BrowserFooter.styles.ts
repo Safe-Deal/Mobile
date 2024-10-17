@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
 		width: height(4),
 		resizeMode: "contain",
 	},
-	borwser_footer_tourguide_style: { paddingVertical: height(0.2), paddingHorizontal: width(1) },
+	browser_footer_tourguide_style: { paddingVertical: height(0.2), paddingHorizontal: width(1) },
 	browser_footer_action_btn_style: {
 		paddingVertical: height(0.5),
 		paddingHorizontal: width(0.8),
