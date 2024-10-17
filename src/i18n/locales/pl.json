@@ -1,81 +1,81 @@
 {
-  "analyze": {
-    "product-insights": "Wnioski",
-    "ai-insights": "Recenzje",
-    "images": "Obrazy",
-    "videos": "Filmy",
-    "no-ai-insights": "W przypadku tego produktu nie są dostępne informacje dotyczące recenzji AI.",
-    "no-images": "Na razie nie ma zdjęć tego produktu wykonanych przez klientów.",
-    "Photos from Customers": "Zdjęcia od klientów"
-  },
-  "search": {
-    "Search or enter website": "Wyszukaj lub wprowadź stronę internetową"
-  },
-  "stores": {
-    "share-to-friends": "Sprawdź tę ciekawą aplikację, którą znalazłem:\nSafe Deal - chroń się przed złymi ofertami, oszustwami i słabą obsługą.\nOdwiedź: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
-    "AliExpress": "AliExpress",
-    "Amazon": "Amazonka",
-    "eBay": "eBay",
-    "Add Link": "Dodaj link",
-    "Title like 'Temu':": "Tytuł taki jak „Temu”:",
-    "Link like https://www.temu.com/": "Link taki jak https://www.temu.com/",
-    "Add": "Dodać",
-    "Cancel": "Anulować",
-    "Delete": "Usuwać"
-  },
-  "history": {
-    "History": "Historia"
-  },
-  "settingList": {
-    "profile": "Profil",
-    "Settings": "Ustawienia",
-    "Change Language": "Zmień język",
-    "Help Center": "Centrum pomocy",
-    "AppLanguage": "Język aplikacji"
-  },
-  "global": {
-    "An error has occurred": "Ups! Nasi detektywi ds. transakcji już się tym zajęli! 🕵️‍♂️🛍️ Czekajcie!",
-    "Close": "Zamknąć",
-    "Got it": "Zrozumiałem",
-    "OK": "OK"
-  },
-  "menu": {
-    "What is  Safe-Deal": "Czym jest Safe-Deal",
-    "Support": "Wsparcie",
-    "Share": "Udział",
-    "aboutTitle": "Powiedz znajomym i rodzinie o SafeDeal",
-    "Desktop App": "Aplikacja na komputer",
-    "facebook": "Facebook",
-    "twitter": "Świergot",
-    "whatsapp": "WhatsApp",
-    "linkedin": "LinkedIn",
-    "telegram": "Telegram",
-    "reddit": "Reddit",
-    "email": "E-mail",
-    "suggestFeature": "Cenimy Twoją opinię!",
-    "freeToUseTitle": "Dlaczego korzystanie z niego jest bezpłatne?",
-    "freeToUseDesc": "Korzystanie z naszych usług jest dla Ciebie bezpłatne. Kiedy dokonujesz zakupu, sklep płaci nam niewielką opłatę za wskazanie Ci najlepszego produktu.",
-    "dataPrivacyDesc": "Korzystamy wyłącznie z publicznie dostępnych danych, aby mieć pewność, że żadna marka ani sklep nie będzie miał wpływu na nasze rekomendacje."
-  },
-  "WelcomeTour": {
-    "TourNext": "Następny",
-    "TourPrevious": "Poprzedni",
-    "TourHomeScreen": "Ekran główny: Stąd uzyskasz dostęp do wszystkich głównych funkcji aplikacji.",
-    "TourProductStatus": "Status produktu: Zalecany,Ostrożnie, Niezalecany",
-    "TourInsightsTab": "Wgląd w produkt i uzyskaj szczegółowe informacje o wydajności produktu, popularności i trendach cenowych. Szukaj wskaźników oznaczonych kolorami (czerwony/żółty/zielony), aby szybko ocenić jakość i niezawodność produktu.",
-    "TourReviewsTab": "Opinie klientów Przeczytaj opinie i oceny klientów, które pomogą Ci podjąć świadomą decyzję o zakupie.",
-    "TourImagesTab": "Zdjęcia produktu i możliwość oglądania zdjęć produktu z różnych kątów, w tym zdjęć przesłanych przez klientów.",
-    "TourVideosTab": "Filmy o produktach i obejrzyj recenzje i demonstracje produktów.",
-    "TourFinishTitle": "Wszystko gotowe!",
-    "TourFinishDescription": "Znasz już kluczowe cechy Safe Deal. Zacznij eksplorować i udanych zakupów!",
-    "How to Analyze Any Product": "Jak analizować dowolny produkt",
-    "TourShareStep1Title": "Krok 1",
-    "TourShareStep1Description": "Udostępnij z Amazon, AliExpress, aplikacji eBay lub przeglądarki",
-    "TourShareStep2Title": "Krok 2",
-    "TourShareStep2Description": "Przejdź do strony produktu, wybierz produkt",
-    "TourShareStep3Title": "Krok 3",
-    "TourShareStep3Description": "Na stronie produktu dotknij przycisku udostępniania",
-    "TourShareStep4Title": "Krok 4",
-    "TourShareStep4Description": "Wybierz Bezpieczną ofertę z listy"
-  }
+	"analyze": {
+		"product-insights": "Wnioski",
+		"ai-insights": "Recenzje",
+		"images": "Obrazy",
+		"videos": "Filmy",
+		"no-ai-insights": "W przypadku tego produktu nie są dostępne informacje dotyczące recenzji AI.",
+		"no-images": "Na razie nie ma zdjęć tego produktu wykonanych przez klientów.",
+		"Photos from Customers": "Zdjęcia od klientów"
+	},
+	"search": {
+		"Search or enter website": "Wyszukaj lub wprowadź stronę internetową"
+	},
+	"stores": {
+		"share-to-friends": "Sprawdź tę ciekawą aplikację, którą znalazłem:\nSafe Deal - chroń się przed złymi ofertami, oszustwami i słabą obsługą.\nOdwiedź: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+		"AliExpress": "AliExpress",
+		"Amazon": "Amazonka",
+		"eBay": "eBay",
+		"Add Link": "Dodaj link",
+		"Title like 'Temu':": "Tytuł taki jak „Temu”:",
+		"Link like https://www.temu.com/": "Link taki jak https://www.temu.com/",
+		"Add": "Dodać",
+		"Cancel": "Anulować",
+		"Delete": "Usuwać"
+	},
+	"history": {
+		"History": "Historia"
+	},
+	"settingList": {
+		"profile": "Profil",
+		"Settings": "Ustawienia",
+		"Change Language": "Zmień język",
+		"Help Center": "Centrum pomocy",
+		"AppLanguage": "Język aplikacji"
+	},
+	"global": {
+		"An error has occurred": "Ups! Nasi detektywi ds. transakcji już się tym zajęli! 🕵️‍♂️🛍️ Czekajcie!",
+		"Close": "Zamknąć",
+		"Got it": "Zrozumiałem",
+		"OK": "OK"
+	},
+	"menu": {
+		"What is  Safe-Deal": "Czym jest Safe-Deal",
+		"Support": "Wsparcie",
+		"Share": "Udział",
+		"aboutTitle": "Powiedz znajomym i rodzinie o SafeDeal",
+		"Desktop App": "Aplikacja na komputer",
+		"facebook": "Facebook",
+		"twitter": "Świergot",
+		"whatsapp": "WhatsApp",
+		"linkedin": "LinkedIn",
+		"telegram": "Telegram",
+		"reddit": "Reddit",
+		"email": "E-mail",
+		"suggestFeature": "Cenimy Twoją opinię!",
+		"freeToUseTitle": "Dlaczego korzystanie z niego jest bezpłatne?",
+		"freeToUseDesc": "Korzystanie z naszych usług jest dla Ciebie bezpłatne. Kiedy dokonujesz zakupu, sklep płaci nam niewielką opłatę za wskazanie Ci najlepszego produktu.",
+		"dataPrivacyDesc": "Korzystamy wyłącznie z publicznie dostępnych danych, aby mieć pewność, że żadna marka ani sklep nie będzie miał wpływu na nasze rekomendacje."
+	},
+	"WelcomeTour": {
+		"TourNext": "Następny",
+		"TourPrevious": "Poprzedni",
+		"TourHomeScreen": "Ekran główny: Stąd uzyskasz dostęp do wszystkich głównych funkcji aplikacji.",
+		"TourProductStatus": "Status produktu: Zalecany,Ostrożnie, Niezalecany",
+		"TourInsightsTab": "Wgląd w produkt i uzyskaj szczegółowe informacje o wydajności produktu, popularności i trendach cenowych. Szukaj wskaźników oznaczonych kolorami (czerwony/żółty/zielony), aby szybko ocenić jakość i niezawodność produktu.",
+		"TourReviewsTab": "Opinie klientów Przeczytaj opinie i oceny klientów, które pomogą Ci podjąć świadomą decyzję o zakupie.",
+		"TourImagesTab": "Zdjęcia produktu i możliwość oglądania zdjęć produktu z różnych kątów, w tym zdjęć przesłanych przez klientów.",
+		"TourVideosTab": "Filmy o produktach i obejrzyj recenzje i demonstracje produktów.",
+		"TourFinishTitle": "Wszystko gotowe!",
+		"TourFinishDescription": "Znasz już kluczowe cechy Safe Deal. Zacznij eksplorować i udanych zakupów!",
+		"How to Analyze Any Product": "Jak analizować dowolny produkt",
+		"TourShareStep1Title": "Krok 1",
+		"TourShareStep1Description": "Udostępnij z Amazon, AliExpress, aplikacji eBay lub przeglądarki",
+		"TourShareStep2Title": "Krok 2",
+		"TourShareStep2Description": "Przejdź do strony produktu, wybierz produkt",
+		"TourShareStep3Title": "Krok 3",
+		"TourShareStep3Description": "Na stronie produktu dotknij przycisku udostępniania",
+		"TourShareStep4Title": "Krok 4",
+		"TourShareStep4Description": "Wybierz Bezpieczną ofertę z listy"
+	}
 }

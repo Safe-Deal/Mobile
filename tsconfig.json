@@ -18,5 +18,8 @@
 			"@theme/*": ["./src/Theme/*"],
 			"@utils/*": ["./src/Utils/*"]
 		}
+	},
+	"rules": {
+		"@typescript-eslint/no-require-imports": "warn"
 	}
 }

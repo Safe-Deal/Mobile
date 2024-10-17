@@ -27,7 +27,7 @@ export const useShareIntent = (options: any): ShareIntentHook => {
 	if (IS_IN_EXPO_GO) {
 		return mockShareIntentHook;
 	} else {
-		// eslint-disable-next-line @typescript-eslint/no-var-requires
+		// eslint-disable-next-line @typescript-eslint/no-require-imports
 		const { useShareIntent: realUseShareIntent } = require("expo-share-intent");
 		return realUseShareIntent(options);
 	}

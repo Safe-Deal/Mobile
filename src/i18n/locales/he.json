@@ -1,81 +1,81 @@
 {
-  "analyze": {
-    "product-insights": "תובנות",
-    "ai-insights": "ביקורות",
-    "images": "תמונות",
-    "videos": "סרטונים",
-    "no-ai-insights": "תובנות סקירת AI אינן זמינות עבור מוצר זה.",
-    "no-images": "אין עדיין תמונות של לקוחות עבור מוצר זה.",
-    "Photos from Customers": "תמונות מלקוחות"
-  },
-  "search": {
-    "Search or enter website": "חפש או היכנס לאתר"
-  },
-  "stores": {
-    "share-to-friends": "בדוק את האפליקציה המעניינת הזו שמצאתי:\nעסקה בטוחה - הגן על עצמך מפני עסקאות רעות, הונאות ושירות גרוע.\nבקר בכתובת: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
-    "AliExpress": "אליאקספרס",
-    "Amazon": "אמזונה",
-    "eBay": "איביי",
-    "Add Link": "הוסף קישור",
-    "Title like 'Temu':": "כותרת כמו 'Temu':",
-    "Link like https://www.temu.com/": "קישור כמו https://www.temu.com/",
-    "Add": "להוסיף",
-    "Cancel": "לבטל",
-    "Delete": "למחוק"
-  },
-  "history": {
-    "History": "היסטוריה"
-  },
-  "settingList": {
-    "profile": "פרופיל",
-    "Settings": "הגדרות",
-    "Change Language": "שנה שפה",
-    "Help Center": "מרכז העזרה",
-    "AppLanguage": "שפת האפליקציה"
-  },
-  "global": {
-    "An error has occurred": "אופס! בלשי העסקה שלנו על זה! 🕵️‍♂️🛍️ תחזיקו חזק!",
-    "Close": "לסגור",
-    "Got it": "הבנתי",
-    "OK": "בסדר"
-  },
-  "menu": {
-    "What is  Safe-Deal": "מה זה Safe-Deal",
-    "Support": "תמיכה",
-    "Share": "לחלוק",
-    "aboutTitle": "ספר לחברים ולמשפחה שלך על SafeDeal",
-    "Desktop App": "אפליקציית שולחן עבודה",
-    "facebook": "פייסבוק",
-    "twitter": "לצפצף",
-    "whatsapp": "וואטסאפ",
-    "linkedin": "לינקדאין",
-    "telegram": "מברק",
-    "reddit": "Reddit",
-    "email": "אלקטרוני",
-    "suggestFeature": "אנו מעריכים את המשוב שלך!",
-    "freeToUseTitle": "למה זה בחינם לשימוש?",
-    "freeToUseDesc": "השימוש בשירות שלנו הוא בחינם עבורך. כאשר אתה מבצע רכישה, החנות משלמת לנו עמלה קטנה עבור הדרכה למוצר הטוב ביותר.",
-    "dataPrivacyDesc": "אנו משתמשים בנתונים זמינים לציבור בלבד, ומבטיחים שאף מותג או חנות לא משפיעים על ההמלצות שלנו."
-  },
-  "WelcomeTour": {
-    "TourNext": "הבא",
-    "TourPrevious": "קודם",
-    "TourHomeScreen": "מסך הבית: גישה לכל תכונות האפליקציה העיקריות מכאן.",
-    "TourProductStatus": "סטטוס מוצר: מומלץ, זהירות, לא מומלץ",
-    "TourInsightsTab": "תובנות מוצר &קבל תובנות מפורטות לגבי הביצועים, הפופולריות ומגמות המחיר של המוצר. חפש אינדיקטורים מקודדי צבע (אדום/צהוב/ירוק) כדי להעריך במהירות את איכות ואמינות המוצר.",
-    "TourReviewsTab": "ביקורות לקוחות &קרא ביקורות ודירוגים של לקוחות כדי לעזור לך לקבל החלטה מושכלת לגבי רכישה.",
-    "TourImagesTab": "תמונות מוצר &הצג תמונות של המוצר מזוויות שונות, כולל תמונות שהועלו על ידי לקוחות.",
-    "TourVideosTab": "סרטוני מוצר &צפו בסקירות וידאו והדגמות של המוצר.",
-    "TourFinishTitle": "אתה מוכן!",
-    "TourFinishDescription": "כעת אתה מכיר את תכונות המפתח של Safe Deal. התחילו לחקור וקניות שמחות!",
-    "How to Analyze Any Product": "כיצד לנתח כל מוצר",
-    "TourShareStep1Title": "שלב 1",
-    "TourShareStep1Description": "שתף מאמזון, AliExpress, אפליקציית eBay או דפדפן",
-    "TourShareStep2Title": "שלב 2",
-    "TourShareStep2Description": "עבור לדף המוצר, בחר את המוצר",
-    "TourShareStep3Title": "שלב 3",
-    "TourShareStep3Description": "בדף המוצר, הקש על כפתור השיתוף",
-    "TourShareStep4Title": "שלב 4",
-    "TourShareStep4Description": "בחר עסקה בטוחה מהרשימה"
-  }
+	"analyze": {
+		"product-insights": "תובנות",
+		"ai-insights": "ביקורות",
+		"images": "תמונות",
+		"videos": "סרטונים",
+		"no-ai-insights": "תובנות סקירת AI אינן זמינות עבור מוצר זה.",
+		"no-images": "אין עדיין תמונות של לקוחות עבור מוצר זה.",
+		"Photos from Customers": "תמונות מלקוחות"
+	},
+	"search": {
+		"Search or enter website": "חפש או היכנס לאתר"
+	},
+	"stores": {
+		"share-to-friends": "בדוק את האפליקציה המעניינת הזו שמצאתי:\nעסקה בטוחה - הגן על עצמך מפני עסקאות רעות, הונאות ושירות גרוע.\nבקר בכתובת: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+		"AliExpress": "אליאקספרס",
+		"Amazon": "אמזונה",
+		"eBay": "איביי",
+		"Add Link": "הוסף קישור",
+		"Title like 'Temu':": "כותרת כמו 'Temu':",
+		"Link like https://www.temu.com/": "קישור כמו https://www.temu.com/",
+		"Add": "להוסיף",
+		"Cancel": "לבטל",
+		"Delete": "למחוק"
+	},
+	"history": {
+		"History": "היסטוריה"
+	},
+	"settingList": {
+		"profile": "פרופיל",
+		"Settings": "הגדרות",
+		"Change Language": "שנה שפה",
+		"Help Center": "מרכז העזרה",
+		"AppLanguage": "שפת האפליקציה"
+	},
+	"global": {
+		"An error has occurred": "אופס! בלשי העסקה שלנו על זה! 🕵️‍♂️🛍️ תחזיקו חזק!",
+		"Close": "לסגור",
+		"Got it": "הבנתי",
+		"OK": "בסדר"
+	},
+	"menu": {
+		"What is  Safe-Deal": "מה זה Safe-Deal",
+		"Support": "תמיכה",
+		"Share": "לחלוק",
+		"aboutTitle": "ספר לחברים ולמשפחה שלך על SafeDeal",
+		"Desktop App": "אפליקציית שולחן עבודה",
+		"facebook": "פייסבוק",
+		"twitter": "לצפצף",
+		"whatsapp": "וואטסאפ",
+		"linkedin": "לינקדאין",
+		"telegram": "מברק",
+		"reddit": "Reddit",
+		"email": "אלקטרוני",
+		"suggestFeature": "אנו מעריכים את המשוב שלך!",
+		"freeToUseTitle": "למה זה בחינם לשימוש?",
+		"freeToUseDesc": "השימוש בשירות שלנו הוא בחינם עבורך. כאשר אתה מבצע רכישה, החנות משלמת לנו עמלה קטנה עבור הדרכה למוצר הטוב ביותר.",
+		"dataPrivacyDesc": "אנו משתמשים בנתונים זמינים לציבור בלבד, ומבטיחים שאף מותג או חנות לא משפיעים על ההמלצות שלנו."
+	},
+	"WelcomeTour": {
+		"TourNext": "הבא",
+		"TourPrevious": "קודם",
+		"TourHomeScreen": "מסך הבית: גישה לכל תכונות האפליקציה העיקריות מכאן.",
+		"TourProductStatus": "סטטוס מוצר: מומלץ, זהירות, לא מומלץ",
+		"TourInsightsTab": "תובנות מוצר &קבל תובנות מפורטות לגבי הביצועים, הפופולריות ומגמות המחיר של המוצר. חפש אינדיקטורים מקודדי צבע (אדום/צהוב/ירוק) כדי להעריך במהירות את איכות ואמינות המוצר.",
+		"TourReviewsTab": "ביקורות לקוחות &קרא ביקורות ודירוגים של לקוחות כדי לעזור לך לקבל החלטה מושכלת לגבי רכישה.",
+		"TourImagesTab": "תמונות מוצר &הצג תמונות של המוצר מזוויות שונות, כולל תמונות שהועלו על ידי לקוחות.",
+		"TourVideosTab": "סרטוני מוצר &צפו בסקירות וידאו והדגמות של המוצר.",
+		"TourFinishTitle": "אתה מוכן!",
+		"TourFinishDescription": "כעת אתה מכיר את תכונות המפתח של Safe Deal. התחילו לחקור וקניות שמחות!",
+		"How to Analyze Any Product": "כיצד לנתח כל מוצר",
+		"TourShareStep1Title": "שלב 1",
+		"TourShareStep1Description": "שתף מאמזון, AliExpress, אפליקציית eBay או דפדפן",
+		"TourShareStep2Title": "שלב 2",
+		"TourShareStep2Description": "עבור לדף המוצר, בחר את המוצר",
+		"TourShareStep3Title": "שלב 3",
+		"TourShareStep3Description": "בדף המוצר, הקש על כפתור השיתוף",
+		"TourShareStep4Title": "שלב 4",
+		"TourShareStep4Description": "בחר עסקה בטוחה מהרשימה"
+	}
 }

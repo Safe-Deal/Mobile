@@ -78,8 +78,7 @@ export const ConclusionView = (props) => {
 	}, [tourKey, canStart, showTooltip, itemData]);
 
 	const handleOnStepChange = (event) => {
-		if (event && event.order == 0) {
-		} else {
+		if (event && event.order != 0) {
 			if (event && event.order > 0 && event.order < itemData.length) {
 				setSelectedTab(itemData[event.order].type);
 				flatListRef.current?.scrollToIndex({ index: itemData[event.order].type, animated: true });

@@ -8,15 +8,25 @@ const IS_IN_EXPO_GO = Constants.appOwnership === "expo";
 const basePath = "../../assets";
 
 const Images = {
+	// eslint-disable-next-line @typescript-eslint/no-require-imports
 	amazonLogo: require(`${basePath}/amazon.png`),
+	// eslint-disable-next-line @typescript-eslint/no-require-imports
 	aliexpress: require(`${basePath}/aliexpress.png`),
+	// eslint-disable-next-line @typescript-eslint/no-require-imports
 	eBay: require(`${basePath}/ebay.png`),
+	// eslint-disable-next-line @typescript-eslint/no-require-imports
 	profile: require(`${basePath}/profile.png`),
+	// eslint-disable-next-line @typescript-eslint/no-require-imports
 	add: require(`${basePath}/add.png`),
+	// eslint-disable-next-line @typescript-eslint/no-require-imports
 	googleIcon: require(`${basePath}/googleIcon.png`),
+	// eslint-disable-next-line @typescript-eslint/no-require-imports
 	home: require(`${basePath}/home.png`),
+	// eslint-disable-next-line @typescript-eslint/no-require-imports
 	share: require(`${basePath}/share.png`),
+	// eslint-disable-next-line @typescript-eslint/no-require-imports
 	surface: require(`${basePath}/surface.png`),
+	// eslint-disable-next-line @typescript-eslint/no-require-imports
 	kebab: require(`${basePath}/kebab.png`),
 };
 

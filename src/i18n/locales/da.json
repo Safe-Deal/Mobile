@@ -1,81 +1,81 @@
 {
-  "analyze": {
-    "product-insights": "Indsigt",
-    "ai-insights": "Anmeldelser",
-    "images": "Billeder",
-    "videos": "Videoer",
-    "no-ai-insights": "AI-anmeldelsesindsigt er ikke tilgængelig for dette produkt.",
-    "no-images": "Der er endnu ingen kundebilleder tilgængelige for dette produkt.",
-    "Photos from Customers": "Billeder fra kunder"
-  },
-  "search": {
-    "Search or enter website": "Søg eller indtast hjemmesiden"
-  },
-  "stores": {
-    "share-to-friends": "Tjek denne interessante app, jeg fandt:\nSafe Deal - beskyt dig selv mod dårlige tilbud, svindel og dårlig service.\nBesøg: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
-    "AliExpress": "AliExpress",
-    "Amazon": "Amazon",
-    "eBay": "eBay",
-    "Add Link": "Tilføj link",
-    "Title like 'Temu':": "Titel som 'Temu':",
-    "Link like https://www.temu.com/": "Link som https://www.temu.com/",
-    "Add": "Tilføje",
-    "Cancel": "Ophæve",
-    "Delete": "Slet"
-  },
-  "history": {
-    "History": "Historie"
-  },
-  "settingList": {
-    "profile": "Profil",
-    "Settings": "Indstillinger",
-    "Change Language": "Skift sprog",
-    "Help Center": "Hjælpecenter",
-    "AppLanguage": "App sprog"
-  },
-  "global": {
-    "An error has occurred": "Ups! Vores dealdetektiver er på det! 🕵️‍♂️🛍️ Hold godt fast!",
-    "Close": "Tæt",
-    "Got it": "Forstår det",
-    "OK": "OK"
-  },
-  "menu": {
-    "What is  Safe-Deal": "Hvad er Safe-Deal",
-    "Support": "Støtte",
-    "Share": "Dele",
-    "aboutTitle": "Fortæl dine venner og familie om SafeDeal",
-    "Desktop App": "Desktop app",
-    "facebook": "Facebook",
-    "twitter": "Twitter",
-    "whatsapp": "WhatsApp",
-    "linkedin": "LinkedIn",
-    "telegram": "Telegram",
-    "reddit": "Reddit",
-    "email": "E-mail",
-    "suggestFeature": "Vi værdsætter din feedback!",
-    "freeToUseTitle": "Hvorfor er det gratis at bruge?",
-    "freeToUseDesc": "Det er gratis for dig at bruge vores service. Når du foretager et køb, betaler butikken os et mindre gebyr for at guide dig til det bedste produkt.",
-    "dataPrivacyDesc": "Vi bruger kun offentligt tilgængelige data og sikrer, at intet mærke eller butik påvirker vores anbefalinger."
-  },
-  "WelcomeTour": {
-    "TourNext": "Næste",
-    "TourPrevious": "Tidligere",
-    "TourHomeScreen": "Startskærm: Få adgang til alle appens hovedfunktioner herfra.",
-    "TourProductStatus": "Produktstatus: Anbefalet, Forsigtig, Ikke anbefalet",
-    "TourInsightsTab": "Produktindsigt &Få detaljeret indsigt om produktets ydeevne, popularitet og pristendenser. Se efter farvekodede indikatorer (rød/gul/grøn) for hurtigt at vurdere produktkvalitet og pålidelighed.",
-    "TourReviewsTab": "Kundeanmeldelser &Læs kundeanmeldelser og vurderinger for at hjælpe dig med at træffe en informeret købsbeslutning.",
-    "TourImagesTab": "Produktbilleder &Se billeder af produktet fra forskellige vinkler, herunder kundeuploadede fotos.",
-    "TourVideosTab": "Produktvideoer &Se videoanmeldelser og demonstrationer af produktet.",
-    "TourFinishTitle": "Du er klar!",
-    "TourFinishDescription": "Du kender nu nøglefunktionerne i Safe Deal. Begynd at udforske og god shopping!",
-    "How to Analyze Any Product": "Sådan analyseres ethvert produkt",
-    "TourShareStep1Title": "Trin 1",
-    "TourShareStep1Description": "Del fra Amazon, AliExpress, eBay-app eller en browser",
-    "TourShareStep2Title": "Trin 2",
-    "TourShareStep2Description": "Gå til produktsiden, vælg produktet",
-    "TourShareStep3Title": "Trin 3",
-    "TourShareStep3Description": "Tryk på delknappen på produktsiden",
-    "TourShareStep4Title": "Trin 4",
-    "TourShareStep4Description": "Vælg Safe Deal fra listen"
-  }
+	"analyze": {
+		"product-insights": "Indsigt",
+		"ai-insights": "Anmeldelser",
+		"images": "Billeder",
+		"videos": "Videoer",
+		"no-ai-insights": "AI-anmeldelsesindsigt er ikke tilgængelig for dette produkt.",
+		"no-images": "Der er endnu ingen kundebilleder tilgængelige for dette produkt.",
+		"Photos from Customers": "Billeder fra kunder"
+	},
+	"search": {
+		"Search or enter website": "Søg eller indtast hjemmesiden"
+	},
+	"stores": {
+		"share-to-friends": "Tjek denne interessante app, jeg fandt:\nSafe Deal - beskyt dig selv mod dårlige tilbud, svindel og dårlig service.\nBesøg: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+		"AliExpress": "AliExpress",
+		"Amazon": "Amazon",
+		"eBay": "eBay",
+		"Add Link": "Tilføj link",
+		"Title like 'Temu':": "Titel som 'Temu':",
+		"Link like https://www.temu.com/": "Link som https://www.temu.com/",
+		"Add": "Tilføje",
+		"Cancel": "Ophæve",
+		"Delete": "Slet"
+	},
+	"history": {
+		"History": "Historie"
+	},
+	"settingList": {
+		"profile": "Profil",
+		"Settings": "Indstillinger",
+		"Change Language": "Skift sprog",
+		"Help Center": "Hjælpecenter",
+		"AppLanguage": "App sprog"
+	},
+	"global": {
+		"An error has occurred": "Ups! Vores dealdetektiver er på det! 🕵️‍♂️🛍️ Hold godt fast!",
+		"Close": "Tæt",
+		"Got it": "Forstår det",
+		"OK": "OK"
+	},
+	"menu": {
+		"What is  Safe-Deal": "Hvad er Safe-Deal",
+		"Support": "Støtte",
+		"Share": "Dele",
+		"aboutTitle": "Fortæl dine venner og familie om SafeDeal",
+		"Desktop App": "Desktop app",
+		"facebook": "Facebook",
+		"twitter": "Twitter",
+		"whatsapp": "WhatsApp",
+		"linkedin": "LinkedIn",
+		"telegram": "Telegram",
+		"reddit": "Reddit",
+		"email": "E-mail",
+		"suggestFeature": "Vi værdsætter din feedback!",
+		"freeToUseTitle": "Hvorfor er det gratis at bruge?",
+		"freeToUseDesc": "Det er gratis for dig at bruge vores service. Når du foretager et køb, betaler butikken os et mindre gebyr for at guide dig til det bedste produkt.",
+		"dataPrivacyDesc": "Vi bruger kun offentligt tilgængelige data og sikrer, at intet mærke eller butik påvirker vores anbefalinger."
+	},
+	"WelcomeTour": {
+		"TourNext": "Næste",
+		"TourPrevious": "Tidligere",
+		"TourHomeScreen": "Startskærm: Få adgang til alle appens hovedfunktioner herfra.",
+		"TourProductStatus": "Produktstatus: Anbefalet, Forsigtig, Ikke anbefalet",
+		"TourInsightsTab": "Produktindsigt &Få detaljeret indsigt om produktets ydeevne, popularitet og pristendenser. Se efter farvekodede indikatorer (rød/gul/grøn) for hurtigt at vurdere produktkvalitet og pålidelighed.",
+		"TourReviewsTab": "Kundeanmeldelser &Læs kundeanmeldelser og vurderinger for at hjælpe dig med at træffe en informeret købsbeslutning.",
+		"TourImagesTab": "Produktbilleder &Se billeder af produktet fra forskellige vinkler, herunder kundeuploadede fotos.",
+		"TourVideosTab": "Produktvideoer &Se videoanmeldelser og demonstrationer af produktet.",
+		"TourFinishTitle": "Du er klar!",
+		"TourFinishDescription": "Du kender nu nøglefunktionerne i Safe Deal. Begynd at udforske og god shopping!",
+		"How to Analyze Any Product": "Sådan analyseres ethvert produkt",
+		"TourShareStep1Title": "Trin 1",
+		"TourShareStep1Description": "Del fra Amazon, AliExpress, eBay-app eller en browser",
+		"TourShareStep2Title": "Trin 2",
+		"TourShareStep2Description": "Gå til produktsiden, vælg produktet",
+		"TourShareStep3Title": "Trin 3",
+		"TourShareStep3Description": "Tryk på delknappen på produktsiden",
+		"TourShareStep4Title": "Trin 4",
+		"TourShareStep4Description": "Vælg Safe Deal fra listen"
+	}
 }

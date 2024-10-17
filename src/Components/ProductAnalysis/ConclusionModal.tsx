@@ -36,6 +36,7 @@ export const ConclusionModal = ({
 		const analyzeTabs = [
 			{
 				text: t("analyze:product-insights"),
+				// eslint-disable-next-line @typescript-eslint/no-require-imports
 				icon: require("../../../assets/box-search.png"),
 				type: TabTypes.ANALYZE__PRODUCT_INSIGHTS,
 			},
@@ -43,17 +44,20 @@ export const ConclusionModal = ({
 		if (summaryReviewSupportedSites.some((supportedUrl) => url.includes(supportedUrl))) {
 			analyzeTabs.push({
 				text: t("analyze:ai-insights"),
+				// eslint-disable-next-line @typescript-eslint/no-require-imports
 				icon: require("../../../assets/bubble.png"),
 				type: TabTypes.ANALYZE__AI_INSIGHTS,
 			});
 			analyzeTabs.push({
 				text: t("analyze:images"),
+				// eslint-disable-next-line @typescript-eslint/no-require-imports
 				icon: require("../../../assets/gallery.png"),
 				type: TabTypes.ANALYZE__IMAGES,
 			});
 		}
 		analyzeTabs.push({
 			text: t("analyze:videos"),
+			// eslint-disable-next-line @typescript-eslint/no-require-imports
 			icon: require("../../../assets/video.png"),
 			type: TabTypes.ANALYZE__VIDEOS,
 		});

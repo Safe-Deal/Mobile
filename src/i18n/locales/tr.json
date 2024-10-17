@@ -1,81 +1,81 @@
 {
-  "analyze": {
-    "product-insights": "Görüşler",
-    "ai-insights": "İncelemeler",
-    "images": "Görüntüler",
-    "videos": "Videolar",
-    "no-ai-insights": "Bu ürün için AI inceleme içgörüleri mevcut değil.",
-    "no-images": "Bu ürün için henüz müşteri fotoğrafı mevcut değil.",
-    "Photos from Customers": "Müşterilerden Fotoğraflar"
-  },
-  "search": {
-    "Search or enter website": "Web sitesini arayın veya girin"
-  },
-  "stores": {
-    "share-to-friends": "Bulduğum bu ilginç uygulamaya göz atın:\nGüvenli Anlaşma - kendinizi kötü anlaşmalardan, dolandırıcılıklardan ve kötü hizmetten koruyun.\nZiyaret edin: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
-    "AliExpress": "AliExpress",
-    "Amazon": "Amazon",
-    "eBay": "eBay",
-    "Add Link": "Bağlantı Ekle",
-    "Title like 'Temu':": "'Temu' gibi bir başlık:",
-    "Link like https://www.temu.com/": "https://www.temu.com/ gibi bir bağlantı",
-    "Add": "Eklemek",
-    "Cancel": "İptal etmek",
-    "Delete": "Silmek"
-  },
-  "history": {
-    "History": "Tarih"
-  },
-  "settingList": {
-    "profile": "Profil",
-    "Settings": "Ayarlar",
-    "Change Language": "Dili değiştir",
-    "Help Center": "Yardım Merkezi",
-    "AppLanguage": "Uygulama Dili"
-  },
-  "global": {
-    "An error has occurred": "Oops! Anlaşma dedektiflerimiz bununla ilgileniyor! 🕵️‍♂️🛍️ Sabredin!",
-    "Close": "Kapalı",
-    "Got it": "Anladım",
-    "OK": "TAMAM"
-  },
-  "menu": {
-    "What is  Safe-Deal": "Güvenli Anlaşma Nedir?",
-    "Support": "Destek",
-    "Share": "Paylaşmak",
-    "aboutTitle": "Arkadaşlarınıza ve ailenize SafeDeal'dan bahsedin",
-    "Desktop App": "Masaüstü Uygulaması",
-    "facebook": "Facebook",
-    "twitter": "Twitter",
-    "whatsapp": "WhatsApp",
-    "linkedin": "Linkedin",
-    "telegram": "Telgraf",
-    "reddit": "Reddit",
-    "email": "E-posta",
-    "suggestFeature": "Geri bildirimleriniz bizim için değerlidir!",
-    "freeToUseTitle": "Kullanımı neden ücretsiz?",
-    "freeToUseDesc": "Hizmetimizi kullanmak sizin için ücretsizdir. Bir satın alma işlemi yaptığınızda, mağaza sizi en iyi ürüne yönlendirmek için bize küçük bir ücret öder.",
-    "dataPrivacyDesc": "Sadece kamuya açık verileri kullanıyoruz ve hiçbir markanın veya mağazanın önerilerimizi etkilemediğinden emin oluyoruz."
-  },
-  "WelcomeTour": {
-    "TourNext": "Sonraki",
-    "TourPrevious": "Öncesi",
-    "TourHomeScreen": "Ana Ekran: Buradan uygulamanın tüm ana özelliklerine erişin.",
-    "TourProductStatus": "Ürün Durumu: Tavsiye Edilir,Dikkat Edilir,Tavsiye Edilmez",
-    "TourInsightsTab": "Ürün İçgörüleri &Ürünün performansı, popülaritesi ve fiyat eğilimleri hakkında ayrıntılı içgörüler edinin. Ürün kalitesini ve güvenilirliğini hızla değerlendirmek için renk kodlu göstergeleri (kırmızı/sarı/yeşil) arayın.",
-    "TourReviewsTab": "Müşteri Yorumları & Bilinçli bir satın alma kararı vermenize yardımcı olmak için müşteri yorumlarını ve derecelendirmelerini okuyun.",
-    "TourImagesTab": "Ürün Görselleri &Müşterinin yüklediği fotoğraflar da dahil olmak üzere ürünün çeşitli açılardan görsellerini görüntüleyin.",
-    "TourVideosTab": "Ürün Videoları &Ürünün video incelemelerini ve demolarını izleyin.",
-    "TourFinishTitle": "Tamamdır!",
-    "TourFinishDescription": "Artık Safe Deal'ın temel özelliklerini biliyorsunuz. Keşfetmeye başlayın ve mutlu alışverişler!",
-    "How to Analyze Any Product": "Herhangi Bir Ürünü Nasıl Analiz Edebilirsiniz",
-    "TourShareStep1Title": "Adım 1",
-    "TourShareStep1Description": "Amazon, AliExpress, eBay uygulaması veya tarayıcıdan paylaşın",
-    "TourShareStep2Title": "Adım 2",
-    "TourShareStep2Description": "Ürün sayfasına git, Ürünü seç",
-    "TourShareStep3Title": "Adım 3",
-    "TourShareStep3Description": "Ürün sayfasında paylaşım düğmesine dokunun",
-    "TourShareStep4Title": "Adım 4",
-    "TourShareStep4Description": "Listeden Güvenli Anlaşmayı seçin"
-  }
+	"analyze": {
+		"product-insights": "Görüşler",
+		"ai-insights": "İncelemeler",
+		"images": "Görüntüler",
+		"videos": "Videolar",
+		"no-ai-insights": "Bu ürün için AI inceleme içgörüleri mevcut değil.",
+		"no-images": "Bu ürün için henüz müşteri fotoğrafı mevcut değil.",
+		"Photos from Customers": "Müşterilerden Fotoğraflar"
+	},
+	"search": {
+		"Search or enter website": "Web sitesini arayın veya girin"
+	},
+	"stores": {
+		"share-to-friends": "Bulduğum bu ilginç uygulamaya göz atın:\nGüvenli Anlaşma - kendinizi kötü anlaşmalardan, dolandırıcılıklardan ve kötü hizmetten koruyun.\nZiyaret edin: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+		"AliExpress": "AliExpress",
+		"Amazon": "Amazon",
+		"eBay": "eBay",
+		"Add Link": "Bağlantı Ekle",
+		"Title like 'Temu':": "'Temu' gibi bir başlık:",
+		"Link like https://www.temu.com/": "https://www.temu.com/ gibi bir bağlantı",
+		"Add": "Eklemek",
+		"Cancel": "İptal etmek",
+		"Delete": "Silmek"
+	},
+	"history": {
+		"History": "Tarih"
+	},
+	"settingList": {
+		"profile": "Profil",
+		"Settings": "Ayarlar",
+		"Change Language": "Dili değiştir",
+		"Help Center": "Yardım Merkezi",
+		"AppLanguage": "Uygulama Dili"
+	},
+	"global": {
+		"An error has occurred": "Oops! Anlaşma dedektiflerimiz bununla ilgileniyor! 🕵️‍♂️🛍️ Sabredin!",
+		"Close": "Kapalı",
+		"Got it": "Anladım",
+		"OK": "TAMAM"
+	},
+	"menu": {
+		"What is  Safe-Deal": "Güvenli Anlaşma Nedir?",
+		"Support": "Destek",
+		"Share": "Paylaşmak",
+		"aboutTitle": "Arkadaşlarınıza ve ailenize SafeDeal'dan bahsedin",
+		"Desktop App": "Masaüstü Uygulaması",
+		"facebook": "Facebook",
+		"twitter": "Twitter",
+		"whatsapp": "WhatsApp",
+		"linkedin": "Linkedin",
+		"telegram": "Telgraf",
+		"reddit": "Reddit",
+		"email": "E-posta",
+		"suggestFeature": "Geri bildirimleriniz bizim için değerlidir!",
+		"freeToUseTitle": "Kullanımı neden ücretsiz?",
+		"freeToUseDesc": "Hizmetimizi kullanmak sizin için ücretsizdir. Bir satın alma işlemi yaptığınızda, mağaza sizi en iyi ürüne yönlendirmek için bize küçük bir ücret öder.",
+		"dataPrivacyDesc": "Sadece kamuya açık verileri kullanıyoruz ve hiçbir markanın veya mağazanın önerilerimizi etkilemediğinden emin oluyoruz."
+	},
+	"WelcomeTour": {
+		"TourNext": "Sonraki",
+		"TourPrevious": "Öncesi",
+		"TourHomeScreen": "Ana Ekran: Buradan uygulamanın tüm ana özelliklerine erişin.",
+		"TourProductStatus": "Ürün Durumu: Tavsiye Edilir,Dikkat Edilir,Tavsiye Edilmez",
+		"TourInsightsTab": "Ürün İçgörüleri &Ürünün performansı, popülaritesi ve fiyat eğilimleri hakkında ayrıntılı içgörüler edinin. Ürün kalitesini ve güvenilirliğini hızla değerlendirmek için renk kodlu göstergeleri (kırmızı/sarı/yeşil) arayın.",
+		"TourReviewsTab": "Müşteri Yorumları & Bilinçli bir satın alma kararı vermenize yardımcı olmak için müşteri yorumlarını ve derecelendirmelerini okuyun.",
+		"TourImagesTab": "Ürün Görselleri &Müşterinin yüklediği fotoğraflar da dahil olmak üzere ürünün çeşitli açılardan görsellerini görüntüleyin.",
+		"TourVideosTab": "Ürün Videoları &Ürünün video incelemelerini ve demolarını izleyin.",
+		"TourFinishTitle": "Tamamdır!",
+		"TourFinishDescription": "Artık Safe Deal'ın temel özelliklerini biliyorsunuz. Keşfetmeye başlayın ve mutlu alışverişler!",
+		"How to Analyze Any Product": "Herhangi Bir Ürünü Nasıl Analiz Edebilirsiniz",
+		"TourShareStep1Title": "Adım 1",
+		"TourShareStep1Description": "Amazon, AliExpress, eBay uygulaması veya tarayıcıdan paylaşın",
+		"TourShareStep2Title": "Adım 2",
+		"TourShareStep2Description": "Ürün sayfasına git, Ürünü seç",
+		"TourShareStep3Title": "Adım 3",
+		"TourShareStep3Description": "Ürün sayfasında paylaşım düğmesine dokunun",
+		"TourShareStep4Title": "Adım 4",
+		"TourShareStep4Description": "Listeden Güvenli Anlaşmayı seçin"
+	}
 }

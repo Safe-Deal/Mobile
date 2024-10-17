@@ -1,81 +1,81 @@
 {
-  "analyze": {
-    "product-insights": "Įžvalgos",
-    "ai-insights": "Atsiliepimai",
-    "images": "Vaizdai",
-    "videos": "Vaizdo įrašai",
-    "no-ai-insights": "AI apžvalgos įžvalgos apie šį produktą nepasiekiamos.",
-    "no-images": "Kol kas nėra šio produkto klientų nuotraukų.",
-    "Photos from Customers": "Nuotraukos iš klientų"
-  },
-  "search": {
-    "Search or enter website": "Ieškokite arba įveskite svetainę"
-  },
-  "stores": {
-    "share-to-friends": "Peržiūrėkite šią įdomią programą, kurią radau:\nSaugus sandoris – apsisaugokite nuo blogų pasiūlymų, aferų ir prasto aptarnavimo.\nApsilankykite: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
-    "AliExpress": "AliExpress",
-    "Amazon": "Amazon",
-    "eBay": "eBay",
-    "Add Link": "Pridėti nuorodą",
-    "Title like 'Temu':": "Pavadinimas kaip „Temu“:",
-    "Link like https://www.temu.com/": "Nuoroda kaip https://www.temu.com/",
-    "Add": "Pridėti",
-    "Cancel": "Atšaukti",
-    "Delete": "Ištrinti"
-  },
-  "history": {
-    "History": "Istorija"
-  },
-  "settingList": {
-    "profile": "Profilis",
-    "Settings": "Nustatymai",
-    "Change Language": "Keisti kalbą",
-    "Help Center": "Pagalbos centras",
-    "AppLanguage": "Programos kalba"
-  },
-  "global": {
-    "An error has occurred": "Oi! Mūsų sandorio detektyvai yra tai! 🕵️‍♂️🛍️ Laikykitės!",
-    "Close": "Uždaryti",
-    "Got it": "Supratau",
-    "OK": "Gerai"
-  },
-  "menu": {
-    "What is  Safe-Deal": "Kas yra saugus sandoris",
-    "Support": "Palaikymas",
-    "Share": "Dalintis",
-    "aboutTitle": "Papasakokite draugams ir šeimos nariams apie „SafeDeal“.",
-    "Desktop App": "Darbalaukio programa",
-    "facebook": "Facebook",
-    "twitter": "Twitter",
-    "whatsapp": "WhatsApp",
-    "linkedin": "LinkedIn",
-    "telegram": "Telegrama",
-    "reddit": "Reddit",
-    "email": "El. paštas",
-    "suggestFeature": "Vertiname jūsų atsiliepimus!",
-    "freeToUseTitle": "Kodėl galima nemokamai naudotis?",
-    "freeToUseDesc": "Mūsų paslauga jums nemokama. Kai perkate, parduotuvė sumoka mums nedidelį mokestį, kad nukreiptume jus į geriausią produktą.",
-    "dataPrivacyDesc": "Naudojame tik viešai prieinamus duomenis, užtikrindami, kad joks prekės ženklas ar parduotuvė nepadarytų įtakos mūsų rekomendacijoms."
-  },
-  "WelcomeTour": {
-    "TourNext": "Kitas",
-    "TourPrevious": "Ankstesnis",
-    "TourHomeScreen": "Pagrindinis ekranas: iš čia pasiekite visas pagrindines programos funkcijas.",
-    "TourProductStatus": "Produkto būsena: Rekomenduojama, Atsargiai, Nerekomenduojama",
-    "TourInsightsTab": "Produkto įžvalgos ir gaukite išsamių įžvalgų apie produkto našumą, populiarumą ir kainų tendencijas. Ieškokite spalvotų indikatorių (raudona / geltona / žalia), kad greitai įvertintumėte produkto kokybę ir patikimumą.",
-    "TourReviewsTab": "Klientų atsiliepimai &Skaitykite klientų atsiliepimus ir įvertinimus, kad padėtumėte priimti pagrįstą sprendimą dėl pirkimo.",
-    "TourImagesTab": "Produkto vaizdai &Peržiūrėkite gaminio vaizdus įvairiais kampais, įskaitant klientų įkeltas nuotraukas.",
-    "TourVideosTab": "Produkto vaizdo įrašai &Žiūrėkite vaizdo įrašų apžvalgas ir produkto demonstracijas.",
-    "TourFinishTitle": "Viskas paruošta!",
-    "TourFinishDescription": "Dabar žinote pagrindines saugaus sandorio funkcijas. Pradėkite tyrinėti ir laimingo apsipirkimo!",
-    "How to Analyze Any Product": "Kaip analizuoti bet kurį produktą",
-    "TourShareStep1Title": "1 veiksmas",
-    "TourShareStep1Description": "Bendrinkite iš „Amazon“, „AliExpress“, „eBay“ programos arba naršyklės",
-    "TourShareStep2Title": "2 veiksmas",
-    "TourShareStep2Description": "Eikite į produkto puslapį, pasirinkite produktą",
-    "TourShareStep3Title": "3 veiksmas",
-    "TourShareStep3Description": "Produkto puslapyje bakstelėkite bendrinimo mygtuką",
-    "TourShareStep4Title": "4 veiksmas",
-    "TourShareStep4Description": "Sąraše pasirinkite Saugus sandoris"
-  }
+	"analyze": {
+		"product-insights": "Įžvalgos",
+		"ai-insights": "Atsiliepimai",
+		"images": "Vaizdai",
+		"videos": "Vaizdo įrašai",
+		"no-ai-insights": "AI apžvalgos įžvalgos apie šį produktą nepasiekiamos.",
+		"no-images": "Kol kas nėra šio produkto klientų nuotraukų.",
+		"Photos from Customers": "Nuotraukos iš klientų"
+	},
+	"search": {
+		"Search or enter website": "Ieškokite arba įveskite svetainę"
+	},
+	"stores": {
+		"share-to-friends": "Peržiūrėkite šią įdomią programą, kurią radau:\nSaugus sandoris – apsisaugokite nuo blogų pasiūlymų, aferų ir prasto aptarnavimo.\nApsilankykite: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+		"AliExpress": "AliExpress",
+		"Amazon": "Amazon",
+		"eBay": "eBay",
+		"Add Link": "Pridėti nuorodą",
+		"Title like 'Temu':": "Pavadinimas kaip „Temu“:",
+		"Link like https://www.temu.com/": "Nuoroda kaip https://www.temu.com/",
+		"Add": "Pridėti",
+		"Cancel": "Atšaukti",
+		"Delete": "Ištrinti"
+	},
+	"history": {
+		"History": "Istorija"
+	},
+	"settingList": {
+		"profile": "Profilis",
+		"Settings": "Nustatymai",
+		"Change Language": "Keisti kalbą",
+		"Help Center": "Pagalbos centras",
+		"AppLanguage": "Programos kalba"
+	},
+	"global": {
+		"An error has occurred": "Oi! Mūsų sandorio detektyvai yra tai! 🕵️‍♂️🛍️ Laikykitės!",
+		"Close": "Uždaryti",
+		"Got it": "Supratau",
+		"OK": "Gerai"
+	},
+	"menu": {
+		"What is  Safe-Deal": "Kas yra saugus sandoris",
+		"Support": "Palaikymas",
+		"Share": "Dalintis",
+		"aboutTitle": "Papasakokite draugams ir šeimos nariams apie „SafeDeal“.",
+		"Desktop App": "Darbalaukio programa",
+		"facebook": "Facebook",
+		"twitter": "Twitter",
+		"whatsapp": "WhatsApp",
+		"linkedin": "LinkedIn",
+		"telegram": "Telegrama",
+		"reddit": "Reddit",
+		"email": "El. paštas",
+		"suggestFeature": "Vertiname jūsų atsiliepimus!",
+		"freeToUseTitle": "Kodėl galima nemokamai naudotis?",
+		"freeToUseDesc": "Mūsų paslauga jums nemokama. Kai perkate, parduotuvė sumoka mums nedidelį mokestį, kad nukreiptume jus į geriausią produktą.",
+		"dataPrivacyDesc": "Naudojame tik viešai prieinamus duomenis, užtikrindami, kad joks prekės ženklas ar parduotuvė nepadarytų įtakos mūsų rekomendacijoms."
+	},
+	"WelcomeTour": {
+		"TourNext": "Kitas",
+		"TourPrevious": "Ankstesnis",
+		"TourHomeScreen": "Pagrindinis ekranas: iš čia pasiekite visas pagrindines programos funkcijas.",
+		"TourProductStatus": "Produkto būsena: Rekomenduojama, Atsargiai, Nerekomenduojama",
+		"TourInsightsTab": "Produkto įžvalgos ir gaukite išsamių įžvalgų apie produkto našumą, populiarumą ir kainų tendencijas. Ieškokite spalvotų indikatorių (raudona / geltona / žalia), kad greitai įvertintumėte produkto kokybę ir patikimumą.",
+		"TourReviewsTab": "Klientų atsiliepimai &Skaitykite klientų atsiliepimus ir įvertinimus, kad padėtumėte priimti pagrįstą sprendimą dėl pirkimo.",
+		"TourImagesTab": "Produkto vaizdai &Peržiūrėkite gaminio vaizdus įvairiais kampais, įskaitant klientų įkeltas nuotraukas.",
+		"TourVideosTab": "Produkto vaizdo įrašai &Žiūrėkite vaizdo įrašų apžvalgas ir produkto demonstracijas.",
+		"TourFinishTitle": "Viskas paruošta!",
+		"TourFinishDescription": "Dabar žinote pagrindines saugaus sandorio funkcijas. Pradėkite tyrinėti ir laimingo apsipirkimo!",
+		"How to Analyze Any Product": "Kaip analizuoti bet kurį produktą",
+		"TourShareStep1Title": "1 veiksmas",
+		"TourShareStep1Description": "Bendrinkite iš „Amazon“, „AliExpress“, „eBay“ programos arba naršyklės",
+		"TourShareStep2Title": "2 veiksmas",
+		"TourShareStep2Description": "Eikite į produkto puslapį, pasirinkite produktą",
+		"TourShareStep3Title": "3 veiksmas",
+		"TourShareStep3Description": "Produkto puslapyje bakstelėkite bendrinimo mygtuką",
+		"TourShareStep4Title": "4 veiksmas",
+		"TourShareStep4Description": "Sąraše pasirinkite Saugus sandoris"
+	}
 }
