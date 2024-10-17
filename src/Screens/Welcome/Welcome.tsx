@@ -4,6 +4,7 @@ import { Text, TouchableOpacity, View } from "react-native";
 import { useAppContext } from "../../Context/AppContext";
 import { useOnboardContext } from "../../Context/onBoardContext";
 import styles from "./Welcome.styles";
+import Theme from "../../Theme/Theme";
 
 const Welcome = (): ReactElement => {
 	const { t } = useTranslation();
@@ -32,13 +33,15 @@ const Welcome = (): ReactElement => {
 					toggleOnboard(true);
 					toggleShowTooltip(true);
 				}}
-				style={styles.container__show}
+				style={[styles.container__show, { backgroundColor: Theme.goGreen }]}
 			>
-				<Text style={styles.container__button__text}>{t("Show me how it works")}</Text>
+				<Text style={[styles.container__button__text, { color: Theme.primaryBackgroundColor }]}>
+					{t("Show me how it works")}
+				</Text>
 			</TouchableOpacity>
 
-			<TouchableOpacity onPress={handleSkip} style={styles.container__skip}>
-				<Text style={styles.container__button__text}>{t("Skip Tutorial")}</Text>
+			<TouchableOpacity onPress={handleSkip} style={[styles.container__skip, { backgroundColor: "#F0F0F0" }]}>
+				<Text style={[styles.container__button__text, { color: Theme.colorBlackish }]}>{t("Skip Tutorial")}</Text>
 			</TouchableOpacity>
 		</View>
 	);
