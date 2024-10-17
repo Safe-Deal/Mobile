@@ -4,15 +4,19 @@ import Theme, { fontSize, height, width } from "../../../Theme/Theme";
 const styles = StyleSheet.create({
 	share_walkthrough_modal: {
 		margin: 0,
-		justifyContent: "center",
-		alignItems: "center",
+		justifyContent: "flex-end",
 	},
 	share_walkthrough_modalContainer: {
-		flex: 1,
 		backgroundColor: "white",
-		paddingHorizontal: width(6),
-		paddingVertical: height(8),
+		maxHeight: "90%", // Adjust this value as needed
 		width: "100%",
+		borderTopLeftRadius: width(4),
+		borderTopRightRadius: width(4),
+	},
+	share_walkthrough_scrollContent: {
+		paddingHorizontal: width(6),
+		paddingTop: height(4),
+		paddingBottom: height(10), // Add extra padding at the bottom for the button
 	},
 	share_walkthrough_stepContainer: {
 		flexDirection: "row",
@@ -32,13 +36,23 @@ const styles = StyleSheet.create({
 		textAlign: "center",
 		color: Theme.americanGray,
 	},
+	share_walkthrough_buttonContainer: {
+		position: "absolute",
+		bottom: 0,
+		left: 0,
+		right: 0,
+		backgroundColor: "white",
+		paddingHorizontal: width(6),
+		paddingVertical: height(2),
+		borderTopWidth: 1,
+		borderTopColor: Theme.lightGrey,
+	},
 	share_walkthrough_button: {
 		backgroundColor: Theme.primary,
 		paddingVertical: height(2),
 		paddingHorizontal: width(2),
 		borderRadius: width(2),
 		alignItems: "center",
-		marginTop: height(5),
 	},
 	share_walkthrough_buttonText: {
 		color: "white",

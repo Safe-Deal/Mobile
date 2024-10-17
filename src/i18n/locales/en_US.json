@@ -35,7 +35,9 @@
 	},
 	"global": {
 		"An error has occurred": "Oops! Our deal detectives are on it! 🕵️‍♂️🛍️ Hang tight!",
-		"Close": "Close"
+		"Close": "Close",
+		"Got it": "Got it",
+		"OK": "OK"
 	},
 	"menu": {
 		"What is  Safe-Deal": "What is  Safe-Deal",

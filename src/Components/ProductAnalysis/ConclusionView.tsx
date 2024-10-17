@@ -101,9 +101,9 @@ export const ConclusionView = (props) => {
 	const handleOnClose = () => {
 		setShowShareWalkthroughModal(false);
 
-		Alert.alert(t("TourFinishTitle"), t("FinishDescription"), [
+		Alert.alert(t("TourFinishTitle"), t("TourFinishDescription"), [
 			{
-				text: "OK",
+				text: t("OK"),
 				onPress: () => {
 					setActiveUrl("");
 					dispatch(resetAllProducts());
