@@ -224,7 +224,7 @@ const BrowserFooterContent = () => {
 								isTourGuide
 								zone={1}
 								text={t("TourProductStatus")}
-								borderRadius={16}
+								borderRadius={4}
 								style={s.borwser_footer_tourguide_style}
 							>
 								<BrowserFooterAction />

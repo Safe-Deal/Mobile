@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
 	},
 	share_walkthrough_modalContainer: {
 		backgroundColor: "white",
-		maxHeight: "90%", // Adjust this value as needed
+		maxHeight: "90%",
 		width: "100%",
 		borderTopLeftRadius: width(4),
 		borderTopRightRadius: width(4),
@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
 	share_walkthrough_scrollContent: {
 		paddingHorizontal: width(6),
 		paddingTop: height(4),
-		paddingBottom: height(10), // Add extra padding at the bottom for the button
+		paddingBottom: height(10),
 	},
 	share_walkthrough_stepContainer: {
 		flexDirection: "row",
