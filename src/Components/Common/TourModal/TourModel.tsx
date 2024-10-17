@@ -2,6 +2,7 @@ import React from "react";
 import { Text, TouchableOpacity, View } from "react-native";
 import { TooltipProps } from "rn-tourguide";
 import s from "./TourModal.styles";
+import { useTranslation } from "@hooks/useTranslation";
 
 export const TourModal = ({
 	isFirstStep,
@@ -13,6 +14,7 @@ export const TourModal = ({
 	labels,
 }: TooltipProps) => {
 	const [title, description] = currentStep?.text.split("&").map((part) => part.trim()) || ["", ""];
+	const { t } = useTranslation();
 
 	return (
 		<View style={s.tour_modal_container}>
@@ -27,16 +29,16 @@ export const TourModal = ({
 			<View style={s.bottom_bar}>
 				{!isFirstStep && (
 					<TouchableOpacity onPress={handlePrev} style={s.bottom_bar_button}>
-						<Text style={s.bottom_bar_button_text}>{labels?.previous || "Previous"}</Text>
+						<Text style={s.bottom_bar_button_text}>{labels?.previous || t("TourPrevious")}</Text>
 					</TouchableOpacity>
 				)}
 				{!isLastStep ? (
 					<TouchableOpacity onPress={handleNext} style={s.bottom_bar_button}>
-						<Text style={s.bottom_bar_button_text}>{labels?.next || "Next"}</Text>
+						<Text style={s.bottom_bar_button_text}>{labels?.next || t("TourNext")}</Text>
 					</TouchableOpacity>
 				) : (
 					<TouchableOpacity onPress={handleStop} style={s.bottom_bar_button}>
-						<Text style={s.bottom_bar_button_text}>{labels?.finish || "Finish"}</Text>
+						<Text style={s.bottom_bar_button_text}>{labels?.finish || t("TourFinish")}</Text>
 					</TouchableOpacity>
 				)}
 			</View>

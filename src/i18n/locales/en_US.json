@@ -60,6 +60,7 @@
 	"WelcomeTour": {
 		"TourNext": "Next",
 		"TourPrevious": "Previous",
+		"TourFinish": "Finish",
 		"TourHomeScreen": "Home Screen: Access all main app features from here.",
 		"TourProductStatus": "Product Status: Recommended,Caution, Not Recommended",
 		"TourInsightsTab": "Product Insights &Get detailed insights about the product's performance, popularity, and price trends. Look for color-coded indicators (red/yellow/green) to quickly assess product quality and reliability.",
