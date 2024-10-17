@@ -48,9 +48,9 @@ const defaultLink = [
 	},
 ];
 
-const language = LANGUAGES.map((item, index) => ({
-	id: index,
-	title: item.name,
+const language = LANGUAGES.map((item) => ({
+	id: item.intCode,
+	title: item.enName,
 	nativeName: item.name,
 	link: item.code,
 }));
