@@ -12,7 +12,7 @@ const Profile = (): ReactElement => {
 	const [selectedLanguage, setSelectedLanguage] = useState("en");
 	const [selectedAction, setSelectedAction] = useState<string | null>(null);
 	const [modalVisible, setModalVisible] = useState(false);
-	const { t } = useTranslation("settingList");
+	const { t } = useTranslation();
 
 	useEffect(() => {
 		const fetchCurrentLanguage = async () => {
