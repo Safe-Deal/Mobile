@@ -46,6 +46,7 @@ const ShareWalkthroughModal: React.FC<ShareWalkthroughModalProps> = ({ visible, 
 	return (
 		<Modal isVisible={visible} style={styles.share_walkthrough_modal} onBackdropPress={onClose}>
 			<View style={styles.share_walkthrough_modalContainer}>
+				<Text style={styles.share_walkthrough_title}>{t("How to Analyze Any Product")}</Text>
 				<ScrollView contentContainerStyle={styles.share_walkthrough_scrollContent}>
 					{steps.map((step, index) => (
 						<View key={index} style={styles.share_walkthrough_stepContainer}>

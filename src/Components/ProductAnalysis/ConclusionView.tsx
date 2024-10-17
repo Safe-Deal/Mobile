@@ -13,6 +13,7 @@ import { Conclusion } from "./Modal/Conclusion";
 import ShareWalkthrough from "./Modal/ShareWalkthrough";
 import { ProductInsights } from "./ProductAnalysis";
 import { useTranslation } from "@hooks/useTranslation";
+import { TourGuideProvider } from "rn-tourguide";
 
 export const ConclusionView = (props) => {
 	const { allProductsState } = useSelector((state: any) => state.Products);
@@ -116,61 +117,69 @@ export const ConclusionView = (props) => {
 	};
 
 	return (
-		<View style={s.conclusion__view}>
-			<View style={[s.conclusion__header, { borderColor: borderClr, backgroundColor: borderClr }]}>
-				<Conclusion
-					style={s.conclusion__title}
-					conclusion={allProductsState?.product?.conclusion}
-					SHIELD_SIZE={height(4.1)}
-				/>
-			</View>
+		<TourGuideProvider
+			{...props}
+			labels={{
+				next: t("TourNext"),
+				previous: t("TourPrevious"),
+			}}
+		>
+			<View style={s.conclusion__view}>
+				<View style={[s.conclusion__header, { borderColor: borderClr, backgroundColor: borderClr }]}>
+					<Conclusion
+						style={s.conclusion__title}
+						conclusion={allProductsState?.product?.conclusion}
+						SHIELD_SIZE={height(4.1)}
+					/>
+				</View>
 
-			<ScrollView style={s.conclusion__top_tabs__container} scrollEnabled={true}>
-				<FlatList
-					style={s.conclusion__top_tabs__menu}
-					data={itemData}
-					ref={flatListRef}
-					ItemSeparatorComponent={() => <View style={s.conclusion__item_separator} />}
-					renderItem={({ item, index }) => (
-						<TourGuideZone tourKey="tour2" zone={index} text={item.tourKeyText} borderRadius={16}>
-							<View style={s.conclusion_chip_container}>
-								<Chip
-									key={index}
-									style={[
-										s.conclusion__top_tabs__menu__selected,
-										{
-											backgroundColor: selectedTab === item.type ? Theme.mintCream : Theme.primaryBackgroundColor,
-											borderBottomWidth: showTooltip ? 0 : selectedTab === item.type ? 1 : 0,
-											borderBottomColor: selectedTab === item.type ? Theme.darkGreen : Theme.primaryBackgroundColor,
-										},
-									]}
-									rippleColor={"transparent"}
-									onPress={() => {
-										setSelectedTab(item.type);
-										flatListRef.current?.scrollToIndex({ index, animated: true });
-									}}
-								>
-									<Text
+				<ScrollView style={s.conclusion__top_tabs__container} scrollEnabled={true}>
+					<FlatList
+						style={s.conclusion__top_tabs__menu}
+						data={itemData}
+						ref={flatListRef}
+						ItemSeparatorComponent={() => <View style={s.conclusion__item_separator} />}
+						renderItem={({ item, index }) => (
+							<TourGuideZone tourKey="tour2" zone={index} text={item.tourKeyText} borderRadius={16}>
+								<View style={s.conclusion_chip_container}>
+									<Chip
+										key={index}
 										style={[
-											s.conclusion__top_tabs__menu__item__text,
-											{ color: selectedTab === item.type ? Theme.darkGreen : Theme.auroMetalSaurus },
+											s.conclusion__top_tabs__menu__selected,
+											{
+												backgroundColor: selectedTab === item.type ? Theme.mintCream : Theme.primaryBackgroundColor,
+												borderBottomWidth: showTooltip ? 0 : selectedTab === item.type ? 1 : 0,
+												borderBottomColor: selectedTab === item.type ? Theme.darkGreen : Theme.primaryBackgroundColor,
+											},
 										]}
+										rippleColor={"transparent"}
+										onPress={() => {
+											setSelectedTab(item.type);
+											flatListRef.current?.scrollToIndex({ index, animated: true });
+										}}
 									>
-										{item.text}
-									</Text>
-								</Chip>
-							</View>
-						</TourGuideZone>
-					)}
-					horizontal
-					showsHorizontalScrollIndicator={false}
-					showsVerticalScrollIndicator={false}
-					bounces={true}
-				/>
-				<ProductInsights selectedTab={selectedTab} />
-			</ScrollView>
-			<ShareWalkthrough visible={showShareWalkthroughModal} onClose={() => handleOnClose()} />
-		</View>
+										<Text
+											style={[
+												s.conclusion__top_tabs__menu__item__text,
+												{ color: selectedTab === item.type ? Theme.darkGreen : Theme.auroMetalSaurus },
+											]}
+										>
+											{item.text}
+										</Text>
+									</Chip>
+								</View>
+							</TourGuideZone>
+						)}
+						horizontal
+						showsHorizontalScrollIndicator={false}
+						showsVerticalScrollIndicator={false}
+						bounces={true}
+					/>
+					<ProductInsights selectedTab={selectedTab} />
+				</ScrollView>
+				<ShareWalkthrough visible={showShareWalkthroughModal} onClose={() => handleOnClose()} />
+			</View>
+		</TourGuideProvider>
 	);
 };
 

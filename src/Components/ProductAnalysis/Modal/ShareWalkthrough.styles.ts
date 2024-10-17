@@ -58,6 +58,13 @@ const styles = StyleSheet.create({
 		color: "white",
 		fontSize: fontSize(16),
 	},
+	share_walkthrough_title: {
+		fontSize: 24,
+		fontWeight: "bold",
+		textAlign: "center",
+		marginBottom: 20,
+		color: "#333", // Adjust the color as needed
+	},
 });
 
 export default styles;
