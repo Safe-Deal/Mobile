@@ -1,59 +1,59 @@
 {
-	"analyze": {
-		"product-insights": "Insights",
-		"ai-insights": "Κριτικές",
-		"images": "εικόνες",
-		"videos": "Βίντεο",
-		"no-ai-insights": "Οι πληροφορίες αναθεώρησης AI δεν είναι διαθέσιμες για αυτό το προϊόν.",
-		"no-images": "Δεν υπάρχουν ακόμα διαθέσιμες φωτογραφίες πελατών για αυτό το προϊόν.",
-		"Photos from Customers": "Φωτογραφίες από πελάτες"
-	},
-	"search": {
-		"Search or type URL": "Αναζητήστε ή πληκτρολογήστε URL"
-	},
-	"stores": {
-		"share-to-friends": "Ρίξτε μια ματιά σε αυτήν την ενδιαφέρουσα εφαρμογή που βρήκα: Ασφαλής συμφωνία - προστατέψτε τον εαυτό σας από κακές συμφωνίες, απάτες και κακή εξυπηρέτηση. Επισκεφτείτε τη διεύθυνση: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
-		"AliExpress": "AliExpress",
-		"Amazon": "Αμαζόνα",
-		"eBay": "eBay",
-		"Add Link": "Προσθήκη συνδέσμου",
-		"Title like 'Temu':": "Τίτλος σαν \"Temu\":",
-		"Link like https://www.temu.com/": "Σύνδεσμος όπως https://www.temu.com/",
-		"Add": "Προσθήκη",
-		"Cancel": "Ματαίωση",
-		"Delete": "Διαγράφω"
-	},
-	"history": {
-		"History": "Ιστορία"
-	},
-	"settingList": {
-		"profile": "Προφίλ",
-		"Settings": "Ρυθμίσεις",
-		"Change Language": "Αλλαξε γλώσσα",
-		"Help Center": "Κέντρο βοηθείας",
-		"english": "Αγγλικά",
-		"French": "Français"
-	},
-	"global": {
-		"An error has occurred": "Ωχ! Οι ντετέκτιβ της συμφωνίας μας είναι σε αυτό! 🕵️‍♂️🛍️ Υπομονή!",
-		"Close": "Κλείσε"
-	},
-	"menu": {
-		"About": "Σχετικά με",
-		"Support": "Υποστήριξη",
-		"Share": "Μερίδιο",
-		"aboutTitle": "Ενημερώστε τους φίλους και την οικογένειά σας για το SafeDeal",
-		"Desktop App": "Εφαρμογή για υπολογιστές",
-		"facebook": "Facebook",
-		"twitter": "Κελάδημα",
-		"whatsapp": "WhatsApp",
-		"linkedin": "LinkedIn",
-		"telegram": "Τηλεγράφημα",
-		"reddit": "Reddit",
-		"email": "ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΕΥΘΥΝΣΗ",
-		"suggestFeature": "Εκτιμούμε τα σχόλιά σας!",
-		"freeToUseTitle": "Γιατί είναι δωρεάν η χρήση;",
-		"freeToUseDesc": "Η χρήση της υπηρεσίας μας είναι δωρεάν για εσάς. Όταν κάνετε μια αγορά, το κατάστημα μας πληρώνει μια μικρή χρέωση για να σας καθοδηγήσουμε στο καλύτερο προϊόν.",
-		"dataPrivacyDesc": "Χρησιμοποιούμε μόνο δημόσια διαθέσιμα δεδομένα, διασφαλίζοντας ότι καμία επωνυμία ή κατάστημα δεν επηρεάζει τις συστάσεις μας."
-	}
+  "analyze": {
+    "product-insights": "Insights",
+    "ai-insights": "Κριτικές",
+    "images": "εικόνες",
+    "videos": "Βίντεο",
+    "no-ai-insights": "Οι πληροφορίες αναθεώρησης AI δεν είναι διαθέσιμες για αυτό το προϊόν.",
+    "no-images": "Δεν υπάρχουν ακόμα διαθέσιμες φωτογραφίες πελατών για αυτό το προϊόν.",
+    "Photos from Customers": "Φωτογραφίες από πελάτες"
+  },
+  "search": {
+    "Search or type URL": "Αναζητήστε ή πληκτρολογήστε URL"
+  },
+  "stores": {
+    "share-to-friends": "Ρίξτε μια ματιά σε αυτήν την ενδιαφέρουσα εφαρμογή που βρήκα:\nΑσφαλής συμφωνία - προστατεύστε τον εαυτό σας από κακές συμφωνίες, απάτες και κακή εξυπηρέτηση.\nΕπισκεφτείτε τη διεύθυνση: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+    "AliExpress": "AliExpress",
+    "Amazon": "Αμαζόνα",
+    "eBay": "eBay",
+    "Add Link": "Προσθήκη συνδέσμου",
+    "Title like 'Temu':": "Τίτλος σαν \"Temu\":",
+    "Link like https://www.temu.com/": "Σύνδεσμος όπως https://www.temu.com/",
+    "Add": "Προσθέτω",
+    "Cancel": "Ματαίωση",
+    "Delete": "Διαγράφω"
+  },
+  "history": {
+    "History": "Ιστορία"
+  },
+  "settingList": {
+    "profile": "Προφίλ",
+    "Settings": "Ρυθμίσεις",
+    "Change Language": "Αλλαγή γλώσσας",
+    "Help Center": "Κέντρο βοήθειας",
+    "english": "αγγλικός",
+    "French": "Français"
+  },
+  "global": {
+    "An error has occurred": "Ωχ! Οι ντετέκτιβ της συμφωνίας μας είναι σε αυτό! 🕵️‍♂️🛍️ Υπομονή!",
+    "Close": "Κοντά"
+  },
+  "menu": {
+    "About": "Για",
+    "Support": "Υποστήριξη",
+    "Share": "Μερίδιο",
+    "aboutTitle": "Ενημερώστε τους φίλους και την οικογένειά σας για το SafeDeal",
+    "Desktop App": "Εφαρμογή για υπολογιστές",
+    "facebook": "Facebook",
+    "twitter": "Κελάδημα",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn",
+    "telegram": "Τηλεγράφημα",
+    "reddit": "Reddit",
+    "email": "E-mail",
+    "suggestFeature": "Εκτιμούμε τα σχόλιά σας!",
+    "freeToUseTitle": "Γιατί είναι δωρεάν η χρήση;",
+    "freeToUseDesc": "Η χρήση της υπηρεσίας μας είναι δωρεάν για εσάς. Όταν κάνετε μια αγορά, το κατάστημα μας πληρώνει μια μικρή χρέωση για να σας καθοδηγήσουμε στο καλύτερο προϊόν.",
+    "dataPrivacyDesc": "Χρησιμοποιούμε μόνο δημόσια διαθέσιμα δεδομένα, διασφαλίζοντας ότι καμία επωνυμία ή κατάστημα δεν επηρεάζει τις συστάσεις μας."
+  }
 }

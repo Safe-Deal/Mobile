@@ -1,59 +1,59 @@
 {
-	"analyze": {
-		"product-insights": "Maarifa",
-		"ai-insights": "Ukaguzi",
-		"images": "Picha",
-		"videos": "Video",
-		"no-ai-insights": "Maarifa ya ukaguzi wa AI hayapatikani kwa bidhaa hii.",
-		"no-images": "Bado hakuna picha za mteja zinazopatikana kwa bidhaa hii.",
-		"Photos from Customers": "Picha kutoka kwa Wateja"
-	},
-	"search": {
-		"Search or type URL": "Tafuta au charaza URL"
-	},
-	"stores": {
-		"share-to-friends": "Angalia programu hii ya kuvutia niliyopata: Mpango Salama - jilinde dhidi ya mikataba mibovu, ulaghai, na huduma duni. Tembelea: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
-		"AliExpress": "AliExpress",
-		"Amazon": "Amazon",
-		"eBay": "eBay",
-		"Add Link": "Ongeza Kiungo",
-		"Title like 'Temu':": "Jina kama 'Temu':",
-		"Link like https://www.temu.com/": "Unganisha kama https://www.temu.com/",
-		"Add": "Ongeza",
-		"Cancel": "Ghairi",
-		"Delete": "Futa"
-	},
-	"history": {
-		"History": "Historia"
-	},
-	"settingList": {
-		"profile": "Wasifu",
-		"Settings": "Mipangilio",
-		"Change Language": "Badilisha Lugha",
-		"Help Center": "Kituo cha Usaidizi",
-		"english": "Kiingereza",
-		"French": "Kifaransa"
-	},
-	"global": {
-		"An error has occurred": "Lo! Wapelelezi wetu wa mpango wako juu yake! 🕵️‍♂️🛍️ Subiri kidogo!",
-		"Close": "Funga"
-	},
-	"menu": {
-		"About": "Kuhusu",
-		"Support": "Msaada",
-		"Share": "Shiriki",
-		"aboutTitle": "Waambie marafiki na familia yako kuhusu SafeDeal",
-		"Desktop App": "Programu ya Eneo-kazi",
-		"facebook": "Facebook",
-		"twitter": "Twitter",
-		"whatsapp": "WhatsApp",
-		"linkedin": "LinkedIn",
-		"telegram": "Telegramu",
-		"reddit": "Reddit",
-		"email": "Barua pepe",
-		"suggestFeature": "Tunathamini maoni yako!",
-		"freeToUseTitle": "Kwa nini ni bure kutumia?",
-		"freeToUseDesc": "Kutumia huduma zetu ni bure kwako. Unapofanya ununuzi, duka hutulipa ada ndogo kwa kukuongoza kwenye bidhaa bora zaidi.",
-		"dataPrivacyDesc": "Tunatumia data inayopatikana hadharani pekee, kuhakikisha hakuna chapa au duka linaloathiri mapendekezo yetu."
-	}
+  "analyze": {
+    "product-insights": "Maarifa",
+    "ai-insights": "Ukaguzi",
+    "images": "Picha",
+    "videos": "Video",
+    "no-ai-insights": "Maarifa ya ukaguzi wa AI hayapatikani kwa bidhaa hii.",
+    "no-images": "Bado hakuna picha za mteja zinazopatikana kwa bidhaa hii.",
+    "Photos from Customers": "Picha kutoka kwa Wateja"
+  },
+  "search": {
+    "Search or type URL": "Tafuta au charaza URL"
+  },
+  "stores": {
+    "share-to-friends": "Angalia programu hii ya kupendeza ambayo nimepata:\nMpango Salama - jilinde dhidi ya mikataba mibovu, ulaghai na huduma duni.\nTembelea: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+    "AliExpress": "AliExpress",
+    "Amazon": "Amazon",
+    "eBay": "eBay",
+    "Add Link": "Ongeza Kiungo",
+    "Title like 'Temu':": "Jina kama 'Temu':",
+    "Link like https://www.temu.com/": "Unganisha kama https://www.temu.com/",
+    "Add": "Ongeza",
+    "Cancel": "Ghairi",
+    "Delete": "Futa"
+  },
+  "history": {
+    "History": "Historia"
+  },
+  "settingList": {
+    "profile": "Wasifu",
+    "Settings": "Mipangilio",
+    "Change Language": "Badilisha Lugha",
+    "Help Center": "Kituo cha Usaidizi",
+    "english": "Kiingereza",
+    "French": "Kifaransa"
+  },
+  "global": {
+    "An error has occurred": "Lo! Wapelelezi wetu wa mpango wako juu yake! 🕵️‍♂️🛍️ Subiri kidogo!",
+    "Close": "Funga"
+  },
+  "menu": {
+    "About": "Kuhusu",
+    "Support": "Msaada",
+    "Share": "Shiriki",
+    "aboutTitle": "Waambie marafiki na familia yako kuhusu SafeDeal",
+    "Desktop App": "Programu ya Eneo-kazi",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn",
+    "telegram": "Telegramu",
+    "reddit": "Reddit",
+    "email": "Barua pepe",
+    "suggestFeature": "Tunathamini maoni yako!",
+    "freeToUseTitle": "Kwa nini ni bure kutumia?",
+    "freeToUseDesc": "Kutumia huduma zetu ni bure kwako. Unapofanya ununuzi, duka hutulipa ada ndogo kwa kukuongoza kwenye bidhaa bora zaidi.",
+    "dataPrivacyDesc": "Tunatumia data inayopatikana hadharani pekee, kuhakikisha hakuna chapa au duka linaloathiri mapendekezo yetu."
+  }
 }

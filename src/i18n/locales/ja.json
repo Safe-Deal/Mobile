@@ -1,59 +1,59 @@
 {
-	"analyze": {
-		"product-insights": "洞察",
-		"ai-insights": "レビュー",
-		"images": "画像",
-		"videos": "ビデオ",
-		"no-ai-insights": "この製品では AI レビュー インサイトは利用できません。",
-		"no-images": "この製品に関する顧客の写真はまだありません。",
-		"Photos from Customers": "お客様からの写真"
-	},
-	"search": {
-		"Search or type URL": "URLを検索または入力"
-	},
-	"stores": {
-		"share-to-friends": "私が見つけたこの興味深いアプリをチェックしてください: Safe Deal - 悪い取引、詐欺、質の悪いサービスから身を守ります。アクセス: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
-		"AliExpress": "AliExpress",
-		"Amazon": "アマゾン",
-		"eBay": "イーベイ",
-		"Add Link": "リンクを追加",
-		"Title like 'Temu':": "「Temu」のようなタイトル:",
-		"Link like https://www.temu.com/": "https://www.temu.com/のようなリンク",
-		"Add": "追加",
-		"Cancel": "キャンセル",
-		"Delete": "消去"
-	},
-	"history": {
-		"History": "歴史"
-	},
-	"settingList": {
-		"profile": "プロフィール",
-		"Settings": "設定",
-		"Change Language": "言語を変えてください",
-		"Help Center": "ヘルプセンター",
-		"english": "英語",
-		"French": "フランス語"
-	},
-	"global": {
-		"An error has occurred": "おっと！当社の取引調査員が対応中です！🕵️‍♂️🛍️ お待ちください！",
-		"Close": "近い"
-	},
-	"menu": {
-		"About": "について",
-		"Support": "サポート",
-		"Share": "共有",
-		"aboutTitle": "友人や家族にSafeDealについて伝えましょう",
-		"Desktop App": "デスクトップアプリ",
-		"facebook": "フェイスブック",
-		"twitter": "ツイッター",
-		"whatsapp": "ワッツアップ",
-		"linkedin": "リンクトイン",
-		"telegram": "電報",
-		"reddit": "レディット",
-		"email": "Eメール",
-		"suggestFeature": "皆様のフィードバックをお待ちしております！",
-		"freeToUseTitle": "なぜ無料で使えるのですか?",
-		"freeToUseDesc": "当社のサービスは無料でご利用いただけます。ご購入の際には、最適な商品をご案内する対価として、店舗から当社に少額の手数料をお支払いいただきます。",
-		"dataPrivacyDesc": "当社は公開されているデータのみを使用し、ブランドやショップが当社の推奨事項に影響を与えないようにしています。"
-	}
+  "analyze": {
+    "product-insights": "洞察",
+    "ai-insights": "レビュー",
+    "images": "画像",
+    "videos": "ビデオ",
+    "no-ai-insights": "この製品では AI レビュー インサイトは利用できません。",
+    "no-images": "この製品に関する顧客の写真はまだありません。",
+    "Photos from Customers": "お客様からの写真"
+  },
+  "search": {
+    "Search or type URL": "URLを検索または入力"
+  },
+  "stores": {
+    "share-to-friends": "私が見つけたこの興味深いアプリをチェックしてください:\nSafe Deal - 悪い取引、詐欺、質の悪いサービスから自分を守ります。\nアクセス: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+    "AliExpress": "AliExpress",
+    "Amazon": "アマゾン",
+    "eBay": "イーベイ",
+    "Add Link": "リンクを追加",
+    "Title like 'Temu':": "「Temu」のようなタイトル:",
+    "Link like https://www.temu.com/": "https://www.temu.com/のようなリンク",
+    "Add": "追加",
+    "Cancel": "キャンセル",
+    "Delete": "消去"
+  },
+  "history": {
+    "History": "歴史"
+  },
+  "settingList": {
+    "profile": "プロフィール",
+    "Settings": "設定",
+    "Change Language": "言語を変更",
+    "Help Center": "ヘルプセンター",
+    "english": "英語",
+    "French": "フランス語"
+  },
+  "global": {
+    "An error has occurred": "おっと！当社のお買い得品調査員が対応中です！🕵️‍♂️🛍️ お待ちください！",
+    "Close": "近い"
+  },
+  "menu": {
+    "About": "について",
+    "Support": "サポート",
+    "Share": "共有",
+    "aboutTitle": "友人や家族にSafeDealについて伝えましょう",
+    "Desktop App": "デスクトップアプリ",
+    "facebook": "フェイスブック",
+    "twitter": "ツイッター",
+    "whatsapp": "ワッツアップ",
+    "linkedin": "リンクトイン",
+    "telegram": "電報",
+    "reddit": "レディット",
+    "email": "メール",
+    "suggestFeature": "皆様のフィードバックをお待ちしております！",
+    "freeToUseTitle": "なぜ無料で使えるのですか?",
+    "freeToUseDesc": "当社のサービスは無料でご利用いただけます。ご購入の際には、最適な商品をご案内する対価として、店舗から当社に少額の手数料をお支払いいただきます。",
+    "dataPrivacyDesc": "当社は公開されているデータのみを使用し、ブランドやショップが当社の推奨事項に影響を与えないようにしています。"
+  }
 }

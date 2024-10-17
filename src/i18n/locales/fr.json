@@ -1,64 +1,59 @@
 {
-	"analyze": {
-		"product-insights": "Connaissances",
-		"ai-insights": "Commentaires",
-		"images": "Images",
-		"videos": "Vidéos",
-		"no-ai-insights": "Les informations sur les évaluations de l'IA ne sont pas disponibles pour ce produit.",
-		"no-images": "Aucune photo client n'est encore disponible pour ce produit.",
-		"Photos from Customers": "Photos des clients"
-	},
-	"search": {
-		"Search or type URL": "Rechercher ou saisir une URL"
-	},
-	"stores": {
-		"share-to-friends": "Découvrez cette application intéressante que j'ai trouvée : Safe Deal - protégez-vous des mauvaises affaires, des escroqueries et d'un service médiocre. Visitez : https://www.joinsafedeal.com/go?type=safe-deal-mobile",
-		"AliExpress": "AliExpress",
-		"Amazon": "Amazone",
-		"eBay": "eBay",
-		"Add Link": "Ajouter un lien",
-		"Title like 'Temu':": "Titre comme « Temu » :",
-		"Link like https://www.temu.com/": "Lien comme https://www.temu.com/",
-		"Add": "Ajouter",
-		"Cancel": "Annuler",
-		"Delete": "Supprimer"
-	},
-	"history": {
-		"History": "Histoire"
-	},
-	"settingList": {
-		"profile": "Profil",
-		"Settings": "Paramètres",
-		"Change Language": "Changer de langue",
-		"Help Center": "Centre d'aide",
-		"english": "Anglais",
-		"French": "Français"
-	},
-	"global": {
-		"An error has occurred": "Oops! Nos détectives des affaires sont là-dessus ! 🕵️‍♂️🛍️ Accrochez-vous !",
-		"Close": "Fermer"
-	},
-	"menu": {
-		"About": "À propos",
-		"Support": "Soutien",
-		"Share": "Partager",
-		"aboutTitle": "Parlez de SafeDeal à vos amis et à votre famille",
-		"Desktop App": "Application de bureau",
-		"facebook": "Facebook",
-		"twitter": "Twitter",
-		"whatsapp": "WhatsApp",
-		"linkedin": "LinkedIn",
-		"telegram": "Télégramme",
-		"reddit": "Reddit",
-		"email": "E-mail",
-		"suggestFeature": "Nous apprécions vos commentaires !",
-		"freeToUseTitle": "Pourquoi l'utilisation est-elle gratuite ?",
-		"freeToUseDesc": "L'utilisation de notre service est gratuite pour vous. Lorsque vous effectuez un achat, le magasin nous verse une somme modique pour vous guider vers le meilleur produit.",
-		"dataPrivacyDesc": "Nous utilisons uniquement des données accessibles au public, garantissant qu'aucune marque ou magasin n'influence nos recommandations."
-	},
-	"languageModal": {
-		"AppLanguage": "Langue de l'application",
-		"english": "English",
-		"French": "Français"
-	}
+  "analyze": {
+    "product-insights": "Connaissances",
+    "ai-insights": "Avis",
+    "images": "Images",
+    "videos": "Vidéos",
+    "no-ai-insights": "Les informations d'évaluation de l'IA ne sont pas disponibles pour ce produit.",
+    "no-images": "Aucune photo client n'est encore disponible pour ce produit.",
+    "Photos from Customers": "Photos des clients"
+  },
+  "search": {
+    "Search or type URL": "Rechercher ou saisir une URL"
+  },
+  "stores": {
+    "share-to-friends": "Découvrez cette application intéressante que j'ai trouvée :\nSafe Deal - protégez-vous des mauvaises affaires, des escroqueries et des services médiocres.\nVisitez : https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+    "AliExpress": "AliExpress",
+    "Amazon": "Amazone",
+    "eBay": "eBay",
+    "Add Link": "Ajouter un lien",
+    "Title like 'Temu':": "Titre comme « Temu » :",
+    "Link like https://www.temu.com/": "Lien comme https://www.temu.com/",
+    "Add": "Ajouter",
+    "Cancel": "Annuler",
+    "Delete": "Supprimer"
+  },
+  "history": {
+    "History": "Histoire"
+  },
+  "settingList": {
+    "profile": "Profil",
+    "Settings": "Paramètres",
+    "Change Language": "Changer la langue",
+    "Help Center": "Centre d'aide",
+    "english": "Anglais",
+    "French": "Français"
+  },
+  "global": {
+    "An error has occurred": "Oups ! Nos détectives sont sur le coup ! 🕵️‍♂️🛍️ Attendez !",
+    "Close": "Fermer"
+  },
+  "menu": {
+    "About": "À propos",
+    "Support": "Soutien",
+    "Share": "Partager",
+    "aboutTitle": "Parlez de SafeDeal à vos amis et à votre famille",
+    "Desktop App": "Application de bureau",
+    "facebook": "Facebook",
+    "twitter": "Gazouillement",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn",
+    "telegram": "Télégramme",
+    "reddit": "Reddit",
+    "email": "E-mail",
+    "suggestFeature": "Nous apprécions vos commentaires !",
+    "freeToUseTitle": "Pourquoi l'utilisation est-elle gratuite ?",
+    "freeToUseDesc": "L'utilisation de notre service est gratuite pour vous. Lorsque vous effectuez un achat, le magasin nous verse une petite commission pour vous guider vers le meilleur produit.",
+    "dataPrivacyDesc": "Nous utilisons uniquement des données accessibles au public, garantissant qu'aucune marque ou magasin n'influence nos recommandations."
+  }
 }

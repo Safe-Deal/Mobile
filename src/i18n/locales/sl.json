@@ -1,59 +1,59 @@
 {
-	"analyze": {
-		"product-insights": "Vpogledi",
-		"ai-insights": "Ocene",
-		"images": "Slike",
-		"videos": "Videoposnetki",
-		"no-ai-insights": "Vpogledi v preglede AI za ta izdelek niso na voljo.",
-		"no-images": "Za ta izdelek še ni na voljo nobene fotografije strank.",
-		"Photos from Customers": "Fotografije strank"
-	},
-	"search": {
-		"Search or type URL": "Iščite ali vnesite URL"
-	},
-	"stores": {
-		"share-to-friends": "Oglejte si to zanimivo aplikacijo, ki sem jo našel: Safe Deal – zaščitite se pred slabimi ponudbami, prevarami in slabimi storitvami. Obiščite: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
-		"AliExpress": "AliExpress",
-		"Amazon": "Amazon",
-		"eBay": "eBay",
-		"Add Link": "Dodaj povezavo",
-		"Title like 'Temu':": "Naslov kot 'Temu':",
-		"Link like https://www.temu.com/": "Povezava kot https://www.temu.com/",
-		"Add": "Dodaj",
-		"Cancel": "Prekliči",
-		"Delete": "Izbriši"
-	},
-	"history": {
-		"History": "Zgodovina"
-	},
-	"settingList": {
-		"profile": "Profil",
-		"Settings": "nastavitve",
-		"Change Language": "Spremeni jezik",
-		"Help Center": "Center pomoči",
-		"english": "angleščina",
-		"French": "Français"
-	},
-	"global": {
-		"An error has occurred": "Ups! Naši detektivi se ukvarjajo s tem! 🕵️‍♂️🛍️ Drži se!",
-		"Close": "Zapri"
-	},
-	"menu": {
-		"About": "O tem",
-		"Support": "Podpora",
-		"Share": "Deliti",
-		"aboutTitle": "Povejte svojim prijateljem in družini o SafeDeal",
-		"Desktop App": "Namizna aplikacija",
-		"facebook": "Facebook",
-		"twitter": "Twitter",
-		"whatsapp": "WhatsApp",
-		"linkedin": "LinkedIn",
-		"telegram": "Telegram",
-		"reddit": "Reddit",
-		"email": "E-naslov",
-		"suggestFeature": "Cenimo vaše povratne informacije!",
-		"freeToUseTitle": "Zakaj je uporaba brezplačna?",
-		"freeToUseDesc": "Uporaba naše storitve je za vas brezplačna. Ko opravite nakup, nam trgovina plača majhno nadomestilo, da vas vodimo do najboljšega izdelka.",
-		"dataPrivacyDesc": "Uporabljamo samo javno dostopne podatke in zagotavljamo, da nobena blagovna znamka ali trgovina ne vpliva na naša priporočila."
-	}
+  "analyze": {
+    "product-insights": "Vpogledi",
+    "ai-insights": "Ocene",
+    "images": "Slike",
+    "videos": "Videoposnetki",
+    "no-ai-insights": "Vpogledi v preglede AI za ta izdelek niso na voljo.",
+    "no-images": "Za ta izdelek še ni na voljo nobene fotografije strank.",
+    "Photos from Customers": "Fotografije strank"
+  },
+  "search": {
+    "Search or type URL": "Iščite ali vnesite URL"
+  },
+  "stores": {
+    "share-to-friends": "Oglejte si to zanimivo aplikacijo, ki sem jo našel:\nVaren posel - zaščitite se pred slabimi posli, prevarami in slabimi storitvami.\nObiščite: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+    "AliExpress": "AliExpress",
+    "Amazon": "Amazon",
+    "eBay": "eBay",
+    "Add Link": "Dodaj povezavo",
+    "Title like 'Temu':": "Naslov kot 'Temu':",
+    "Link like https://www.temu.com/": "Povezava kot https://www.temu.com/",
+    "Add": "Dodaj",
+    "Cancel": "Prekliči",
+    "Delete": "Izbriši"
+  },
+  "history": {
+    "History": "Zgodovina"
+  },
+  "settingList": {
+    "profile": "Profil",
+    "Settings": "nastavitve",
+    "Change Language": "Spremeni jezik",
+    "Help Center": "Center za pomoč",
+    "english": "angleščina",
+    "French": "Français"
+  },
+  "global": {
+    "An error has occurred": "Ups! Naši detektivi se ukvarjajo s tem! 🕵️‍♂️🛍️ Drži se!",
+    "Close": "Zapri"
+  },
+  "menu": {
+    "About": "O tem",
+    "Support": "Podpora",
+    "Share": "Delite",
+    "aboutTitle": "Povejte svojim prijateljem in družini o SafeDeal",
+    "Desktop App": "Namizna aplikacija",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn",
+    "telegram": "Telegram",
+    "reddit": "Reddit",
+    "email": "E-pošta",
+    "suggestFeature": "Cenimo vaše povratne informacije!",
+    "freeToUseTitle": "Zakaj je uporaba brezplačna?",
+    "freeToUseDesc": "Uporaba naše storitve je za vas brezplačna. Ko opravite nakup, nam trgovina plača majhno nadomestilo, da vas vodimo do najboljšega izdelka.",
+    "dataPrivacyDesc": "Uporabljamo samo javno dostopne podatke in zagotavljamo, da nobena blagovna znamka ali trgovina ne vpliva na naša priporočila."
+  }
 }

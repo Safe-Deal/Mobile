@@ -1,59 +1,59 @@
 {
-	"analyze": {
-		"product-insights": "洞察",
-		"ai-insights": "评论",
-		"images": "图片",
-		"videos": "视频",
-		"no-ai-insights": "此产品不提供 AI 审核洞察。",
-		"no-images": "此产品尚未有顾客照片。",
-		"Photos from Customers": "客户照片"
-	},
-	"search": {
-		"Search or type URL": "搜索或输入 URL"
-	},
-	"stores": {
-		"share-to-friends": "看看我发现的这个有趣的应用程序：Safe Deal - 保护自己免受不良交易、诈骗和糟糕服务的侵害。访问：https://www.joinsafedeal.com/go?type=safe-deal-mobile",
-		"AliExpress": "全球速卖通",
-		"Amazon": "亚马逊",
-		"eBay": "易趣",
-		"Add Link": "添加链接",
-		"Title like 'Temu':": "标题如“Temu”：",
-		"Link like https://www.temu.com/": "链接如 https://www.temu.com/",
-		"Add": "添加",
-		"Cancel": "取消",
-		"Delete": "删除"
-	},
-	"history": {
-		"History": "历史"
-	},
-	"settingList": {
-		"profile": "轮廓",
-		"Settings": "设置",
-		"Change Language": "改变语言",
-		"Help Center": "帮助中心",
-		"english": "英语",
-		"French": "法語"
-	},
-	"global": {
-		"An error has occurred": "哎呀！我们的交易侦探正在处理此事！🕵️‍♂️🛍️ 坚持住！",
-		"Close": "关闭"
-	},
-	"menu": {
-		"About": "关于",
-		"Support": "支持",
-		"Share": "分享",
-		"aboutTitle": "告诉您的朋友和家人有关 SafeDeal 的信息",
-		"Desktop App": "桌面应用程序",
-		"facebook": "Facebook",
-		"twitter": "推特",
-		"whatsapp": "WhatsApp",
-		"linkedin": "LinkedIn",
-		"telegram": "电报",
-		"reddit": "Reddit",
-		"email": "电子邮件",
-		"suggestFeature": "我们重视您的反馈！",
-		"freeToUseTitle": "为什么可以免费使用？",
-		"freeToUseDesc": "使用我们的服务对您来说是免费的。当您购物时，商店会向我们支付一小笔费用，以指导您找到最好的产品。",
-		"dataPrivacyDesc": "我们只使用公开数据，确保没有品牌或商店影响我们的推荐。"
-	}
+  "analyze": {
+    "product-insights": "洞察",
+    "ai-insights": "评论",
+    "images": "图片",
+    "videos": "视频",
+    "no-ai-insights": "此产品不提供 AI 审核洞察。",
+    "no-images": "此产品尚未有顾客照片。",
+    "Photos from Customers": "客户照片"
+  },
+  "search": {
+    "Search or type URL": "搜索或输入 URL"
+  },
+  "stores": {
+    "share-to-friends": "看看我发现的这个有趣的应用程序：\nSafe Deal - 保护自己免受不良交易、诈骗和糟糕服务的侵害。\n访问：https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+    "AliExpress": "全球速卖通",
+    "Amazon": "亚马逊",
+    "eBay": "易趣",
+    "Add Link": "添加链接",
+    "Title like 'Temu':": "标题如“Temu”：",
+    "Link like https://www.temu.com/": "链接如 https://www.temu.com/",
+    "Add": "添加",
+    "Cancel": "取消",
+    "Delete": "删除"
+  },
+  "history": {
+    "History": "历史"
+  },
+  "settingList": {
+    "profile": "轮廓",
+    "Settings": "设置",
+    "Change Language": "更改语言",
+    "Help Center": "帮助中心",
+    "english": "英语",
+    "French": "法語"
+  },
+  "global": {
+    "An error has occurred": "哎呀！我们的交易侦探正在处理此事！🕵️‍♂️🛍️ 坚持住！",
+    "Close": "关闭"
+  },
+  "menu": {
+    "About": "关于",
+    "Support": "支持",
+    "Share": "分享",
+    "aboutTitle": "告诉您的朋友和家人有关 SafeDeal 的信息",
+    "Desktop App": "桌面应用程序",
+    "facebook": "Facebook",
+    "twitter": "叽叽喳喳",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn",
+    "telegram": "电报",
+    "reddit": "Reddit",
+    "email": "电子邮件",
+    "suggestFeature": "我们重视您的反馈！",
+    "freeToUseTitle": "为什么可以免费使用？",
+    "freeToUseDesc": "使用我们的服务对您来说是免费的。当您购物时，商店会向我们支付一小笔费用，以指导您找到最好的产品。",
+    "dataPrivacyDesc": "我们只使用公开数据，确保没有品牌或商店影响我们的推荐。"
+  }
 }
