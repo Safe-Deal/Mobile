@@ -5,7 +5,6 @@
 		"rel": "run-s format lint test rel:incVersion rel:build",
 		"rel:deploy": "eas submit --profile production",
 		"rel:update": "run-s format lint test rel:update:push",
-		"translate": "yarn --cwd ./tools run translate",
 		"dev:mock": "EXPO_PUBLIC_DEV_MODE_MOCK=true npx expo start --go ",
 		"dev:a": "npx expo start --android --go ",
 		"dev:i": "npx expo start --ios --go",
@@ -38,8 +37,12 @@
 		"clean:install": "yarn",
 		"ncu": "yarn global add eas-cli && ncu -u --reject eslint && yarn && npx expo install --fix && yarn doctor:go",
 		"build:prebuild": "expo prebuild --no-install --clean",
+		"translate": "run-s translate:install translate:run",
+		"translate:install": "yarn --cwd ./tools/translate install",
+		"translate:run": "yarn --cwd ./tools/translate translate",
+		"tools:install": "yarn --cwd ./tools install",
 		"pre-push": "test",
-		"postinstall": "patch-package"
+		"postinstall": "patch-package && yarn run tools:install && yarn run translate:install"
 	},
 	"engines": {
 		"node": ">=20.0.0"
