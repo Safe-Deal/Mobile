@@ -1,58 +1,81 @@
 {
-	"analyze": {
-		"product-insights": "Innsikt",
-		"ai-insights": "Anmeldelser",
-		"images": "Bilder",
-		"videos": "Videoer",
-		"no-ai-insights": "AI-anmeldelsesinnsikt er utilgjengelig for dette produktet.",
-		"no-images": "Ingen kundebilder er tilgjengelige for dette produktet ennå.",
-		"Photos from Customers": "Bilder fra kunder"
-	},
-	"search": {
-		"Search or enter website": "Søk eller gå inn på nettsiden"
-	},
-	"stores": {
-		"share-to-friends": "Sjekk ut denne interessante appen jeg fant:\nTrygg avtale – beskytt deg mot dårlige avtaler, svindel og dårlig service.\nBesøk: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
-		"AliExpress": "AliExpress",
-		"Amazon": "Amazon",
-		"eBay": "eBay",
-		"Add Link": "Legg til lenke",
-		"Title like 'Temu':": "Tittel som \"Temu\":",
-		"Link like https://www.temu.com/": "Link som https://www.temu.com/",
-		"Add": "Legge til",
-		"Cancel": "Kansellere",
-		"Delete": "Slett"
-	},
-	"history": {
-		"History": "Historie"
-	},
-	"settingList": {
-		"profile": "Profil",
-		"Settings": "Innstillinger",
-		"Change Language": "Endre språk",
-		"Help Center": "Hjelpesenter",
-		"AppLanguage": "App-språk"
-	},
-	"global": {
-		"An error has occurred": "Oops! Våre avtaledetektiver er på det! 🕵️‍♂️🛍️ Hold godt fast!",
-		"Close": "Lukke"
-	},
-	"menu": {
-		"What is  Safe-Deal": "Om",
-		"Support": "Støtte",
-		"Share": "Dele",
-		"aboutTitle": "Fortell venner og familie om SafeDeal",
-		"Desktop App": "Desktop-app",
-		"facebook": "Facebook",
-		"twitter": "Twitter",
-		"whatsapp": "WhatsApp",
-		"linkedin": "LinkedIn",
-		"telegram": "Telegram",
-		"reddit": "Reddit",
-		"email": "E-post",
-		"suggestFeature": "Vi setter pris på tilbakemeldingen din!",
-		"freeToUseTitle": "Hvorfor er det gratis å bruke?",
-		"freeToUseDesc": "Å bruke tjenesten vår er gratis for deg. Når du foretar et kjøp, betaler butikken oss en liten avgift for å veilede deg til det beste produktet.",
-		"dataPrivacyDesc": "Vi bruker kun offentlig tilgjengelige data, og sikrer at ingen merkevare eller butikk påvirker anbefalingene våre."
-	}
+  "analyze": {
+    "product-insights": "Innsikt",
+    "ai-insights": "Anmeldelser",
+    "images": "Bilder",
+    "videos": "Videoer",
+    "no-ai-insights": "AI-gjennomgangsinnsikt er utilgjengelig for dette produktet.",
+    "no-images": "Ingen kundebilder er tilgjengelige for dette produktet ennå.",
+    "Photos from Customers": "Bilder fra kunder"
+  },
+  "search": {
+    "Search or enter website": "Søk eller gå inn på nettsiden"
+  },
+  "stores": {
+    "share-to-friends": "Sjekk ut denne interessante appen jeg fant:\nTrygg avtale – beskytt deg mot dårlige avtaler, svindel og dårlig service.\nBesøk: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+    "AliExpress": "AliExpress",
+    "Amazon": "Amazon",
+    "eBay": "eBay",
+    "Add Link": "Legg til lenke",
+    "Title like 'Temu':": "Tittel som \"Temu\":",
+    "Link like https://www.temu.com/": "Link som https://www.temu.com/",
+    "Add": "Legge til",
+    "Cancel": "Kansellere",
+    "Delete": "Slett"
+  },
+  "history": {
+    "History": "Historie"
+  },
+  "settingList": {
+    "profile": "Profil",
+    "Settings": "Innstillinger",
+    "Change Language": "Endre språk",
+    "Help Center": "Hjelpesenter",
+    "AppLanguage": "App-språk"
+  },
+  "global": {
+    "An error has occurred": "Oops! Våre avtaledetektiver er på det! 🕵️‍♂️🛍️ Hold godt fast!",
+    "Close": "Lukke",
+    "Got it": "Skjønner det",
+    "OK": "OK"
+  },
+  "menu": {
+    "What is  Safe-Deal": "Hva er Safe-Deal",
+    "Support": "Støtte",
+    "Share": "Dele",
+    "aboutTitle": "Fortell venner og familie om SafeDeal",
+    "Desktop App": "Desktop-app",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn",
+    "telegram": "Telegram",
+    "reddit": "Reddit",
+    "email": "E-post",
+    "suggestFeature": "Vi setter pris på tilbakemeldingen din!",
+    "freeToUseTitle": "Hvorfor er det gratis å bruke?",
+    "freeToUseDesc": "Å bruke tjenesten vår er gratis for deg. Når du foretar et kjøp, betaler butikken oss en liten avgift for å veilede deg til det beste produktet.",
+    "dataPrivacyDesc": "Vi bruker kun offentlig tilgjengelige data, og sikrer at ingen merkevare eller butikk påvirker anbefalingene våre."
+  },
+  "WelcomeTour": {
+    "TourNext": "Neste",
+    "TourPrevious": "Tidligere",
+    "TourHomeScreen": "Startskjerm: Få tilgang til alle hovedfunksjonene i appen herfra.",
+    "TourProductStatus": "Produktstatus: Anbefalt, Forsiktig, Ikke anbefalt",
+    "TourInsightsTab": "Produktinnsikt &Få detaljert innsikt om produktets ytelse, popularitet og pristrender. Se etter fargekodede indikatorer (rød/gul/grønn) for raskt å vurdere produktkvalitet og pålitelighet.",
+    "TourReviewsTab": "Kundeanmeldelser &Les kundeanmeldelser og vurderinger for å hjelpe deg med å ta en informert kjøpsbeslutning.",
+    "TourImagesTab": "Produktbilder &Se bilder av produktet fra ulike vinkler, inkludert kundeopplastede bilder.",
+    "TourVideosTab": "Produktvideoer &Se videoanmeldelser og demonstrasjoner av produktet.",
+    "TourFinishTitle": "Du er klar!",
+    "TourFinishDescription": "Du kjenner nå nøkkelfunksjonene til Safe Deal. Begynn å utforske og lykke til med shopping!",
+    "How to Analyze Any Product": "Hvordan analysere ethvert produkt",
+    "TourShareStep1Title": "Trinn 1",
+    "TourShareStep1Description": "Del fra Amazon, AliExpress, eBay-appen eller en nettleser",
+    "TourShareStep2Title": "Trinn 2",
+    "TourShareStep2Description": "Gå til produktsiden, velg produktet",
+    "TourShareStep3Title": "Trinn 3",
+    "TourShareStep3Description": "På produktsiden trykker du på deleknappen",
+    "TourShareStep4Title": "Trinn 4",
+    "TourShareStep4Description": "Velg Safe Deal fra listen"
+  }
 }

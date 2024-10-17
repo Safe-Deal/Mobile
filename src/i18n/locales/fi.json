@@ -1,58 +1,81 @@
 {
-	"analyze": {
-		"product-insights": "Näkemyksiä",
-		"ai-insights": "Arvostelut",
-		"images": "Kuvat",
-		"videos": "Videot",
-		"no-ai-insights": "Tälle tuotteelle ei ole saatavilla tekoälyarviointitietoja.",
-		"no-images": "Tästä tuotteesta ei ole vielä saatavilla asiakaskuvia.",
-		"Photos from Customers": "Kuvia asiakkailta"
-	},
-	"search": {
-		"Search or enter website": "Hae tai kirjoita verkkosivusto"
-	},
-	"stores": {
-		"share-to-friends": "Katso tämä mielenkiintoinen sovellus, jonka löysin:\nTurvallinen sopimus – suojaa itsesi huonoilta tarjouksilta, huijauksilta ja huonolta palvelulta.\nKäy osoitteessa https://www.joinsafedeal.com/go?type=safe-deal-mobile",
-		"AliExpress": "AliExpress",
-		"Amazon": "Amazon",
-		"eBay": "eBay",
-		"Add Link": "Lisää linkki",
-		"Title like 'Temu':": "Otsikko kuten \"Temu\":",
-		"Link like https://www.temu.com/": "Linkki kuten https://www.temu.com/",
-		"Add": "Lisätä",
-		"Cancel": "Peruuttaa",
-		"Delete": "Poistaa"
-	},
-	"history": {
-		"History": "Historia"
-	},
-	"settingList": {
-		"profile": "Profiili",
-		"Settings": "Asetukset",
-		"Change Language": "Vaihda kieli",
-		"Help Center": "Ohjekeskus",
-		"AppLanguage": "Sovelluksen kieli"
-	},
-	"global": {
-		"An error has occurred": "Oho! Kauppaetsivämme ovat mukana! 🕵️‍♂️🛍️ Pidä kiinni!",
-		"Close": "Lähellä"
-	},
-	"menu": {
-		"What is  Safe-Deal": "Noin",
-		"Support": "Tukea",
-		"Share": "Jakaa",
-		"aboutTitle": "Kerro ystävillesi ja perheellesi SafeDealista",
-		"Desktop App": "Työpöytäsovellus",
-		"facebook": "Facebook",
-		"twitter": "Viserrys",
-		"whatsapp": "WhatsApp",
-		"linkedin": "LinkedIn",
-		"telegram": "Telegram",
-		"reddit": "Reddit",
-		"email": "Sähköposti",
-		"suggestFeature": "Arvostamme palautettasi!",
-		"freeToUseTitle": "Miksi käyttö on ilmaista?",
-		"freeToUseDesc": "Palvelumme käyttö on sinulle ilmaista. Kun teet ostoksen, kauppa maksaa meille pienen maksun, joka opastaa sinut parhaan tuotteen luo.",
-		"dataPrivacyDesc": "Käytämme vain julkisesti saatavilla olevia tietoja varmistaaksemme, että mikään tuotemerkki tai kauppa ei vaikuta suosituksiimme."
-	}
+  "analyze": {
+    "product-insights": "Näkemyksiä",
+    "ai-insights": "Arvostelut",
+    "images": "Kuvat",
+    "videos": "Videot",
+    "no-ai-insights": "Tälle tuotteelle ei ole saatavilla tekoälyarviointitietoja.",
+    "no-images": "Tästä tuotteesta ei ole vielä saatavilla asiakaskuvia.",
+    "Photos from Customers": "Kuvia asiakkailta"
+  },
+  "search": {
+    "Search or enter website": "Hae tai kirjoita verkkosivusto"
+  },
+  "stores": {
+    "share-to-friends": "Katso tämä mielenkiintoinen sovellus, jonka löysin:\nTurvallinen sopimus – suojaa itsesi huonoilta tarjouksilta, huijauksilta ja huonolta palvelulta.\nKäy osoitteessa https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+    "AliExpress": "AliExpress",
+    "Amazon": "Amazon",
+    "eBay": "eBay",
+    "Add Link": "Lisää linkki",
+    "Title like 'Temu':": "Otsikko kuten \"Temu\":",
+    "Link like https://www.temu.com/": "Linkki kuten https://www.temu.com/",
+    "Add": "Lisätä",
+    "Cancel": "Peruuttaa",
+    "Delete": "Poistaa"
+  },
+  "history": {
+    "History": "Historia"
+  },
+  "settingList": {
+    "profile": "Profiili",
+    "Settings": "Asetukset",
+    "Change Language": "Vaihda kieli",
+    "Help Center": "Ohjekeskus",
+    "AppLanguage": "Sovelluksen kieli"
+  },
+  "global": {
+    "An error has occurred": "Oho! Kauppaetsivämme ovat mukana! 🕵️‍♂️🛍️ Pidä kiinni!",
+    "Close": "Lähellä",
+    "Got it": "Selvä",
+    "OK": "OK"
+  },
+  "menu": {
+    "What is  Safe-Deal": "Mikä on Safe-Deal",
+    "Support": "Tukea",
+    "Share": "Jakaa",
+    "aboutTitle": "Kerro ystävillesi ja perheellesi SafeDealista",
+    "Desktop App": "Työpöytäsovellus",
+    "facebook": "Facebook",
+    "twitter": "Viserrys",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn",
+    "telegram": "Telegram",
+    "reddit": "Reddit",
+    "email": "Sähköposti",
+    "suggestFeature": "Arvostamme palautettasi!",
+    "freeToUseTitle": "Miksi käyttö on ilmaista?",
+    "freeToUseDesc": "Palvelumme käyttö on sinulle ilmaista. Kun teet ostoksen, kauppa maksaa meille pienen maksun, joka opastaa sinut parhaan tuotteen luo.",
+    "dataPrivacyDesc": "Käytämme vain julkisesti saatavilla olevia tietoja varmistaaksemme, että mikään tuotemerkki tai kauppa ei vaikuta suosituksiimme."
+  },
+  "WelcomeTour": {
+    "TourNext": "Seuraavaksi",
+    "TourPrevious": "Edellinen",
+    "TourHomeScreen": "Aloitusnäyttö: Käytä kaikkia sovelluksen tärkeimpiä ominaisuuksia täältä.",
+    "TourProductStatus": "Tuotteen tila: Suositeltava, Varoitus, Ei suositella",
+    "TourInsightsTab": "Tuotetiedot &Saat yksityiskohtaisia tietoja tuotteen suorituskyvystä, suosiosta ja hintatrendeistä. Etsi värikoodattuja indikaattoreita (punainen/keltainen/vihreä) arvioidaksesi nopeasti tuotteen laadun ja luotettavuuden.",
+    "TourReviewsTab": "Asiakkaiden arvostelut &Lue asiakasarvostelut ja -arviot auttaaksesi sinua tekemään tietoon perustuvan ostopäätöksen.",
+    "TourImagesTab": "Tuotekuvat &Katso kuvia tuotteesta eri näkökulmista, mukaan lukien asiakkaiden lataamat valokuvat.",
+    "TourVideosTab": "Tuotevideot &Katso videoarvostelut ja tuotteen esittelyt.",
+    "TourFinishTitle": "Kaikki on valmista!",
+    "TourFinishDescription": "Tiedät nyt Safe Dealin tärkeimmät ominaisuudet. Aloita tutkiminen ja iloisia ostoksia!",
+    "How to Analyze Any Product": "Kuinka analysoida mitä tahansa tuotetta",
+    "TourShareStep1Title": "Vaihe 1",
+    "TourShareStep1Description": "Jaa Amazonista, AliExpressistä, eBay-sovelluksesta tai selaimesta",
+    "TourShareStep2Title": "Vaihe 2",
+    "TourShareStep2Description": "Siirry tuotesivulle, valitse tuote",
+    "TourShareStep3Title": "Vaihe 3",
+    "TourShareStep3Description": "Napauta tuotesivulla Jaa-painiketta",
+    "TourShareStep4Title": "Vaihe 4",
+    "TourShareStep4Description": "Valitse luettelosta Turvallinen sopimus"
+  }
 }

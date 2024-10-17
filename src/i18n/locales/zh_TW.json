@@ -1,58 +1,81 @@
 {
-	"analyze": {
-		"product-insights": "見解",
-		"ai-insights": "評論",
-		"images": "圖片",
-		"videos": "影片",
-		"no-ai-insights": "此產品不提供 AI 審核見解。",
-		"no-images": "該產品尚無可用的客戶照片。",
-		"Photos from Customers": "客戶照片"
-	},
-	"search": {
-		"Search or enter website": "搜尋或輸入網站"
-	},
-	"stores": {
-		"share-to-friends": "看看我發現的這個有趣的應用程式：\n安全交易 - 保護自己免受不良交易、詐騙和不良服務的影響。\n請造訪：https://www.joinsafedeal.com/go?type=safe-deal-mobile",
-		"AliExpress": "速賣通",
-		"Amazon": "亞馬遜",
-		"eBay": "易趣",
-		"Add Link": "添加連結",
-		"Title like 'Temu':": "標題如“Temu”：",
-		"Link like https://www.temu.com/": "連結如 ttps://www.temu.com/",
-		"Add": "添加",
-		"Cancel": "取消",
-		"Delete": "刪除"
-	},
-	"history": {
-		"History": "歷史"
-	},
-	"settingList": {
-		"profile": "輪廓",
-		"Settings": "設定",
-		"Change Language": "更改語言",
-		"Help Center": "幫助中心",
-		"AppLanguage": "應用程式語言"
-	},
-	"global": {
-		"An error has occurred": "哎呀！我們的交易偵探正在處理它！ 🕵️‍♂️🛍️堅持住！",
-		"Close": "關閉"
-	},
-	"menu": {
-		"What is  Safe-Deal": "關於",
-		"Support": "支援",
-		"Share": "分享",
-		"aboutTitle": "向您的朋友和家人介紹 SafeDeal",
-		"Desktop App": "桌面應用程式",
-		"facebook": "Facebook",
-		"twitter": "嘰嘰喳喳",
-		"whatsapp": "WhatsApp",
-		"linkedin": "領英",
-		"telegram": "電報",
-		"reddit": "紅迪網",
-		"email": "電子郵件",
-		"suggestFeature": "我們重視您的回饋！",
-		"freeToUseTitle": "為什麼可以免費使用？",
-		"freeToUseDesc": "您可以免費使用我們的服務。當您購買時，商店會向我們支付少量費用，以引導您找到最好的產品。",
-		"dataPrivacyDesc": "我們僅使用公開數據，確保沒有品牌或商店影響我們的推薦。"
-	}
+  "analyze": {
+    "product-insights": "見解",
+    "ai-insights": "評論",
+    "images": "圖片",
+    "videos": "影片",
+    "no-ai-insights": "此產品不提供 AI 審核見解。",
+    "no-images": "該產品尚無可用的客戶照片。",
+    "Photos from Customers": "客戶照片"
+  },
+  "search": {
+    "Search or enter website": "搜尋或輸入網站"
+  },
+  "stores": {
+    "share-to-friends": "看看我發現的這個有趣的應用程式：\n安全交易 - 保護自己免受不良交易、詐騙和不良服務的影響。\n請造訪：https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+    "AliExpress": "速賣通",
+    "Amazon": "亞馬遜",
+    "eBay": "易趣",
+    "Add Link": "添加連結",
+    "Title like 'Temu':": "標題如“Temu”：",
+    "Link like https://www.temu.com/": "連結如 ttps://www.temu.com/",
+    "Add": "添加",
+    "Cancel": "取消",
+    "Delete": "刪除"
+  },
+  "history": {
+    "History": "歷史"
+  },
+  "settingList": {
+    "profile": "輪廓",
+    "Settings": "設定",
+    "Change Language": "更改語言",
+    "Help Center": "幫助中心",
+    "AppLanguage": "應用程式語言"
+  },
+  "global": {
+    "An error has occurred": "哎呀！我們的交易偵探正在處理它！ 🕵️‍♂️🛍️撐住！",
+    "Close": "關閉",
+    "Got it": "知道了",
+    "OK": "好的"
+  },
+  "menu": {
+    "What is  Safe-Deal": "什麼是安全交易",
+    "Support": "支援",
+    "Share": "分享",
+    "aboutTitle": "向您的朋友和家人介紹 SafeDeal",
+    "Desktop App": "桌面應用程式",
+    "facebook": "Facebook",
+    "twitter": "嘰嘰喳喳",
+    "whatsapp": "WhatsApp",
+    "linkedin": "領英",
+    "telegram": "電報",
+    "reddit": "紅迪網",
+    "email": "電子郵件",
+    "suggestFeature": "我們重視您的回饋！",
+    "freeToUseTitle": "為什麼可以免費使用？",
+    "freeToUseDesc": "您可以免費使用我們的服務。當您購買時，商店會向我們支付少量費用，以引導您找到最好的產品。",
+    "dataPrivacyDesc": "我們僅使用公開數據，確保沒有品牌或商店影響我們的推薦。"
+  },
+  "WelcomeTour": {
+    "TourNext": "下一個",
+    "TourPrevious": "以前的",
+    "TourHomeScreen": "主畫面：從這裡存取所有主要應用程式功能。",
+    "TourProductStatus": "產品狀態：推薦、注意、不推薦",
+    "TourInsightsTab": "產品洞察&獲取有關產品性能、受歡迎程度和價格趨勢的詳細洞察。尋找顏色編碼指示器（紅色/黃色/綠色）來快速評估產品品質和可靠性。",
+    "TourReviewsTab": "客戶評論&閱讀客戶評論和評級，幫助您做出明智的購買決定。",
+    "TourImagesTab": "產品圖片&從各個角度查看產品圖片，包括客戶上傳的照片。",
+    "TourVideosTab": "產品影片&觀看產品的影片評論和示範。",
+    "TourFinishTitle": "你都準備好了！",
+    "TourFinishDescription": "您現在已經了解了 Safe Deal 的主要功能。開始探索並快樂購物！",
+    "How to Analyze Any Product": "如何分析任何產品",
+    "TourShareStep1Title": "步驟1",
+    "TourShareStep1Description": "從 Amazon、AliExpress、eBay 應用程式或瀏覽器分享",
+    "TourShareStep2Title": "步驟2",
+    "TourShareStep2Description": "進入產品頁面，選擇產品",
+    "TourShareStep3Title": "步驟3",
+    "TourShareStep3Description": "在商品頁面上，點選分享按鈕",
+    "TourShareStep4Title": "步驟4",
+    "TourShareStep4Description": "從清單中選擇安全交易"
+  }
 }

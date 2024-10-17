@@ -1,58 +1,81 @@
 {
-	"analyze": {
-		"product-insights": "Insights",
-		"ai-insights": "Recenzie",
-		"images": "Obrázky",
-		"videos": "Videá",
-		"no-ai-insights": "Štatistiky recenzií AI nie sú pre tento produkt k dispozícii.",
-		"no-images": "K tomuto produktu zatiaľ nie sú k dispozícii žiadne fotografie zákazníkov.",
-		"Photos from Customers": "Fotografie od zákazníkov"
-	},
-	"search": {
-		"Search or enter website": "Vyhľadajte alebo zadajte webovú stránku"
-	},
-	"stores": {
-		"share-to-friends": "Pozrite si túto zaujímavú aplikáciu, ktorú som našiel:\nBezpečná dohoda – chráňte sa pred zlými ponukami, podvodmi a zlými službami.\nNavštívte: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
-		"AliExpress": "AliExpress",
-		"Amazon": "Amazon",
-		"eBay": "eBay",
-		"Add Link": "Pridať odkaz",
-		"Title like 'Temu':": "Názov ako 'Temu':",
-		"Link like https://www.temu.com/": "Odkaz ako https://www.temu.com/",
-		"Add": "Pridať",
-		"Cancel": "Zrušiť",
-		"Delete": "Odstrániť"
-	},
-	"history": {
-		"History": "História"
-	},
-	"settingList": {
-		"profile": "Profil",
-		"Settings": "Nastavenia",
-		"Change Language": "Zmeniť jazyk",
-		"Help Center": "Centrum pomoci",
-		"AppLanguage": "Jazyk aplikácie"
-	},
-	"global": {
-		"An error has occurred": "Ojoj! Naši detektívi sa zaoberajú! 🕵️‍♂️🛍️ Držte sa!",
-		"Close": "Zavrieť"
-	},
-	"menu": {
-		"What is  Safe-Deal": "O",
-		"Support": "Podpora",
-		"Share": "zdieľať",
-		"aboutTitle": "Povedzte svojim priateľom a rodine o SafeDeal",
-		"Desktop App": "Desktopová aplikácia",
-		"facebook": "Facebook",
-		"twitter": "Twitter",
-		"whatsapp": "WhatsApp",
-		"linkedin": "LinkedIn",
-		"telegram": "telegram",
-		"reddit": "Reddit",
-		"email": "Email",
-		"suggestFeature": "Ceníme si vašu spätnú väzbu!",
-		"freeToUseTitle": "Prečo je použitie zadarmo?",
-		"freeToUseDesc": "Používanie našej služby je pre vás bezplatné. Keď uskutočníte nákup, obchod nám zaplatí malý poplatok za to, že vás navedieme k najlepšiemu produktu.",
-		"dataPrivacyDesc": "Používame iba verejne dostupné údaje, čím zabezpečujeme, že žiadna značka ani obchod neovplyvní naše odporúčania."
-	}
+  "analyze": {
+    "product-insights": "Insights",
+    "ai-insights": "Recenzie",
+    "images": "Obrázky",
+    "videos": "Videá",
+    "no-ai-insights": "Štatistiky recenzií AI nie sú pre tento produkt k dispozícii.",
+    "no-images": "K tomuto produktu zatiaľ nie sú k dispozícii žiadne fotografie zákazníkov.",
+    "Photos from Customers": "Fotografie od zákazníkov"
+  },
+  "search": {
+    "Search or enter website": "Vyhľadajte alebo zadajte webovú stránku"
+  },
+  "stores": {
+    "share-to-friends": "Pozrite si túto zaujímavú aplikáciu, ktorú som našiel:\nBezpečná dohoda – chráňte sa pred zlými ponukami, podvodmi a zlými službami.\nNavštívte: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+    "AliExpress": "AliExpress",
+    "Amazon": "Amazon",
+    "eBay": "eBay",
+    "Add Link": "Pridať odkaz",
+    "Title like 'Temu':": "Názov ako 'Temu':",
+    "Link like https://www.temu.com/": "Odkaz ako https://www.temu.com/",
+    "Add": "Pridať",
+    "Cancel": "Zrušiť",
+    "Delete": "Odstrániť"
+  },
+  "history": {
+    "History": "História"
+  },
+  "settingList": {
+    "profile": "Profil",
+    "Settings": "Nastavenia",
+    "Change Language": "Zmeniť jazyk",
+    "Help Center": "Centrum pomoci",
+    "AppLanguage": "Jazyk aplikácie"
+  },
+  "global": {
+    "An error has occurred": "Ojoj! Naši detektívi sa zaoberajú! 🕵️‍♂️🛍️ Držte sa!",
+    "Close": "Zavrieť",
+    "Got it": "Dobre",
+    "OK": "OK"
+  },
+  "menu": {
+    "What is  Safe-Deal": "Čo je Safe-Deal",
+    "Support": "Podpora",
+    "Share": "zdieľať",
+    "aboutTitle": "Povedzte svojim priateľom a rodine o SafeDeal",
+    "Desktop App": "Desktopová aplikácia",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn",
+    "telegram": "telegram",
+    "reddit": "Reddit",
+    "email": "Email",
+    "suggestFeature": "Ceníme si vašu spätnú väzbu!",
+    "freeToUseTitle": "Prečo je použitie zadarmo?",
+    "freeToUseDesc": "Používanie našej služby je pre vás bezplatné. Keď uskutočníte nákup, obchod nám zaplatí malý poplatok za to, že vás navedieme k najlepšiemu produktu.",
+    "dataPrivacyDesc": "Používame iba verejne dostupné údaje, čím zabezpečujeme, že žiadna značka ani obchod neovplyvní naše odporúčania."
+  },
+  "WelcomeTour": {
+    "TourNext": "Ďalej",
+    "TourPrevious": "Predchádzajúce",
+    "TourHomeScreen": "Domovská obrazovka: Tu získate prístup ku všetkým hlavným funkciám aplikácie.",
+    "TourProductStatus": "Stav produktu: Odporúčané, Pozor, Neodporúčané",
+    "TourInsightsTab": "Štatistiky produktu &Získajte podrobné informácie o výkone, popularite a cenových trendoch produktu. Hľadajte farebne označené indikátory (červená/žltá/zelená), aby ste mohli rýchlo posúdiť kvalitu a spoľahlivosť produktu.",
+    "TourReviewsTab": "Zákaznícke recenzie &Prečítajte si zákaznícke recenzie a hodnotenia, ktoré vám pomôžu urobiť informované rozhodnutie o kúpe.",
+    "TourImagesTab": "Obrázky produktov &Zobraziť obrázky produktu z rôznych uhlov, vrátane fotografií odovzdaných zákazníkom.",
+    "TourVideosTab": "Videá o produktoch &Pozrite si videorecenzie a ukážky produktu.",
+    "TourFinishTitle": "Všetko je pripravené!",
+    "TourFinishDescription": "Teraz poznáte kľúčové funkcie Safe Deal. Začnite objavovať a šťastné nakupovanie!",
+    "How to Analyze Any Product": "Ako analyzovať akýkoľvek produkt",
+    "TourShareStep1Title": "Krok 1",
+    "TourShareStep1Description": "Zdieľajte z aplikácie Amazon, AliExpress, eBay alebo prehliadača",
+    "TourShareStep2Title": "Krok 2",
+    "TourShareStep2Description": "Prejdite na stránku produktu, vyberte produkt",
+    "TourShareStep3Title": "Krok 3",
+    "TourShareStep3Description": "Na stránke produktu klepnite na tlačidlo zdieľania",
+    "TourShareStep4Title": "Krok 4",
+    "TourShareStep4Description": "Zo zoznamu vyberte Bezpečný obchod"
+  }
 }

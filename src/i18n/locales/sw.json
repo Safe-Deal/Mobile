@@ -1,58 +1,81 @@
 {
-	"analyze": {
-		"product-insights": "Maarifa",
-		"ai-insights": "Ukaguzi",
-		"images": "Picha",
-		"videos": "Video",
-		"no-ai-insights": "Maarifa ya ukaguzi wa AI hayapatikani kwa bidhaa hii.",
-		"no-images": "Bado hakuna picha za mteja zinazopatikana kwa bidhaa hii.",
-		"Photos from Customers": "Picha kutoka kwa Wateja"
-	},
-	"search": {
-		"Search or enter website": "Tafuta au ingiza tovuti"
-	},
-	"stores": {
-		"share-to-friends": "Angalia programu hii ya kupendeza ambayo nimepata:\nMpango Salama - jilinde dhidi ya mikataba mibovu, ulaghai na huduma duni.\nTembelea: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
-		"AliExpress": "AliExpress",
-		"Amazon": "Amazon",
-		"eBay": "eBay",
-		"Add Link": "Ongeza Kiungo",
-		"Title like 'Temu':": "Jina kama 'Temu':",
-		"Link like https://www.temu.com/": "Unganisha kama https://www.temu.com/",
-		"Add": "Ongeza",
-		"Cancel": "Ghairi",
-		"Delete": "Futa"
-	},
-	"history": {
-		"History": "Historia"
-	},
-	"settingList": {
-		"profile": "Wasifu",
-		"Settings": "Mipangilio",
-		"Change Language": "Badilisha Lugha",
-		"Help Center": "Kituo cha Usaidizi",
-		"AppLanguage": "Lugha ya Programu"
-	},
-	"global": {
-		"An error has occurred": "Lo! Wapelelezi wetu wa mpango wako juu yake! 🕵️‍♂️🛍️ Subiri kidogo!",
-		"Close": "Funga"
-	},
-	"menu": {
-		"What is  Safe-Deal": "Kuhusu",
-		"Support": "Msaada",
-		"Share": "Shiriki",
-		"aboutTitle": "Waambie marafiki na familia yako kuhusu SafeDeal",
-		"Desktop App": "Programu ya Eneo-kazi",
-		"facebook": "Facebook",
-		"twitter": "Twitter",
-		"whatsapp": "WhatsApp",
-		"linkedin": "LinkedIn",
-		"telegram": "Telegramu",
-		"reddit": "Reddit",
-		"email": "Barua pepe",
-		"suggestFeature": "Tunathamini maoni yako!",
-		"freeToUseTitle": "Kwa nini ni bure kutumia?",
-		"freeToUseDesc": "Kutumia huduma zetu ni bure kwako. Unapofanya ununuzi, duka hutulipa ada ndogo kwa kukuongoza kwenye bidhaa bora zaidi.",
-		"dataPrivacyDesc": "Tunatumia data inayopatikana kwa umma pekee, kuhakikisha hakuna chapa au duka linaloathiri mapendekezo yetu."
-	}
+  "analyze": {
+    "product-insights": "Maarifa",
+    "ai-insights": "Ukaguzi",
+    "images": "Picha",
+    "videos": "Video",
+    "no-ai-insights": "Maarifa ya ukaguzi wa AI hayapatikani kwa bidhaa hii.",
+    "no-images": "Bado hakuna picha za mteja zinazopatikana kwa bidhaa hii.",
+    "Photos from Customers": "Picha kutoka kwa Wateja"
+  },
+  "search": {
+    "Search or enter website": "Tafuta au ingiza tovuti"
+  },
+  "stores": {
+    "share-to-friends": "Angalia programu hii ya kupendeza ambayo nimepata:\nMpango Salama - jilinde dhidi ya mikataba mibovu, ulaghai na huduma duni.\nTembelea: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+    "AliExpress": "AliExpress",
+    "Amazon": "Amazon",
+    "eBay": "eBay",
+    "Add Link": "Ongeza Kiungo",
+    "Title like 'Temu':": "Jina kama 'Temu':",
+    "Link like https://www.temu.com/": "Unganisha kama https://www.temu.com/",
+    "Add": "Ongeza",
+    "Cancel": "Ghairi",
+    "Delete": "Futa"
+  },
+  "history": {
+    "History": "Historia"
+  },
+  "settingList": {
+    "profile": "Wasifu",
+    "Settings": "Mipangilio",
+    "Change Language": "Badilisha Lugha",
+    "Help Center": "Kituo cha Usaidizi",
+    "AppLanguage": "Lugha ya Programu"
+  },
+  "global": {
+    "An error has occurred": "Lo! Wapelelezi wetu wa mpango wako juu yake! 🕵️‍♂️🛍️ Subiri kidogo!",
+    "Close": "Funga",
+    "Got it": "Nimeipata",
+    "OK": "SAWA"
+  },
+  "menu": {
+    "What is  Safe-Deal": "Dili Salama ni nini",
+    "Support": "Msaada",
+    "Share": "Shiriki",
+    "aboutTitle": "Waambie marafiki na familia yako kuhusu SafeDeal",
+    "Desktop App": "Programu ya Eneo-kazi",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn",
+    "telegram": "Telegramu",
+    "reddit": "Reddit",
+    "email": "Barua pepe",
+    "suggestFeature": "Tunathamini maoni yako!",
+    "freeToUseTitle": "Kwa nini ni bure kutumia?",
+    "freeToUseDesc": "Kutumia huduma zetu ni bure kwako. Unapofanya ununuzi, duka hutulipa ada ndogo kwa kukuongoza kwenye bidhaa bora zaidi.",
+    "dataPrivacyDesc": "Tunatumia data inayopatikana kwa umma pekee, kuhakikisha hakuna chapa au duka linaloathiri mapendekezo yetu."
+  },
+  "WelcomeTour": {
+    "TourNext": "Inayofuata",
+    "TourPrevious": "Iliyotangulia",
+    "TourHomeScreen": "Skrini ya Nyumbani: Fikia vipengele vyote vya programu kutoka hapa.",
+    "TourProductStatus": "Hali ya Bidhaa: Imependekezwa,Tahadhari, Haipendekezwi",
+    "TourInsightsTab": "Maarifa ya Bidhaa &Pata maarifa ya kina kuhusu utendaji wa bidhaa, umaarufu na mitindo ya bei. Tafuta viashirio vilivyo na alama za rangi (nyekundu/njano/kijani) ili kutathmini kwa haraka ubora wa bidhaa na kutegemewa.",
+    "TourReviewsTab": "Maoni ya Wateja &Soma hakiki na ukadiriaji wa wateja ili kukusaidia kufanya uamuzi wa ununuzi wa ufahamu.",
+    "TourImagesTab": "Picha za Bidhaa &Tazama picha za bidhaa kutoka pande mbalimbali, ikiwa ni pamoja na picha zilizopakiwa na mteja.",
+    "TourVideosTab": "Video za Bidhaa &Tazama uhakiki wa video na maonyesho ya bidhaa.",
+    "TourFinishTitle": "Uko tayari!",
+    "TourFinishDescription": "Sasa unajua vipengele muhimu vya Mpango Salama. Anza kuchunguza na ununuzi wa furaha!",
+    "How to Analyze Any Product": "Jinsi ya Kuchambua Bidhaa Yoyote",
+    "TourShareStep1Title": "Hatua ya 1",
+    "TourShareStep1Description": "Shiriki kutoka Amazon, AliExpress, programu ya eBay, au kivinjari",
+    "TourShareStep2Title": "Hatua ya 2",
+    "TourShareStep2Description": "Nenda kwenye ukurasa wa bidhaa, Chagua Bidhaa",
+    "TourShareStep3Title": "Hatua ya 3",
+    "TourShareStep3Description": "Kwenye ukurasa wa bidhaa, gusa kitufe cha kushiriki",
+    "TourShareStep4Title": "Hatua ya 4",
+    "TourShareStep4Description": "Chagua Mpango Salama kutoka kwenye orodha"
+  }
 }

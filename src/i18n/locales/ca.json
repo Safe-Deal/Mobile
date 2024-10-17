@@ -1,58 +1,81 @@
 {
-	"analyze": {
-		"product-insights": "Insights",
-		"ai-insights": "Ressenyes",
-		"images": "Imatges",
-		"videos": "Vídeos",
-		"no-ai-insights": "Les estadístiques de revisió d'IA no estan disponibles per a aquest producte.",
-		"no-images": "Encara no hi ha fotos de clients disponibles per a aquest producte.",
-		"Photos from Customers": "Fotos dels clients"
-	},
-	"search": {
-		"Search or enter website": "Cerca o entra al lloc web"
-	},
-	"stores": {
-		"share-to-friends": "Fes una ullada a aquesta interessant aplicació que he trobat:\nOferta segura: protegiu-vos de males ofertes, estafes i un servei deficient.\nVisiteu: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
-		"AliExpress": "AliExpress",
-		"Amazon": "Amazon",
-		"eBay": "eBay",
-		"Add Link": "Afegeix un enllaç",
-		"Title like 'Temu':": "Títol com \"Temu\":",
-		"Link like https://www.temu.com/": "Enllaç com https://www.temu.com/",
-		"Add": "Afegeix",
-		"Cancel": "Cancel·la",
-		"Delete": "Suprimeix"
-	},
-	"history": {
-		"History": "Història"
-	},
-	"settingList": {
-		"profile": "Perfil",
-		"Settings": "Configuració",
-		"Change Language": "Canvia l'idioma",
-		"Help Center": "Centre d'ajuda",
-		"AppLanguage": "Idioma de l'aplicació"
-	},
-	"global": {
-		"An error has occurred": "Vaja! Els nostres detectius d'acord estan a punt! 🕵️‍♂️🛍️ Aguanta't!",
-		"Close": "Tancar"
-	},
-	"menu": {
-		"What is  Safe-Deal": "Sobre",
-		"Support": "Suport",
-		"Share": "Comparteix",
-		"aboutTitle": "Expliqueu als vostres amics i familiars sobre SafeDeal",
-		"Desktop App": "Aplicació d'escriptori",
-		"facebook": "Facebook",
-		"twitter": "Twitter",
-		"whatsapp": "WhatsApp",
-		"linkedin": "LinkedIn",
-		"telegram": "Telegrama",
-		"reddit": "Reddit",
-		"email": "Correu electrònic",
-		"suggestFeature": "Valorem els teus comentaris!",
-		"freeToUseTitle": "Per què és d'ús gratuït?",
-		"freeToUseDesc": "L'ús del nostre servei és gratuït per a vostè. Quan fas una compra, la botiga ens paga una petita quota per orientar-te cap al millor producte.",
-		"dataPrivacyDesc": "Utilitzem només dades disponibles públicament, garantint-nos que cap marca o botiga influeixi en les nostres recomanacions."
-	}
+  "analyze": {
+    "product-insights": "Insights",
+    "ai-insights": "Ressenyes",
+    "images": "Imatges",
+    "videos": "Vídeos",
+    "no-ai-insights": "Les estadístiques de revisió d'IA no estan disponibles per a aquest producte.",
+    "no-images": "Encara no hi ha fotos de clients disponibles per a aquest producte.",
+    "Photos from Customers": "Fotos dels clients"
+  },
+  "search": {
+    "Search or enter website": "Cerca o entra al lloc web"
+  },
+  "stores": {
+    "share-to-friends": "Fes una ullada a aquesta interessant aplicació que he trobat:\nOferta segura: protegiu-vos de males ofertes, estafes i un servei deficient.\nVisiteu: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+    "AliExpress": "AliExpress",
+    "Amazon": "Amazon",
+    "eBay": "eBay",
+    "Add Link": "Afegeix un enllaç",
+    "Title like 'Temu':": "Títol com \"Temu\":",
+    "Link like https://www.temu.com/": "Enllaç com https://www.temu.com/",
+    "Add": "Afegeix",
+    "Cancel": "Cancel·la",
+    "Delete": "Suprimeix"
+  },
+  "history": {
+    "History": "Història"
+  },
+  "settingList": {
+    "profile": "Perfil",
+    "Settings": "Configuració",
+    "Change Language": "Canvia l'idioma",
+    "Help Center": "Centre d'ajuda",
+    "AppLanguage": "Idioma de l'aplicació"
+  },
+  "global": {
+    "An error has occurred": "Vaja! Els nostres detectius d'acord estan a punt! 🕵️‍♂️🛍️ Aguanta't!",
+    "Close": "Tancar",
+    "Got it": "Ho entenc",
+    "OK": "D'acord"
+  },
+  "menu": {
+    "What is  Safe-Deal": "Què és Safe-Deal",
+    "Support": "Suport",
+    "Share": "Comparteix",
+    "aboutTitle": "Expliqueu als vostres amics i familiars sobre SafeDeal",
+    "Desktop App": "Aplicació d'escriptori",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn",
+    "telegram": "Telegrama",
+    "reddit": "Reddit",
+    "email": "Correu electrònic",
+    "suggestFeature": "Valorem els teus comentaris!",
+    "freeToUseTitle": "Per què és d'ús gratuït?",
+    "freeToUseDesc": "L'ús del nostre servei és gratuït per a vostè. Quan fas una compra, la botiga ens paga una petita quota per orientar-te cap al millor producte.",
+    "dataPrivacyDesc": "Utilitzem només dades disponibles públicament, garantint-nos que cap marca o botiga influeixi en les nostres recomanacions."
+  },
+  "WelcomeTour": {
+    "TourNext": "A continuació",
+    "TourPrevious": "Anterior",
+    "TourHomeScreen": "Pantalla d'inici: accedeix a totes les funcions principals de l'aplicació des d'aquí.",
+    "TourProductStatus": "Estat del producte: recomanat, precaució, no recomanat",
+    "TourInsightsTab": "Estadístiques del producte &Obteniu informació detallada sobre el rendiment, la popularitat i les tendències de preus del producte. Busqueu indicadors codificats per colors (vermell/groc/verd) per avaluar ràpidament la qualitat i la fiabilitat del producte.",
+    "TourReviewsTab": "Comentaris dels clients i llegiu ressenyes i valoracions dels clients per ajudar-vos a prendre una decisió de compra informada.",
+    "TourImagesTab": "Imatges del producte i visualitzeu imatges del producte des de diferents angles, incloses les fotos penjades pel client.",
+    "TourVideosTab": "Vídeos del producte &Mireu ressenyes de vídeos i demostracions del producte.",
+    "TourFinishTitle": "Estàs a punt!",
+    "TourFinishDescription": "Ara coneixeu les característiques clau de Safe Deal. Comenceu a explorar i compreu feliços!",
+    "How to Analyze Any Product": "Com analitzar qualsevol producte",
+    "TourShareStep1Title": "Pas 1",
+    "TourShareStep1Description": "Comparteix des d'Amazon, AliExpress, l'aplicació eBay o un navegador",
+    "TourShareStep2Title": "Pas 2",
+    "TourShareStep2Description": "Aneu a la pàgina del producte, seleccioneu el producte",
+    "TourShareStep3Title": "Pas 3",
+    "TourShareStep3Description": "A la pàgina del producte, toqueu el botó de compartir",
+    "TourShareStep4Title": "Pas 4",
+    "TourShareStep4Description": "Seleccioneu Oferta segura de la llista"
+  }
 }

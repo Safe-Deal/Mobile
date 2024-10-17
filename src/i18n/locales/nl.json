@@ -1,58 +1,81 @@
 {
-	"analyze": {
-		"product-insights": "Inzichten",
-		"ai-insights": "Beoordelingen",
-		"images": "Afbeeldingen",
-		"videos": "Video's",
-		"no-ai-insights": "AI-beoordelingsinzichten zijn niet beschikbaar voor dit product.",
-		"no-images": "Er zijn nog geen klantfoto's beschikbaar voor dit product.",
-		"Photos from Customers": "Foto's van klanten"
-	},
-	"search": {
-		"Search or enter website": "Zoek of voer website in"
-	},
-	"stores": {
-		"share-to-friends": "Bekijk deze interessante app die ik vond:\nSafe Deal - bescherm uzelf tegen slechte deals, oplichting en slechte service.\nBezoek: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
-		"AliExpress": "AliExpress",
-		"Amazon": "Amazon",
-		"eBay": "EBay",
-		"Add Link": "Link toevoegen",
-		"Title like 'Temu':": "Titel zoals 'Temu':",
-		"Link like https://www.temu.com/": "Link zoals https://www.temu.com/",
-		"Add": "Toevoegen",
-		"Cancel": "Annuleren",
-		"Delete": "Verwijderen"
-	},
-	"history": {
-		"History": "Geschiedenis"
-	},
-	"settingList": {
-		"profile": "Profiel",
-		"Settings": "Instellingen",
-		"Change Language": "Taal wijzigen",
-		"Help Center": "Helpcentrum",
-		"AppLanguage": "App-taal"
-	},
-	"global": {
-		"An error has occurred": "Oeps! Onze dealdetectives zijn ermee bezig! 🕵️‍♂️🛍️ Nog even geduld!",
-		"Close": "Dichtbij"
-	},
-	"menu": {
-		"What is  Safe-Deal": "Over",
-		"Support": "Steun",
-		"Share": "Deel",
-		"aboutTitle": "Vertel uw vrienden en familie over SafeDeal",
-		"Desktop App": "Bureaublad-app",
-		"facebook": "Facebook",
-		"twitter": "Twitter",
-		"whatsapp": "WhatsApp",
-		"linkedin": "LinkedIn",
-		"telegram": "Telegram",
-		"reddit": "Reddit",
-		"email": "E-mail",
-		"suggestFeature": "Wij stellen uw feedback op prijs!",
-		"freeToUseTitle": "Waarom is het gratis te gebruiken?",
-		"freeToUseDesc": "Het gebruik van onze service is gratis voor u. Wanneer u een aankoop doet, betaalt de winkel ons een kleine vergoeding om u naar het beste product te begeleiden.",
-		"dataPrivacyDesc": "Wij gebruiken uitsluitend openbaar beschikbare gegevens, zodat geen enkel merk of winkel onze aanbevelingen beïnvloedt."
-	}
+  "analyze": {
+    "product-insights": "Inzichten",
+    "ai-insights": "Beoordelingen",
+    "images": "Afbeeldingen",
+    "videos": "Video's",
+    "no-ai-insights": "AI-beoordelingsinzichten zijn niet beschikbaar voor dit product.",
+    "no-images": "Er zijn nog geen klantfoto's beschikbaar voor dit product.",
+    "Photos from Customers": "Foto's van klanten"
+  },
+  "search": {
+    "Search or enter website": "Zoek of voer website in"
+  },
+  "stores": {
+    "share-to-friends": "Bekijk deze interessante app die ik vond:\nSafe Deal - bescherm uzelf tegen slechte deals, oplichting en slechte service.\nBezoek: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+    "AliExpress": "AliExpress",
+    "Amazon": "Amazon",
+    "eBay": "EBay",
+    "Add Link": "Link toevoegen",
+    "Title like 'Temu':": "Titel zoals 'Temu':",
+    "Link like https://www.temu.com/": "Link zoals https://www.temu.com/",
+    "Add": "Toevoegen",
+    "Cancel": "Annuleren",
+    "Delete": "Verwijderen"
+  },
+  "history": {
+    "History": "Geschiedenis"
+  },
+  "settingList": {
+    "profile": "Profiel",
+    "Settings": "Instellingen",
+    "Change Language": "Taal wijzigen",
+    "Help Center": "Helpcentrum",
+    "AppLanguage": "App-taal"
+  },
+  "global": {
+    "An error has occurred": "Oeps! Onze dealdetectives zijn ermee bezig! 🕵️‍♂️🛍️ Nog even geduld!",
+    "Close": "Dichtbij",
+    "Got it": "Ik snap het",
+    "OK": "OK"
+  },
+  "menu": {
+    "What is  Safe-Deal": "Wat is Safe-Deal",
+    "Support": "Steun",
+    "Share": "Deel",
+    "aboutTitle": "Vertel uw vrienden en familie over SafeDeal",
+    "Desktop App": "Bureaublad-app",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn",
+    "telegram": "Telegram",
+    "reddit": "Reddit",
+    "email": "E-mail",
+    "suggestFeature": "Wij stellen uw feedback op prijs!",
+    "freeToUseTitle": "Waarom is het gratis te gebruiken?",
+    "freeToUseDesc": "Het gebruik van onze service is gratis voor u. Wanneer u een aankoop doet, betaalt de winkel ons een kleine vergoeding om u naar het beste product te begeleiden.",
+    "dataPrivacyDesc": "Wij gebruiken uitsluitend openbaar beschikbare gegevens, zodat geen enkel merk of winkel onze aanbevelingen beïnvloedt."
+  },
+  "WelcomeTour": {
+    "TourNext": "Volgende",
+    "TourPrevious": "Vorig",
+    "TourHomeScreen": "Startscherm: Hier hebt u toegang tot alle belangrijke functies van de app.",
+    "TourProductStatus": "Productstatus: Aanbevolen, Let op, Niet aanbevolen",
+    "TourInsightsTab": "Productinzichten &Krijg gedetailleerde inzichten over de prestaties, populariteit en prijstrends van het product. Kijk naar kleurgecodeerde indicatoren (rood/geel/groen) om snel de productkwaliteit en betrouwbaarheid te beoordelen.",
+    "TourReviewsTab": "Klantbeoordelingen Lees de beoordelingen en waarderingen van klanten, zodat u een weloverwogen aankoopbeslissing kunt nemen.",
+    "TourImagesTab": "Productafbeeldingen Bekijk afbeeldingen van het product vanuit verschillende hoeken, inclusief door klanten geüploade foto's.",
+    "TourVideosTab": "Productvideo's Bekijk videorecensies en demonstraties van het product.",
+    "TourFinishTitle": "Je bent helemaal klaar!",
+    "TourFinishDescription": "U kent nu de belangrijkste kenmerken van Safe Deal. Begin met verkennen en veel winkelplezier!",
+    "How to Analyze Any Product": "Hoe u elk product kunt analyseren",
+    "TourShareStep1Title": "Stap 1",
+    "TourShareStep1Description": "Delen via Amazon, AliExpress, eBay-app of een browser",
+    "TourShareStep2Title": "Stap 2",
+    "TourShareStep2Description": "Ga naar de productpagina, selecteer het product",
+    "TourShareStep3Title": "Stap 3",
+    "TourShareStep3Description": "Tik op de deelknop op de productpagina",
+    "TourShareStep4Title": "Stap 4",
+    "TourShareStep4Description": "Selecteer Veilige deal uit de lijst"
+  }
 }
