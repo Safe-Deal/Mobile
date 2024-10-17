@@ -1,58 +1,58 @@
 {
-  "analyze": {
-    "product-insights": "Įžvalgos",
-    "ai-insights": "Atsiliepimai",
-    "images": "Vaizdai",
-    "videos": "Vaizdo įrašai",
-    "no-ai-insights": "AI apžvalgos įžvalgos apie šį produktą nepasiekiamos.",
-    "no-images": "Kol kas nėra šio produkto klientų nuotraukų.",
-    "Photos from Customers": "Nuotraukos iš klientų"
-  },
-  "search": {
-    "Search or enter website": "Ieškokite arba įveskite svetainę"
-  },
-  "stores": {
-    "share-to-friends": "Peržiūrėkite šią įdomią programą, kurią radau:\nSaugus sandoris – apsisaugokite nuo blogų pasiūlymų, aferų ir prasto aptarnavimo.\nApsilankykite: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
-    "AliExpress": "AliExpress",
-    "Amazon": "Amazon",
-    "eBay": "eBay",
-    "Add Link": "Pridėti nuorodą",
-    "Title like 'Temu':": "Pavadinimas kaip „Temu“:",
-    "Link like https://www.temu.com/": "Nuoroda kaip https://www.temu.com/",
-    "Add": "Pridėti",
-    "Cancel": "Atšaukti",
-    "Delete": "Ištrinti"
-  },
-  "history": {
-    "History": "Istorija"
-  },
-  "settingList": {
-    "profile": "Profilis",
-    "Settings": "Nustatymai",
-    "Change Language": "Keisti kalbą",
-    "Help Center": "Pagalbos centras",
-    "AppLanguage": "Programos kalba"
-  },
-  "global": {
-    "An error has occurred": "Oi! Mūsų sandorio detektyvai yra tai! 🕵️‍♂️🛍️ Laikykitės!",
-    "Close": "Uždaryti"
-  },
-  "menu": {
-    "About": "Apie",
-    "Support": "Palaikymas",
-    "Share": "Dalintis",
-    "aboutTitle": "Papasakokite savo draugams ir šeimos nariams apie „SafeDeal“.",
-    "Desktop App": "Darbalaukio programa",
-    "facebook": "Facebook",
-    "twitter": "Twitter",
-    "whatsapp": "WhatsApp",
-    "linkedin": "LinkedIn",
-    "telegram": "Telegrama",
-    "reddit": "Reddit",
-    "email": "El. paštas",
-    "suggestFeature": "Vertiname jūsų atsiliepimus!",
-    "freeToUseTitle": "Kodėl galima nemokamai naudotis?",
-    "freeToUseDesc": "Mūsų paslauga jums nemokama. Kai perkate, parduotuvė sumoka mums nedidelį mokestį už tai, kad nukreiptume jus į geriausią produktą.",
-    "dataPrivacyDesc": "Naudojame tik viešai prieinamus duomenis, užtikrindami, kad joks prekės ženklas ar parduotuvė nepadarytų įtakos mūsų rekomendacijoms."
-  }
+	"analyze": {
+		"product-insights": "Įžvalgos",
+		"ai-insights": "Atsiliepimai",
+		"images": "Vaizdai",
+		"videos": "Vaizdo įrašai",
+		"no-ai-insights": "AI apžvalgos įžvalgos apie šį produktą nepasiekiamos.",
+		"no-images": "Kol kas nėra šio produkto klientų nuotraukų.",
+		"Photos from Customers": "Nuotraukos iš klientų"
+	},
+	"search": {
+		"Search or enter website": "Ieškokite arba įveskite svetainę"
+	},
+	"stores": {
+		"share-to-friends": "Peržiūrėkite šią įdomią programą, kurią radau:\nSaugus sandoris – apsisaugokite nuo blogų pasiūlymų, aferų ir prasto aptarnavimo.\nApsilankykite: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+		"AliExpress": "AliExpress",
+		"Amazon": "Amazon",
+		"eBay": "eBay",
+		"Add Link": "Pridėti nuorodą",
+		"Title like 'Temu':": "Pavadinimas kaip „Temu“:",
+		"Link like https://www.temu.com/": "Nuoroda kaip https://www.temu.com/",
+		"Add": "Pridėti",
+		"Cancel": "Atšaukti",
+		"Delete": "Ištrinti"
+	},
+	"history": {
+		"History": "Istorija"
+	},
+	"settingList": {
+		"profile": "Profilis",
+		"Settings": "Nustatymai",
+		"Change Language": "Keisti kalbą",
+		"Help Center": "Pagalbos centras",
+		"AppLanguage": "Programos kalba"
+	},
+	"global": {
+		"An error has occurred": "Oi! Mūsų sandorio detektyvai yra tai! 🕵️‍♂️🛍️ Laikykitės!",
+		"Close": "Uždaryti"
+	},
+	"menu": {
+		"What is  Safe-Deal": "Apie",
+		"Support": "Palaikymas",
+		"Share": "Dalintis",
+		"aboutTitle": "Papasakokite savo draugams ir šeimos nariams apie „SafeDeal“.",
+		"Desktop App": "Darbalaukio programa",
+		"facebook": "Facebook",
+		"twitter": "Twitter",
+		"whatsapp": "WhatsApp",
+		"linkedin": "LinkedIn",
+		"telegram": "Telegrama",
+		"reddit": "Reddit",
+		"email": "El. paštas",
+		"suggestFeature": "Vertiname jūsų atsiliepimus!",
+		"freeToUseTitle": "Kodėl galima nemokamai naudotis?",
+		"freeToUseDesc": "Mūsų paslauga jums nemokama. Kai perkate, parduotuvė sumoka mums nedidelį mokestį už tai, kad nukreiptume jus į geriausią produktą.",
+		"dataPrivacyDesc": "Naudojame tik viešai prieinamus duomenis, užtikrindami, kad joks prekės ženklas ar parduotuvė nepadarytų įtakos mūsų rekomendacijoms."
+	}
 }

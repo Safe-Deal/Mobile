@@ -10,11 +10,12 @@ import { AboutModal } from "./Components/About";
 interface MenuProps {
 	onSharePress?: (value: string) => void;
 	onLanguagePress?: () => void;
+	hasDecision?: boolean;
 }
 const SUPPORT_LINK = "https://chat.whatsapp.com/Dr0Zr8gvVbh4j2pouD9LP7";
 const DESKTOP_LINK = "https://www.joinsafedeal.com/desktop";
 
-export const Menu = ({ onSharePress, onLanguagePress }: MenuProps) => {
+export const Menu = ({ onSharePress, onLanguagePress, hasDecision = false }: MenuProps) => {
 	const { t } = useTranslation();
 	const [isMenuOpen, setMenuOpen] = useState(false);
 	const [isAboutModalVisible, setAboutModalVisible] = useState(false);
@@ -58,7 +59,13 @@ export const Menu = ({ onSharePress, onLanguagePress }: MenuProps) => {
 			<MenuPaper
 				visible={isMenuOpen}
 				onDismiss={handleCloseMenu}
-				anchor={<IconButton color={s.top_toolbar__menu_btn.color} name="kebab" onPress={handleOpenMenu} />}
+				anchor={
+					<IconButton
+						style={hasDecision ? s.top_toolbar__menu_btn_decision : s.top_toolbar__menu_btn_no_decision}
+						name="kebab"
+						onPress={handleOpenMenu}
+					/>
+				}
 			>
 				<List.Item
 					title={t("Support")}
@@ -81,7 +88,7 @@ export const Menu = ({ onSharePress, onLanguagePress }: MenuProps) => {
 					onPress={handleDesktop}
 				/>
 				<List.Item
-					title={t("About")}
+					title={t("What is  Safe-Deal")}
 					left={() => <Icon name="info" style={s.top_toolbar__menu_icon} />}
 					onPress={openAboutModal}
 				/>

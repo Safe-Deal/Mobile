@@ -1,58 +1,58 @@
 {
-  "analyze": {
-    "product-insights": "Einblicke",
-    "ai-insights": "Bewertungen",
-    "images": "Bilder",
-    "videos": "Videos",
-    "no-ai-insights": "Für dieses Produkt sind keine KI-Überprüfungseinblicke verfügbar.",
-    "no-images": "Zu diesem Produkt sind noch keine Kundenfotos verfügbar.",
-    "Photos from Customers": "Fotos von Kunden"
-  },
-  "search": {
-    "Search or enter website": "Website suchen oder eingeben"
-  },
-  "stores": {
-    "share-to-friends": "Schauen Sie sich diese interessante App an, die ich gefunden habe:\nSafe Deal – schützen Sie sich vor schlechten Deals, Betrug und schlechtem Service.\nBesuchen Sie: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
-    "AliExpress": "AliExpress",
-    "Amazon": "Amazonas",
-    "eBay": "eBay",
-    "Add Link": "Link hinzufügen",
-    "Title like 'Temu':": "Titel wie ‚Temu‘:",
-    "Link like https://www.temu.com/": "Link wie https://www.temu.com/",
-    "Add": "Hinzufügen",
-    "Cancel": "Stornieren",
-    "Delete": "Löschen"
-  },
-  "history": {
-    "History": "Geschichte"
-  },
-  "settingList": {
-    "profile": "Profil",
-    "Settings": "Einstellungen",
-    "Change Language": "Sprache ändern",
-    "Help Center": "Hilfezentrum",
-    "AppLanguage": "App-Sprache"
-  },
-  "global": {
-    "An error has occurred": "Hoppla! Unsere Deal-Detektive sind dran! 🕵️‍♂️🛍️ Bleib dran!",
-    "Close": "Schließen"
-  },
-  "menu": {
-    "About": "Um",
-    "Support": "Unterstützung",
-    "Share": "Aktie",
-    "aboutTitle": "Erzählen Sie Ihren Freunden und Ihrer Familie von SafeDeal",
-    "Desktop App": "Desktop-App",
-    "facebook": "auf facebook.",
-    "twitter": "Þjórsárdalur",
-    "whatsapp": "WhatsApp",
-    "linkedin": "LinkedIn",
-    "telegram": "Telegramm",
-    "reddit": "Reddit",
-    "email": "E-Mail",
-    "suggestFeature": "Ihr Feedback ist uns wichtig!",
-    "freeToUseTitle": "Warum ist die Nutzung kostenlos?",
-    "freeToUseDesc": "Die Nutzung unseres Services ist für Sie kostenlos. Bei einem Einkauf zahlt uns der Shop eine kleine Gebühr, damit wir Sie zum besten Produkt führen.",
-    "dataPrivacyDesc": "Wir verwenden nur öffentlich verfügbare Daten und stellen sicher, dass unsere Empfehlungen nicht von Marken oder Geschäften beeinflusst werden."
-  }
+	"analyze": {
+		"product-insights": "Einblicke",
+		"ai-insights": "Bewertungen",
+		"images": "Bilder",
+		"videos": "Videos",
+		"no-ai-insights": "Für dieses Produkt sind keine KI-Überprüfungseinblicke verfügbar.",
+		"no-images": "Zu diesem Produkt sind noch keine Kundenfotos verfügbar.",
+		"Photos from Customers": "Fotos von Kunden"
+	},
+	"search": {
+		"Search or enter website": "Website suchen oder eingeben"
+	},
+	"stores": {
+		"share-to-friends": "Schauen Sie sich diese interessante App an, die ich gefunden habe:\nSafe Deal – schützen Sie sich vor schlechten Deals, Betrug und schlechtem Service.\nBesuchen Sie: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+		"AliExpress": "AliExpress",
+		"Amazon": "Amazonas",
+		"eBay": "eBay",
+		"Add Link": "Link hinzufügen",
+		"Title like 'Temu':": "Titel wie ‚Temu‘:",
+		"Link like https://www.temu.com/": "Link wie https://www.temu.com/",
+		"Add": "Hinzufügen",
+		"Cancel": "Stornieren",
+		"Delete": "Löschen"
+	},
+	"history": {
+		"History": "Geschichte"
+	},
+	"settingList": {
+		"profile": "Profil",
+		"Settings": "Einstellungen",
+		"Change Language": "Sprache ändern",
+		"Help Center": "Hilfezentrum",
+		"AppLanguage": "App-Sprache"
+	},
+	"global": {
+		"An error has occurred": "Hoppla! Unsere Deal-Detektive sind dran! 🕵️‍♂️🛍️ Bleib dran!",
+		"Close": "Schließen"
+	},
+	"menu": {
+		"What is  Safe-Deal": "Um",
+		"Support": "Unterstützung",
+		"Share": "Aktie",
+		"aboutTitle": "Erzählen Sie Ihren Freunden und Ihrer Familie von SafeDeal",
+		"Desktop App": "Desktop-App",
+		"facebook": "auf facebook.",
+		"twitter": "Þjórsárdalur",
+		"whatsapp": "WhatsApp",
+		"linkedin": "LinkedIn",
+		"telegram": "Telegramm",
+		"reddit": "Reddit",
+		"email": "E-Mail",
+		"suggestFeature": "Ihr Feedback ist uns wichtig!",
+		"freeToUseTitle": "Warum ist die Nutzung kostenlos?",
+		"freeToUseDesc": "Die Nutzung unseres Services ist für Sie kostenlos. Bei einem Einkauf zahlt uns der Shop eine kleine Gebühr, damit wir Sie zum besten Produkt führen.",
+		"dataPrivacyDesc": "Wir verwenden nur öffentlich verfügbare Daten und stellen sicher, dass unsere Empfehlungen nicht von Marken oder Geschäften beeinflusst werden."
+	}
 }

@@ -37,13 +37,13 @@ const styles = StyleSheet.create({
 		borderRadius: width(1),
 	},
 	language_modal_item_even: {
-		backgroundColor: "rgba(0, 0, 0, 0.02)", // Very light gray
+		backgroundColor: "rgba(0, 0, 0, 0.02)",
 	},
 	language_modal_item_odd: {
-		backgroundColor: "rgba(0, 0, 0, 0)", // Transparent (same as background)
+		backgroundColor: "rgba(0, 0, 0, 0)",
 	},
 	language_modal_item_selected: {
-		backgroundColor: Theme.primary + "10", // 10 is for 6% opacity
+		backgroundColor: Theme.primary + "10",
 	},
 	language_modal_selected_text: {
 		color: Theme.goGreen,
@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
 	language_modal_close_button: {
 		backgroundColor: Theme.primary,
 		padding: height(1.5),
-		borderRadius: width(1),
+		borderRadius: width(4),
 		alignSelf: "stretch",
 		marginTop: height(2),
 	},

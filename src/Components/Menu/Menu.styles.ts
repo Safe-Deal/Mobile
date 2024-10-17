@@ -2,8 +2,11 @@ import { StyleSheet } from "react-native";
 import Theme, { fontSize, height, heightByOs, width } from "../../Theme/Theme";
 
 const styles = StyleSheet.create({
-	top_toolbar__menu_btn: {
+	top_toolbar__menu_btn_no_decision: {
 		color: Theme.colorBlackish,
+	},
+	top_toolbar__menu_btn_decision: {
+		color: Theme.antiFlashWhite,
 	},
 	top_toolbar__menu_icon: {
 		fontSize: fontSize(21),

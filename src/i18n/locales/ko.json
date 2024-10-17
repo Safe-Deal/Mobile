@@ -1,58 +1,58 @@
 {
-  "analyze": {
-    "product-insights": "통찰력",
-    "ai-insights": "리뷰",
-    "images": "이미지",
-    "videos": "비디오",
-    "no-ai-insights": "이 제품에는 AI 검토 통찰력이 제공되지 않습니다.",
-    "no-images": "아직 이 제품에 대한 고객 사진이 없습니다.",
-    "Photos from Customers": "고객의 사진"
-  },
-  "search": {
-    "Search or enter website": "웹사이트를 검색하거나 입력하세요"
-  },
-  "stores": {
-    "share-to-friends": "내가 찾은 흥미로운 앱을 확인해 보세요:\nSafe Deal - 나쁜 거래, 사기, 열악한 서비스로부터 자신을 보호하세요.\n방문: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
-    "AliExpress": "알리익스프레스",
-    "Amazon": "아마존",
-    "eBay": "이베이",
-    "Add Link": "링크 추가",
-    "Title like 'Temu':": "'테무'와 같은 제목:",
-    "Link like https://www.temu.com/": "https://www.temu.com/ 와 같은 링크",
-    "Add": "추가하다",
-    "Cancel": "취소",
-    "Delete": "삭제"
-  },
-  "history": {
-    "History": "역사"
-  },
-  "settingList": {
-    "profile": "윤곽",
-    "Settings": "설정",
-    "Change Language": "언어 변경",
-    "Help Center": "도움말 센터",
-    "AppLanguage": "앱 언어"
-  },
-  "global": {
-    "An error has occurred": "앗! 우리 거래 탐정들이 찾아냈어요! 🕵️‍♂️🛍️ 잠깐만요!",
-    "Close": "닫다"
-  },
-  "menu": {
-    "About": "에 대한",
-    "Support": "지원하다",
-    "Share": "공유하다",
-    "aboutTitle": "친구와 가족에게 SafeDeal에 대해 알려주세요",
-    "Desktop App": "데스크톱 앱",
-    "facebook": "페이스북",
-    "twitter": "지저귀다",
-    "whatsapp": "왓츠앱",
-    "linkedin": "링크드인",
-    "telegram": "전보",
-    "reddit": "레딧",
-    "email": "이메일",
-    "suggestFeature": "귀하의 의견을 소중히 여깁니다!",
-    "freeToUseTitle": "왜 무료로 사용할 수 있나요?",
-    "freeToUseDesc": "저희 서비스를 사용하는 것은 무료입니다. 구매 시, 매장은 귀하를 최고의 제품으로 안내하는 데 대한 소액의 수수료를 지불합니다.",
-    "dataPrivacyDesc": "저희는 공개적으로 이용 가능한 데이터만 사용하므로 어떤 브랜드나 매장이 저희의 추천에 영향을 미치지 않습니다."
-  }
+	"analyze": {
+		"product-insights": "통찰력",
+		"ai-insights": "리뷰",
+		"images": "이미지",
+		"videos": "비디오",
+		"no-ai-insights": "이 제품에는 AI 검토 통찰력이 제공되지 않습니다.",
+		"no-images": "아직 이 제품에 대한 고객 사진이 없습니다.",
+		"Photos from Customers": "고객의 사진"
+	},
+	"search": {
+		"Search or enter website": "웹사이트를 검색하거나 입력하세요"
+	},
+	"stores": {
+		"share-to-friends": "내가 찾은 흥미로운 앱을 확인해 보세요:\nSafe Deal - 나쁜 거래, 사기, 열악한 서비스로부터 자신을 보호하세요.\n방문: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+		"AliExpress": "알리익스프레스",
+		"Amazon": "아마존",
+		"eBay": "이베이",
+		"Add Link": "링크 추가",
+		"Title like 'Temu':": "'테무'와 같은 제목:",
+		"Link like https://www.temu.com/": "https://www.temu.com/ 와 같은 링크",
+		"Add": "추가하다",
+		"Cancel": "취소",
+		"Delete": "삭제"
+	},
+	"history": {
+		"History": "역사"
+	},
+	"settingList": {
+		"profile": "윤곽",
+		"Settings": "설정",
+		"Change Language": "언어 변경",
+		"Help Center": "도움말 센터",
+		"AppLanguage": "앱 언어"
+	},
+	"global": {
+		"An error has occurred": "앗! 우리 거래 탐정들이 찾아냈어요! 🕵️‍♂️🛍️ 잠깐만요!",
+		"Close": "닫다"
+	},
+	"menu": {
+		"What is  Safe-Deal": "에 대한",
+		"Support": "지원하다",
+		"Share": "공유하다",
+		"aboutTitle": "친구와 가족에게 SafeDeal에 대해 알려주세요",
+		"Desktop App": "데스크톱 앱",
+		"facebook": "페이스북",
+		"twitter": "지저귀다",
+		"whatsapp": "왓츠앱",
+		"linkedin": "링크드인",
+		"telegram": "전보",
+		"reddit": "레딧",
+		"email": "이메일",
+		"suggestFeature": "귀하의 의견을 소중히 여깁니다!",
+		"freeToUseTitle": "왜 무료로 사용할 수 있나요?",
+		"freeToUseDesc": "저희 서비스를 사용하는 것은 무료입니다. 구매 시, 매장은 귀하를 최고의 제품으로 안내하는 데 대한 소액의 수수료를 지불합니다.",
+		"dataPrivacyDesc": "저희는 공개적으로 이용 가능한 데이터만 사용하므로 어떤 브랜드나 매장이 저희의 추천에 영향을 미치지 않습니다."
+	}
 }

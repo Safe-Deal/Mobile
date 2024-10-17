@@ -1,58 +1,58 @@
 {
-  "analyze": {
-    "product-insights": "Perspective",
-    "ai-insights": "Recenzii",
-    "images": "Imagini",
-    "videos": "Videoclipuri",
-    "no-ai-insights": "Informațiile despre recenzii AI nu sunt disponibile pentru acest produs.",
-    "no-images": "Nu sunt disponibile încă fotografii ale clienților pentru acest produs.",
-    "Photos from Customers": "Fotografii de la Clienți"
-  },
-  "search": {
-    "Search or enter website": "Căutați sau intrați pe site"
-  },
-  "stores": {
-    "share-to-friends": "Verificați această aplicație interesantă pe care am găsit-o:\nSafe Deal - protejează-te de oferte proaste, escrocherii și servicii slabe.\nVizitați: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
-    "AliExpress": "AliExpress",
-    "Amazon": "Amazon",
-    "eBay": "eBay",
-    "Add Link": "Adăugați link",
-    "Title like 'Temu':": "Titlu ca „Temu”:",
-    "Link like https://www.temu.com/": "Link ca https://www.temu.com/",
-    "Add": "Adăuga",
-    "Cancel": "Anula",
-    "Delete": "Şterge"
-  },
-  "history": {
-    "History": "Istorie"
-  },
-  "settingList": {
-    "profile": "Profil",
-    "Settings": "Setări",
-    "Change Language": "Schimbați limba",
-    "Help Center": "Centrul de ajutor",
-    "AppLanguage": "Limba aplicației"
-  },
-  "global": {
-    "An error has occurred": "Hopa! Detectivii noștri de afaceri sunt pe ea! 🕵️‍♂️🛍️ Stai bine!",
-    "Close": "Aproape"
-  },
-  "menu": {
-    "About": "Despre",
-    "Support": "Sprijin",
-    "Share": "Distribuie",
-    "aboutTitle": "Spune-le prietenilor și familiei despre SafeDeal",
-    "Desktop App": "Aplicația desktop",
-    "facebook": "Facebook",
-    "twitter": "Stare de nervozitate",
-    "whatsapp": "WhatsApp",
-    "linkedin": "LinkedIn",
-    "telegram": "Telegramă",
-    "reddit": "Reddit",
-    "email": "E-mail",
-    "suggestFeature": "Apreciem feedback-ul dvs.!",
-    "freeToUseTitle": "De ce este liber de utilizat?",
-    "freeToUseDesc": "Utilizarea serviciului nostru este gratuită pentru dvs. Când faceți o achiziție, magazinul ne plătește o mică taxă pentru a vă îndruma către cel mai bun produs.",
-    "dataPrivacyDesc": "Folosim numai date disponibile public, asigurându-ne că nicio marcă sau magazin nu influențează recomandările noastre."
-  }
+	"analyze": {
+		"product-insights": "Perspective",
+		"ai-insights": "Recenzii",
+		"images": "Imagini",
+		"videos": "Videoclipuri",
+		"no-ai-insights": "Informațiile despre recenzii AI nu sunt disponibile pentru acest produs.",
+		"no-images": "Nu sunt disponibile încă fotografii ale clienților pentru acest produs.",
+		"Photos from Customers": "Fotografii de la Clienți"
+	},
+	"search": {
+		"Search or enter website": "Căutați sau intrați pe site"
+	},
+	"stores": {
+		"share-to-friends": "Verificați această aplicație interesantă pe care am găsit-o:\nSafe Deal - protejează-te de oferte proaste, escrocherii și servicii slabe.\nVizitați: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+		"AliExpress": "AliExpress",
+		"Amazon": "Amazon",
+		"eBay": "eBay",
+		"Add Link": "Adăugați link",
+		"Title like 'Temu':": "Titlu ca „Temu”:",
+		"Link like https://www.temu.com/": "Link ca https://www.temu.com/",
+		"Add": "Adăuga",
+		"Cancel": "Anula",
+		"Delete": "Şterge"
+	},
+	"history": {
+		"History": "Istorie"
+	},
+	"settingList": {
+		"profile": "Profil",
+		"Settings": "Setări",
+		"Change Language": "Schimbați limba",
+		"Help Center": "Centrul de ajutor",
+		"AppLanguage": "Limba aplicației"
+	},
+	"global": {
+		"An error has occurred": "Hopa! Detectivii noștri de afaceri sunt pe ea! 🕵️‍♂️🛍️ Stai bine!",
+		"Close": "Aproape"
+	},
+	"menu": {
+		"What is  Safe-Deal": "Despre",
+		"Support": "Sprijin",
+		"Share": "Distribuie",
+		"aboutTitle": "Spune-le prietenilor și familiei despre SafeDeal",
+		"Desktop App": "Aplicația desktop",
+		"facebook": "Facebook",
+		"twitter": "Stare de nervozitate",
+		"whatsapp": "WhatsApp",
+		"linkedin": "LinkedIn",
+		"telegram": "Telegramă",
+		"reddit": "Reddit",
+		"email": "E-mail",
+		"suggestFeature": "Apreciem feedback-ul dvs.!",
+		"freeToUseTitle": "De ce este liber de utilizat?",
+		"freeToUseDesc": "Utilizarea serviciului nostru este gratuită pentru dvs. Când faceți o achiziție, magazinul ne plătește o mică taxă pentru a vă îndruma către cel mai bun produs.",
+		"dataPrivacyDesc": "Folosim numai date disponibile public, asigurându-ne că nicio marcă sau magazin nu influențează recomandările noastre."
+	}
 }

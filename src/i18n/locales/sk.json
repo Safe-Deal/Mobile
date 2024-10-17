@@ -1,58 +1,58 @@
 {
-  "analyze": {
-    "product-insights": "Insights",
-    "ai-insights": "Recenzie",
-    "images": "Obrázky",
-    "videos": "Videá",
-    "no-ai-insights": "Štatistiky recenzií AI nie sú pre tento produkt k dispozícii.",
-    "no-images": "K tomuto produktu zatiaľ nie sú k dispozícii žiadne fotografie zákazníkov.",
-    "Photos from Customers": "Fotografie od zákazníkov"
-  },
-  "search": {
-    "Search or enter website": "Vyhľadajte alebo zadajte webovú stránku"
-  },
-  "stores": {
-    "share-to-friends": "Pozrite si túto zaujímavú aplikáciu, ktorú som našiel:\nBezpečná dohoda – chráňte sa pred zlými ponukami, podvodmi a zlými službami.\nNavštívte: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
-    "AliExpress": "AliExpress",
-    "Amazon": "Amazon",
-    "eBay": "eBay",
-    "Add Link": "Pridať odkaz",
-    "Title like 'Temu':": "Názov ako 'Temu':",
-    "Link like https://www.temu.com/": "Odkaz ako https://www.temu.com/",
-    "Add": "Pridať",
-    "Cancel": "Zrušiť",
-    "Delete": "Odstrániť"
-  },
-  "history": {
-    "History": "História"
-  },
-  "settingList": {
-    "profile": "Profil",
-    "Settings": "Nastavenia",
-    "Change Language": "Zmeniť jazyk",
-    "Help Center": "Centrum pomoci",
-    "AppLanguage": "Jazyk aplikácie"
-  },
-  "global": {
-    "An error has occurred": "Ojoj! Naši detektívi sa zaoberajú! 🕵️‍♂️🛍️ Držte sa!",
-    "Close": "Zavrieť"
-  },
-  "menu": {
-    "About": "O",
-    "Support": "Podpora",
-    "Share": "zdieľať",
-    "aboutTitle": "Povedzte svojim priateľom a rodine o SafeDeal",
-    "Desktop App": "Desktopová aplikácia",
-    "facebook": "Facebook",
-    "twitter": "Twitter",
-    "whatsapp": "WhatsApp",
-    "linkedin": "LinkedIn",
-    "telegram": "telegram",
-    "reddit": "Reddit",
-    "email": "Email",
-    "suggestFeature": "Ceníme si vašu spätnú väzbu!",
-    "freeToUseTitle": "Prečo je použitie zadarmo?",
-    "freeToUseDesc": "Používanie našej služby je pre vás bezplatné. Keď uskutočníte nákup, obchod nám zaplatí malý poplatok za to, že vás navedieme k najlepšiemu produktu.",
-    "dataPrivacyDesc": "Používame iba verejne dostupné údaje, čím zabezpečujeme, že žiadna značka ani obchod neovplyvní naše odporúčania."
-  }
+	"analyze": {
+		"product-insights": "Insights",
+		"ai-insights": "Recenzie",
+		"images": "Obrázky",
+		"videos": "Videá",
+		"no-ai-insights": "Štatistiky recenzií AI nie sú pre tento produkt k dispozícii.",
+		"no-images": "K tomuto produktu zatiaľ nie sú k dispozícii žiadne fotografie zákazníkov.",
+		"Photos from Customers": "Fotografie od zákazníkov"
+	},
+	"search": {
+		"Search or enter website": "Vyhľadajte alebo zadajte webovú stránku"
+	},
+	"stores": {
+		"share-to-friends": "Pozrite si túto zaujímavú aplikáciu, ktorú som našiel:\nBezpečná dohoda – chráňte sa pred zlými ponukami, podvodmi a zlými službami.\nNavštívte: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+		"AliExpress": "AliExpress",
+		"Amazon": "Amazon",
+		"eBay": "eBay",
+		"Add Link": "Pridať odkaz",
+		"Title like 'Temu':": "Názov ako 'Temu':",
+		"Link like https://www.temu.com/": "Odkaz ako https://www.temu.com/",
+		"Add": "Pridať",
+		"Cancel": "Zrušiť",
+		"Delete": "Odstrániť"
+	},
+	"history": {
+		"History": "História"
+	},
+	"settingList": {
+		"profile": "Profil",
+		"Settings": "Nastavenia",
+		"Change Language": "Zmeniť jazyk",
+		"Help Center": "Centrum pomoci",
+		"AppLanguage": "Jazyk aplikácie"
+	},
+	"global": {
+		"An error has occurred": "Ojoj! Naši detektívi sa zaoberajú! 🕵️‍♂️🛍️ Držte sa!",
+		"Close": "Zavrieť"
+	},
+	"menu": {
+		"What is  Safe-Deal": "O",
+		"Support": "Podpora",
+		"Share": "zdieľať",
+		"aboutTitle": "Povedzte svojim priateľom a rodine o SafeDeal",
+		"Desktop App": "Desktopová aplikácia",
+		"facebook": "Facebook",
+		"twitter": "Twitter",
+		"whatsapp": "WhatsApp",
+		"linkedin": "LinkedIn",
+		"telegram": "telegram",
+		"reddit": "Reddit",
+		"email": "Email",
+		"suggestFeature": "Ceníme si vašu spätnú väzbu!",
+		"freeToUseTitle": "Prečo je použitie zadarmo?",
+		"freeToUseDesc": "Používanie našej služby je pre vás bezplatné. Keď uskutočníte nákup, obchod nám zaplatí malý poplatok za to, že vás navedieme k najlepšiemu produktu.",
+		"dataPrivacyDesc": "Používame iba verejne dostupné údaje, čím zabezpečujeme, že žiadna značka ani obchod neovplyvní naše odporúčania."
+	}
 }

@@ -1,58 +1,58 @@
 {
-  "analyze": {
-    "product-insights": "Ieskats",
-    "ai-insights": "Atsauksmes",
-    "images": "Attēli",
-    "videos": "Videoklipi",
-    "no-ai-insights": "AI pārskatīšanas ieskati šim produktam nav pieejami.",
-    "no-images": "Šim produktam vēl nav pieejami klienta fotoattēli.",
-    "Photos from Customers": "Fotogrāfijas no klientiem"
-  },
-  "search": {
-    "Search or enter website": "Meklējiet vai ievadiet vietni"
-  },
-  "stores": {
-    "share-to-friends": "Apskatiet šo interesanto lietotni, ko atradu:\nDrošs darījums — pasargājiet sevi no sliktiem darījumiem, krāpniecības un sliktas apkalpošanas.\nApmeklējiet: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
-    "AliExpress": "AliExpress",
-    "Amazon": "Amazon",
-    "eBay": "eBay",
-    "Add Link": "Pievienot saiti",
-    "Title like 'Temu':": "Nosaukums, piemēram, \"Temu\":",
-    "Link like https://www.temu.com/": "Saite, piemēram, https://www.temu.com/",
-    "Add": "Pievienot",
-    "Cancel": "Atcelt",
-    "Delete": "Dzēst"
-  },
-  "history": {
-    "History": "Vēsture"
-  },
-  "settingList": {
-    "profile": "Profils",
-    "Settings": "Iestatījumi",
-    "Change Language": "Mainīt valodu",
-    "Help Center": "Palīdzības centrs",
-    "AppLanguage": "Lietotnes valoda"
-  },
-  "global": {
-    "An error has occurred": "Hmm! Mūsu darījumu detektīvi ir par to! 🕵️‍♂️🛍️ Turies!",
-    "Close": "Aizvērt"
-  },
-  "menu": {
-    "About": "Par",
-    "Support": "Atbalsts",
-    "Share": "Dalīties",
-    "aboutTitle": "Pastāstiet draugiem un ģimenei par SafeDeal",
-    "Desktop App": "Darbvirsmas lietotne",
-    "facebook": "Facebook",
-    "twitter": "Twitter",
-    "whatsapp": "WhatsApp",
-    "linkedin": "LinkedIn",
-    "telegram": "Telegramma",
-    "reddit": "Reddit",
-    "email": "E-pasts",
-    "suggestFeature": "Mēs novērtējam jūsu atsauksmes!",
-    "freeToUseTitle": "Kāpēc ir bez maksas izmantot?",
-    "freeToUseDesc": "Mūsu pakalpojuma izmantošana jums ir bez maksas. Veicot pirkumu, veikals mums maksā nelielu samaksu par to, lai jūs vadītu pie labākā produkta.",
-    "dataPrivacyDesc": "Mēs izmantojam tikai publiski pieejamus datus, nodrošinot, ka neviens zīmols vai veikals neietekmē mūsu ieteikumus."
-  }
+	"analyze": {
+		"product-insights": "Ieskats",
+		"ai-insights": "Atsauksmes",
+		"images": "Attēli",
+		"videos": "Videoklipi",
+		"no-ai-insights": "AI pārskatīšanas ieskati šim produktam nav pieejami.",
+		"no-images": "Šim produktam vēl nav pieejami klienta fotoattēli.",
+		"Photos from Customers": "Fotogrāfijas no klientiem"
+	},
+	"search": {
+		"Search or enter website": "Meklējiet vai ievadiet vietni"
+	},
+	"stores": {
+		"share-to-friends": "Apskatiet šo interesanto lietotni, ko atradu:\nDrošs darījums — pasargājiet sevi no sliktiem darījumiem, krāpniecības un sliktas apkalpošanas.\nApmeklējiet: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+		"AliExpress": "AliExpress",
+		"Amazon": "Amazon",
+		"eBay": "eBay",
+		"Add Link": "Pievienot saiti",
+		"Title like 'Temu':": "Nosaukums, piemēram, \"Temu\":",
+		"Link like https://www.temu.com/": "Saite, piemēram, https://www.temu.com/",
+		"Add": "Pievienot",
+		"Cancel": "Atcelt",
+		"Delete": "Dzēst"
+	},
+	"history": {
+		"History": "Vēsture"
+	},
+	"settingList": {
+		"profile": "Profils",
+		"Settings": "Iestatījumi",
+		"Change Language": "Mainīt valodu",
+		"Help Center": "Palīdzības centrs",
+		"AppLanguage": "Lietotnes valoda"
+	},
+	"global": {
+		"An error has occurred": "Hmm! Mūsu darījumu detektīvi ir par to! 🕵️‍♂️🛍️ Turies!",
+		"Close": "Aizvērt"
+	},
+	"menu": {
+		"What is  Safe-Deal": "Par",
+		"Support": "Atbalsts",
+		"Share": "Dalīties",
+		"aboutTitle": "Pastāstiet draugiem un ģimenei par SafeDeal",
+		"Desktop App": "Darbvirsmas lietotne",
+		"facebook": "Facebook",
+		"twitter": "Twitter",
+		"whatsapp": "WhatsApp",
+		"linkedin": "LinkedIn",
+		"telegram": "Telegramma",
+		"reddit": "Reddit",
+		"email": "E-pasts",
+		"suggestFeature": "Mēs novērtējam jūsu atsauksmes!",
+		"freeToUseTitle": "Kāpēc ir bez maksas izmantot?",
+		"freeToUseDesc": "Mūsu pakalpojuma izmantošana jums ir bez maksas. Veicot pirkumu, veikals mums maksā nelielu samaksu par to, lai jūs vadītu pie labākā produkta.",
+		"dataPrivacyDesc": "Mēs izmantojam tikai publiski pieejamus datus, nodrošinot, ka neviens zīmols vai veikals neietekmē mūsu ieteikumus."
+	}
 }

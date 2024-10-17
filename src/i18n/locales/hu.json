@@ -1,58 +1,58 @@
 {
-  "analyze": {
-    "product-insights": "Insights",
-    "ai-insights": "Vélemények",
-    "images": "Képek",
-    "videos": "Videók",
-    "no-ai-insights": "A mesterséges intelligencia áttekintésének statisztikái nem állnak rendelkezésre ehhez a termékhez.",
-    "no-images": "Ehhez a termékhez még nem állnak rendelkezésre vásárlói fotók.",
-    "Photos from Customers": "Fotók az ügyfelektől"
-  },
-  "search": {
-    "Search or enter website": "Keressen vagy írja be a webhelyet"
-  },
-  "stores": {
-    "share-to-friends": "Nézd meg ezt az érdekes alkalmazást, amit találtam:\nBiztonságos üzlet – védje meg magát a rossz ajánlatoktól, csalásoktól és rossz szolgáltatástól.\nLátogassa meg: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
-    "AliExpress": "AliExpress",
-    "Amazon": "amazon",
-    "eBay": "eBay",
-    "Add Link": "Link hozzáadása",
-    "Title like 'Temu':": "Olyan cím, mint \"Temu\":",
-    "Link like https://www.temu.com/": "Link például https://www.temu.com/",
-    "Add": "Hozzáadás",
-    "Cancel": "Mégsem",
-    "Delete": "Töröl"
-  },
-  "history": {
-    "History": "Történelem"
-  },
-  "settingList": {
-    "profile": "Profil",
-    "Settings": "Beállítások elemre",
-    "Change Language": "Nyelv módosítása",
-    "Help Center": "Súgó",
-    "AppLanguage": "Alkalmazás nyelve"
-  },
-  "global": {
-    "An error has occurred": "Hoppá! Ügyletnyomozóink rajta vannak! 🕵️‍♂️🛍️ Kitartás!",
-    "Close": "Közeli"
-  },
-  "menu": {
-    "About": "Körülbelül",
-    "Support": "Támogatás",
-    "Share": "Részesedés",
-    "aboutTitle": "Mondja el barátainak és családjának a SafeDeal szolgáltatást",
-    "Desktop App": "Asztali alkalmazás",
-    "facebook": "Facebook",
-    "twitter": "Twitter",
-    "whatsapp": "WhatsApp",
-    "linkedin": "LinkedIn",
-    "telegram": "Távirat",
-    "reddit": "Reddit",
-    "email": "Email",
-    "suggestFeature": "Nagyra értékeljük visszajelzését!",
-    "freeToUseTitle": "Miért ingyenes a használata?",
-    "freeToUseDesc": "Szolgáltatásunk használata az Ön számára ingyenes. Vásárláskor az üzlet csekély díjat fizet nekünk azért, hogy elkalauzoljuk Önt a legjobb termékhez.",
-    "dataPrivacyDesc": "Kizárólag nyilvánosan elérhető adatokat használunk, biztosítva, hogy a márka vagy az üzlet ne befolyásolja ajánlásainkat."
-  }
+	"analyze": {
+		"product-insights": "Insights",
+		"ai-insights": "Vélemények",
+		"images": "Képek",
+		"videos": "Videók",
+		"no-ai-insights": "A mesterséges intelligencia áttekintésének statisztikái nem állnak rendelkezésre ehhez a termékhez.",
+		"no-images": "Ehhez a termékhez még nem állnak rendelkezésre vásárlói fotók.",
+		"Photos from Customers": "Fotók az ügyfelektől"
+	},
+	"search": {
+		"Search or enter website": "Keressen vagy írja be a webhelyet"
+	},
+	"stores": {
+		"share-to-friends": "Nézd meg ezt az érdekes alkalmazást, amit találtam:\nBiztonságos üzlet – védje meg magát a rossz ajánlatoktól, csalásoktól és rossz szolgáltatástól.\nLátogassa meg: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+		"AliExpress": "AliExpress",
+		"Amazon": "amazon",
+		"eBay": "eBay",
+		"Add Link": "Link hozzáadása",
+		"Title like 'Temu':": "Olyan cím, mint \"Temu\":",
+		"Link like https://www.temu.com/": "Link például https://www.temu.com/",
+		"Add": "Hozzáadás",
+		"Cancel": "Mégsem",
+		"Delete": "Töröl"
+	},
+	"history": {
+		"History": "Történelem"
+	},
+	"settingList": {
+		"profile": "Profil",
+		"Settings": "Beállítások elemre",
+		"Change Language": "Nyelv módosítása",
+		"Help Center": "Súgó",
+		"AppLanguage": "Alkalmazás nyelve"
+	},
+	"global": {
+		"An error has occurred": "Hoppá! Ügyletnyomozóink rajta vannak! 🕵️‍♂️🛍️ Kitartás!",
+		"Close": "Közeli"
+	},
+	"menu": {
+		"What is  Safe-Deal": "Körülbelül",
+		"Support": "Támogatás",
+		"Share": "Részesedés",
+		"aboutTitle": "Mondja el barátainak és családjának a SafeDeal szolgáltatást",
+		"Desktop App": "Asztali alkalmazás",
+		"facebook": "Facebook",
+		"twitter": "Twitter",
+		"whatsapp": "WhatsApp",
+		"linkedin": "LinkedIn",
+		"telegram": "Távirat",
+		"reddit": "Reddit",
+		"email": "Email",
+		"suggestFeature": "Nagyra értékeljük visszajelzését!",
+		"freeToUseTitle": "Miért ingyenes a használata?",
+		"freeToUseDesc": "Szolgáltatásunk használata az Ön számára ingyenes. Vásárláskor az üzlet csekély díjat fizet nekünk azért, hogy elkalauzoljuk Önt a legjobb termékhez.",
+		"dataPrivacyDesc": "Kizárólag nyilvánosan elérhető adatokat használunk, biztosítva, hogy a márka vagy az üzlet ne befolyásolja ajánlásainkat."
+	}
 }

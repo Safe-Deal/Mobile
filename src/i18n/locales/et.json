@@ -1,58 +1,58 @@
 {
-  "analyze": {
-    "product-insights": "Insights",
-    "ai-insights": "Arvustused",
-    "images": "Pildid",
-    "videos": "Videod",
-    "no-ai-insights": "AI arvustuste statistika pole selle toote jaoks saadaval.",
-    "no-images": "Selle toote kohta pole veel kliendifotosid saadaval.",
-    "Photos from Customers": "Fotod klientidelt"
-  },
-  "search": {
-    "Search or enter website": "Otsige või sisestage veebisait"
-  },
-  "stores": {
-    "share-to-friends": "Vaadake seda huvitavat rakendust, mille leidsin:\nTurvaline tehing – kaitske end halbade tehingute, pettuste ja kehva teeninduse eest.\nKülastage: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
-    "AliExpress": "AliExpress",
-    "Amazon": "Amazon",
-    "eBay": "eBay",
-    "Add Link": "Lisa link",
-    "Title like 'Temu':": "Pealkiri nagu \"Temu\":",
-    "Link like https://www.temu.com/": "Link nagu https://www.temu.com/",
-    "Add": "Lisa",
-    "Cancel": "Tühista",
-    "Delete": "Kustuta"
-  },
-  "history": {
-    "History": "Ajalugu"
-  },
-  "settingList": {
-    "profile": "Profiil",
-    "Settings": "Seaded",
-    "Change Language": "Muuda keelt",
-    "Help Center": "Abikeskus",
-    "AppLanguage": "Rakenduse keel"
-  },
-  "global": {
-    "An error has occurred": "Oih! Meie tehingu detektiivid tegelevad sellega! 🕵️‍♂️🛍️ Pidage kinni!",
-    "Close": "Sule"
-  },
-  "menu": {
-    "About": "Umbes",
-    "Support": "Toetus",
-    "Share": "Jaga",
-    "aboutTitle": "Rääkige oma sõpradele ja perele SafeDealist",
-    "Desktop App": "Töölauarakendus",
-    "facebook": "Facebook",
-    "twitter": "Twitter",
-    "whatsapp": "WhatsApp",
-    "linkedin": "LinkedIn",
-    "telegram": "Telegramm",
-    "reddit": "Reddit",
-    "email": "Meil",
-    "suggestFeature": "Hindame teie tagasisidet!",
-    "freeToUseTitle": "Miks on tasuta kasutamine?",
-    "freeToUseDesc": "Meie teenuse kasutamine on teile tasuta. Kui sooritate ostu, maksab pood meile väikese tasu, et juhataks teid parima tooteni.",
-    "dataPrivacyDesc": "Kasutame ainult avalikult kättesaadavaid andmeid, tagades, et ükski bränd ega pood ei mõjuta meie soovitusi."
-  }
+	"analyze": {
+		"product-insights": "Insights",
+		"ai-insights": "Arvustused",
+		"images": "Pildid",
+		"videos": "Videod",
+		"no-ai-insights": "AI arvustuste statistika pole selle toote jaoks saadaval.",
+		"no-images": "Selle toote kohta pole veel kliendifotosid saadaval.",
+		"Photos from Customers": "Fotod klientidelt"
+	},
+	"search": {
+		"Search or enter website": "Otsige või sisestage veebisait"
+	},
+	"stores": {
+		"share-to-friends": "Vaadake seda huvitavat rakendust, mille leidsin:\nTurvaline tehing – kaitske end halbade tehingute, pettuste ja kehva teeninduse eest.\nKülastage: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+		"AliExpress": "AliExpress",
+		"Amazon": "Amazon",
+		"eBay": "eBay",
+		"Add Link": "Lisa link",
+		"Title like 'Temu':": "Pealkiri nagu \"Temu\":",
+		"Link like https://www.temu.com/": "Link nagu https://www.temu.com/",
+		"Add": "Lisa",
+		"Cancel": "Tühista",
+		"Delete": "Kustuta"
+	},
+	"history": {
+		"History": "Ajalugu"
+	},
+	"settingList": {
+		"profile": "Profiil",
+		"Settings": "Seaded",
+		"Change Language": "Muuda keelt",
+		"Help Center": "Abikeskus",
+		"AppLanguage": "Rakenduse keel"
+	},
+	"global": {
+		"An error has occurred": "Oih! Meie tehingu detektiivid tegelevad sellega! 🕵️‍♂️🛍️ Pidage kinni!",
+		"Close": "Sule"
+	},
+	"menu": {
+		"What is  Safe-Deal": "Umbes",
+		"Support": "Toetus",
+		"Share": "Jaga",
+		"aboutTitle": "Rääkige oma sõpradele ja perele SafeDealist",
+		"Desktop App": "Töölauarakendus",
+		"facebook": "Facebook",
+		"twitter": "Twitter",
+		"whatsapp": "WhatsApp",
+		"linkedin": "LinkedIn",
+		"telegram": "Telegramm",
+		"reddit": "Reddit",
+		"email": "Meil",
+		"suggestFeature": "Hindame teie tagasisidet!",
+		"freeToUseTitle": "Miks on tasuta kasutamine?",
+		"freeToUseDesc": "Meie teenuse kasutamine on teile tasuta. Kui sooritate ostu, maksab pood meile väikese tasu, et juhataks teid parima tooteni.",
+		"dataPrivacyDesc": "Kasutame ainult avalikult kättesaadavaid andmeid, tagades, et ükski bränd ega pood ei mõjuta meie soovitusi."
+	}
 }

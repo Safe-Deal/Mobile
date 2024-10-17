@@ -1,58 +1,58 @@
 {
-  "analyze": {
-    "product-insights": "Insikter",
-    "ai-insights": "Recensioner",
-    "images": "Bilder",
-    "videos": "Videor",
-    "no-ai-insights": "AI-recensionsinsikter är inte tillgängliga för den här produkten.",
-    "no-images": "Inga kundbilder är tillgängliga för denna produkt ännu.",
-    "Photos from Customers": "Foton från kunder"
-  },
-  "search": {
-    "Search or enter website": "Sök eller gå in på webbplatsen"
-  },
-  "stores": {
-    "share-to-friends": "Kolla in den här intressanta appen jag hittade:\nSäker affär – skydda dig mot dåliga erbjudanden, bedrägerier och dålig service.\nBesök: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
-    "AliExpress": "AliExpress",
-    "Amazon": "Amazon",
-    "eBay": "eBay",
-    "Add Link": "Lägg till länk",
-    "Title like 'Temu':": "Titel som \"Temu\":",
-    "Link like https://www.temu.com/": "Länk som https://www.temu.com/",
-    "Add": "Tillägga",
-    "Cancel": "Avboka",
-    "Delete": "Radera"
-  },
-  "history": {
-    "History": "Historia"
-  },
-  "settingList": {
-    "profile": "Profil",
-    "Settings": "Inställningar",
-    "Change Language": "Byt språk",
-    "Help Center": "Hjälpcenter",
-    "AppLanguage": "Appens språk"
-  },
-  "global": {
-    "An error has occurred": "hoppsan! Våra dealdetektiver är på gång! 🕵️‍♂️🛍️ Håll ut!",
-    "Close": "Nära"
-  },
-  "menu": {
-    "About": "Om",
-    "Support": "Stöd",
-    "Share": "Dela",
-    "aboutTitle": "Berätta för dina vänner och familj om SafeDeal",
-    "Desktop App": "Desktop-app",
-    "facebook": "Facebook",
-    "twitter": "Kvittra",
-    "whatsapp": "WhatsApp",
-    "linkedin": "LinkedIn",
-    "telegram": "Telegram",
-    "reddit": "Reddit",
-    "email": "E-post",
-    "suggestFeature": "Vi värdesätter din feedback!",
-    "freeToUseTitle": "Varför är det gratis att använda?",
-    "freeToUseDesc": "Att använda vår tjänst är gratis för dig. När du gör ett köp betalar butiken oss en liten avgift för att guida dig till den bästa produkten.",
-    "dataPrivacyDesc": "Vi använder endast offentligt tillgänglig data och säkerställer att inget varumärke eller butik påverkar våra rekommendationer."
-  }
+	"analyze": {
+		"product-insights": "Insikter",
+		"ai-insights": "Recensioner",
+		"images": "Bilder",
+		"videos": "Videor",
+		"no-ai-insights": "AI-recensionsinsikter är inte tillgängliga för den här produkten.",
+		"no-images": "Inga kundbilder är tillgängliga för denna produkt ännu.",
+		"Photos from Customers": "Foton från kunder"
+	},
+	"search": {
+		"Search or enter website": "Sök eller gå in på webbplatsen"
+	},
+	"stores": {
+		"share-to-friends": "Kolla in den här intressanta appen jag hittade:\nSäker affär – skydda dig mot dåliga erbjudanden, bedrägerier och dålig service.\nBesök: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+		"AliExpress": "AliExpress",
+		"Amazon": "Amazon",
+		"eBay": "eBay",
+		"Add Link": "Lägg till länk",
+		"Title like 'Temu':": "Titel som \"Temu\":",
+		"Link like https://www.temu.com/": "Länk som https://www.temu.com/",
+		"Add": "Tillägga",
+		"Cancel": "Avboka",
+		"Delete": "Radera"
+	},
+	"history": {
+		"History": "Historia"
+	},
+	"settingList": {
+		"profile": "Profil",
+		"Settings": "Inställningar",
+		"Change Language": "Byt språk",
+		"Help Center": "Hjälpcenter",
+		"AppLanguage": "Appens språk"
+	},
+	"global": {
+		"An error has occurred": "hoppsan! Våra dealdetektiver är på gång! 🕵️‍♂️🛍️ Håll ut!",
+		"Close": "Nära"
+	},
+	"menu": {
+		"What is  Safe-Deal": "Om",
+		"Support": "Stöd",
+		"Share": "Dela",
+		"aboutTitle": "Berätta för dina vänner och familj om SafeDeal",
+		"Desktop App": "Desktop-app",
+		"facebook": "Facebook",
+		"twitter": "Kvittra",
+		"whatsapp": "WhatsApp",
+		"linkedin": "LinkedIn",
+		"telegram": "Telegram",
+		"reddit": "Reddit",
+		"email": "E-post",
+		"suggestFeature": "Vi värdesätter din feedback!",
+		"freeToUseTitle": "Varför är det gratis att använda?",
+		"freeToUseDesc": "Att använda vår tjänst är gratis för dig. När du gör ett köp betalar butiken oss en liten avgift för att guida dig till den bästa produkten.",
+		"dataPrivacyDesc": "Vi använder endast offentligt tillgänglig data och säkerställer att inget varumärke eller butik påverkar våra rekommendationer."
+	}
 }

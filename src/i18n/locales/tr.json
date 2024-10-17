@@ -1,58 +1,58 @@
 {
-  "analyze": {
-    "product-insights": "Görüşler",
-    "ai-insights": "İncelemeler",
-    "images": "Görüntüler",
-    "videos": "Videolar",
-    "no-ai-insights": "Bu ürün için AI inceleme içgörüleri mevcut değil.",
-    "no-images": "Bu ürün için henüz müşteri fotoğrafı mevcut değil.",
-    "Photos from Customers": "Müşterilerden Fotoğraflar"
-  },
-  "search": {
-    "Search or enter website": "Web sitesini arayın veya girin"
-  },
-  "stores": {
-    "share-to-friends": "Bulduğum bu ilginç uygulamaya göz atın:\nGüvenli Anlaşma - kendinizi kötü anlaşmalardan, dolandırıcılıklardan ve kötü hizmetten koruyun.\nZiyaret edin: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
-    "AliExpress": "AliExpress",
-    "Amazon": "Amazon",
-    "eBay": "eBay",
-    "Add Link": "Bağlantı Ekle",
-    "Title like 'Temu':": "'Temu' gibi bir başlık:",
-    "Link like https://www.temu.com/": "https://www.temu.com/ gibi bir bağlantı",
-    "Add": "Eklemek",
-    "Cancel": "İptal etmek",
-    "Delete": "Silmek"
-  },
-  "history": {
-    "History": "Tarih"
-  },
-  "settingList": {
-    "profile": "Profil",
-    "Settings": "Ayarlar",
-    "Change Language": "Dili değiştir",
-    "Help Center": "Yardım Merkezi",
-    "AppLanguage": "Uygulama Dili"
-  },
-  "global": {
-    "An error has occurred": "Oops! Anlaşma dedektiflerimiz bununla ilgileniyor! 🕵️‍♂️🛍️ Sabredin!",
-    "Close": "Kapalı"
-  },
-  "menu": {
-    "About": "Hakkında",
-    "Support": "Destek",
-    "Share": "Paylaşmak",
-    "aboutTitle": "Arkadaşlarınıza ve ailenize SafeDeal'dan bahsedin",
-    "Desktop App": "Masaüstü Uygulaması",
-    "facebook": "Facebook",
-    "twitter": "Twitter",
-    "whatsapp": "WhatsApp",
-    "linkedin": "Linkedin",
-    "telegram": "Telgraf",
-    "reddit": "Reddit",
-    "email": "E-posta",
-    "suggestFeature": "Geri bildirimleriniz bizim için değerlidir!",
-    "freeToUseTitle": "Kullanımı neden ücretsiz?",
-    "freeToUseDesc": "Hizmetimizi kullanmak sizin için ücretsizdir. Bir satın alma işlemi yaptığınızda, mağaza sizi en iyi ürüne yönlendirmek için bize küçük bir ücret öder.",
-    "dataPrivacyDesc": "Sadece kamuya açık verileri kullanıyoruz ve hiçbir markanın veya mağazanın önerilerimizi etkilemediğinden emin oluyoruz."
-  }
+	"analyze": {
+		"product-insights": "Görüşler",
+		"ai-insights": "İncelemeler",
+		"images": "Görüntüler",
+		"videos": "Videolar",
+		"no-ai-insights": "Bu ürün için AI inceleme içgörüleri mevcut değil.",
+		"no-images": "Bu ürün için henüz müşteri fotoğrafı mevcut değil.",
+		"Photos from Customers": "Müşterilerden Fotoğraflar"
+	},
+	"search": {
+		"Search or enter website": "Web sitesini arayın veya girin"
+	},
+	"stores": {
+		"share-to-friends": "Bulduğum bu ilginç uygulamaya göz atın:\nGüvenli Anlaşma - kendinizi kötü anlaşmalardan, dolandırıcılıklardan ve kötü hizmetten koruyun.\nZiyaret edin: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+		"AliExpress": "AliExpress",
+		"Amazon": "Amazon",
+		"eBay": "eBay",
+		"Add Link": "Bağlantı Ekle",
+		"Title like 'Temu':": "'Temu' gibi bir başlık:",
+		"Link like https://www.temu.com/": "https://www.temu.com/ gibi bir bağlantı",
+		"Add": "Eklemek",
+		"Cancel": "İptal etmek",
+		"Delete": "Silmek"
+	},
+	"history": {
+		"History": "Tarih"
+	},
+	"settingList": {
+		"profile": "Profil",
+		"Settings": "Ayarlar",
+		"Change Language": "Dili değiştir",
+		"Help Center": "Yardım Merkezi",
+		"AppLanguage": "Uygulama Dili"
+	},
+	"global": {
+		"An error has occurred": "Oops! Anlaşma dedektiflerimiz bununla ilgileniyor! 🕵️‍♂️🛍️ Sabredin!",
+		"Close": "Kapalı"
+	},
+	"menu": {
+		"What is  Safe-Deal": "Hakkında",
+		"Support": "Destek",
+		"Share": "Paylaşmak",
+		"aboutTitle": "Arkadaşlarınıza ve ailenize SafeDeal'dan bahsedin",
+		"Desktop App": "Masaüstü Uygulaması",
+		"facebook": "Facebook",
+		"twitter": "Twitter",
+		"whatsapp": "WhatsApp",
+		"linkedin": "Linkedin",
+		"telegram": "Telgraf",
+		"reddit": "Reddit",
+		"email": "E-posta",
+		"suggestFeature": "Geri bildirimleriniz bizim için değerlidir!",
+		"freeToUseTitle": "Kullanımı neden ücretsiz?",
+		"freeToUseDesc": "Hizmetimizi kullanmak sizin için ücretsizdir. Bir satın alma işlemi yaptığınızda, mağaza sizi en iyi ürüne yönlendirmek için bize küçük bir ücret öder.",
+		"dataPrivacyDesc": "Sadece kamuya açık verileri kullanıyoruz ve hiçbir markanın veya mağazanın önerilerimizi etkilemediğinden emin oluyoruz."
+	}
 }
