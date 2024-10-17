@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
 	},
 	container__show: {
 		elevation: 2,
-		paddingVertical: height(2),
+		paddingVertical: height(0.7),
 		paddingHorizontal: width(2),
 		marginTop: height(3),
 		alignItems: "center",
@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
 	},
 	container__skip: {
 		elevation: 2,
-		paddingVertical: height(2),
+		paddingVertical: height(0.7),
 		paddingHorizontal: width(2),
 		marginVertical: height(0.5),
 		alignItems: "center",

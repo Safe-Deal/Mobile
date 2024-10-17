@@ -1,83 +1,83 @@
 {
-  "analyze": {
-    "product-insights": "통찰력",
-    "ai-insights": "리뷰",
-    "images": "이미지",
-    "videos": "비디오",
-    "no-ai-insights": "이 제품에는 AI 검토 통찰력이 제공되지 않습니다.",
-    "no-images": "아직 이 제품에 대한 고객 사진이 없습니다.",
-    "Photos from Customers": "고객의 사진"
-  },
-  "search": {
-    "Search or enter website": "웹사이트를 검색하거나 입력하세요"
-  },
-  "stores": {
-    "share-to-friends": "내가 찾은 흥미로운 앱을 확인해 보세요:\nSafe Deal - 나쁜 거래, 사기, 열악한 서비스로부터 자신을 보호하세요.\n방문: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
-    "AliExpress": "알리익스프레스",
-    "Amazon": "아마존",
-    "eBay": "이베이",
-    "Add Link": "링크 추가",
-    "Title like 'Temu':": "'테무'와 같은 제목:",
-    "Link like https://www.temu.com/": "https://www.temu.com/ 와 같은 링크",
-    "Add": "추가하다",
-    "Cancel": "취소",
-    "Delete": "삭제"
-  },
-  "history": {
-    "History": "역사"
-  },
-  "settingList": {
-    "profile": "윤곽",
-    "Settings": "설정",
-    "Change Language": "언어 변경",
-    "Help Center": "도움말 센터",
-    "AppLanguage": "앱 언어"
-  },
-  "global": {
-    "An error has occurred": "앗! 우리 거래 탐정들이 찾아냈어요! 🕵️‍♂️🛍️ 잠깐만요!",
-    "Close": "닫다",
-    "Got it": "알았어요",
-    "OK": "좋아요"
-  },
-  "menu": {
-    "What is  Safe-Deal": "세이프딜이란?",
-    "Support": "지원하다",
-    "Share": "공유하다",
-    "aboutTitle": "친구와 가족에게 SafeDeal에 대해 알려주세요",
-    "Desktop App": "데스크톱 앱",
-    "facebook": "페이스북",
-    "twitter": "지저귀다",
-    "whatsapp": "왓츠앱",
-    "linkedin": "링크드인",
-    "telegram": "전보",
-    "reddit": "레딧",
-    "email": "이메일",
-    "How to use Safe-Deal": "세이프딜 이용 방법",
-    "suggestFeature": "귀하의 의견을 소중히 여깁니다!",
-    "freeToUseTitle": "왜 무료로 사용할 수 있나요?",
-    "freeToUseDesc": "저희 서비스를 사용하는 것은 무료입니다. 구매 시, 매장은 귀하를 최고의 제품으로 안내하는 데 대한 소액의 수수료를 지불합니다.",
-    "dataPrivacyDesc": "저희는 공개적으로 이용 가능한 데이터만 사용하므로 어떤 브랜드나 매장이 저희의 추천에 영향을 미치지 않습니다."
-  },
-  "WelcomeTour": {
-    "TourNext": "다음",
-    "TourPrevious": "이전의",
-    "TourFinish": "마치다",
-    "TourHomeScreen": "홈 화면: 여기에서 모든 주요 앱 기능에 액세스하세요.",
-    "TourProductStatus": "제품 상태: 추천, 주의, 추천하지 않음",
-    "TourInsightsTab": "제품 인사이트 &제품의 성능, 인기, 가격 추세에 대한 자세한 인사이트를 얻으세요. 색상으로 구분된 지표(빨간색/노란색/녹색)를 찾아 제품 품질과 신뢰성을 빠르게 평가하세요.",
-    "TourReviewsTab": "고객 리뷰 & 고객 리뷰와 평가를 읽어 정보에 입각한 구매 결정을 내리세요.",
-    "TourImagesTab": "제품 이미지 & 고객이 업로드한 사진을 포함하여 다양한 각도에서 본 제품 이미지를 확인하세요.",
-    "TourVideosTab": "제품 영상 & 제품에 대한 리뷰와 데모 영상을 시청하세요.",
-    "TourFinishTitle": "이제 준비가 되었습니다!",
-    "TourFinishDescription": "이제 Safe Deal의 주요 기능을 알게 되었습니다. 탐색을 시작하고 즐거운 쇼핑을 하세요!",
-    "How to Analyze Any Product": "모든 제품을 분석하는 방법",
-    "TourShareStep1Title": "1단계",
-    "TourShareStep1Description": "Amazon, AliExpress, eBay 앱 또는 브라우저에서 공유",
-    "TourShareStep2Title": "2단계",
-    "TourShareStep2Description": "제품 페이지로 이동하여 제품을 선택하세요",
-    "TourShareStep3Title": "3단계",
-    "TourShareStep3Description": "제품 페이지에서 공유 버튼을 탭하세요.",
-    "TourShareStep4Title": "4단계",
-    "TourShareStep4Description": "목록에서 안전거래를 선택하세요"
-  }
+	"analyze": {
+		"product-insights": "통찰력",
+		"ai-insights": "리뷰",
+		"images": "이미지",
+		"videos": "비디오",
+		"no-ai-insights": "이 제품에는 AI 검토 통찰력이 제공되지 않습니다.",
+		"no-images": "아직 이 제품에 대한 고객 사진이 없습니다.",
+		"Photos from Customers": "고객의 사진"
+	},
+	"search": {
+		"Search or enter website": "웹사이트를 검색하거나 입력하세요"
+	},
+	"stores": {
+		"share-to-friends": "내가 찾은 흥미로운 앱을 확인해 보세요:\nSafe Deal - 나쁜 거래, 사기, 열악한 서비스로부터 자신을 보호하세요.\n방문: https://www.joinsafedeal.com/go?type=safe-deal-mobile",
+		"AliExpress": "알리익스프레스",
+		"Amazon": "아마존",
+		"eBay": "이베이",
+		"Add Link": "링크 추가",
+		"Title like 'Temu':": "'테무'와 같은 제목:",
+		"Link like https://www.temu.com/": "https://www.temu.com/ 와 같은 링크",
+		"Add": "추가하다",
+		"Cancel": "취소",
+		"Delete": "삭제"
+	},
+	"history": {
+		"History": "역사"
+	},
+	"settingList": {
+		"profile": "윤곽",
+		"Settings": "설정",
+		"Change Language": "언어 변경",
+		"Help Center": "도움말 센터",
+		"AppLanguage": "앱 언어"
+	},
+	"global": {
+		"An error has occurred": "앗! 우리 거래 탐정들이 찾아냈어요! 🕵️‍♂️🛍️ 잠깐만요!",
+		"Close": "닫다",
+		"Got it": "알았어요",
+		"OK": "좋아요"
+	},
+	"menu": {
+		"What is  Safe-Deal": "세이프딜이란?",
+		"Support": "지원하다",
+		"Share": "공유하다",
+		"aboutTitle": "친구와 가족에게 SafeDeal에 대해 알려주세요",
+		"Desktop App": "데스크톱 앱",
+		"facebook": "페이스북",
+		"twitter": "지저귀다",
+		"whatsapp": "왓츠앱",
+		"linkedin": "링크드인",
+		"telegram": "전보",
+		"reddit": "레딧",
+		"email": "이메일",
+		"How to use Safe-Deal": "세이프딜 이용 방법",
+		"suggestFeature": "귀하의 의견을 소중히 여깁니다!",
+		"freeToUseTitle": "왜 무료로 사용할 수 있나요?",
+		"freeToUseDesc": "저희 서비스를 사용하는 것은 무료입니다. 구매 시, 매장은 귀하를 최고의 제품으로 안내하는 데 대한 소액의 수수료를 지불합니다.",
+		"dataPrivacyDesc": "저희는 공개적으로 이용 가능한 데이터만 사용하므로 어떤 브랜드나 매장이 저희의 추천에 영향을 미치지 않습니다."
+	},
+	"WelcomeTour": {
+		"TourNext": "다음",
+		"TourPrevious": "이전의",
+		"TourFinish": "마치다",
+		"TourHomeScreen": "홈 화면: 여기에서 모든 주요 앱 기능에 액세스하세요.",
+		"TourProductStatus": "제품 상태: 추천, 주의, 추천하지 않음",
+		"TourInsightsTab": "제품 인사이트 &제품의 성능, 인기, 가격 추세에 대한 자세한 인사이트를 얻으세요. 색상으로 구분된 지표(빨간색/노란색/녹색)를 찾아 제품 품질과 신뢰성을 빠르게 평가하세요.",
+		"TourReviewsTab": "고객 리뷰 & 고객 리뷰와 평가를 읽어 정보에 입각한 구매 결정을 내리세요.",
+		"TourImagesTab": "제품 이미지 & 고객이 업로드한 사진을 포함하여 다양한 각도에서 본 제품 이미지를 확인하세요.",
+		"TourVideosTab": "제품 영상 & 제품에 대한 리뷰와 데모 영상을 시청하세요.",
+		"TourFinishTitle": "이제 준비가 되었습니다!",
+		"TourFinishDescription": "이제 Safe Deal의 주요 기능을 알게 되었습니다. 탐색을 시작하고 즐거운 쇼핑을 하세요!",
+		"How to Analyze Any Product": "모든 제품을 분석하는 방법",
+		"TourShareStep1Title": "1단계",
+		"TourShareStep1Description": "Amazon, AliExpress, eBay 앱 또는 브라우저에서 공유",
+		"TourShareStep2Title": "2단계",
+		"TourShareStep2Description": "제품 페이지로 이동하여 제품을 선택하세요",
+		"TourShareStep3Title": "3단계",
+		"TourShareStep3Description": "제품 페이지에서 공유 버튼을 탭하세요.",
+		"TourShareStep4Title": "4단계",
+		"TourShareStep4Description": "목록에서 안전거래를 선택하세요"
+	}
 }
