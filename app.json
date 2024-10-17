@@ -1,69 +1,74 @@
 {
-	"expo": {
-		"name": "Safe Deal",
-		"description": "AI Browser for Desktop-Style Shopping",
-		"slug": "SafeDeal",
-		"version": "1.1.11",
-		"orientation": "default",
-		"icon": "./assets/icon-1024.png",
-		"userInterfaceStyle": "automatic",
-		"jsEngine": "hermes",
-		"scheme": "safe-deal",
-		"splash": {
-			"image": "./assets/splash.png",
-			"resizeMode": "cover",
-			"backgroundColor": "#ffffff"
-		},
-		"assetBundlePatterns": ["**/*"],
-		"ios": {
-			"supportsTablet": true,
-			"bundleIdentifier": "com.safedeal.navigator",
-			"config": {
-				"usesNonExemptEncryption": false
-			}
-		},
-		"android": {
-			"adaptiveIcon": {
-				"foregroundImage": "./assets/icon-1024_adaptive.png",
-				"backgroundColor": "#ffffff"
-			},
-			"package": "com.safedeal.navigator"
-		},
-		"plugins": [
-			"expo-localization",
-			"expo-router",
-			[
-				"expo-share-intent",
-				{
-					"iosActivationRules": {
-						"NSExtensionActivationSupportsText": true,
-						"NSExtensionActivationSupportsWebURLWithMaxCount": 100,
-						"NSExtensionActivationSupportsWebPageWithMaxCount": 100
-					},
-					"androidIntentFilters": ["text/*", "text/html"]
-				}
-			],
-			[
-				"expo-dev-launcher",
-				{
-					"launchMode": "most-recent"
-				}
-			]
-		],
-		"extra": {
-			"eas": {
-				"projectId": "51d9ef5c-e127-4634-9bd4-f65cc0e72fb5"
-			}
-		},
-		"owner": "web-panda",
-		"runtimeVersion": {
-			"policy": "appVersion"
-		},
-		"updates": {
-			"url": "https://u.expo.dev/51d9ef5c-e127-4634-9bd4-f65cc0e72fb5",
-			"enabled": true,
-			"fallbackToCacheTimeout": 8000,
-			"checkAutomatically": "ON_ERROR_RECOVERY"
-		}
-	}
+  "expo": {
+    "name": "Safe Deal",
+    "description": "AI Browser for Desktop-Style Shopping",
+    "slug": "SafeDeal",
+    "version": "1.1.12",
+    "orientation": "default",
+    "icon": "./assets/icon-1024.png",
+    "userInterfaceStyle": "automatic",
+    "jsEngine": "hermes",
+    "scheme": "safe-deal",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.safedeal.navigator",
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon-1024_adaptive.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.safedeal.navigator"
+    },
+    "plugins": [
+      "expo-localization",
+      "expo-router",
+      [
+        "expo-share-intent",
+        {
+          "iosActivationRules": {
+            "NSExtensionActivationSupportsText": true,
+            "NSExtensionActivationSupportsWebURLWithMaxCount": 100,
+            "NSExtensionActivationSupportsWebPageWithMaxCount": 100
+          },
+          "androidIntentFilters": [
+            "text/*",
+            "text/html"
+          ]
+        }
+      ],
+      [
+        "expo-dev-launcher",
+        {
+          "launchMode": "most-recent"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "51d9ef5c-e127-4634-9bd4-f65cc0e72fb5"
+      }
+    },
+    "owner": "web-panda",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/51d9ef5c-e127-4634-9bd4-f65cc0e72fb5",
+      "enabled": true,
+      "fallbackToCacheTimeout": 8000,
+      "checkAutomatically": "ON_ERROR_RECOVERY"
+    }
+  }
 }
