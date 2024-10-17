@@ -9,7 +9,7 @@ import s from "../Reviews/ReviewsInsights.style";
 export const ReviewsImages = () => {
 	const { allProductsState } = useSelector((state: any) => state.Products);
 	const { reviews, product } = allProductsState;
-	const { t } = useTranslation(["analyze"]);
+	const { t } = useTranslation();
 
 	const imagesArray = reviews?.reviewsImages || product?.images || [];
 	if (imagesArray.length < 1) {

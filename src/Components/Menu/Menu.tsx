@@ -15,7 +15,7 @@ const SUPPORT_LINK = "https://chat.whatsapp.com/Dr0Zr8gvVbh4j2pouD9LP7";
 const DESKTOP_LINK = "https://www.joinsafedeal.com/desktop";
 
 export const Menu = ({ onSharePress, onLanguagePress }: MenuProps) => {
-	const { t } = useTranslation(["search", "menu", "stores"]);
+	const { t } = useTranslation();
 	const [isMenuOpen, setMenuOpen] = useState(false);
 	const [isAboutModalVisible, setAboutModalVisible] = useState(false);
 

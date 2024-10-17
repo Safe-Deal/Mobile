@@ -16,7 +16,7 @@ interface HomeScreenProps {
 
 const HomeScreen = ({ setUrl, setIsHomeActive, setActiveEventHTML }: HomeScreenProps) => {
 	const dispatch = useDispatch();
-	const { t } = useTranslation(["stores"]);
+	const { t } = useTranslation();
 
 	const [newLinkTitle, setNewLinkTitle] = useState("");
 	const [newLinkURL, setNewLinkURL] = useState("");

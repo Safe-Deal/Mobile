@@ -113,7 +113,7 @@ const BrowserFooterContent = () => {
 	const { start, canStart, eventEmitter, stop } = useTourGuideController("tour1");
 	const navigation = useNavigation();
 	const [isLanguageModalVisible, setIsLanguageModalVisible] = useState(false);
-	const { t } = useTranslation(["search", "menu", "stores"]);
+	const { t } = useTranslation();
 	useEffect(() => {
 		if (showTooltip && canStart && allProductsState?.product?.conclusion) {
 			start();

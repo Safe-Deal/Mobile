@@ -14,7 +14,7 @@ export const ReviewsInsights = (): React.ReactElement => {
 	const { isLoading: loading, error } = useProductAnalysis();
 	const { allProductsState } = useSelector((state: any) => state.Products);
 	const { reviews } = allProductsState;
-	const { t } = useTranslation(["stores", "analyze", "global"]);
+	const { t } = useTranslation();
 
 	if (loading) {
 		return <ActivityIndicator size="large" color="#0000ff" />;

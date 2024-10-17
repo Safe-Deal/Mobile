@@ -9,7 +9,7 @@ import CustomModal from "../../Common/CustomModal/CustomModal";
 import { logError } from "../../../Utils/Analytics";
 
 const AboutPage = ({ onClose }) => {
-	const { t } = useTranslation(["menu", "global"]);
+	const { t } = useTranslation();
 
 	const handleOpenLink = (url) => {
 		Linking.openURL(url).catch((err) => logError("Failed to open URL:", err));

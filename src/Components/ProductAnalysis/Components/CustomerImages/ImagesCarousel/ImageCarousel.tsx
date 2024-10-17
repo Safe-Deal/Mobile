@@ -67,7 +67,7 @@ const ImageCarousel: React.FC<ImageCarouselProps> = ({ images = [] }: ImageCarou
 	const [pagingEnabled] = React.useState<boolean>(true);
 	const [snapEnabled] = React.useState<boolean>(true);
 	const progressValue = useSharedValue<number>(0);
-	const { t } = useTranslation(["analyze"]);
+	const { t } = useTranslation();
 
 	return (
 		<View style={s.images_carousel__container}>
