@@ -31,7 +31,7 @@ export const ConclusionView = (props) => {
 				text: t("analyze:product-insights"),
 				icon: "shopping-search",
 				type: TabTypes.ANALYZE__PRODUCT_INSIGHTS,
-				tourKeyText: t("tourKeys:InsightsTab"),
+				tourKeyText: t("InsightsTab"),
 			},
 		];
 		if (summaryReviewSupportedSites.some((supportedUrl) => activeUrl.includes(supportedUrl))) {
@@ -39,20 +39,20 @@ export const ConclusionView = (props) => {
 				text: t("analyze:ai-insights"),
 				icon: "creation",
 				type: TabTypes.ANALYZE__AI_INSIGHTS,
-				tourKeyText: t("tourKeys:ReviewsTab"),
+				tourKeyText: t("ReviewsTab"),
 			});
 			analyzeTabs.push({
 				text: t("analyze:images"),
 				icon: "image",
 				type: TabTypes.ANALYZE__IMAGES,
-				tourKeyText: t("tourKeys:ImagesTab"),
+				tourKeyText: t("ImagesTab"),
 			});
 		}
 		analyzeTabs.push({
 			text: t("analyze:videos"),
 			icon: "video",
 			type: TabTypes.ANALYZE__VIDEOS,
-			tourKeyText: t("tourKeys:VideosTab"),
+			tourKeyText: t("VideosTab"),
 		});
 		return analyzeTabs;
 	}, [activeUrl]);
@@ -100,7 +100,7 @@ export const ConclusionView = (props) => {
 	const handleOnClose = () => {
 		setShowShareWalkthroughModal(false);
 
-		Alert.alert(t("tourKeys:FinishTitle"), t("tourKeys:FinishDescription"), [
+		Alert.alert(t("FinishTitle"), t("FinishDescription"), [
 			{
 				text: "OK",
 				onPress: () => {

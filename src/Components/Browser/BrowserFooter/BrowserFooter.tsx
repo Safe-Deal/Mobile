@@ -223,7 +223,7 @@ const BrowserFooterContent = () => {
 								tourKey="tour1"
 								isTourGuide
 								zone={1}
-								text={t("tourKeys:Product")}
+								text={t("Product")}
 								borderRadius={16}
 								style={s.borwser_footer_tourguide_style}
 							>
