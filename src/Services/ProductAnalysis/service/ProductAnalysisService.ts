@@ -17,7 +17,6 @@ export interface MutationError {
 export const fetchProductAnalysis = async (url: string): Promise<ProductAnalysisResponse | MutationError> => {
 	const product = getProductInfo(url);
 	const EndPoint = URL.END_POINT;
-
 	try {
 		let response;
 		if (product && Object.keys(product).length > 0) {

@@ -14,6 +14,7 @@ export const useProductAnalysis = () => {
 				dispatch(setProductAnalysis(data));
 			}
 		},
+
 		mutationKey: "fetchProductAnalysis",
 	});
 
@@ -24,7 +25,6 @@ export const useProductAnalysis = () => {
 				.findAll({ mutationKey: "fetchProductAnalysis" })[0];
 			setMutationState(fetchProductAnalysisMutation?.state);
 		});
-
 		return () => unsubscribe();
 	}, []);
 

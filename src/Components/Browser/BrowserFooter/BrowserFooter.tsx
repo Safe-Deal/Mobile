@@ -23,6 +23,7 @@ import s from "./BrowserFooter.styles";
 import { ConclusionIcon } from "./Components/ConclusionIcon";
 import { useTranslation } from "@hooks/useTranslation";
 import { debug } from "@utils/Analytics";
+import { useProductAnalysis } from "@services/ProductAnalysis";
 
 const Tab = createBottomTabNavigator();
 const BOTTOM_ICONS_SIZE = height(4);
@@ -46,6 +47,12 @@ const BrowserFooterToolbar = () => {
 		activeUrl,
 	} = useAppContext();
 	const [search, setSearch] = useState<string>("");
+
+	useEffect(() => {
+		if (!activeUrl) {
+			setSearch("");
+		}
+	}, [activeUrl]);
 
 	const handleBackward = () => {
 		historyGoBack();
@@ -106,13 +113,15 @@ const BrowserFooterToolbar = () => {
 
 const BrowserFooterContent = () => {
 	const { activeUrl, toggleAnalyticsModal, onShare, setActiveUrl } = useAppContext();
-	const { allProductsState, loading } = useSelector((state: RootState) => state.Products);
+	const { allProductsState } = useSelector((state: RootState) => state.Products);
 	const dispatch = useDispatch();
 	const { showTooltip } = useOnboardContext();
 	const { start, canStart, eventEmitter, stop } = useTourGuideController("tour1");
 	const navigation = useNavigation();
 	const [isLanguageModalVisible, setIsLanguageModalVisible] = useState(false);
 	const { t } = useTranslation();
+	const { isLoading: loading } = useProductAnalysis();
+
 	useEffect(() => {
 		if (showTooltip && canStart && allProductsState?.product?.conclusion) {
 			start();

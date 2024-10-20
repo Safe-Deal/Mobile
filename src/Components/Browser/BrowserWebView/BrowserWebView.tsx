@@ -78,17 +78,19 @@ export const MainWebView = forwardRef(({ URL }: MainWebViewProps, ref) => {
 			})
 			.catch((error) => {
 				debug("SDWebView::affiliationRedirect::Error", error);
-			})
-			.finally(() => {
-				setActiveUrl(url);
-				reset();
-				sendRequest(url);
 			});
 	};
 
 	useEffect(() => {
+		setCurrentUrl(URL);
+	}, [URL]);
+
+	useEffect(() => {
 		if (URL) {
-			setCurrentUrl(URL);
+			dispatch(resetProductAnalysis(URL));
+			reset();
+			sendRequest(URL);
+			setActiveUrl(URL);
 		}
 	}, [URL]);
 

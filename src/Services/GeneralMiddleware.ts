@@ -33,6 +33,7 @@ const fetchData = (url: string, options: OptionsProps) => {
 					return { success: false, error: extractedError };
 				});
 			}
+
 			return response.json();
 		})
 		.then((result) => {
