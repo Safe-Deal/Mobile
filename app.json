@@ -3,7 +3,7 @@
     "name": "Safe Deal",
     "description": "AI Browser for Desktop-Style Shopping",
     "slug": "SafeDeal",
-    "version": "1.1.15",
+    "version": "1.1.16",
     "orientation": "default",
     "icon": "./assets/icon-1024.png",
     "userInterfaceStyle": "automatic",
