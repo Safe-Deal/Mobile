@@ -1,21 +1,20 @@
+import { useTranslation } from "@hooks/useTranslation";
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { Alert, FlatList, ScrollView, Text, View } from "react-native";
 import { Chip } from "react-native-paper";
-import { useDispatch, useSelector } from "react-redux";
 import { TourGuideZone, useTourGuideController } from "rn-tourguide";
 import { IAppContext, useAppContext } from "../../Context/AppContext";
 import { useOnboardContext } from "../../Context/onBoardContext";
-import { resetAllProducts } from "../../Redux/JoinSafeDeal/JoinSafeDeal";
 import { ConclusionTypes, TabTypes } from "../../Shared/Constants";
 import Theme, { height } from "../../Theme/Theme";
+import { useProductsStore } from "../../Zustand/JoinSafeDeal/JoinSafeDeal";
 import s from "./ConclusionModal.styles";
 import { Conclusion } from "./Modal/Conclusion";
 import ShareWalkthrough from "./Modal/ShareWalkthrough";
 import { ProductInsights } from "./ProductAnalysis";
-import { useTranslation } from "@hooks/useTranslation";
 
 export const ConclusionView = (props) => {
-	const { allProductsState } = useSelector((state: any) => state.Products);
+	const { allProductsState, resetAllProducts } = useProductsStore();
 	const summaryReviewSupportedSites: string[] = ["aliexpress", "amazon", "ebay"];
 	const [selectedTab, setSelectedTab] = useState<TabTypes>(TabTypes.ANALYZE__PRODUCT_INSIGHTS);
 	const { start, canStart, tourKey, eventEmitter } = useTourGuideController("tour2");
@@ -23,7 +22,6 @@ export const ConclusionView = (props) => {
 	const { activeUrl, setActiveUrl }: IAppContext = useAppContext();
 	const { showTooltip, toggleShowTooltip, toggleOnboard } = useOnboardContext();
 	const flatListRef = useRef<FlatList>(null);
-	const dispatch = useDispatch();
 	const { t } = useTranslation();
 
 	const itemData = useMemo(() => {
@@ -108,7 +106,7 @@ export const ConclusionView = (props) => {
 					toggleShowTooltip(false);
 					toggleOnboard(true);
 					setActiveUrl("");
-					dispatch(resetAllProducts());
+					resetAllProducts();
 					props.navigation.goBack();
 				},
 			},

@@ -4,9 +4,7 @@ interface IProductState {
 }
 
 interface IJoinSafeDealStoreState {
-	allProductsState: IProductState | null;
-	loading: boolean;
-	error: string | null;
+	allProductsState: IProductState;
 }
 
 export type { IJoinSafeDealStoreState, IProductState };

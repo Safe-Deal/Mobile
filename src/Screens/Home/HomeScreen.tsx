@@ -1,12 +1,11 @@
+import { useTranslation } from "@hooks/useTranslation";
 import React, { useState } from "react";
 import { Button, Image, Text, TextInput, TouchableOpacity, View } from "react-native";
 import { Menu } from "react-native-paper";
-import { useDispatch, useSelector } from "react-redux";
 import CustomModal from "../../Components/Common/CustomModal/CustomModal";
-import { addLink, deleteLink, updateModalVisibility } from "../../Redux/HomeLinks/HomeLinks";
 import { DEFAULT_LINKS, Images } from "../../Shared/Constants";
+import { useHomeLinksStore } from "../../Zustand/HomeLinks/HomeLinks";
 import s from "./HomeScreen.styles";
-import { useTranslation } from "@hooks/useTranslation";
 
 interface HomeScreenProps {
 	setUrl: (url: string) => void;
@@ -15,12 +14,11 @@ interface HomeScreenProps {
 }
 
 const HomeScreen = ({ setUrl, setIsHomeActive, setActiveEventHTML }: HomeScreenProps) => {
-	const dispatch = useDispatch();
 	const { t } = useTranslation();
+	const { homeLinks, modalVisible, addLink, deleteLink, updateModalVisibility } = useHomeLinksStore();
 
 	const [newLinkTitle, setNewLinkTitle] = useState("");
 	const [newLinkURL, setNewLinkURL] = useState("");
-	const { homeLinks, modalVisible } = useSelector((state: any) => state?.HomeLinks);
 
 	const [menuVisible, setMenuVisible] = useState(Array(homeLinks.length).fill(false));
 
@@ -34,14 +32,13 @@ const HomeScreen = ({ setUrl, setIsHomeActive, setActiveEventHTML }: HomeScreenP
 			alert("Please enter a URL for the Shortcut");
 			return;
 		}
-		dispatch(
-			addLink({
-				icon: Images.googleIcon,
-				text: newLinkTitle,
-				link: newLinkURL,
-			}),
-		);
-		dispatch(updateModalVisibility(false));
+
+		addLink({
+			icon: Images.googleIcon,
+			text: newLinkTitle,
+			link: newLinkURL,
+		}),
+			updateModalVisibility(false);
 		setUrl(newLinkURL);
 		setNewLinkTitle("");
 		setNewLinkURL("");
@@ -50,7 +47,7 @@ const HomeScreen = ({ setUrl, setIsHomeActive, setActiveEventHTML }: HomeScreenP
 	const onCancelPress = () => {
 		setNewLinkTitle("");
 		setNewLinkURL("");
-		dispatch(updateModalVisibility(false));
+		updateModalVisibility(false);
 	};
 
 	const closeLinkMenu = () => {
@@ -73,17 +70,13 @@ const HomeScreen = ({ setUrl, setIsHomeActive, setActiveEventHTML }: HomeScreenP
 	};
 
 	const removeLink = (item: any): void => {
-		dispatch(deleteLink(item));
+		deleteLink(item);
 		closeLinkMenu();
 	};
 
 	return (
 		<View style={s.homePage__container}>
-			<CustomModal
-				style={s.homePage__modal}
-				isModalVisible={modalVisible}
-				onClose={() => dispatch(updateModalVisibility(false))}
-			>
+			<CustomModal style={s.homePage__modal} isModalVisible={modalVisible} onClose={() => updateModalVisibility(false)}>
 				<View style={s.homePage__modal__container}>
 					<View>
 						<Text style={s.homePage__modal__title_text}>{t("Add new link")}</Text>
@@ -146,7 +139,7 @@ const HomeScreen = ({ setUrl, setIsHomeActive, setActiveEventHTML }: HomeScreenP
 						<TouchableOpacity
 							style={s.homePage__links_box}
 							onPress={() => {
-								dispatch(updateModalVisibility(true));
+								updateModalVisibility(true);
 							}}
 						>
 							<Image style={s.homePage__links_box__icon} source={Images.add} />
