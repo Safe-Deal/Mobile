@@ -96,9 +96,9 @@ const isIos: boolean = Platform.OS === "ios";
 const isAndroid: boolean = Platform.OS === "android";
 
 export const DEFAULT_LINKS = {
-	AliExpress: "https://www.aliexpress.us/item/3256806683079972.html",
-	Amazon: "https://www.amazon.com/n/dp/B0B6JC1L15",
-	eBay: "https://www.ebay.com/itm/356127144832",
+	AliExpress: "https://www.aliexpress.com/item/1005006671814456.html",
+	Amazon: "https://www.amazon.com/TOZO-T6-Bluetooth-Headphones-Waterproof/dp/B07RGZ5NKS",
+	eBay: "https://www.ebay.com/itm/395813621868",
 	"": "",
 };
 
