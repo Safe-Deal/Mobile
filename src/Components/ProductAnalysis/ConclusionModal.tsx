@@ -1,14 +1,14 @@
+import { useTranslation } from "@hooks/useTranslation";
 import React, { useMemo, useRef } from "react";
 import { FlatList, Image, ScrollView, Text, View } from "react-native";
 import { Chip } from "react-native-paper";
-import { useSelector } from "react-redux";
 import { ConclusionTypes, TabTypes } from "../../Shared/Constants";
 import Theme, { height, width } from "../../Theme/Theme";
+import { useProductsStore } from "../../Zustand/JoinSafeDeal/JoinSafeDeal";
 import s from "./ConclusionModal.styles";
 import { Conclusion } from "./Modal/Conclusion";
 import DraggableModal from "./Modal/DraggableModal";
 import { ProductInsights } from "./ProductAnalysis";
-import { useTranslation } from "@hooks/useTranslation";
 
 interface ConclusionModalProps {
 	isModalVisible: boolean;
@@ -28,7 +28,7 @@ export const ConclusionModal = ({
 	setSelectedTab,
 	onClose,
 }: ConclusionModalProps) => {
-	const { allProductsState } = useSelector((state: any) => state.Products);
+	const { allProductsState } = useProductsStore();
 	const summaryReviewSupportedSites: string[] = ["aliexpress", "amazon", "ebay"];
 	const { t } = useTranslation();
 

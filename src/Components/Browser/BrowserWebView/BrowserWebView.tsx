@@ -6,9 +6,7 @@ import { ActivityIndicator } from "react-native-paper";
 import { WebView, WebViewProps } from "react-native-webview";
 import { ShouldStartLoadRequest, WebViewProgressEvent } from "react-native-webview/lib/WebViewTypes";
 import { WebViewErrorEvent, WebViewNavigation } from "react-native-webview/src/WebViewTypes";
-import { useDispatch } from "react-redux";
 import { useAppContext } from "../../../Context/AppContext";
-import { resetProductAnalysis } from "../../../Redux/JoinSafeDeal/JoinSafeDeal";
 import { useAffiliate } from "../../../Services/Affiliates/AffiliateData";
 import {
 	getAffiliateUrl,
@@ -22,6 +20,7 @@ import { styles } from "./BrowserWebView.styles";
 import { useLoopPrevention } from "./hooks/useLoopPrevention";
 import { useUserAgent } from "./hooks/useUserAgent";
 import { INJECTED_SCRIPTS } from "./scripts/scripts";
+import { useProductsStore } from "../../../Zustand/JoinSafeDeal/JoinSafeDeal";
 
 interface MainWebViewProps {
 	URL: string;
@@ -60,8 +59,7 @@ const WebviewLoader = () => (
 const isNavClick = (e: ShouldStartLoadRequest): boolean => e.isTopFrame && e.navigationType === "click";
 
 export const MainWebView = forwardRef(({ URL }: MainWebViewProps, ref) => {
-	const dispatch = useDispatch();
-	const { handleUrlChange, handleWebViewMessage, setActiveUrl, activeUrl } = useAppContext();
+	const { handleUrlChange, handleWebViewMessage, setActiveUrl } = useAppContext();
 	const webViewRef = useRef<WebView>(null);
 	const [currentUrl, setCurrentUrl] = useState<string>(URL);
 	const [isWebViewLoading, setIsWebViewLoading] = useState(false);
@@ -69,6 +67,7 @@ export const MainWebView = forwardRef(({ URL }: MainWebViewProps, ref) => {
 	const userAgent = useUserAgent();
 	const { sendRequest } = useProductAnalysis(null);
 	const { data: affiliates, isLoading: isAffiliatesLoading } = useAffiliate();
+	const { resetProductAnalysis } = useProductsStore();
 
 	const onUrlChange = (url: string) => {
 		affiliationRedirect(url)
@@ -90,7 +89,7 @@ export const MainWebView = forwardRef(({ URL }: MainWebViewProps, ref) => {
 	useEffect(() => {
 		if (URL) {
 			setCurrentUrl(URL);
-			dispatch(resetProductAnalysis(URL));
+			resetProductAnalysis(URL);
 			const product = getProductInfo(URL);
 			if (product && Object.keys(product).length > 0) {
 				sendRequest(URL);
@@ -115,7 +114,7 @@ export const MainWebView = forwardRef(({ URL }: MainWebViewProps, ref) => {
 
 	useImperativeHandle(ref, () => ({
 		refresh: () => {
-			dispatch(resetProductAnalysis(currentUrl));
+			resetProductAnalysis(currentUrl);
 			webViewRef?.current?.reload();
 		},
 		goToUrl: (targetUrl: string) => {
@@ -124,7 +123,7 @@ export const MainWebView = forwardRef(({ URL }: MainWebViewProps, ref) => {
 	}));
 
 	const onNavStateChange = async (navState: WebViewNavigation): Promise<void> => {
-		// debug("SDWebView::NavState:navigated: ", navState.url);
+		debug("SDWebView::NavState:navigated: ", navState.url);
 		handleUrlChange(navState);
 		handleLoopPrevention(navState);
 	};

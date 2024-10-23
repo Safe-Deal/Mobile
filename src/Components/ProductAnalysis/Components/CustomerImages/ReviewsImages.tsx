@@ -1,17 +1,16 @@
-import { View } from "react-native";
-import { useSelector } from "react-redux";
-import { Text } from "react-native-paper";
-import React from "react";
 import { useTranslation } from "@hooks/useTranslation";
-import ImageCarousel from "./ImagesCarousel/ImageCarousel";
+import React from "react";
+import { View } from "react-native";
+import { Text } from "react-native-paper";
+import { useProductsStore } from "../../../../Zustand/JoinSafeDeal/JoinSafeDeal";
 import s from "../Reviews/ReviewsInsights.style";
+import ImageCarousel from "./ImagesCarousel/ImageCarousel";
 
 export const ReviewsImages = () => {
-	const { allProductsState } = useSelector((state: any) => state.Products);
-	const { reviews, product } = allProductsState;
+	const { allProductsState } = useProductsStore();
 	const { t } = useTranslation();
 
-	const imagesArray = reviews?.reviewsImages || product?.images || [];
+	const imagesArray = allProductsState?.reviews?.reviewsImages || allProductsState?.product?.images || [];
 	if (imagesArray.length < 1) {
 		return (
 			<View style={s.reviews_summary__no_reviews}>

@@ -5,16 +5,15 @@ import React from "react";
 import { View } from "react-native";
 import { ScrollView } from "react-native-actions-sheet";
 import { ActivityIndicator, List, Text } from "react-native-paper";
-import { useSelector } from "react-redux";
 import Theme from "../../../../Theme/Theme";
 import { logError } from "../../../../Utils/Analytics";
+import { useProductsStore } from "../../../../Zustand/JoinSafeDeal/JoinSafeDeal";
 import s from "./ReviewsInsights.style";
 
 export const ReviewsInsights = (): React.ReactElement => {
 	const { activeUrl } = useAppContext();
 	const { isLoading: loading, error } = useProductAnalysis(activeUrl);
-	const { allProductsState } = useSelector((state: any) => state.Products);
-	const { reviews } = allProductsState;
+	const { allProductsState } = useProductsStore();
 	const { t } = useTranslation();
 
 	if (loading) {
@@ -26,7 +25,7 @@ export const ReviewsInsights = (): React.ReactElement => {
 		return <Text>{t("An error has occurred")}</Text>;
 	}
 
-	if (!reviews?.reviewsSummary || reviews?.reviewsSummary?.length === 0) {
+	if (!allProductsState?.reviews?.reviewsSummary || allProductsState?.reviews?.reviewsSummary?.length === 0) {
 		return (
 			<View style={s.reviews_summary__no_reviews}>
 				<Text style={s.reviews_summary__no_reviews__text} variant="titleMedium">
@@ -38,7 +37,7 @@ export const ReviewsInsights = (): React.ReactElement => {
 
 	return (
 		<ScrollView style={s.reviews_summary} contentContainerStyle={{ flexGrow: 1 }}>
-			{reviews.reviewsSummary.map((review, sectionIndex: number) => {
+			{allProductsState?.reviews.reviewsSummary.map((review, sectionIndex: number) => {
 				if (!review.reviews || review.reviews.length === 0) {
 					return null;
 				}
