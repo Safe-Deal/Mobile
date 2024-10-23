@@ -1,14 +1,17 @@
 import LanguageModal from "@components/Common/LanguageModal/LanguageModal";
 import { useOnboardContext } from "@context/onBoardContext";
+import { useTranslation } from "@hooks/useTranslation";
 import { BottomTabBar, createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { useNavigation } from "@react-navigation/native";
+import { useProductAnalysis } from "@services/ProductAnalysis";
 import { ConclusionTypes, Images } from "@shared/Constants";
+import { debug } from "@utils/Analytics";
 import React, { useEffect, useState } from "react";
 import { Image, TouchableOpacity, View } from "react-native";
 import { useDispatch, useSelector } from "react-redux";
 import { TourGuideZone, useTourGuideController } from "rn-tourguide";
 import { useAppContext } from "../../../Context/AppContext";
-import { resetAllProducts } from "../../../Redux/JoinSafeDeal/JoinSafeDeal";
+import { resetProductAnalysis } from "../../../Redux/JoinSafeDeal/JoinSafeDeal";
 import { RootState } from "../../../Redux/Store";
 import { MainScreen } from "../../../Screens/Main/MainScreen";
 import Theme, { height } from "../../../Theme/Theme";
@@ -17,13 +20,10 @@ import { isItemDetails } from "../../../Utils/SiteUtils";
 import IconButton from "../../Common/Icons/IconButton";
 import SafeDealLogoSvg from "../../Common/Images/SafeDealLogoSvg";
 import { SpinnerLoader } from "../../Common/Loaders/SpinnerLoader";
-import { Menu } from "../../Menu/Menu";
 import { SearchBar } from "../../Menu/Components/UrlTextbox";
+import { Menu } from "../../Menu/Menu";
 import s from "./BrowserFooter.styles";
 import { ConclusionIcon } from "./Components/ConclusionIcon";
-import { useTranslation } from "@hooks/useTranslation";
-import { debug } from "@utils/Analytics";
-import { useProductAnalysis } from "@services/ProductAnalysis";
 
 const Tab = createBottomTabNavigator();
 const BOTTOM_ICONS_SIZE = height(4);
@@ -120,7 +120,7 @@ const BrowserFooterContent = () => {
 	const navigation = useNavigation();
 	const [isLanguageModalVisible, setIsLanguageModalVisible] = useState(false);
 	const { t } = useTranslation();
-	const { isLoading: loading } = useProductAnalysis();
+	const { isLoading: loading, reset } = useProductAnalysis(activeUrl);
 
 	useEffect(() => {
 		if (showTooltip && canStart && allProductsState?.product?.conclusion) {
@@ -257,7 +257,9 @@ const BrowserFooterContent = () => {
 								<TouchableOpacity
 									onPress={() => {
 										setActiveUrl("");
-										dispatch(resetAllProducts());
+										// dispatch(resetAllProducts());
+										reset();
+										dispatch(resetProductAnalysis(URL));
 									}}
 								>
 									<Image

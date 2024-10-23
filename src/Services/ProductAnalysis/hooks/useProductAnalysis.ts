@@ -1,60 +1,44 @@
-import { useEffect, useState } from "react";
-import { useMutation, useQueryClient } from "react-query";
+import { useQuery, useQueryClient } from "react-query";
 import { useDispatch } from "react-redux";
 import { setProductAnalysis } from "../../../Redux/JoinSafeDeal/JoinSafeDeal";
-import { fetchProductAnalysis } from "../service/ProductAnalysisService";
+import { fetchProductAnalysis, ProductAnalysisResponse, MutationError } from "../service/ProductAnalysisService";
 
-export const useProductAnalysis = () => {
+// Hook to manage product analysis
+export const useProductAnalysis = (url: string | null) => {
 	const queryClient = useQueryClient();
-	const [mutationState, setMutationState] = useState<any>(null);
 	const dispatch = useDispatch();
-	const mutation = useMutation(fetchProductAnalysis, {
-		onSuccess: (data) => {
-			if (data) {
-				dispatch(setProductAnalysis(data));
+
+	// Function to trigger a fetch for product analysis data
+	const sendRequest = (newUrl: string | null) => {
+		if (newUrl) {
+			queryClient.invalidateQueries(["productAnalysis", newUrl]); // Invalidate the query to trigger refetch
+		}
+	};
+
+	// Function to access product analysis state (data, isLoading, etc.)
+	const { data, error, isLoading, isError, isSuccess } = useQuery(
+		["productAnalysis", url],
+		() => {
+			if (url === null) {
+				return;
 			}
+			return fetchProductAnalysis(url);
 		},
-
-		mutationKey: "fetchProductAnalysis",
-	});
-
-	useEffect(() => {
-		const unsubscribe = queryClient.getMutationCache().subscribe(() => {
-			const fetchProductAnalysisMutation = queryClient
-				.getMutationCache()
-				.findAll({ mutationKey: "fetchProductAnalysis" })[0];
-			setMutationState(fetchProductAnalysisMutation?.state);
-		});
-		return () => unsubscribe();
-	}, []);
-
-	const { error, status } = mutationState ?? {
-		status: "idle", // Default status when there's no mutation state
-		error: null,
-		data: null,
-	};
-
-	const isLoading = status === "loading";
-	const isError = status === "error";
-	const isSuccess = status === "success";
-
-	const resetMutation = () => {
-		setMutationState(null); // Reset the local mutation state
-	};
-
-	const sendRequest = async (url) => {
-		// Reset the cache for the specific query and then send request
-		queryClient.getMutationCache().clear();
-		queryClient.invalidateQueries("fetchProductAnalysis");
-		await mutation.mutateAsync(url);
-	};
+		{
+			enabled: !!url, // Ensure the query only runs if a URL is provided
+			onSuccess: (data) => {
+				dispatch(setProductAnalysis(data)); // Dispatch to Redux store
+			},
+		},
+	);
 
 	return {
-		sendRequest: sendRequest,
+		sendRequest,
 		isLoading,
 		isError,
 		isSuccess,
 		error,
-		reset: resetMutation,
+		data,
+		reset: () => queryClient.resetQueries(["productAnalysis", url]), // Reset the query cache if needed
 	};
 };

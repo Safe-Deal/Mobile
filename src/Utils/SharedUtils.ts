@@ -1,4 +1,3 @@
-import { get } from "./../Services/GeneralMiddleware";
 import { logError } from "./Analytics";
 import { isValidUrl } from "./Urls";
 import { isDomainWhitelisted } from "./WhitelistedUrls";
@@ -12,6 +11,7 @@ export const createGoogleSearchUrl = (input: string): string => {
 export const extractDomain = (url: string) => {
 	try {
 		let toParse = url;
+
 		if (!toParse.startsWith("http")) {
 			toParse = `http://${toParse}`;
 		}

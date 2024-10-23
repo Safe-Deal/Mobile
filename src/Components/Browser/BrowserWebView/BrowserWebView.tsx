@@ -1,4 +1,5 @@
 import { useProductAnalysis } from "@services/ProductAnalysis";
+import { getProductInfo, isValidDomain } from "@utils/SharedUtils";
 import React, { forwardRef, useEffect, useImperativeHandle, useRef, useState } from "react";
 import { View } from "react-native";
 import { ActivityIndicator } from "react-native-paper";
@@ -60,37 +61,44 @@ const isNavClick = (e: ShouldStartLoadRequest): boolean => e.isTopFrame && e.nav
 
 export const MainWebView = forwardRef(({ URL }: MainWebViewProps, ref) => {
 	const dispatch = useDispatch();
-	const { handleUrlChange, handleWebViewMessage, setActiveUrl } = useAppContext();
+	const { handleUrlChange, handleWebViewMessage, setActiveUrl, activeUrl } = useAppContext();
 	const webViewRef = useRef<WebView>(null);
 	const [currentUrl, setCurrentUrl] = useState<string>(URL);
 	const [isWebViewLoading, setIsWebViewLoading] = useState(false);
 	const { handleLoopPrevention } = useLoopPrevention(webViewRef);
 	const userAgent = useUserAgent();
-	const { sendRequest, reset } = useProductAnalysis();
+	const { sendRequest } = useProductAnalysis(null);
 	const { data: affiliates, isLoading: isAffiliatesLoading } = useAffiliate();
+
 	const onUrlChange = (url: string) => {
 		affiliationRedirect(url)
 			.then((affUrl) => {
 				if (affUrl) {
 					setCurrentUrl(affUrl);
 					debug("SDWebView::affiliationRedirect", affUrl);
+					sendRequest(affUrl);
 				}
 			})
 			.catch((error) => {
 				debug("SDWebView::affiliationRedirect::Error", error);
+			})
+			.finally(() => {
+				setActiveUrl(url);
 			});
 	};
 
 	useEffect(() => {
-		setCurrentUrl(URL);
-	}, [URL]);
-
-	useEffect(() => {
 		if (URL) {
+			setCurrentUrl(URL);
 			dispatch(resetProductAnalysis(URL));
-			reset();
-			sendRequest(URL);
-			setActiveUrl(URL);
+			const product = getProductInfo(URL);
+			if (product && Object.keys(product).length > 0) {
+				sendRequest(URL);
+			} else if (isValidDomain(URL)) {
+				sendRequest(URL);
+			} else {
+				console.log("not valid url");
+			}
 		}
 	}, [URL]);
 
@@ -116,7 +124,7 @@ export const MainWebView = forwardRef(({ URL }: MainWebViewProps, ref) => {
 	}));
 
 	const onNavStateChange = async (navState: WebViewNavigation): Promise<void> => {
-		debug("SDWebView::NavState:navigated: ", navState.url);
+		// debug("SDWebView::NavState:navigated: ", navState.url);
 		handleUrlChange(navState);
 		handleLoopPrevention(navState);
 	};
@@ -126,6 +134,11 @@ export const MainWebView = forwardRef(({ URL }: MainWebViewProps, ref) => {
 		if (!isAllowed) {
 			return false;
 		}
+
+		if (request.url.includes("login")) {
+			return false;
+		}
+
 		const isAffiliate = hasAffiliateParams(request.url);
 
 		if (isAffiliate) {

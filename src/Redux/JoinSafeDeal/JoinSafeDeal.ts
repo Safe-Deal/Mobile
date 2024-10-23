@@ -44,9 +44,7 @@ export const ProductsSlice = createSlice({
 	initialState,
 	reducers: {
 		resetProductAnalysis: (state, action): void => {
-			if (state?.allProductsState?.product === action.payload) {
-				state.allProductsState = { product: null, rules: null };
-			}
+			state.allProductsState = { product: null, rules: null };
 		},
 		resetAllProducts: (state): void => {
 			state.allProductsState = { product: null, rules: null };

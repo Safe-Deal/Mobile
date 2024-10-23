@@ -102,6 +102,13 @@ export const DEFAULT_LINKS = {
 	"": "",
 };
 
+export const DEFAULT_LINKS_PATTERNS = {
+	aliexpress: /https:\/\/www\.aliexpress\.com\/item\/(\d+)/,
+	ebay: /https:\/\/www\.ebay\.com\/itm\/(\d+)/,
+	temu: /https:\/\/www\.temu\.com\/product-detail\/(\d+)/,
+	amazon: /https:\/\/www\.amazon\.com\/dp\/(\w+)/,
+};
+
 export {
 	BACKGROUND_FETCH_TASK,
 	NAV_TYPE_CLICK,
