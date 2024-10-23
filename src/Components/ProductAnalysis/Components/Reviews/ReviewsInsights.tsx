@@ -1,6 +1,6 @@
+import { useAppContext } from "@context/AppContext";
 import { useTranslation } from "@hooks/useTranslation";
 import { useProductAnalysis } from "@services/ProductAnalysis";
-import { screenHeight, screenWidth } from "@theme/Theme";
 import React from "react";
 import { View } from "react-native";
 import { ScrollView } from "react-native-actions-sheet";
@@ -11,7 +11,8 @@ import { logError } from "../../../../Utils/Analytics";
 import s from "./ReviewsInsights.style";
 
 export const ReviewsInsights = (): React.ReactElement => {
-	const { isLoading: loading, error } = useProductAnalysis();
+	const { activeUrl } = useAppContext();
+	const { isLoading: loading, error } = useProductAnalysis(activeUrl);
 	const { allProductsState } = useSelector((state: any) => state.Products);
 	const { reviews } = allProductsState;
 	const { t } = useTranslation();
