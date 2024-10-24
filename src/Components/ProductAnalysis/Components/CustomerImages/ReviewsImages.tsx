@@ -10,7 +10,7 @@ export const ReviewsImages = () => {
 	const { allProductsState } = useProductsStore();
 	const { t } = useTranslation();
 
-	const imagesArray = allProductsState?.reviews?.reviewsImages || allProductsState?.product?.images || [];
+	const imagesArray = allProductsState?.product?.reviews?.reviewsImages || allProductsState?.product?.images || [];
 	if (imagesArray.length < 1) {
 		return (
 			<View style={s.reviews_summary__no_reviews}>

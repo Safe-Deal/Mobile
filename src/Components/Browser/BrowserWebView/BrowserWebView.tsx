@@ -67,7 +67,7 @@ export const MainWebView = forwardRef(({ URL }: MainWebViewProps, ref) => {
 	const userAgent = useUserAgent();
 	const { sendRequest } = useProductAnalysis(null);
 	const { data: affiliates, isLoading: isAffiliatesLoading } = useAffiliate();
-	const { resetProductAnalysis } = useProductsStore();
+	const { resetAllProducts } = useProductsStore();
 
 	const onUrlChange = (url: string) => {
 		affiliationRedirect(url)
@@ -89,7 +89,7 @@ export const MainWebView = forwardRef(({ URL }: MainWebViewProps, ref) => {
 	useEffect(() => {
 		if (URL) {
 			setCurrentUrl(URL);
-			resetProductAnalysis(URL);
+			resetAllProducts();
 			const product = getProductInfo(URL);
 			if (product && Object.keys(product).length > 0) {
 				sendRequest(URL);
@@ -114,7 +114,7 @@ export const MainWebView = forwardRef(({ URL }: MainWebViewProps, ref) => {
 
 	useImperativeHandle(ref, () => ({
 		refresh: () => {
-			resetProductAnalysis(currentUrl);
+			resetAllProducts();
 			webViewRef?.current?.reload();
 		},
 		goToUrl: (targetUrl: string) => {

@@ -26,7 +26,7 @@ export const useProductAnalysis = (url: string | null) => {
 		{
 			enabled: !!url, // Ensure the query only runs if a URL is provided
 			onSuccess: (data) => {
-				setProductAnalysis(data); // Dispatch to Redux store
+				setProductAnalysis(data);
 			},
 		},
 	);

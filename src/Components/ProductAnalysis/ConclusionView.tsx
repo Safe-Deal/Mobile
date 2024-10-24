@@ -118,7 +118,7 @@ export const ConclusionView = (props) => {
 			<View style={[s.conclusion__header, { borderColor: borderClr, backgroundColor: borderClr }]}>
 				<Conclusion
 					style={s.conclusion__title}
-					conclusion={allProductsState?.product?.conclusion}
+					conclusion={allProductsState?.product?.conclusion as ConclusionTypes}
 					SHIELD_SIZE={height(4.1)}
 				/>
 			</View>

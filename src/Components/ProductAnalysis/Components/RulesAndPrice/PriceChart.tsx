@@ -22,9 +22,9 @@ export const PriceChart = (): ReactElement | null => {
 			[ConclusionTypes.RECOMMENDED]: Theme.primary,
 			[ConclusionTypes.NOT_RECOMMENDED]: Theme.stuckRed,
 			[ConclusionTypes.DOUBTFUL]: Theme.warningColor,
-		};
+		} as Record<ConclusionTypes, string>;
 
-		return colorMap[conclusion] || Theme.primary;
+		return colorMap[conclusion as ConclusionTypes] || Theme.primary;
 	}, [conclusion]);
 
 	const calculateChartColor = (opacity: number): string => {

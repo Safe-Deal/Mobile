@@ -14,7 +14,7 @@ export interface MutationError {
 	message: string;
 }
 
-export const fetchProductAnalysis = async (url: string): Promise<ProductAnalysisResponse | MutationError> => {
+export const fetchProductAnalysis = async (url: string): Promise<ProductAnalysisResponse | MutationError | any> => {
 	const product = getProductInfo(url);
 	const EndPoint = URL.END_POINT;
 	try {

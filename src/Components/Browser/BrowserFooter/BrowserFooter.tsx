@@ -309,7 +309,7 @@ const BrowserFooterContent = () => {
 					options={{
 						tabBarIcon: () => (
 							<Menu
-								hasDecision={allProductsState?.product?.conclusion}
+								hasDecision={!!allProductsState?.product?.conclusion}
 								onSharePress={(value: string) => {
 									onShare(value);
 								}}
