@@ -1,13 +1,12 @@
 import { useQuery, useQueryClient } from "react-query";
-import { useDispatch } from "react-redux";
-import { setProductAnalysis } from "../../../Redux/JoinSafeDeal/JoinSafeDeal";
-import { fetchProductAnalysis, ProductAnalysisResponse, MutationError } from "../service/ProductAnalysisService";
+import { useProductsStore } from "../../../Zustand/JoinSafeDeal/JoinSafeDeal";
+import { fetchProductAnalysis } from "../service/ProductAnalysisService";
 
 // Hook to manage product analysis
 export const useProductAnalysis = (url: string | null) => {
 	const queryClient = useQueryClient();
-	const dispatch = useDispatch();
 
+	const { setProductAnalysis } = useProductsStore();
 	// Function to trigger a fetch for product analysis data
 	const sendRequest = (newUrl: string | null) => {
 		if (newUrl) {
@@ -27,7 +26,7 @@ export const useProductAnalysis = (url: string | null) => {
 		{
 			enabled: !!url, // Ensure the query only runs if a URL is provided
 			onSuccess: (data) => {
-				dispatch(setProductAnalysis(data)); // Dispatch to Redux store
+				setProductAnalysis(data); // Dispatch to Redux store
 			},
 		},
 	);

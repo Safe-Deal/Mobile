@@ -1,12 +1,11 @@
 import React from "react";
 import { WebView } from "react-native-webview";
-import { useSelector } from "react-redux";
+import { useProductsStore } from "../../../../Zustand/JoinSafeDeal/JoinSafeDeal";
 import { INJECTED_SCRIPTS } from "../../../Browser/BrowserWebView/scripts/scripts";
-import { View } from "react-native";
 import s from "./ReviewsVideos.style";
 
 export const ReviewsVideos = () => {
-	const { allProductsState } = useSelector((state: any) => state.Products);
+	const { allProductsState } = useProductsStore();
 	const productTitle = `${allProductsState?.product?.title} reviews` || "";
 
 	const videoUrl = `https://www.youtube.com/results?search_query=${productTitle}&autoplay=0`;

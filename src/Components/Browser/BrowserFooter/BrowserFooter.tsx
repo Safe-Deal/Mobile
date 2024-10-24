@@ -8,15 +8,13 @@ import { ConclusionTypes, Images } from "@shared/Constants";
 import { debug } from "@utils/Analytics";
 import React, { useEffect, useState } from "react";
 import { Image, TouchableOpacity, View } from "react-native";
-import { useDispatch, useSelector } from "react-redux";
 import { TourGuideZone, useTourGuideController } from "rn-tourguide";
 import { useAppContext } from "../../../Context/AppContext";
-import { resetProductAnalysis } from "../../../Redux/JoinSafeDeal/JoinSafeDeal";
-import { RootState } from "../../../Redux/Store";
 import { MainScreen } from "../../../Screens/Main/MainScreen";
 import Theme, { height } from "../../../Theme/Theme";
 import { createGoogleSearchUrl, getProductInfo, getWebProductUrl } from "../../../Utils/SharedUtils";
 import { isItemDetails } from "../../../Utils/SiteUtils";
+import { useProductsStore } from "../../../Zustand/JoinSafeDeal/JoinSafeDeal";
 import IconButton from "../../Common/Icons/IconButton";
 import SafeDealLogoSvg from "../../Common/Images/SafeDealLogoSvg";
 import { SpinnerLoader } from "../../Common/Loaders/SpinnerLoader";
@@ -113,8 +111,7 @@ const BrowserFooterToolbar = () => {
 
 const BrowserFooterContent = () => {
 	const { activeUrl, toggleAnalyticsModal, onShare, setActiveUrl } = useAppContext();
-	const { allProductsState } = useSelector((state: RootState) => state.Products);
-	const dispatch = useDispatch();
+	const { allProductsState, resetAllProducts } = useProductsStore();
 	const { showTooltip } = useOnboardContext();
 	const { start, canStart, eventEmitter, stop } = useTourGuideController("tour1");
 	const navigation = useNavigation();
@@ -257,9 +254,8 @@ const BrowserFooterContent = () => {
 								<TouchableOpacity
 									onPress={() => {
 										setActiveUrl("");
-										// dispatch(resetAllProducts());
 										reset();
-										dispatch(resetProductAnalysis(URL));
+										resetAllProducts();
 									}}
 								>
 									<Image

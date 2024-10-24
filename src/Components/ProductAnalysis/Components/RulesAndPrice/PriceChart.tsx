@@ -1,14 +1,14 @@
 import React, { ReactElement, useMemo } from "react";
 import { View } from "react-native";
-import { useSelector } from "react-redux";
 import { LineChart } from "react-native-chart-kit";
 import { ConclusionTypes } from "../../../../Shared/Constants";
-import Theme, { hexToRgb, screenWidth, height } from "../../../../Theme/Theme";
+import Theme, { height, hexToRgb, screenWidth } from "../../../../Theme/Theme";
 import { calculateMonthlyAverageOneYearBack, formatDate } from "../../../../Utils/SharedUtils";
+import { useProductsStore } from "../../../../Zustand/JoinSafeDeal/JoinSafeDeal";
 import s from "../../ProductAnalysis.styles";
 
 export const PriceChart = (): ReactElement | null => {
-	const { allProductsState } = useSelector((state: any) => state.Products);
+	const { allProductsState } = useProductsStore();
 	const { product } = allProductsState || {};
 	const { conclusion, price } = product?.product || {};
 

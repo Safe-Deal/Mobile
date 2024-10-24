@@ -2,14 +2,14 @@ import { ReactElement } from "react";
 import { Text, View } from "react-native";
 import { Icon } from "react-native-paper";
 import { Popable } from "react-native-popable";
-import { useSelector } from "react-redux";
 import { ConclusionTypes } from "../../../../Shared/Constants";
 import Theme, { height } from "../../../../Theme/Theme";
 import s from "../../ProductAnalysis.styles";
 import { PriceChart } from "./PriceChart";
+import { useProductsStore } from "../../../../Zustand/JoinSafeDeal/JoinSafeDeal";
 
 export const ProductRulesListAndPrice = (): ReactElement => {
-	const { allProductsState } = useSelector((state: any) => state.Products);
+	const { allProductsState } = useProductsStore();
 
 	const borderClr: string =
 		allProductsState?.product?.conclusion === ConclusionTypes.INSUFFICIENT_DATA
