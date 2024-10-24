@@ -24,7 +24,7 @@
 		"lint": "eslint --fix .",
 		"format": "prettier --write .",
 		"rel:update:push": "eas update --branch production",
-		"rel:build": "eas build --profile production --no-wait --platform all --clear-cache --non-interactive",
+		"rel:build": "eas build --profile production --platform all --clear-cache --non-interactive",
 		"rel:credentials": "npx eas credentials",
 		"rel:incVersion": "node ./tools/increaseVersion.js",
 		"kill": "kill -9 $(lsof -t -i:8081)",
