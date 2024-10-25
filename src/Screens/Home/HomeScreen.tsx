@@ -37,8 +37,8 @@ const HomeScreen = ({ setUrl, setIsHomeActive, setActiveEventHTML }: HomeScreenP
 			icon: Images.googleIcon,
 			text: newLinkTitle,
 			link: newLinkURL,
-		}),
-			updateModalVisibility(false);
+		});
+		updateModalVisibility(false);
 		setUrl(newLinkURL);
 		setNewLinkTitle("");
 		setNewLinkURL("");
