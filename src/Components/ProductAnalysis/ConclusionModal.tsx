@@ -76,6 +76,7 @@ export const ConclusionModal = ({
 						: Theme.primary;
 
 	const flatListRef = useRef<FlatList>(null);
+	const tintColor = selectedTab !== TabTypes.ANALYZE__PRODUCT_INSIGHTS ? Theme.darkGreen : Theme.auroMetalSaurus;
 
 	return (
 		<DraggableModal
@@ -112,7 +113,7 @@ export const ConclusionModal = ({
 											style={{
 												height: width(5),
 												width: width(5),
-												tintColor: selectedTab !== item.type ? Theme.auroMetalSaurus : Theme.darkGreen,
+												tintColor,
 											}}
 										/>
 									)}
