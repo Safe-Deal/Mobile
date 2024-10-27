@@ -1,5 +1,5 @@
 import React from "react";
-import { ScrollView, View } from "react-native";
+import { ScrollView, View, Button } from "react-native";
 import { ConclusionTypes, TabTypes } from "../../Shared/Constants";
 import Theme, { height } from "../../Theme/Theme";
 import { useProductsStore } from "../../Services/States/Products/StateProducts";
@@ -12,7 +12,7 @@ import { Dispatch, SetStateAction } from "react";
 interface ConclusionModalProps {
 	isModalVisible: boolean;
 	onClose: () => void;
-	onShare: (data: string) => void;
+	onShare?: (data: string) => void;
 	search: string;
 	selectedTab: TabTypes;
 	url: string;
@@ -41,6 +41,13 @@ export const ConclusionModal: React.FC<ConclusionModalProps> = ({
 						? Theme.warningColor
 						: Theme.primary;
 
+	const handleShare = () => {
+		if (onShare) {
+			const shareData = `Check out this product: ${url}\nConclusion: ${allProductsState?.product?.conclusion}`;
+			onShare(shareData);
+		}
+	};
+
 	return (
 		<DraggableModal
 			selectedTab={selectedTab}
@@ -59,6 +66,7 @@ export const ConclusionModal: React.FC<ConclusionModalProps> = ({
 				<View style={s.sheet_list_view}>
 					<ProductInsights selectedTab={selectedTab} setSelectedTab={setSelectedTab} />
 				</View>
+				{onShare && <Button title="Share" onPress={handleShare} />}
 			</ScrollView>
 		</DraggableModal>
 	);
