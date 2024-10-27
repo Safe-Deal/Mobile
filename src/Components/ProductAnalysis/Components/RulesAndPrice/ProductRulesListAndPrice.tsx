@@ -51,9 +51,7 @@ export const ProductRulesListAndPrice = (): ReactElement => {
 							),
 					)}
 			</View>
-			<View style={s.product_insights__chart__container}>
-				<PriceChart />
-			</View>
+			<PriceChart />
 		</View>
 	);
 };

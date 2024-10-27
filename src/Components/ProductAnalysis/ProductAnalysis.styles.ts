@@ -7,6 +7,7 @@ const styles = StyleSheet.create({
 		flex: 1,
 		marginLeft: width(1.5),
 		marginRight: width(1.5),
+		justifyContent: "center",
 	},
 	product_insights__list: { flex: 1, marginBottom: height(1) },
 	product_insights__list__item: {
