@@ -25,10 +25,7 @@ export const ReviewsInsights = (): React.ReactElement => {
 		return <Text>{t("An error has occurred")}</Text>;
 	}
 
-	if (
-		!allProductsState?.product?.reviews?.reviewsSummary ||
-		allProductsState?.product?.reviews?.reviewsSummary?.length === 0
-	) {
+	if (!allProductsState?.reviews?.reviewsSummary || allProductsState?.reviews?.reviewsSummary?.length === 0) {
 		return (
 			<View style={s.reviews_summary__no_reviews}>
 				<Text style={s.reviews_summary__no_reviews__text} variant="titleMedium">
@@ -40,7 +37,7 @@ export const ReviewsInsights = (): React.ReactElement => {
 
 	return (
 		<ScrollView style={s.reviews_summary} contentContainerStyle={{ flexGrow: 1 }}>
-			{allProductsState?.product?.reviews.reviewsSummary.map((review, sectionIndex: number) => {
+			{allProductsState?.reviews.reviewsSummary.map((review, sectionIndex: number) => {
 				if (!review.reviews || review.reviews.length === 0) {
 					return null;
 				}

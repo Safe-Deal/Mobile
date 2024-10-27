@@ -1,6 +1,19 @@
 import { create } from "zustand";
 import { ConclusionTypes } from "@shared/Constants";
 
+type ReviewState = {
+	reviewsSummary?: Array<{
+		section: string;
+		reviews: string[];
+	}>;
+	reviewsImages?: any[];
+	createdAt?: string;
+	lang?: string;
+	product_id?: string;
+	store?: string;
+	updatedAt?: string;
+};
+
 // Define the ProductState type
 type ProductState = {
 	id?: string;
@@ -14,18 +27,7 @@ type ProductState = {
 		conclusion?: ConclusionTypes;
 		price?: any;
 	};
-	reviews?: {
-		reviewsSummary?: Array<{
-			section: string;
-			reviews: string[];
-		}>;
-		reviewsImages?: any[];
-		createdAt?: string;
-		lang?: string;
-		product_id?: string;
-		store?: string;
-		updatedAt?: string;
-	};
+	reviews?: ReviewState;
 	images?: string[];
 	title?: string;
 	description?: string;
@@ -40,6 +42,7 @@ interface ProductsStoreState {
 	allProductsState: {
 		product: ProductState | null;
 		rules: ProductState["rules"] | null;
+		reviews?: ReviewState | null;
 	};
 	setProductAnalysis: (analysis: ProductsStoreState["allProductsState"]) => void;
 	resetAllProducts: () => void;
