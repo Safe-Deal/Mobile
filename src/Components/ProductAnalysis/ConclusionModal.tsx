@@ -7,21 +7,26 @@ import s from "./ConclusionModal.styles";
 import { Conclusion } from "./Modal/Conclusion";
 import DraggableModal from "./Modal/DraggableModal";
 import { ProductInsights } from "./ProductAnalysis";
+import { Dispatch, SetStateAction } from "react";
 
 interface ConclusionModalProps {
 	isModalVisible: boolean;
-	url: string;
-	selectedTab: TabTypes;
 	onClose: () => void;
-	setSelectedTab: (type: TabTypes) => void;
+	onShare: (data: string) => void;
+	search: string;
+	selectedTab: TabTypes;
+	url: string;
+	setSelectedTab: Dispatch<SetStateAction<TabTypes>>;
 }
 
 export const ConclusionModal: React.FC<ConclusionModalProps> = ({
 	isModalVisible,
-	url,
-	selectedTab,
-	setSelectedTab,
 	onClose,
+	onShare,
+	search,
+	selectedTab,
+	url,
+	setSelectedTab,
 }) => {
 	const { allProductsState } = useProductsStore();
 
