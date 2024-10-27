@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import Theme, { fontSize, height, heightByOs, width } from "../../Theme/Theme";
+import Theme, { fontSize, height, heightByOs, width, STANDART_FONT } from "../../Theme/Theme";
 
 const styles = StyleSheet.create({
 	top_toolbar__menu_btn_no_decision: {
@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
 		alignItems: "center",
 	},
 	top_toolbar_url__input: {
-		fontSize: fontSize(14),
+		fontSize: STANDART_FONT,
 		flexGrow: 1,
 		flexShrink: 1,
 		flex: 1,

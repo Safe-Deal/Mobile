@@ -1,5 +1,5 @@
 import { Dimensions, Platform, StyleSheet } from "react-native";
-import Theme, { fontSize, height, width } from "../../Theme/Theme";
+import Theme, { fontSize, height, width, STANDART_FONT } from "../../Theme/Theme";
 
 const { width: SCREEN_WIDTH } = Dimensions.get("window");
 
@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
 		paddingBottom: height(0.5),
 	},
 	product_insights__list__text: {
-		fontSize: fontSize(14),
+		fontSize: STANDART_FONT,
 		width: Dimensions.get("window").width - width(15),
 	},
 	product_insights__list__tooltip: {

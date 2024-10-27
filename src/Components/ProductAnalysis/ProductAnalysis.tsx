@@ -1,5 +1,5 @@
 import React, { ReactElement, useRef } from "react";
-import { View, Dimensions, FlatList } from "react-native";
+import { View, FlatList } from "react-native";
 import { PanGestureHandler, ScrollView as GHScrollView } from "react-native-gesture-handler";
 import Animated, {
 	useAnimatedGestureHandler,
@@ -17,6 +17,7 @@ import { TabTypes } from "../../Shared/Constants";
 import ReviewsVideos from "./Components/Video/ReviewsVideos";
 import Theme from "../../Theme/Theme";
 import { useTranslation } from "@hooks/useTranslation";
+import { SWIPE_THRESHOLD } from "../../Utils/Const";
 
 interface SDAnalyzerProps {
 	selectedTab: TabTypes;
@@ -29,9 +30,6 @@ const tabOrder = [
 	TabTypes.ANALYZE__IMAGES,
 	TabTypes.ANALYZE__VIDEOS,
 ];
-
-const { width: SCREEN_WIDTH } = Dimensions.get("window");
-const SWIPE_THRESHOLD = SCREEN_WIDTH * 0.2;
 
 export const ProductInsights = ({ selectedTab, setSelectedTab }: SDAnalyzerProps): ReactElement => {
 	const translateX = useSharedValue(0);

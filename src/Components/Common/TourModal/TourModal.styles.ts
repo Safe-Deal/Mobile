@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import Theme, { fontSize, height } from "../../../Theme/Theme";
+import Theme, { fontSize, height, STANDART_FONT } from "../../../Theme/Theme";
 
 const styles = StyleSheet.create({
 	tour_modal_container: {
@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
 	tooltip_text: {
 		textAlign: "center",
 		color: Theme.colorBlackish,
-		fontSize: fontSize(14),
+		fontSize: STANDART_FONT,
 	},
 	tooltip_title: {
 		textAlign: "center",
