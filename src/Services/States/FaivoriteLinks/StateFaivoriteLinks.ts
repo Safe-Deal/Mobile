@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { IHomeLinksStoreState } from "./HomeLinks.interface";
+import { IHomeLinksStoreState } from "./StateFaivoriteLinks.interface";
 import { defaultLink } from "@shared/Constants";
 
 interface HomeLinksStore extends IHomeLinksStoreState {

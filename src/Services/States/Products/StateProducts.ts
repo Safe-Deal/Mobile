@@ -14,7 +14,6 @@ type ReviewState = {
 	updatedAt?: string;
 };
 
-// Define the ProductState type
 type ProductState = {
 	id?: string;
 	conclusion?: ConclusionTypes;

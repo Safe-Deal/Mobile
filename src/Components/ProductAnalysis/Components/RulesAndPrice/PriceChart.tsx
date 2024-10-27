@@ -4,7 +4,7 @@ import { LineChart } from "react-native-chart-kit";
 import { ConclusionTypes } from "../../../../Shared/Constants";
 import Theme, { height, hexToRgb, screenWidth } from "../../../../Theme/Theme";
 import { calculateMonthlyAverageOneYearBack, formatDate } from "../../../../Utils/SharedUtils";
-import { useProductsStore } from "../../../../Zustand/JoinSafeDeal/JoinSafeDeal";
+import { useProductsStore } from "../../../../Services/States/Products/StateProducts";
 import s from "../../ProductAnalysis.styles";
 
 export const PriceChart = (): ReactElement | null => {

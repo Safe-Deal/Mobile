@@ -6,7 +6,7 @@ import { ConclusionTypes } from "../../../../Shared/Constants";
 import Theme, { height } from "../../../../Theme/Theme";
 import s from "../../ProductAnalysis.styles";
 import { PriceChart } from "./PriceChart";
-import { useProductsStore } from "../../../../Zustand/JoinSafeDeal/JoinSafeDeal";
+import { useProductsStore } from "../../../../Services/States/Products/StateProducts";
 
 export const ProductRulesListAndPrice = (): ReactElement => {
 	const { allProductsState } = useProductsStore();

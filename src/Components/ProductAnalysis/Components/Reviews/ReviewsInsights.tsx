@@ -7,7 +7,7 @@ import { ScrollView } from "react-native-actions-sheet";
 import { ActivityIndicator, List, Text } from "react-native-paper";
 import Theme from "../../../../Theme/Theme";
 import { logError } from "../../../../Utils/Analytics";
-import { useProductsStore } from "../../../../Zustand/JoinSafeDeal/JoinSafeDeal";
+import { useProductsStore } from "../../../../Services/States/Products/StateProducts";
 import s from "./ReviewsInsights.style";
 
 export const ReviewsInsights = (): React.ReactElement => {

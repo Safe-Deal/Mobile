@@ -4,7 +4,7 @@ import { FlatList, Image, ScrollView, Text, View } from "react-native";
 import { Chip } from "react-native-paper";
 import { ConclusionTypes, TabTypes } from "../../Shared/Constants";
 import Theme, { height, width } from "../../Theme/Theme";
-import { useProductsStore } from "../../Zustand/JoinSafeDeal/JoinSafeDeal";
+import { useProductsStore } from "../../Services/States/Products/StateProducts";
 import s from "./ConclusionModal.styles";
 import { Conclusion } from "./Modal/Conclusion";
 import DraggableModal from "./Modal/DraggableModal";

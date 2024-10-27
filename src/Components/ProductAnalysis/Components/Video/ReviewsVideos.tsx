@@ -1,6 +1,6 @@
 import React from "react";
 import { WebView } from "react-native-webview";
-import { useProductsStore } from "../../../../Zustand/JoinSafeDeal/JoinSafeDeal";
+import { useProductsStore } from "../../../../Services/States/Products/StateProducts";
 import { INJECTED_SCRIPTS } from "../../../Browser/BrowserWebView/scripts/scripts";
 import s from "./ReviewsVideos.style";
 

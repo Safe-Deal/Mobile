@@ -20,7 +20,7 @@ import { styles } from "./BrowserWebView.styles";
 import { useLoopPrevention } from "./hooks/useLoopPrevention";
 import { useUserAgent } from "./hooks/useUserAgent";
 import { INJECTED_SCRIPTS } from "./scripts/scripts";
-import { useProductsStore } from "../../../Zustand/JoinSafeDeal/JoinSafeDeal";
+import { useProductsStore } from "@services/States/Products/StateProducts";
 
 interface MainWebViewProps {
 	URL: string;

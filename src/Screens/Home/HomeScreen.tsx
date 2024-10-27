@@ -4,7 +4,7 @@ import { Button, Image, Text, TextInput, TouchableOpacity, View } from "react-na
 import { Menu } from "react-native-paper";
 import CustomModal from "../../Components/Common/CustomModal/CustomModal";
 import { DEFAULT_LINKS, Images } from "../../Shared/Constants";
-import { useHomeLinksStore } from "../../Zustand/HomeLinks/HomeLinks";
+import { useHomeLinksStore } from "../../Services/States/FaivoriteLinks/StateFaivoriteLinks";
 import s from "./HomeScreen.styles";
 
 interface HomeScreenProps {

@@ -7,7 +7,7 @@ import { IAppContext, useAppContext } from "../../Context/AppContext";
 import { useOnboardContext } from "../../Context/onBoardContext";
 import { ConclusionTypes, TabTypes } from "../../Shared/Constants";
 import Theme, { height } from "../../Theme/Theme";
-import { useProductsStore } from "../../Zustand/JoinSafeDeal/JoinSafeDeal";
+import { useProductsStore } from "../../Services/States/Products/StateProducts";
 import s from "./ConclusionModal.styles";
 import { Conclusion } from "./Modal/Conclusion";
 import ShareWalkthrough from "./Modal/ShareWalkthrough";

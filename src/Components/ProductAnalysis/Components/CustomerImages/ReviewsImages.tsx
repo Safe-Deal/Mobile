@@ -2,7 +2,7 @@ import { useTranslation } from "@hooks/useTranslation";
 import React from "react";
 import { View } from "react-native";
 import { Text } from "react-native-paper";
-import { useProductsStore } from "../../../../Zustand/JoinSafeDeal/JoinSafeDeal";
+import { useProductsStore } from "../../../../Services/States/Products/StateProducts";
 import s from "../Reviews/ReviewsInsights.style";
 import ImageCarousel from "./ImagesCarousel/ImageCarousel";
 

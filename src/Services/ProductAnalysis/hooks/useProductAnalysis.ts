@@ -1,5 +1,5 @@
 import { useQuery, useQueryClient } from "react-query";
-import { useProductsStore } from "../../../Zustand/JoinSafeDeal/JoinSafeDeal";
+import { useProductsStore } from "../../States/Products/StateProducts";
 import { fetchProductAnalysis } from "../service/ProductAnalysisService";
 
 // Hook to manage product analysis

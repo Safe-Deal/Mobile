@@ -5,6 +5,7 @@ import { useAppContext } from "../../Context/AppContext";
 import { useOnboardContext } from "../../Context/onBoardContext";
 import styles from "./Welcome.styles";
 import Theme from "../../Theme/Theme";
+import { DEFAULT_LINKS } from "@shared/Constants";
 
 const Welcome = (): ReactElement => {
 	const { t } = useTranslation();
@@ -29,7 +30,7 @@ const Welcome = (): ReactElement => {
 
 			<TouchableOpacity
 				onPress={() => {
-					setActiveUrl("https://www.amazon.com/n/dp/B0B6JC1L15");
+					setActiveUrl(DEFAULT_LINKS.Amazon);
 					toggleOnboard(true);
 					toggleShowTooltip(true);
 				}}

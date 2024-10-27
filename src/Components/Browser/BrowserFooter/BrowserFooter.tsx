@@ -14,7 +14,6 @@ import { MainScreen } from "../../../Screens/Main/MainScreen";
 import Theme, { height } from "../../../Theme/Theme";
 import { createGoogleSearchUrl, getProductInfo, getWebProductUrl } from "../../../Utils/SharedUtils";
 import { isItemDetails } from "../../../Utils/SiteUtils";
-import { useProductsStore } from "../../../Zustand/JoinSafeDeal/JoinSafeDeal";
 import IconButton from "../../Common/Icons/IconButton";
 import SafeDealLogoSvg from "../../Common/Images/SafeDealLogoSvg";
 import { SpinnerLoader } from "../../Common/Loaders/SpinnerLoader";
@@ -22,6 +21,7 @@ import { SearchBar } from "../../Menu/Components/UrlTextbox";
 import { Menu } from "../../Menu/Menu";
 import s from "./BrowserFooter.styles";
 import { ConclusionIcon } from "./Components/ConclusionIcon";
+import { useProductsStore } from "@services/States/Products/StateProducts";
 
 const Tab = createBottomTabNavigator();
 const BOTTOM_ICONS_SIZE = height(4);
