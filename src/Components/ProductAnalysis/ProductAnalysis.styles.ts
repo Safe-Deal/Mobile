@@ -2,7 +2,11 @@ import { Dimensions, Platform, StyleSheet } from "react-native";
 import { fontSize, height, width } from "../../Theme/Theme";
 
 const styles = StyleSheet.create({
-	product_analysis__container: { flex: 1, height: "100%", marginTop: height(0.7) },
+	product_analysis__container: {
+		flex: 1,
+		width: width(100),
+		height: height(100),
+	},
 	product_insights__container: {
 		flex: 1,
 		marginLeft: width(1.5),

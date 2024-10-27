@@ -95,7 +95,7 @@ export const ConclusionModal = ({
 				</View>
 
 				<View style={s.sheet_list_view}>
-					<ProductInsights selectedTab={selectedTab} />
+					<ProductInsights selectedTab={selectedTab} setSelectedTab={setSelectedTab} />
 				</View>
 				<FlatList
 					ref={flatListRef}
