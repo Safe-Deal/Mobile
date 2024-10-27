@@ -96,9 +96,9 @@ const isIos: boolean = Platform.OS === "ios";
 const isAndroid: boolean = Platform.OS === "android";
 
 export const DEFAULT_LINKS = {
-	AliExpress: "https://www.aliexpress.com/item/1005006671814456.html",
+	AliExpress: "https://www.aliexpress.com/item/3256806595722627.html",
 	Amazon: "https://www.amazon.com/n/dp/B0B6JC1L15?th=1",
-	eBay: "https://www.ebay.com/itm/395813621868",
+	eBay: "https://www.ebay.com/itm/275428663535",
 	"": "",
 };
 
