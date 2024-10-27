@@ -1,6 +1,6 @@
 import React, { ReactElement, useRef } from "react";
-import { ScrollView, View } from "react-native";
-import { GestureHandlerRootView, PanGestureHandler } from "react-native-gesture-handler";
+import { View, Dimensions, FlatList } from "react-native";
+import { PanGestureHandler, ScrollView as GHScrollView } from "react-native-gesture-handler";
 import Animated, {
 	useAnimatedGestureHandler,
 	useSharedValue,
@@ -8,12 +8,15 @@ import Animated, {
 	withSpring,
 	runOnJS,
 } from "react-native-reanimated";
+import { Chip, Text } from "react-native-paper";
 import { ReviewsInsights } from "./Components/Reviews/ReviewsInsights";
 import s from "./ProductAnalysis.styles";
 import { ReviewsImages } from "./Components/CustomerImages/ReviewsImages";
 import { ProductRulesListAndPrice } from "./Components/RulesAndPrice/ProductRulesListAndPrice";
 import { TabTypes } from "../../Shared/Constants";
 import ReviewsVideos from "./Components/Video/ReviewsVideos";
+import Theme from "../../Theme/Theme";
+import { useTranslation } from "@hooks/useTranslation";
 
 interface SDAnalyzerProps {
 	selectedTab: TabTypes;
@@ -27,9 +30,14 @@ const tabOrder = [
 	TabTypes.ANALYZE__VIDEOS,
 ];
 
+const { width: SCREEN_WIDTH } = Dimensions.get("window");
+const SWIPE_THRESHOLD = SCREEN_WIDTH * 0.2;
+
 export const ProductInsights = ({ selectedTab, setSelectedTab }: SDAnalyzerProps): ReactElement => {
 	const translateX = useSharedValue(0);
-	const scrollViewRef = useRef<ScrollView>(null);
+	const scrollViewRef = useRef<GHScrollView>(null);
+	const flatListRef = useRef<FlatList>(null);
+	const { t } = useTranslation();
 
 	const handleSwipe = (direction: "left" | "right") => {
 		const currentIndex = tabOrder.indexOf(selectedTab);
@@ -42,7 +50,7 @@ export const ProductInsights = ({ selectedTab, setSelectedTab }: SDAnalyzerProps
 		}
 
 		setSelectedTab(tabOrder[newIndex]);
-		scrollViewRef.current?.scrollTo({ x: 0, y: 0, animated: true });
+		flatListRef.current?.scrollToIndex({ index: newIndex, animated: true });
 	};
 
 	const gestureHandler = useAnimatedGestureHandler({
@@ -53,7 +61,7 @@ export const ProductInsights = ({ selectedTab, setSelectedTab }: SDAnalyzerProps
 			translateX.value = context.startX + event.translationX;
 		},
 		onEnd: (event) => {
-			if (Math.abs(event.translationX) > 50) {
+			if (Math.abs(event.translationX) > SWIPE_THRESHOLD) {
 				if (event.translationX > 0) {
 					runOnJS(handleSwipe)("right");
 				} else {
@@ -70,18 +78,62 @@ export const ProductInsights = ({ selectedTab, setSelectedTab }: SDAnalyzerProps
 		};
 	});
 
+	const itemData = [
+		{ text: t("analyze:product-insights"), type: TabTypes.ANALYZE__PRODUCT_INSIGHTS },
+		{ text: t("analyze:ai-insights"), type: TabTypes.ANALYZE__AI_INSIGHTS },
+		{ text: t("analyze:images"), type: TabTypes.ANALYZE__IMAGES },
+		{ text: t("analyze:videos"), type: TabTypes.ANALYZE__VIDEOS },
+	];
+
 	return (
-		<GestureHandlerRootView style={{ flex: 1 }}>
-			<PanGestureHandler onGestureEvent={gestureHandler}>
-				<Animated.View style={[s.product_analysis__container, animatedStyle]}>
-					<ScrollView ref={scrollViewRef} showsVerticalScrollIndicator={false}>
-						{selectedTab === TabTypes.ANALYZE__PRODUCT_INSIGHTS && <ProductRulesListAndPrice />}
-						{selectedTab === TabTypes.ANALYZE__AI_INSIGHTS && <ReviewsInsights />}
-						{selectedTab === TabTypes.ANALYZE__IMAGES && <ReviewsImages />}
-						{selectedTab === TabTypes.ANALYZE__VIDEOS && <ReviewsVideos />}
-					</ScrollView>
-				</Animated.View>
-			</PanGestureHandler>
-		</GestureHandlerRootView>
+		<View style={s.product_analysis__container}>
+			<View style={s.content_container}>
+				<PanGestureHandler onGestureEvent={gestureHandler} simultaneousHandlers={scrollViewRef}>
+					<Animated.View style={[{ flex: 1 }, animatedStyle]}>
+						<GHScrollView ref={scrollViewRef} showsVerticalScrollIndicator={false}>
+							{selectedTab === TabTypes.ANALYZE__PRODUCT_INSIGHTS && <ProductRulesListAndPrice />}
+							{selectedTab === TabTypes.ANALYZE__AI_INSIGHTS && <ReviewsInsights />}
+							{selectedTab === TabTypes.ANALYZE__IMAGES && <ReviewsImages />}
+							{selectedTab === TabTypes.ANALYZE__VIDEOS && <ReviewsVideos />}
+						</GHScrollView>
+					</Animated.View>
+				</PanGestureHandler>
+			</View>
+			<View style={s.tabs_container}>
+				<FlatList
+					ref={flatListRef}
+					style={s.conclusion__top_tabs__menu}
+					data={itemData}
+					renderItem={({ item, index }) => (
+						<Chip
+							key={index}
+							style={[
+								s.conclusion__top_tabs__menu__selected,
+								{
+									backgroundColor: selectedTab === item.type ? Theme.mintCream : Theme.primaryBackgroundColor,
+									borderBottomWidth: selectedTab === item.type ? 1 : 0,
+									borderBottomColor: selectedTab === item.type ? Theme.darkGreen : Theme.primaryBackgroundColor,
+								},
+							]}
+							onPress={() => {
+								setSelectedTab(item.type);
+								flatListRef.current?.scrollToIndex({ index, animated: true });
+							}}
+						>
+							<Text
+								style={[
+									s.conclusion__top_tabs__menu__item__text,
+									{ color: selectedTab === item.type ? Theme.darkGreen : Theme.auroMetalSaurus },
+								]}
+							>
+								{item.text}
+							</Text>
+						</Chip>
+					)}
+					horizontal
+					showsHorizontalScrollIndicator={false}
+				/>
+			</View>
+		</View>
 	);
 };

@@ -1,9 +1,7 @@
-import { useTranslation } from "@hooks/useTranslation";
-import React, { useMemo, useRef } from "react";
-import { FlatList, Image, ScrollView, Text, View } from "react-native";
-import { Chip } from "react-native-paper";
+import React from "react";
+import { ScrollView, View } from "react-native";
 import { ConclusionTypes, TabTypes } from "../../Shared/Constants";
-import Theme, { height, width } from "../../Theme/Theme";
+import Theme, { height } from "../../Theme/Theme";
 import { useProductsStore } from "../../Services/States/Products/StateProducts";
 import s from "./ConclusionModal.styles";
 import { Conclusion } from "./Modal/Conclusion";
@@ -12,57 +10,20 @@ import { ProductInsights } from "./ProductAnalysis";
 
 interface ConclusionModalProps {
 	isModalVisible: boolean;
-	search: string;
 	url: string;
 	selectedTab: TabTypes;
 	onClose: () => void;
-	onShare: (url: string) => void;
 	setSelectedTab: (type: TabTypes) => void;
 }
 
-const SHIELD_SIZE = height(4.1);
-export const ConclusionModal = ({
+export const ConclusionModal: React.FC<ConclusionModalProps> = ({
 	isModalVisible,
 	url,
 	selectedTab,
 	setSelectedTab,
 	onClose,
-}: ConclusionModalProps) => {
+}) => {
 	const { allProductsState } = useProductsStore();
-	const summaryReviewSupportedSites: string[] = ["aliexpress", "amazon", "ebay"];
-	const { t } = useTranslation();
-
-	const itemData = useMemo(() => {
-		const analyzeTabs = [
-			{
-				text: t("analyze:product-insights"),
-				// eslint-disable-next-line @typescript-eslint/no-require-imports
-				icon: require("../../../assets/box-search.png"),
-				type: TabTypes.ANALYZE__PRODUCT_INSIGHTS,
-			},
-		];
-		if (summaryReviewSupportedSites.some((supportedUrl) => url.includes(supportedUrl))) {
-			analyzeTabs.push({
-				text: t("analyze:ai-insights"),
-				// eslint-disable-next-line @typescript-eslint/no-require-imports
-				icon: require("../../../assets/bubble.png"),
-				type: TabTypes.ANALYZE__AI_INSIGHTS,
-			});
-			analyzeTabs.push({
-				text: t("analyze:images"),
-				// eslint-disable-next-line @typescript-eslint/no-require-imports
-				icon: require("../../../assets/gallery.png"),
-				type: TabTypes.ANALYZE__IMAGES,
-			});
-		}
-		analyzeTabs.push({
-			text: t("analyze:videos"),
-			// eslint-disable-next-line @typescript-eslint/no-require-imports
-			icon: require("../../../assets/video.png"),
-			type: TabTypes.ANALYZE__VIDEOS,
-		});
-		return analyzeTabs;
-	}, [url]);
 
 	const borderClr: string =
 		allProductsState?.product?.conclusion === ConclusionTypes.INSUFFICIENT_DATA
@@ -75,80 +36,24 @@ export const ConclusionModal = ({
 						? Theme.warningColor
 						: Theme.primary;
 
-	const flatListRef = useRef<FlatList>(null);
-	const tintColor = selectedTab !== TabTypes.ANALYZE__PRODUCT_INSIGHTS ? Theme.darkGreen : Theme.auroMetalSaurus;
-
 	return (
 		<DraggableModal
 			selectedTab={selectedTab}
 			isModalVisible={isModalVisible}
 			style={s.conclusion__modal}
-			onClose={() => onClose()}
+			onClose={onClose}
 		>
 			<ScrollView style={s.conclusion__container}>
 				<View style={[s.conclusion__header, { borderColor: borderClr, backgroundColor: borderClr }]}>
 					<Conclusion
 						style={s.conclusion__title}
 						conclusion={allProductsState?.product?.conclusion as ConclusionTypes}
-						SHIELD_SIZE={SHIELD_SIZE}
+						SHIELD_SIZE={height(4.1)}
 					/>
 				</View>
-
 				<View style={s.sheet_list_view}>
 					<ProductInsights selectedTab={selectedTab} setSelectedTab={setSelectedTab} />
 				</View>
-				<FlatList
-					ref={flatListRef}
-					style={s.conclusion__top_tabs__menu}
-					data={itemData}
-					ItemSeparatorComponent={() => <View style={s.conclusion__item_separator} />}
-					renderItem={({ item, index }) => {
-						return (
-							<View style={s.conclusion_chip_container}>
-								<Chip
-									key={index}
-									icon={() => (
-										<Image
-											source={item?.icon}
-											style={{
-												height: width(5),
-												width: width(5),
-												tintColor,
-											}}
-										/>
-									)}
-									style={[
-										s.conclusion__top_tabs__menu__selected,
-										{
-											backgroundColor: selectedTab === item.type ? Theme.mintCream : Theme.primaryBackgroundColor,
-											borderBottomWidth: selectedTab === item.type ? 1 : 0,
-											borderBottomColor: selectedTab === item.type ? Theme.darkGreen : Theme.primaryBackgroundColor,
-										},
-									]}
-									rippleColor={"transparent"}
-									onPress={() => {
-										setSelectedTab(item.type);
-										flatListRef.current?.scrollToIndex({ index, animated: true });
-									}}
-								>
-									<Text
-										style={[
-											s.conclusion__top_tabs__menu__item__text,
-											{ color: selectedTab === item.type ? Theme.darkGreen : Theme.auroMetalSaurus },
-										]}
-									>
-										{item.text}
-									</Text>
-								</Chip>
-								{index < itemData.length - 1 && <Text style={s.conclusion_seperator_text}>|</Text>}
-							</View>
-						);
-					}}
-					horizontal
-					showsHorizontalScrollIndicator={false}
-					showsVerticalScrollIndicator={false}
-					bounces={true}
-				/>
 			</ScrollView>
 		</DraggableModal>
 	);

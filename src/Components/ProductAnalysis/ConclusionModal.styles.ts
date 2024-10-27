@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
 		verticalAlign: "middle",
 		paddingTop: height(0.1),
 	},
-	sheet_list_view: { height: height(60) },
+	sheet_list_view: { height: height(68.5) },
 	conclusion__title__text: {
 		display: "flex",
 		alignSelf: "center",
