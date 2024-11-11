@@ -1,4 +1,7 @@
+import { useHistory } from "@hooks/useHistory";
 import { useProductAnalysis } from "@services/ProductAnalysis";
+import { useProductsStore } from "@services/States/Products/StateProducts";
+import { useAppStore } from "@services/States/Webview/StateWebview";
 import { getProductInfo, isValidDomain } from "@utils/SharedUtils";
 import React, { forwardRef, useEffect, useImperativeHandle, useRef, useState } from "react";
 import { View } from "react-native";
@@ -6,7 +9,6 @@ import { ActivityIndicator } from "react-native-paper";
 import { WebView, WebViewProps } from "react-native-webview";
 import { ShouldStartLoadRequest, WebViewProgressEvent } from "react-native-webview/lib/WebViewTypes";
 import { WebViewErrorEvent, WebViewNavigation } from "react-native-webview/src/WebViewTypes";
-import { useAppContext } from "../../../Context/AppContext";
 import { useAffiliate } from "../../../Services/Affiliates/AffiliateData";
 import {
 	getAffiliateUrl,
@@ -20,7 +22,6 @@ import { styles } from "./BrowserWebView.styles";
 import { useLoopPrevention } from "./hooks/useLoopPrevention";
 import { useUserAgent } from "./hooks/useUserAgent";
 import { INJECTED_SCRIPTS } from "./scripts/scripts";
-import { useProductsStore } from "@services/States/Products/StateProducts";
 
 interface MainWebViewProps {
 	URL: string;
@@ -59,7 +60,8 @@ const WebviewLoader = () => (
 const isNavClick = (e: ShouldStartLoadRequest): boolean => e.isTopFrame && e.navigationType === "click";
 
 export const MainWebView = forwardRef(({ URL }: MainWebViewProps, ref) => {
-	const { handleUrlChange, handleWebViewMessage, setActiveUrl } = useAppContext();
+	const { setActiveUrl } = useAppStore();
+	const { updateHistory: handleUrlChange } = useHistory(setActiveUrl);
 	const webViewRef = useRef<WebView>(null);
 	const [currentUrl, setCurrentUrl] = useState<string>(URL);
 	const [isWebViewLoading, setIsWebViewLoading] = useState(false);
@@ -199,7 +201,7 @@ export const MainWebView = forwardRef(({ URL }: MainWebViewProps, ref) => {
 			<View style={styles.webView__container}>
 				<WebView
 					ref={webViewRef}
-					onMessage={handleWebViewMessage}
+					onMessage={() => {}}
 					source={{ uri: currentUrl }}
 					style={styles.webview}
 					onNavigationStateChange={onNavStateChange}

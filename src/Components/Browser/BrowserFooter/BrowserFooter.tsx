@@ -1,18 +1,25 @@
 import LanguageModal from "@components/Common/LanguageModal/LanguageModal";
-import { useOnboardContext } from "@context/onBoardContext";
+import { useHistory } from "@hooks/useHistory";
 import { useTranslation } from "@hooks/useTranslation";
 import { BottomTabBar, createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { useNavigation } from "@react-navigation/native";
 import { useProductAnalysis } from "@services/ProductAnalysis";
+import { useOnboardStore } from "@services/States/OnBoard/StateOnBoard";
+import { useProductsStore } from "@services/States/Products/StateProducts";
+import { useAppStore } from "@services/States/Webview/StateWebview";
 import { ConclusionTypes, Images } from "@shared/Constants";
 import { debug } from "@utils/Analytics";
 import React, { useEffect, useState } from "react";
 import { Image, TouchableOpacity, View } from "react-native";
 import { TourGuideZone, useTourGuideController } from "rn-tourguide";
-import { useAppContext } from "../../../Context/AppContext";
 import { MainScreen } from "../../../Screens/Main/MainScreen";
 import Theme, { height } from "../../../Theme/Theme";
-import { createGoogleSearchUrl, getProductInfo, getWebProductUrl } from "../../../Utils/SharedUtils";
+import {
+	createGoogleSearchUrl,
+	extractLastUrlFromString,
+	getProductInfo,
+	getWebProductUrl,
+} from "../../../Utils/SharedUtils";
 import { isItemDetails } from "../../../Utils/SiteUtils";
 import IconButton from "../../Common/Icons/IconButton";
 import SafeDealLogoSvg from "../../Common/Images/SafeDealLogoSvg";
@@ -21,7 +28,7 @@ import { SearchBar } from "../../Menu/Components/UrlTextbox";
 import { Menu } from "../../Menu/Menu";
 import s from "./BrowserFooter.styles";
 import { ConclusionIcon } from "./Components/ConclusionIcon";
-import { useProductsStore } from "@services/States/Products/StateProducts";
+import { useShareIntent } from "@hooks/useShareIntent";
 
 const Tab = createBottomTabNavigator();
 const BOTTOM_ICONS_SIZE = height(4);
@@ -34,16 +41,15 @@ const DEFAULT_ICON = (
 );
 
 const BrowserFooterToolbar = () => {
+	const { webViewRef, setActiveUrlHTML: setActiveEventHTML, setActiveUrl, activeUrl } = useAppStore();
+
 	const {
-		historyGoBack,
-		historyGoForward,
-		historyCanGoForward,
-		historyCanGoBackward,
-		webViewRef,
-		setActiveUrlHTML: setActiveEventHTML,
-		setActiveUrl,
-		activeUrl,
-	} = useAppContext();
+		goBack: historyGoBack,
+		goForward: historyGoForward,
+		canGoBackward: historyCanGoBackward,
+		canGoForward: historyCanGoForward,
+	} = useHistory(setActiveUrl);
+
 	const [search, setSearch] = useState<string>("");
 
 	useEffect(() => {
@@ -67,6 +73,7 @@ const BrowserFooterToolbar = () => {
 	};
 
 	const handleSearch = async () => {
+		console.log(search, " asdasdasdsda");
 		setActiveEventHTML(null);
 		if (search === "") {
 			setActiveUrl("");
@@ -110,14 +117,46 @@ const BrowserFooterToolbar = () => {
 };
 
 const BrowserFooterContent = () => {
-	const { activeUrl, toggleAnalyticsModal, onShare, setActiveUrl } = useAppContext();
+	const { activeUrl, toggleAnalyticsModal, onShare, setActiveUrl, webViewRef } = useAppStore();
 	const { allProductsState, resetAllProducts } = useProductsStore();
-	const { showTooltip } = useOnboardContext();
+	const { showTooltip } = useOnboardStore();
 	const { start, canStart, eventEmitter, stop } = useTourGuideController("tour1");
 	const navigation = useNavigation();
 	const [isLanguageModalVisible, setIsLanguageModalVisible] = useState(false);
 	const { t } = useTranslation();
 	const { isLoading: loading, reset } = useProductAnalysis(activeUrl);
+	const {
+		hasShareIntent,
+		shareIntent,
+		resetShareIntent,
+		error: shareIntentError,
+	} = useShareIntent({
+		debug: false,
+		resetOnBackground: true,
+	});
+
+	useEffect(() => {
+		if (webViewRef?.current && activeUrl != "") {
+			webViewRef?.current.goToUrl(activeUrl);
+		}
+	}, [activeUrl, webViewRef?.current]);
+
+	useEffect(() => {
+		if (hasShareIntent) {
+			if (shareIntent?.text) {
+				const textOrLink = shareIntent?.webUrl || shareIntent?.text;
+				const sharedUrl = extractLastUrlFromString(textOrLink);
+				debug("useApp:: sharedUrl", sharedUrl);
+				if (sharedUrl) {
+					setActiveUrl(sharedUrl);
+				}
+			}
+			if (shareIntentError) {
+				debug("useApp:: shareIntent", shareIntentError);
+			}
+			resetShareIntent();
+		}
+	}, [hasShareIntent, shareIntent, shareIntentError, resetShareIntent]);
 
 	useEffect(() => {
 		if (showTooltip && canStart && allProductsState?.product?.conclusion) {

@@ -1,8 +1,8 @@
+import { useAppStore } from "@services/States/Webview/StateWebview";
 import React, { ReactElement, useEffect, useState } from "react";
 import { View } from "react-native";
 import { MainWebView } from "../../Components/Browser/BrowserWebView/BrowserWebView";
 import { ConclusionModal } from "../../Components/ProductAnalysis/ConclusionModal";
-import { IAppContext, useAppContext } from "../../Context/AppContext";
 import { TabTypes } from "../../Shared/Constants";
 import { isValidUrl } from "../../Utils/Urls";
 import HomeScreen from "../Home/HomeScreen";
@@ -17,7 +17,7 @@ export const MainScreen = (): ReactElement => {
 		setActiveUrlHTML: setActiveEventHTML,
 		isAnalyticsModalVisible,
 		toggleAnalyticsModal: onAnalyticsModal,
-	}: IAppContext = useAppContext();
+	} = useAppStore();
 
 	const [search, setSearch] = useState<string>("");
 	const [isHomeActive, setIsHomeActive] = useState<boolean>(true);

@@ -6,7 +6,7 @@ import { Icon } from "../Common/Icons/Icon";
 import { IconButton } from "../Common/Icons/IconButton";
 import s from "./Menu.styles";
 import { AboutModal } from "./Components/About";
-import { useOnboardContext } from "@context/onBoardContext";
+import { useOnboardStore } from "@services/States/OnBoard/StateOnBoard";
 
 interface MenuProps {
 	onSharePress?: (value: string) => void;
@@ -20,7 +20,7 @@ export const Menu = ({ onSharePress, onLanguagePress, hasDecision = false }: Men
 	const { t } = useTranslation();
 	const [isMenuOpen, setMenuOpen] = useState(false);
 	const [isAboutModalVisible, setAboutModalVisible] = useState(false);
-	const { toggleOnboard } = useOnboardContext();
+	const { toggleOnboard } = useOnboardStore();
 
 	const openAboutModal = () => {
 		setAboutModalVisible(true);

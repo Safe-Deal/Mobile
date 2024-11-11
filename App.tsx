@@ -8,8 +8,6 @@ import { TooltipProps, TourGuideProvider } from "rn-tourguide";
 import SafeDealBrowser from "./src/Components/Browser/SafeDealBrowser";
 import { SpinnerLoader } from "./src/Components/Common/Loaders/SpinnerLoader";
 import { TourModal } from "./src/Components/Common/TourModal/TourModel";
-import { AppContextProvider } from "./src/Context/AppContext";
-import { OnboardProvider } from "./src/Context/onBoardContext";
 import { ErrorBoundary } from "./src/Shared/ErrorBoundary";
 import SafeDealTheme from "./src/Theme/SafeDealTheme";
 import useI18nInit from "./src/i18n/hooks/useI18nInit";
@@ -25,25 +23,21 @@ const App = (): ReactElement => {
 		<ErrorBoundary>
 			<QueryClientProvider client={new QueryClient()}>
 				<PaperProvider theme={SafeDealTheme as never}>
-					<AppContextProvider>
-						<I18nextProvider i18n={i18n}>
-							<OnboardProvider>
-								<GestureHandlerRootView style={{ flex: 1 }}>
-									<NavigationContainer>
-										<TourGuideProvider
-											preventOutsideInteraction={true}
-											borderRadius={16}
-											{...{
-												tooltipComponent: (props: TooltipProps) => <TourModal {...props}></TourModal>,
-											}}
-										>
-											<SafeDealBrowser />
-										</TourGuideProvider>
-									</NavigationContainer>
-								</GestureHandlerRootView>
-							</OnboardProvider>
-						</I18nextProvider>
-					</AppContextProvider>
+					<I18nextProvider i18n={i18n}>
+						<GestureHandlerRootView style={{ flex: 1 }}>
+							<NavigationContainer>
+								<TourGuideProvider
+									preventOutsideInteraction={true}
+									borderRadius={16}
+									{...{
+										tooltipComponent: (props: TooltipProps) => <TourModal {...props}></TourModal>,
+									}}
+								>
+									<SafeDealBrowser />
+								</TourGuideProvider>
+							</NavigationContainer>
+						</GestureHandlerRootView>
+					</I18nextProvider>
 				</PaperProvider>
 			</QueryClientProvider>
 		</ErrorBoundary>
