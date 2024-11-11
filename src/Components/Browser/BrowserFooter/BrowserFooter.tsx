@@ -136,12 +136,6 @@ const BrowserFooterContent = () => {
 		resetOnBackground: true,
 	});
 
-	// useEffect(() => {
-	// 	if (webViewRef?.current && activeUrl != "") {
-	// 		webViewRef?.current.goToUrl(activeUrl);
-	// 	}
-	// }, [activeUrl, webViewRef?.current]);
-
 	useEffect(() => {
 		if (hasShareIntent) {
 			if (shareIntent?.text) {
