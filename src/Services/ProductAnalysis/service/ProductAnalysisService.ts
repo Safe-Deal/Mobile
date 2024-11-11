@@ -27,8 +27,6 @@ export const fetchProductAnalysis = async (url: string): Promise<ProductAnalysis
 			throw new Error("Whitelisted URL");
 		}
 
-		console.log(response, "RESPONSE");
-
 		return response;
 	} catch (error) {
 		debug("Error fetching product analysis data:", error);

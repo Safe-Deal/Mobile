@@ -40,7 +40,7 @@ const DEFAULT_ICON = (
 	/>
 );
 
-const BrowserFooterToolbar = () => {
+const BrowserFooterToolbar = ({ resetAllProducts, reset }: any) => {
 	const { webViewRef, setActiveUrlHTML: setActiveEventHTML, setActiveUrl, activeUrl } = useAppStore();
 
 	const {
@@ -68,12 +68,13 @@ const BrowserFooterToolbar = () => {
 
 	const handleReload = (): void => {
 		if (webViewRef?.current) {
+			reset();
+			resetAllProducts();
 			webViewRef?.current?.refresh();
 		}
 	};
 
 	const handleSearch = async () => {
-		console.log(search, " asdasdasdsda");
 		setActiveEventHTML(null);
 		if (search === "") {
 			setActiveUrl("");
@@ -135,11 +136,11 @@ const BrowserFooterContent = () => {
 		resetOnBackground: true,
 	});
 
-	useEffect(() => {
-		if (webViewRef?.current && activeUrl != "") {
-			webViewRef?.current.goToUrl(activeUrl);
-		}
-	}, [activeUrl, webViewRef?.current]);
+	// useEffect(() => {
+	// 	if (webViewRef?.current && activeUrl != "") {
+	// 		webViewRef?.current.goToUrl(activeUrl);
+	// 	}
+	// }, [activeUrl, webViewRef?.current]);
 
 	useEffect(() => {
 		if (hasShareIntent) {
@@ -249,7 +250,7 @@ const BrowserFooterContent = () => {
 					return (
 						<>
 							<TourGuideZone tourKey="tour1" isTourGuide zone={2} text={t("")} borderRadius={16} />
-							<BrowserFooterToolbar />
+							<BrowserFooterToolbar resetAllProducts={resetAllProducts} reset={reset} />
 							<BottomTabBar {...props} />
 						</>
 					);

@@ -9,10 +9,9 @@ interface OnboardState {
 	loading: boolean;
 	toggleOnboard: (value: boolean) => void;
 	toggleShowTooltip: (value: boolean) => void;
-	setLoading: (value: boolean) => void; // Optional: create a setter for loading
+	setLoading: (value: boolean) => void;
 }
 
-// Create the Zustand store with the defined state type
 export const useOnboardStore = create<OnboardState>()(
 	persist(
 		(set) => ({
@@ -20,18 +19,14 @@ export const useOnboardStore = create<OnboardState>()(
 			showTooltip: true,
 			loading: true,
 
-			// Toggle the hideOnboard state
 			toggleOnboard: (value: boolean) => {
 				set({ hideOnboard: value });
 			},
 
-			// Toggle the showTooltip state
 			toggleShowTooltip: (value: boolean) => {
-				console.log(value, "ADAS");
 				set({ showTooltip: value });
 			},
 
-			// Optional: add a function to set loading state
 			setLoading: (value: boolean) => {
 				set({ loading: value });
 			},
@@ -40,8 +35,7 @@ export const useOnboardStore = create<OnboardState>()(
 			name: "onboard-storage",
 			storage: createJSONStorage(() => AsyncStorage),
 			onRehydrateStorage: () => (state) => {
-				// This will be called after the state is rehydrated
-				state?.setLoading(false); // Set loading to false
+				state?.setLoading(false);
 			},
 		},
 	),

@@ -61,12 +61,6 @@ export const AppContextProvider = ({ children }: { children: React.ReactNode }) 
 		resetOnBackground: true,
 	});
 
-	useEffect(() => {
-		if (webViewRef?.current) {
-			webViewRef.current.goToUrl(activeUrl);
-		}
-	}, [activeUrl]);
-
 	const handleUrlChange = async (e: WebViewNavigation) => {
 		updateHistory(e);
 	};
