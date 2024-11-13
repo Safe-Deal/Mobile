@@ -1,9 +1,10 @@
-import { getProductInfo, isOurRetailer } from "./../Utils/SharedUtils";
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useAppStore } from "@services/States/Webview/StateWebview";
+import { useCallback, useEffect, useMemo } from "react";
 import { BackHandler } from "react-native";
+import { WebViewNavigation } from "react-native-webview/src/WebViewTypes";
 import { isAffiliateRedirect } from "../Services/Affiliates/AffiliateManager";
 import { isValidUrl } from "../Utils/Urls";
-import { WebViewNavigation } from "react-native-webview/src/WebViewTypes";
+import { getProductInfo, isOurRetailer } from "./../Utils/SharedUtils";
 
 interface IUseHistory {
 	updateHistory: (e: WebViewNavigation) => void;
@@ -16,8 +17,7 @@ interface IUseHistory {
 const isNavRedirect = (e: WebViewNavigation): boolean => e.navigationType === "other";
 
 export const useHistory = (setCurrentUrl: (url: string) => void): IUseHistory => {
-	const [history, setHistory] = useState<string[]>([]);
-	const [currentIndex, setCurrentIndex] = useState<number>(-1);
+	const { history, setHistory, currentIndex, setCurrentIndex } = useAppStore();
 
 	const historyPush = useCallback(
 		(url: string) => {

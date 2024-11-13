@@ -1,12 +1,12 @@
+import { useOnboardStore } from "@services/States/OnBoard/StateOnBoard";
 import React, { ReactElement } from "react";
 import { SafeAreaView, StatusBar, View } from "react-native";
-import { useOnboardContext } from "../../Context/onBoardContext";
 import { SpinnerLoader } from "../Common/Loaders/SpinnerLoader";
 import { MainWindow } from "./MainWindow";
 import { WelcomeWindow } from "./WelcomeWindow";
 
 const SafeDealBrowser = (): ReactElement => {
-	const { hideOnboard, loading } = useOnboardContext();
+	const { hideOnboard, loading } = useOnboardStore();
 
 	if (loading) {
 		return (

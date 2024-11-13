@@ -1,17 +1,17 @@
-import { useAppContext } from "@context/AppContext";
 import { useTranslation } from "@hooks/useTranslation";
 import { useProductAnalysis } from "@services/ProductAnalysis";
+import { useAppStore } from "@services/States/Webview/StateWebview";
 import React from "react";
 import { View } from "react-native";
 import { ScrollView } from "react-native-actions-sheet";
 import { ActivityIndicator, List, Text } from "react-native-paper";
+import { useProductsStore } from "../../../../Services/States/Products/StateProducts";
 import Theme from "../../../../Theme/Theme";
 import { logError } from "../../../../Utils/Analytics";
-import { useProductsStore } from "../../../../Services/States/Products/StateProducts";
 import s from "./ReviewsInsights.style";
 
 export const ReviewsInsights = (): React.ReactElement => {
-	const { activeUrl } = useAppContext();
+	const { activeUrl } = useAppStore();
 	const { isLoading: loading, error } = useProductAnalysis(activeUrl);
 	const { allProductsState } = useProductsStore();
 	const { t } = useTranslation();

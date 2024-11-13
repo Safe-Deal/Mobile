@@ -1,17 +1,17 @@
+import { useOnboardStore } from "@services/States/OnBoard/StateOnBoard";
+import { useAppStore } from "@services/States/Webview/StateWebview";
+import { DEFAULT_LINKS } from "@shared/Constants";
 import React, { ReactElement } from "react";
 import { useTranslation } from "react-i18next";
 import { Text, TouchableOpacity, View } from "react-native";
-import { useAppContext } from "../../Context/AppContext";
-import { useOnboardContext } from "../../Context/onBoardContext";
-import styles from "./Welcome.styles";
 import Theme from "../../Theme/Theme";
-import { DEFAULT_LINKS } from "@shared/Constants";
+import styles from "./Welcome.styles";
 
 const Welcome = (): ReactElement => {
 	const { t } = useTranslation();
-	const { setActiveUrl } = useAppContext();
+	const { setActiveUrl } = useAppStore();
 
-	const { toggleOnboard, toggleShowTooltip } = useOnboardContext();
+	const { toggleOnboard, toggleShowTooltip } = useOnboardStore();
 
 	const handleSkip = () => {
 		toggleOnboard(true);
